@@ -22,6 +22,7 @@
       "minecraft:sunflower_plains": "2024-05-07 11:31:37 -0500",
       "minecraft:birch_forest": "2024-05-10 14:31:04 -0500",
       "minecraft:windswept_hills": "2024-05-15 11:22:20 -0500",
+      "minecraft:bamboo_jungle": "2024-05-21 13:21:36 -0500",
       "minecraft:badlands": "2024-05-20 10:25:33 -0500",
       "minecraft:savanna_plateau": "2024-05-20 14:22:04 -0500",
       "minecraft:beach": "2024-05-11 12:14:32 -0500",
@@ -613,6 +614,7 @@
       "baked_potato": "2024-05-08 11:09:16 -0500",
       "apple": "2024-05-07 12:25:11 -0500",
       "potato": "2024-05-09 12:39:53 -0500",
+      "cooked_cod": "2024-05-21 11:31:21 -0500",
       "bread": "2024-05-07 10:57:10 -0500",
       "golden_apple": "2024-05-07 12:28:28 -0500",
       "rotten_flesh": "2024-05-07 11:38:14 -0500",
@@ -620,6 +622,7 @@
       "glow_berries": "2024-05-06 12:27:10 -0500",
       "salmon": "2024-05-07 11:33:45 -0500",
       "golden_carrot": "2024-05-09 12:00:52 -0500",
+      "cooked_chicken": "2024-05-21 13:17:27 -0500",
       "cooked_salmon": "2024-05-06 12:54:00 -0500",
       "carrot": "2024-05-16 13:20:00 -0500"
     },
@@ -842,6 +845,7 @@
       "minecraft:skeleton": "2024-05-06 12:19:31 -0500",
       "minecraft:ravager": "2024-05-09 11:52:57 -0500",
       "minecraft:hoglin": "2024-05-06 13:10:07 -0500",
+      "minecraft:guardian": "2024-05-21 11:30:02 -0500",
       "minecraft:vindicator": "2024-05-14 13:09:08 -0500",
       "minecraft:magma_cube": "2024-05-10 12:15:30 -0500",
       "minecraft:spider": "2024-05-06 12:58:46 -0500",
@@ -7433,6 +7437,7 @@
   },
   "dungeons_enhanced:ambitious_explorer": {
     "criteria": {
+      "entered_flying_dutchman": "2024-05-21 12:07:43 -0500",
       "entered_miners_house": "2024-05-20 10:26:53 -0500"
     },
     "done": false
@@ -7572,6 +7577,126 @@
   "artifacts:amateur_archaeologist": {
     "criteria": {
       "find_artifact": "2024-05-20 14:05:35 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_core": "2024-05-21 11:21:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_slab_from_polished_granite_stonecutting": {
+    "criteria": {
+      "has_polished_granite": "2024-05-21 11:24:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_slab": {
+    "criteria": {
+      "has_polished_granite": "2024-05-21 11:24:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs_from_polished_granite_stonecutting": {
+    "criteria": {
+      "has_polished_granite": "2024-05-21 11:24:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs": {
+    "criteria": {
+      "has_polished_granite": "2024-05-21 11:24:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2024-05-21 11:30:03 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_bricks": {
+    "criteria": {
+      "has_prismarine_shard": "2024-05-21 11:30:03 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2024-05-21 11:30:03 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/crystal_quartz_item": {
+    "criteria": {
+      "has_prismarine_crystals": "2024-05-21 11:30:13 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2024-05-21 11:30:13 -0500"
+    },
+    "done": true
+  },
+  "dungeons_enhanced:in_the_air": {
+    "criteria": {
+      "entered_flying_dutchman": "2024-05-21 12:07:43 -0500"
+    },
+    "done": true
+  },
+  "betterdungeons:all_dungeons": {
+    "criteria": {
+      "in_better_spider_dungeon": "2024-05-21 12:15:01 -0500"
+    },
+    "done": false
+  },
+  "betterdungeons:spider_dungeon": {
+    "criteria": {
+      "in_better_spider_dungeon": "2024-05-21 12:15:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2024-05-21 12:54:08 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2024-05-21 12:54:08 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2024-05-21 12:55:36 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2024-05-21 12:55:36 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2024-05-21 12:52:31 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2024-05-21 12:54:08 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2024-05-21 12:55:36 -0500"
     },
     "done": true
   },

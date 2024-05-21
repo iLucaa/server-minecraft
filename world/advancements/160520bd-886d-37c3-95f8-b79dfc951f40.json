@@ -9472,11 +9472,13 @@
       "transformation_sapling": "2024-05-20 16:18:00 -0500",
       "mangrove_sapling": "2024-05-20 16:18:03 -0500",
       "liveroot_block": "2024-05-17 12:28:07 -0500",
+      "towerwood": "2024-05-21 11:42:15 -0500",
       "canopy_sapling": "2024-05-20 16:18:33 -0500",
       "root": "2024-05-17 12:28:08 -0500",
       "time_sapling": "2024-05-20 16:18:02 -0500",
       "twilight_oak_log": "2024-05-17 13:22:31 -0500",
       "twilight_oak_wood": "2024-05-17 13:21:58 -0500",
+      "huge_stalk": "2024-05-21 12:37:34 -0500",
       "twilight_oak_sapling": "2024-05-17 14:16:25 -0500",
       "hollow_oak_sapling": "2024-05-18 11:29:30 -0500",
       "rainbow_oak_sapling": "2024-05-20 16:17:56 -0500",
@@ -9781,9 +9783,10 @@
   },
   "twilightforest:progression_end": {
     "criteria": {
+      "previous_progression": "2024-05-21 12:45:13 -0500",
       "plateau": "2024-05-18 10:37:38 -0500"
     },
-    "done": false
+    "done": true
   },
   "twilightforest:recipes/combat/equipment/lifedrain_scepter": {
     "criteria": {
@@ -9887,9 +9890,10 @@
   "twilightforest:progress_merge": {
     "criteria": {
       "hydra": "2024-05-18 12:29:19 -0500",
-      "snow_queen": "2024-05-18 12:59:25 -0500"
+      "snow_queen": "2024-05-18 12:59:25 -0500",
+      "ur_ghast": "2024-05-21 11:55:26 -0500"
     },
-    "done": false
+    "done": true
   },
   "twilightforest:recipes/misc/hydra_banner_pattern": {
     "criteria": {
@@ -10269,9 +10273,10 @@
   },
   "twilightforest:progress_ur_ghast": {
     "criteria": {
-      "previous_progression": "2024-05-20 14:49:29 -0500"
+      "previous_progression": "2024-05-20 14:49:29 -0500",
+      "was_in_fight": "2024-05-21 11:55:26 -0500"
     },
-    "done": false
+    "done": true
   },
   "twilightforest:recipes/misc/knight_phantom_banner_pattern": {
     "criteria": {
@@ -10289,6 +10294,105 @@
   "twilightforest:recipes/misc/alpha_yeti_banner_pattern": {
     "criteria": {
       "has_trophy": "2024-05-20 16:37:10 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:beanstalk": {
+    "criteria": {
+      "beans": "2024-05-21 12:35:56 -0500",
+      "use_beans": "2024-05-21 12:37:00 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/redstone/vanishing_block": {
+    "criteria": {
+      "has_item": "2024-05-21 11:01:09 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/ur_ghast_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2024-05-21 12:28:29 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:progress_troll": {
+    "criteria": {
+      "previous_progression": "2024-05-21 11:55:26 -0500",
+      "lamp": "2024-05-21 12:45:13 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/redstone/carminite_builder": {
+    "criteria": {
+      "has_item": "2024-05-21 11:55:34 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/wood/smoked_cracked_towerwood": {
+    "criteria": {
+      "has_item": "2024-05-21 11:42:15 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/wood/mossy_towerwood": {
+    "criteria": {
+      "has_item": "2024-05-21 11:42:15 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/redstone/carminite_reactor": {
+    "criteria": {
+      "has_item": "2024-05-21 11:55:34 -0500"
+    },
+    "done": true
+  },
+  "artifacts:chest_slayer": {
+    "criteria": {
+      "kill_mimic": "2024-05-21 13:05:47 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/redstone/reappearing_block": {
+    "criteria": {
+      "has_item": "2024-05-21 11:01:09 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/compressed_blocks/carminite_block": {
+    "criteria": {
+      "has_item": "2024-05-21 11:55:34 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/material/carminite": {
+    "criteria": {
+      "has_item": "2024-05-21 11:41:56 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:troll": {
+    "criteria": {
+      "troll": "2024-05-21 12:35:04 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:giants": {
+    "criteria": {
+      "pickaxe": "2024-05-21 12:35:56 -0500",
+      "giant": "2024-05-21 12:38:00 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:ghast_trap": {
+    "criteria": {
+      "activate_ghast_trap": "2024-05-21 11:08:15 -0500"
+    },
+    "done": true
+  },
+  "artifacts:amateur_archaeologist": {
+    "criteria": {
+      "find_artifact": "2024-05-21 13:05:48 -0500"
     },
     "done": true
   },
