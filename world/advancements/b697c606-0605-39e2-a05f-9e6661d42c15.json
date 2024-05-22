@@ -24,6 +24,7 @@
       "minecraft:birch_forest": "2024-05-06 13:25:53 -0500",
       "minecraft:windswept_hills": "2024-05-13 13:48:56 -0500",
       "minecraft:bamboo_jungle": "2024-05-13 12:26:44 -0500",
+      "minecraft:wooded_badlands": "2024-05-22 12:01:00 -0500",
       "minecraft:badlands": "2024-05-21 12:58:23 -0500",
       "minecraft:savanna_plateau": "2024-05-13 12:28:59 -0500",
       "minecraft:beach": "2024-05-08 12:47:43 -0500",
@@ -471,10 +472,12 @@
       "golden_apple": "2024-05-09 12:12:08 -0500",
       "rotten_flesh": "2024-05-06 12:48:26 -0500",
       "suspicious_stew": "2024-05-16 13:10:44 -0500",
+      "salmon": "2024-05-22 13:10:32 -0500",
       "golden_carrot": "2024-05-08 11:08:25 -0500",
       "cooked_chicken": "2024-05-06 12:36:47 -0500",
       "enchanted_golden_apple": "2024-05-20 14:48:00 -0500",
       "mushroom_stew": "2024-05-10 11:49:23 -0500",
+      "cod": "2024-05-22 12:19:30 -0500",
       "carrot": "2024-05-10 12:48:06 -0500"
     },
     "done": false
@@ -540,6 +543,7 @@
       "minecraft:skeleton": "2024-05-06 12:50:35 -0500",
       "minecraft:ravager": "2024-05-09 11:38:34 -0500",
       "minecraft:hoglin": "2024-05-16 14:38:21 -0500",
+      "minecraft:guardian": "2024-05-22 12:24:48 -0500",
       "minecraft:vindicator": "2024-05-10 12:08:32 -0500",
       "minecraft:magma_cube": "2024-05-08 13:06:55 -0500",
       "minecraft:spider": "2024-05-06 12:51:04 -0500",
@@ -7005,9 +7009,126 @@
     },
     "done": true
   },
+  "twilightforest:recipes/decorations/wood/oak_banister": {
+    "criteria": {
+      "has_item": "2024-05-21 10:59:56 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:arborist": {
+    "criteria": {
+      "encased_towerwood": "2024-05-21 11:45:19 -0500",
+      "towerwood": "2024-05-21 11:01:23 -0500",
+      "huge_stalk": "2024-05-21 12:38:33 -0500"
+    },
+    "done": false
+  },
+  "twilightforest:recipes/building_blocks/wood/smoked_cracked_towerwood": {
+    "criteria": {
+      "has_item": "2024-05-21 11:01:23 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/wood/mossy_towerwood": {
+    "criteria": {
+      "has_item": "2024-05-21 11:01:23 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:ghast_trap": {
+    "criteria": {
+      "activate_ghast_trap": "2024-05-21 11:08:15 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:progress_troll": {
+    "criteria": {
+      "previous_progression": "2024-05-21 11:55:26 -0500",
+      "lamp": "2024-05-21 12:43:48 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/ur_ghast_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2024-05-21 11:55:34 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/redstone/carminite_builder": {
+    "criteria": {
+      "has_item": "2024-05-21 11:55:35 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/redstone/carminite_reactor": {
+    "criteria": {
+      "has_item": "2024-05-21 11:55:35 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/compressed_blocks/carminite_block": {
+    "criteria": {
+      "has_item": "2024-05-21 11:55:35 -0500"
+    },
+    "done": true
+  },
   "twilightforest:recipes/combat/equipment/fiery_fiery_boots": {
     "criteria": {
       "has_item": "2024-05-21 11:55:36 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/fiery_iron_sword": {
+    "criteria": {
+      "has_item": "2024-05-21 11:55:36 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/fiery_fiery_leggings": {
+    "criteria": {
+      "has_item": "2024-05-21 11:55:36 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/equipment/fiery_ingot_crafting": {
+    "criteria": {
+      "has_item": "2024-05-21 11:55:36 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/fiery_fiery_chestplate": {
+    "criteria": {
+      "has_item": "2024-05-21 11:55:36 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/tools/equipment/fiery_iron_pickaxe": {
+    "criteria": {
+      "has_item": "2024-05-21 11:55:36 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/fiery_fiery_helmet": {
+    "criteria": {
+      "has_item": "2024-05-21 11:55:36 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/redstone/vanishing_block": {
+    "criteria": {
+      "has_the_recipe": "2024-05-21 11:57:37 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:experiment_115": {
+    "criteria": {
+      "eat_experiment_115": "2024-05-21 12:17:11 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:troll": {
+    "criteria": {
+      "troll": "2024-05-21 12:33:46 -0500"
     },
     "done": true
   },
@@ -7017,15 +7138,111 @@
     },
     "done": false
   },
-  "minecraft:recipes/tools/spider_smithing_gold": {
+  "twilightforest:giants": {
     "criteria": {
-      "has_gold_tier_upgrade": "2024-05-21 12:49:02 -0500"
+      "pickaxe": "2024-05-21 12:43:42 -0500"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/quartz_slab": {
+    "criteria": {
+      "has_chiseled_quartz_block": "2024-05-21 12:47:17 -0500"
     },
     "done": true
   },
-  "twilightforest:recipes/redstone/vanishing_block": {
+  "minecraft:recipes/building_blocks/quartz_stairs": {
     "criteria": {
-      "has_the_recipe": "2024-05-21 11:57:37 -0500"
+      "has_chiseled_quartz_block": "2024-05-21 12:47:17 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar": {
+    "criteria": {
+      "has_chiseled_quartz_block": "2024-05-21 12:47:17 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
+    "criteria": {
+      "has_chiseled_quartz_block": "2024-05-21 12:47:17 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2024-05-21 12:48:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone": {
+    "criteria": {
+      "has_sandstone": "2024-05-21 12:48:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_sandstone": "2024-05-21 12:48:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2024-05-21 12:48:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2024-05-21 12:48:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2024-05-21 12:48:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2024-05-21 12:48:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab": {
+    "criteria": {
+      "has_sandstone": "2024-05-21 12:48:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone": {
+    "criteria": {
+      "has_sandstone": "2024-05-21 12:48:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2024-05-21 12:48:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall": {
+    "criteria": {
+      "has_sandstone": "2024-05-21 12:48:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_glazed_terracotta": {
+    "criteria": {
+      "has_orange_terracotta": "2024-05-21 12:48:52 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spider_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2024-05-21 12:49:02 -0500"
     },
     "done": true
   },
@@ -7041,50 +7258,11 @@
     },
     "done": true
   },
-  "tombstone:adventure/neighborhood_brawl": {
-    "criteria": {
-      "coded_trigger": "2024-05-21 12:53:18 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/quartz_slab": {
-    "criteria": {
-      "has_chiseled_quartz_block": "2024-05-21 12:47:17 -0500"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/misc/ur_ghast_banner_pattern": {
-    "criteria": {
-      "has_trophy": "2024-05-21 11:55:34 -0500"
-    },
-    "done": true
-  },
-  "twilightforest:progress_troll": {
-    "criteria": {
-      "previous_progression": "2024-05-21 11:55:26 -0500",
-      "lamp": "2024-05-21 12:43:48 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/standard_smithing_gold": {
     "criteria": {
       "has_gold_tier_upgrade": "2024-05-21 12:49:02 -0500"
     },
     "done": true
-  },
-  "minecraft:recipes/misc/white_dye": {
-    "criteria": {
-      "has_bone_meal": "2024-05-21 13:12:31 -0500"
-    },
-    "done": true
-  },
-  "twilightforest:arborist": {
-    "criteria": {
-      "encased_towerwood": "2024-05-21 11:45:19 -0500",
-      "towerwood": "2024-05-21 11:01:23 -0500",
-      "huge_stalk": "2024-05-21 12:38:33 -0500"
-    },
-    "done": false
   },
   "minecraft:recipes/tools/bee_smithing_gold": {
     "criteria": {
@@ -7092,21 +7270,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
-    "criteria": {
-      "has_sandstone": "2024-05-21 12:48:51 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/lapis_smithing_gold": {
     "criteria": {
       "has_gold_tier_upgrade": "2024-05-21 12:49:02 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cut_sandstone": {
-    "criteria": {
-      "has_sandstone": "2024-05-21 12:48:51 -0500"
     },
     "done": true
   },
@@ -7134,45 +7300,9 @@
     },
     "done": true
   },
-  "twilightforest:recipes/redstone/carminite_builder": {
-    "criteria": {
-      "has_item": "2024-05-21 11:55:35 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/end_smithing_gold": {
     "criteria": {
       "has_gold_tier_upgrade": "2024-05-21 12:49:02 -0500"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/planter_rich": {
-    "criteria": {
-      "has_bone_meal": "2024-05-21 13:12:31 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sandstone_stairs": {
-    "criteria": {
-      "has_sandstone": "2024-05-21 12:48:51 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/quartz_stairs": {
-    "criteria": {
-      "has_chiseled_quartz_block": "2024-05-21 12:47:17 -0500"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/building_blocks/wood/smoked_cracked_towerwood": {
-    "criteria": {
-      "has_item": "2024-05-21 11:01:23 -0500"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/combat/equipment/fiery_iron_sword": {
-    "criteria": {
-      "has_item": "2024-05-21 11:55:36 -0500"
     },
     "done": true
   },
@@ -7188,24 +7318,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
-    "criteria": {
-      "has_sandstone": "2024-05-21 12:48:51 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_sandstone_from_sandstone_stonecutting": {
-    "criteria": {
-      "has_sandstone": "2024-05-21 12:48:51 -0500"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/combat/equipment/fiery_fiery_leggings": {
-    "criteria": {
-      "has_item": "2024-05-21 11:55:36 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/sponge_smithing_gold": {
     "criteria": {
       "has_gold_tier_upgrade": "2024-05-21 12:49:02 -0500"
@@ -7215,18 +7327,6 @@
   "minecraft:recipes/tools/coal_smithing_gold": {
     "criteria": {
       "has_gold_tier_upgrade": "2024-05-21 12:49:02 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
-    "criteria": {
-      "has_sandstone": "2024-05-21 12:48:51 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
-    "criteria": {
-      "has_sandstone": "2024-05-21 12:48:51 -0500"
     },
     "done": true
   },
@@ -7242,27 +7342,9 @@
     },
     "done": true
   },
-  "twilightforest:recipes/building_blocks/wood/mossy_towerwood": {
-    "criteria": {
-      "has_item": "2024-05-21 11:01:23 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/quartz_smithing_gold": {
     "criteria": {
       "has_gold_tier_upgrade": "2024-05-21 12:49:02 -0500"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/redstone/carminite_reactor": {
-    "criteria": {
-      "has_item": "2024-05-21 11:55:35 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/bone_block": {
-    "criteria": {
-      "has_bone_meal": "2024-05-21 13:12:31 -0500"
     },
     "done": true
   },
@@ -7272,45 +7354,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/sandstone_slab": {
-    "criteria": {
-      "has_sandstone": "2024-05-21 12:48:51 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/pig_smithing_gold": {
     "criteria": {
       "has_gold_tier_upgrade": "2024-05-21 12:49:02 -0500"
     },
     "done": true
   },
-  "twilightforest:recipes/building_blocks/compressed_blocks/carminite_block": {
-    "criteria": {
-      "has_item": "2024-05-21 11:55:35 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/pumpkin_smithing_gold": {
     "criteria": {
       "has_gold_tier_upgrade": "2024-05-21 12:49:02 -0500"
-    },
-    "done": true
-  },
-  "twilightforest:troll": {
-    "criteria": {
-      "troll": "2024-05-21 12:33:46 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_sandstone": {
-    "criteria": {
-      "has_sandstone": "2024-05-21 12:48:51 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/orange_glazed_terracotta": {
-    "criteria": {
-      "has_orange_terracotta": "2024-05-21 12:48:52 -0500"
     },
     "done": true
   },
@@ -7323,12 +7375,6 @@
   "minecraft:recipes/tools/nether_smithing_gold": {
     "criteria": {
       "has_gold_tier_upgrade": "2024-05-21 12:49:02 -0500"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/decorations/wood/oak_banister": {
-    "criteria": {
-      "has_item": "2024-05-21 10:59:56 -0500"
     },
     "done": true
   },
@@ -7362,33 +7408,9 @@
     },
     "done": true
   },
-  "twilightforest:recipes/misc/equipment/fiery_ingot_crafting": {
-    "criteria": {
-      "has_item": "2024-05-21 11:55:36 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
-    "criteria": {
-      "has_sandstone": "2024-05-21 12:48:51 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/quartz_pillar": {
-    "criteria": {
-      "has_chiseled_quartz_block": "2024-05-21 12:47:17 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/cow_smithing_gold": {
     "criteria": {
       "has_gold_tier_upgrade": "2024-05-21 12:49:02 -0500"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/combat/equipment/fiery_fiery_chestplate": {
-    "criteria": {
-      "has_item": "2024-05-21 11:55:36 -0500"
     },
     "done": true
   },
@@ -7410,12 +7432,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/trade": {
-    "criteria": {
-      "traded": "2024-05-21 12:53:16 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/squid_smithing_gold": {
     "criteria": {
       "has_gold_tier_upgrade": "2024-05-21 12:49:02 -0500"
@@ -7428,27 +7444,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
-    "criteria": {
-      "has_white_tulip": "2024-05-21 12:53:16 -0500"
-    },
-    "done": true
-  },
-  "twilightforest:giants": {
-    "criteria": {
-      "pickaxe": "2024-05-21 12:43:42 -0500"
-    },
-    "done": false
-  },
   "minecraft:recipes/tools/wither_smithing_gold": {
     "criteria": {
       "has_gold_tier_upgrade": "2024-05-21 12:49:02 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
-    "criteria": {
-      "has_chiseled_quartz_block": "2024-05-21 12:47:17 -0500"
     },
     "done": true
   },
@@ -7458,21 +7456,9 @@
     },
     "done": true
   },
-  "twilightforest:experiment_115": {
-    "criteria": {
-      "eat_experiment_115": "2024-05-21 12:17:11 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/skeleton_smithing_gold": {
     "criteria": {
       "has_gold_tier_upgrade": "2024-05-21 12:49:02 -0500"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/tools/equipment/fiery_iron_pickaxe": {
-    "criteria": {
-      "has_item": "2024-05-21 11:55:36 -0500"
     },
     "done": true
   },
@@ -7488,39 +7474,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/muddy_mangrove_roots": {
-    "criteria": {
-      "has_mangrove_roots": "2024-05-21 13:07:45 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/sheep_smithing_gold": {
     "criteria": {
       "has_gold_tier_upgrade": "2024-05-21 12:49:02 -0500"
     },
     "done": true
   },
-  "twilightforest:ghast_trap": {
-    "criteria": {
-      "activate_ghast_trap": "2024-05-21 11:08:15 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/chicken_smithing_gold": {
     "criteria": {
       "has_gold_tier_upgrade": "2024-05-21 12:49:02 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/sandstone_wall": {
-    "criteria": {
-      "has_sandstone": "2024-05-21 12:48:51 -0500"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/combat/equipment/fiery_fiery_helmet": {
-    "criteria": {
-      "has_item": "2024-05-21 11:55:36 -0500"
     },
     "done": true
   },
@@ -7533,6 +7495,321 @@
   "minecraft:recipes/tools/netherite_smithing_gold": {
     "criteria": {
       "has_gold_tier_upgrade": "2024-05-21 12:49:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2024-05-21 12:53:16 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
+    "criteria": {
+      "has_white_tulip": "2024-05-21 12:53:16 -0500"
+    },
+    "done": true
+  },
+  "tombstone:adventure/neighborhood_brawl": {
+    "criteria": {
+      "coded_trigger": "2024-05-21 12:53:18 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/muddy_mangrove_roots": {
+    "criteria": {
+      "has_mangrove_roots": "2024-05-21 13:07:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2024-05-21 13:12:31 -0500"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/planter_rich": {
+    "criteria": {
+      "has_bone_meal": "2024-05-21 13:12:31 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2024-05-21 13:12:31 -0500"
+    },
+    "done": true
+  },
+  "dungeons_plus:adventure/find_tower": {
+    "criteria": {
+      "in_structure": "2024-05-22 11:26:44 -0500"
+    },
+    "done": true
+  },
+  "dungeons_enhanced:ambitious_explorer": {
+    "criteria": {
+      "entered_tower_of_the_undead": "2024-05-22 11:36:24 -0500",
+      "entered_miners_house": "2024-05-22 12:35:03 -0500",
+      "entered_desert_temple": "2024-05-22 11:56:39 -0500",
+      "entered_ruined_building": "2024-05-22 12:14:32 -0500"
+    },
+    "done": false
+  },
+  "dungeons_enhanced:root": {
+    "criteria": {
+      "entered_tower_of_the_undead": "2024-05-22 11:36:24 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/grilled_salmon": {
+    "criteria": {
+      "has_salmon": "2024-05-22 11:36:40 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2024-05-22 11:36:40 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/fish_stew": {
+    "criteria": {
+      "has_any_ingredient": "2024-05-22 11:36:40 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2024-05-22 11:36:40 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2024-05-22 11:36:40 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2024-05-22 11:36:42 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2024-05-22 11:36:42 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2024-05-22 11:36:42 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2024-05-22 11:38:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2024-05-22 11:38:14 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2024-05-22 11:38:14 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/beetroot_salad": {
+    "criteria": {
+      "has_beetroot": "2024-05-22 11:38:14 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/ratatouille": {
+    "criteria": {
+      "has_any_ingredient": "2024-05-22 11:38:14 -0500"
+    },
+    "done": true
+  },
+  "dungeons_enhanced:traps_and_curses": {
+    "criteria": {
+      "entered_desert_temple": "2024-05-22 11:56:39 -0500"
+    },
+    "done": true
+  },
+  "dungeons_enhanced:seven_world_wonders": {
+    "criteria": {
+      "entered_desert_temple": "2024-05-22 11:56:39 -0500"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_slab_from_smooth_sandstone_stonecutting": {
+    "criteria": {
+      "has_smooth_sandstone": "2024-05-22 11:56:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_red_sandstone": {
+    "criteria": {
+      "has_chiseled_red_sandstone": "2024-05-22 11:56:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_slab": {
+    "criteria": {
+      "has_smooth_sandstone": "2024-05-22 11:56:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone_slab": {
+    "criteria": {
+      "has_chiseled_red_sandstone": "2024-05-22 11:56:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_stairs_from_smooth_sandstone_stonecutting": {
+    "criteria": {
+      "has_smooth_sandstone": "2024-05-22 11:56:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone_stairs": {
+    "criteria": {
+      "has_chiseled_red_sandstone": "2024-05-22 11:56:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_stairs": {
+    "criteria": {
+      "has_smooth_sandstone": "2024-05-22 11:56:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
+    "criteria": {
+      "has_cut_sandstone": "2024-05-22 11:56:55 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab": {
+    "criteria": {
+      "has_cut_sandstone": "2024-05-22 11:56:55 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_glazed_terracotta": {
+    "criteria": {
+      "has_blue_terracotta": "2024-05-22 11:57:26 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_red_sandstone_slab": {
+    "criteria": {
+      "has_cut_red_sandstone": "2024-05-22 11:59:19 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_red_sandstone_slab_from_cut_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_cut_red_sandstone": "2024-05-22 11:59:19 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2024-05-22 12:25:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2024-05-22 12:25:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2024-05-22 12:25:33 -0500"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_keep_kayra": {
+    "criteria": {
+      "location0": "2024-05-22 12:40:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2024-05-22 12:51:04 -0500"
+    },
+    "done": true
+  },
+  "dungeons_plus:end/find_end_ruins": {
+    "criteria": {
+      "in_structure": "2024-05-22 12:54:52 -0500"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2024-05-22 12:56:13 -0500"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2024-05-22 12:56:49 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_waxed_copper_block": {
+    "criteria": {
+      "has_waxed_copper_block": "2024-05-22 13:16:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper": {
+    "criteria": {
+      "has_waxed_copper_block": "2024-05-22 13:16:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_slab_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2024-05-22 13:16:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2024-05-22 13:16:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_stairs_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2024-05-22 13:16:51 -0500"
+    },
+    "done": true
+  },
+  "betterdungeons:all_dungeons": {
+    "criteria": {
+      "in_better_spider_dungeon": "2024-05-22 14:34:33 -0500"
+    },
+    "done": false
+  },
+  "betterdungeons:spider_dungeon": {
+    "criteria": {
+      "in_better_spider_dungeon": "2024-05-22 14:34:33 -0500"
     },
     "done": true
   },

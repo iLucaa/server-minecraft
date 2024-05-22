@@ -23,12 +23,15 @@
       "minecraft:birch_forest": "2024-05-07 11:30:53 -0500",
       "minecraft:windswept_hills": "2024-05-10 13:02:28 -0500",
       "minecraft:wooded_badlands": "2024-05-18 13:47:54 -0500",
+      "minecraft:bamboo_jungle": "2024-05-22 14:25:09 -0500",
       "minecraft:badlands": "2024-05-18 13:52:46 -0500",
       "minecraft:beach": "2024-05-13 10:50:29 -0500",
       "minecraft:dark_forest": "2024-05-15 13:16:59 -0500",
+      "minecraft:stony_peaks": "2024-05-22 14:23:44 -0500",
       "minecraft:mangrove_swamp": "2024-05-17 12:05:43 -0500",
       "minecraft:sparse_jungle": "2024-05-16 12:58:06 -0500",
       "minecraft:river": "2024-05-06 12:09:01 -0500",
+      "minecraft:lukewarm_ocean": "2024-05-22 13:58:20 -0500",
       "minecraft:snowy_plains": "2024-05-07 12:31:22 -0500",
       "minecraft:stony_shore": "2024-05-07 12:30:37 -0500",
       "minecraft:snowy_taiga": "2024-05-06 12:02:49 -0500",
@@ -47,6 +50,7 @@
       "minecraft:snowy_beach": "2024-05-11 13:55:27 -0500",
       "minecraft:windswept_savanna": "2024-05-16 12:31:50 -0500",
       "minecraft:warm_ocean": "2024-05-17 12:16:16 -0500",
+      "minecraft:deep_lukewarm_ocean": "2024-05-22 13:57:54 -0500",
       "minecraft:flower_forest": "2024-05-07 12:36:14 -0500",
       "minecraft:frozen_peaks": "2024-05-15 12:10:26 -0500",
       "minecraft:old_growth_birch_forest": "2024-05-07 11:59:53 -0500",
@@ -439,6 +443,7 @@
       "minecraft:piglin_brute": "2024-05-21 12:49:12 -0500",
       "minecraft:creeper": "2024-05-09 11:38:46 -0500",
       "minecraft:evoker": "2024-05-15 12:34:01 -0500",
+      "minecraft:slime": "2024-05-22 13:25:39 -0500",
       "minecraft:phantom": "2024-05-15 10:34:19 -0500",
       "minecraft:witch": "2024-05-10 13:06:15 -0500",
       "minecraft:wither_skeleton": "2024-05-13 13:42:10 -0500",
@@ -1246,6 +1251,7 @@
       "chorus_fruit": "2024-05-15 10:25:04 -0500",
       "baked_potato": "2024-05-08 10:50:00 -0500",
       "apple": "2024-05-07 14:57:16 -0500",
+      "potato": "2024-05-22 13:18:33 -0500",
       "pumpkin_pie": "2024-05-07 10:26:24 -0500",
       "mutton": "2024-05-08 10:19:49 -0500",
       "bread": "2024-05-07 12:17:30 -0500",
@@ -7054,9 +7060,88 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+  "croptopia:recipes/campfire_caramel": {
     "criteria": {
-      "has_polished_blackstone_bricks": "2024-05-21 12:47:34 -0500"
+      "has_sugar": "2024-05-21 11:40:18 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/caramel_from_sugar": {
+    "criteria": {
+      "has_sugar": "2024-05-21 11:40:18 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/caramel_from_smoking_sugar": {
+    "criteria": {
+      "has_sugar": "2024-05-21 11:40:18 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/nougat": {
+    "criteria": {
+      "has_sugar": "2024-05-21 11:40:18 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2024-05-21 11:40:18 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/candied_nuts": {
+    "criteria": {
+      "has_sugar": "2024-05-21 11:40:18 -0500",
+      "has_the_recipe": "2024-05-21 11:40:18 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/candy_corn": {
+    "criteria": {
+      "has_sugar": "2024-05-21 11:40:18 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/nutty_cookie": {
+    "criteria": {
+      "has_the_recipe": "2024-05-21 11:40:18 -0500"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/sugar_cube": {
+    "criteria": {
+      "has_sugar": "2024-05-21 11:40:18 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2024-05-21 11:40:18 -0500"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/present": {
+    "criteria": {
+      "has_paper": "2024-05-21 11:45:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2024-05-21 11:45:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2024-05-21 11:45:21 -0500"
+    },
+    "done": true
+  },
+  "dungeons_enhanced:in_the_air": {
+    "criteria": {
+      "entered_flying_dutchman": "2024-05-21 12:12:51 -0500"
     },
     "done": true
   },
@@ -7066,33 +7151,51 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blackstone_wall": {
+  "minecraft:recipes/building_blocks/warped_planks": {
     "criteria": {
-      "has_blackstone": "2024-05-21 12:47:32 -0500"
+      "has_logs": "2024-05-21 12:12:53 -0500"
     },
     "done": true
   },
-  "croptopia:recipes/campfire_caramel": {
+  "minecraft:recipes/decorations/warped_hanging_sign": {
     "criteria": {
-      "has_sugar": "2024-05-21 11:40:18 -0500"
+      "has_stripped_logs": "2024-05-21 12:12:53 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
+  "betterdungeons:all_dungeons": {
     "criteria": {
-      "has_polished_blackstone_bricks": "2024-05-21 12:47:34 -0500"
+      "in_better_spider_dungeon": "2024-05-21 12:15:03 -0500"
     },
-    "done": true
+    "done": false
   },
-  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_blackstone_stonecutting": {
+  "betterdungeons:spider_dungeon": {
     "criteria": {
-      "has_blackstone": "2024-05-21 12:47:32 -0500"
+      "in_better_spider_dungeon": "2024-05-21 12:15:03 -0500"
     },
     "done": true
   },
   "securitycraft:recipes/building_blocks/reinforced_granite": {
     "criteria": {
       "has_quartz": "2024-05-21 12:41:42 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/reinforced_observer": {
+    "criteria": {
+      "has_quartz": "2024-05-21 12:41:42 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall": {
+    "criteria": {
+      "has_blackstone": "2024-05-21 12:47:32 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-21 12:47:32 -0500"
     },
     "done": true
   },
@@ -7108,45 +7211,15 @@
     },
     "done": true
   },
-  "supplementaries:recipes/blackstone_tile": {
-    "criteria": {
-      "has_polished_blackstone_bricks": "2024-05-21 12:47:34 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2024-05-21 12:47:32 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
-    "criteria": {
-      "has_polished_blackstone_bricks": "2024-05-21 12:47:34 -0500"
-    },
-    "done": true
-  },
-  "croptopia:recipes/food/caramel_from_sugar": {
-    "criteria": {
-      "has_sugar": "2024-05-21 11:40:18 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_basalt": {
-    "criteria": {
-      "has_basalt": "2024-05-21 12:52:58 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/blackstone_stairs": {
     "criteria": {
       "has_blackstone": "2024-05-21 12:47:32 -0500"
-    },
-    "done": true
-  },
-  "croptopia:recipes/food/caramel_from_smoking_sugar": {
-    "criteria": {
-      "has_sugar": "2024-05-21 11:40:18 -0500"
     },
     "done": true
   },
@@ -7168,100 +7241,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
-    "criteria": {
-      "has_polished_blackstone_bricks": "2024-05-21 12:47:34 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
-    "criteria": {
-      "has_polished_blackstone_bricks": "2024-05-21 12:47:34 -0500"
-    },
-    "done": true
-  },
-  "croptopia:recipes/nougat": {
-    "criteria": {
-      "has_sugar": "2024-05-21 11:40:18 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/warped_planks": {
-    "criteria": {
-      "has_logs": "2024-05-21 12:12:53 -0500"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/present": {
-    "criteria": {
-      "has_paper": "2024-05-21 11:45:21 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/warped_hanging_sign": {
-    "criteria": {
-      "has_stripped_logs": "2024-05-21 12:12:53 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/spectral_arrow": {
-    "criteria": {
-      "has_glowstone_dust": "2024-05-21 11:40:18 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_basalt": {
-    "criteria": {
-      "has_basalt": "2024-05-21 12:52:58 -0500"
-    },
-    "done": true
-  },
-  "croptopia:recipes/candied_nuts": {
-    "criteria": {
-      "has_sugar": "2024-05-21 11:40:18 -0500",
-      "has_the_recipe": "2024-05-21 11:40:18 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/magma_block": {
-    "criteria": {
-      "has_magma_cream": "2024-05-21 12:53:34 -0500"
-    },
-    "done": true
-  },
-  "croptopia:recipes/candy_corn": {
-    "criteria": {
-      "has_sugar": "2024-05-21 11:40:18 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
-    "criteria": {
-      "has_polished_blackstone_bricks": "2024-05-21 12:47:34 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2024-05-21 12:47:32 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/book": {
-    "criteria": {
-      "has_paper": "2024-05-21 11:45:21 -0500"
-    },
-    "done": true
-  },
-  "croptopia:recipes/nutty_cookie": {
-    "criteria": {
-      "has_the_recipe": "2024-05-21 11:40:18 -0500"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/redstone/reinforced_observer": {
-    "criteria": {
-      "has_quartz": "2024-05-21 12:41:42 -0500"
     },
     "done": true
   },
@@ -7289,33 +7271,9 @@
     },
     "done": true
   },
-  "supplementaries:recipes/sugar_cube": {
-    "criteria": {
-      "has_sugar": "2024-05-21 11:40:18 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
-    "criteria": {
-      "has_polished_blackstone_bricks": "2024-05-21 12:47:34 -0500"
-    },
-    "done": true
-  },
-  "betterdungeons:all_dungeons": {
-    "criteria": {
-      "in_better_spider_dungeon": "2024-05-21 12:15:03 -0500"
-    },
-    "done": false
-  },
   "minecraft:recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2024-05-21 12:47:32 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
-    "criteria": {
-      "has_basalt": "2024-05-21 12:52:58 -0500"
     },
     "done": true
   },
@@ -7325,33 +7283,63 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/glowstone": {
-    "criteria": {
-      "has_glowstone_dust": "2024-05-21 11:40:18 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cartography_table": {
-    "criteria": {
-      "has_paper": "2024-05-21 11:45:21 -0500"
-    },
-    "done": true
-  },
   "minecraft:nether/find_bastion": {
     "criteria": {
       "bastion": "2024-05-21 12:47:32 -0500"
     },
     "done": true
   },
-  "dungeons_enhanced:in_the_air": {
+  "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
     "criteria": {
-      "entered_flying_dutchman": "2024-05-21 12:12:51 -0500"
+      "has_blackstone": "2024-05-21 12:47:32 -0500"
     },
     "done": true
   },
-  "betterdungeons:spider_dungeon": {
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
     "criteria": {
-      "in_better_spider_dungeon": "2024-05-21 12:15:03 -0500"
+      "has_polished_blackstone_bricks": "2024-05-21 12:47:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-05-21 12:47:34 -0500"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/blackstone_tile": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-05-21 12:47:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-05-21 12:47:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-05-21 12:47:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-05-21 12:47:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-05-21 12:47:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-05-21 12:47:34 -0500"
     },
     "done": true
   },
@@ -7361,9 +7349,237 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
+  "minecraft:recipes/building_blocks/smooth_basalt": {
     "criteria": {
-      "has_blackstone": "2024-05-21 12:47:32 -0500"
+      "has_basalt": "2024-05-21 12:52:58 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2024-05-21 12:52:58 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2024-05-21 12:52:58 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2024-05-21 12:53:34 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/block_pocket_manager": {
+    "criteria": {
+      "has_redstone_block": "2024-05-22 11:10:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-05-22 11:26:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-05-22 11:26:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-05-22 11:26:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-05-22 11:26:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-05-22 11:26:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-05-22 11:26:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-05-22 11:26:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-05-22 11:26:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-05-22 11:26:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-05-22 11:26:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-05-22 11:26:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-05-22 11:26:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-05-22 11:26:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-05-22 11:26:01 -0500"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/stone_lamp": {
+    "criteria": {
+      "has_stone": "2024-05-22 12:34:26 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/keypad_item": {
+    "criteria": {
+      "has_stone_button": "2024-05-22 12:34:35 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_cobblestone_slab_from_reinforced_cobblestone_stonecutting": {
+    "criteria": {
+      "has_reinforced_cobblestone": "2024-05-22 13:11:48 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/retinal_scanner": {
+    "criteria": {
+      "has_stone": "2024-05-22 13:11:48 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_cobblestone_wall": {
+    "criteria": {
+      "has_block": "2024-05-22 13:11:48 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_cobblestone_stairs": {
+    "criteria": {
+      "has_block": "2024-05-22 13:11:48 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_cobblestone_wall_from_reinforced_cobblestone_stonecutting": {
+    "criteria": {
+      "has_reinforced_cobblestone": "2024-05-22 13:11:48 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_stone": {
+    "criteria": {
+      "has_item": "2024-05-22 13:11:48 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/keycard_reader": {
+    "criteria": {
+      "has_stone": "2024-05-22 13:11:48 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_cobblestone_slab": {
+    "criteria": {
+      "has_block": "2024-05-22 13:11:48 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/inventory_scanner": {
+    "criteria": {
+      "has_stone": "2024-05-22 13:11:48 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_cobblestone_stairs_from_reinforced_cobblestone_stonecutting": {
+    "criteria": {
+      "has_reinforced_cobblestone": "2024-05-22 13:11:48 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/reinforced_lever": {
+    "criteria": {
+      "has_cobble": "2024-05-22 13:11:48 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2024-05-22 13:13:05 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2024-05-22 13:13:05 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2024-05-22 13:13:05 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/scanner_door_item": {
+    "criteria": {
+      "has_reinforced_door": "2024-05-22 13:15:08 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/keypad_door_item": {
+    "criteria": {
+      "has_reinforced_door": "2024-05-22 13:15:08 -0500"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_keep_kayra": {
+    "criteria": {
+      "location0": "2024-05-22 13:19:32 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_glazed_terracotta": {
+    "criteria": {
+      "has_gray_terracotta": "2024-05-22 13:26:58 -0500"
     },
     "done": true
   },

@@ -42,6 +42,7 @@
       "minecraft:desert": "2024-05-20 10:32:45 -0500",
       "minecraft:ocean": "2024-05-08 11:12:12 -0500",
       "minecraft:old_growth_spruce_taiga": "2024-05-08 11:45:19 -0500",
+      "minecraft:windswept_savanna": "2024-05-22 13:12:57 -0500",
       "minecraft:warm_ocean": "2024-05-20 14:24:26 -0500",
       "minecraft:flower_forest": "2024-05-06 13:26:16 -0500",
       "minecraft:frozen_peaks": "2024-05-06 23:11:53 -0500",
@@ -241,6 +242,7 @@
   "croptopia:gather_savanna": {
     "criteria": {
       "yam_seed": "2024-05-10 13:15:11 -0500",
+      "leek_seed": "2024-05-22 14:35:00 -0500",
       "squash_seed": "2024-05-06 12:11:00 -0500",
       "zucchini_seed": "2024-05-10 13:15:00 -0500",
       "ginger_seed": "2024-05-16 13:16:02 -0500",
@@ -275,6 +277,7 @@
       "strawberry_seed": "2024-05-06 12:11:07 -0500",
       "grape_seed": "2024-05-08 10:38:48 -0500",
       "celery_seed": "2024-05-09 02:27:22 -0500",
+      "leek_seed": "2024-05-22 14:35:00 -0500",
       "greenonion_seed": "2024-05-09 02:05:56 -0500",
       "broccoli_seed": "2024-05-07 00:46:40 -0500",
       "cranberry_seed": "2024-05-09 02:05:56 -0500",
@@ -3317,6 +3320,7 @@
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
       "cabbage": "2024-05-11 01:48:59 -0500",
+      "onion": "2024-05-22 13:56:43 -0500",
       "sweet_berries": "2024-05-11 01:08:24 -0500",
       "rice": "2024-05-10 14:55:55 -0500",
       "beetroot": "2024-05-11 01:50:40 -0500",
@@ -5000,6 +5004,7 @@
       "basil_seed": "2024-05-10 13:15:00 -0500",
       "greenonion_seed": "2024-05-09 02:05:56 -0500",
       "rhubarb_seed": "2024-05-10 13:15:08 -0500",
+      "pineapple_seed": "2024-05-22 14:13:43 -0500",
       "onion_seed": "2024-05-18 12:14:39 -0500",
       "eggplant_seed": "2024-05-10 13:15:08 -0500",
       "garlic_seed": "2024-05-09 02:05:56 -0500"
@@ -5159,6 +5164,7 @@
       "almond_sapling": "2024-05-10 12:57:06 -0500",
       "pear_sapling": "2024-05-10 13:10:10 -0500",
       "pecan_sapling": "2024-05-10 13:10:10 -0500",
+      "dragonfruit_sapling": "2024-05-22 12:50:41 -0500",
       "walnut_sapling": "2024-05-10 13:10:10 -0500",
       "peach_sapling": "2024-05-10 13:10:10 -0500",
       "plum_sapling": "2024-05-10 13:10:10 -0500",
@@ -7895,6 +7901,7 @@
   },
   "twilightforest:arborist": {
     "criteria": {
+      "mossy_towerwood": "2024-05-22 13:48:03 -0500",
       "hollow_oak_sapling": "2024-05-18 11:29:56 -0500"
     },
     "done": false
@@ -8154,6 +8161,174 @@
   "minecraft:recipes/decorations/pink_carpet": {
     "criteria": {
       "has_the_recipe": "2024-05-22 00:05:47 -0500"
+    },
+    "done": true
+  },
+  "croptopia:gather_tree_jungle": {
+    "criteria": {
+      "dragonfruit_sapling": "2024-05-22 12:50:41 -0500"
+    },
+    "done": false
+  },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2024-05-22 13:26:36 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/sorting_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-05-22 12:02:22 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/uncrafting_table": {
+    "criteria": {
+      "has_uncrafting_table": "2024-05-22 13:46:31 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2024-05-22 13:26:36 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/mining_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-05-22 12:02:22 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/onion_seed": {
+    "criteria": {
+      "has_onion": "2024-05-22 13:55:09 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2024-05-22 13:02:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2024-05-22 13:06:22 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-05-22 12:02:22 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/leek_soup": {
+    "criteria": {
+      "has_leek": "2024-05-22 14:35:00 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/dark_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-05-22 12:02:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2024-05-22 13:26:36 -0500"
+    },
+    "done": true
+  },
+  "aquamirae:adventure/root": {
+    "criteria": {
+      "crafting_table": "2024-05-22 12:13:34 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/leek_seed": {
+    "criteria": {
+      "has_leek": "2024-05-22 14:35:00 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/wood/dark_oak_banister": {
+    "criteria": {
+      "has_item": "2024-05-22 11:52:56 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/transformation_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-05-22 12:02:22 -0500"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_keep_kayra": {
+    "criteria": {
+      "location0": "2024-05-22 13:14:31 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/canopy_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-05-22 12:02:22 -0500"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/dark_oak": {
+    "criteria": {
+      "has_wood": "2024-05-22 14:08:10 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/time_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-05-22 12:02:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2024-05-22 11:43:58 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/dragonfruit_sapling": {
+    "criteria": {
+      "has_dragonfruit": "2024-05-22 12:50:04 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2024-05-22 14:08:10 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/twilight_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-05-22 12:02:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2024-05-22 14:08:10 -0500"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/slice_map": {
+    "criteria": {
+      "has_map": "2024-05-22 13:17:12 -0500"
+    },
+    "done": true
+  },
+  "artifacts:amateur_archaeologist": {
+    "criteria": {
+      "find_artifact": "2024-05-22 14:12:11 -0500"
     },
     "done": true
   },

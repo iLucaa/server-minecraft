@@ -97,6 +97,7 @@
       "leek_seed": "2024-05-16 17:35:36 -0500",
       "squash_seed": "2024-05-06 11:48:37 -0500",
       "zucchini_seed": "2024-05-09 11:29:28 -0500",
+      "ginger_seed": "2024-05-22 14:34:23 -0500",
       "rutabaga_seed": "2024-05-06 11:57:34 -0500",
       "olive_seed": "2024-05-16 17:00:04 -0500"
     },
@@ -116,6 +117,7 @@
       "olive_seed": "2024-05-16 17:00:04 -0500",
       "onion_seed": "2024-05-16 16:59:16 -0500",
       "blueberry_seed": "2024-05-06 11:57:43 -0500",
+      "ginger_seed": "2024-05-22 14:34:23 -0500",
       "soybean_seed": "2024-05-13 00:51:39 -0500",
       "rutabaga_seed": "2024-05-06 11:57:34 -0500",
       "strawberry_seed": "2024-05-06 11:58:38 -0500",
@@ -295,11 +297,13 @@
       "minecraft:witch": "2024-05-12 23:59:55 -0500",
       "minecraft:wither_skeleton": "2024-05-13 10:39:07 -0500",
       "minecraft:husk": "2024-05-08 11:43:47 -0500",
+      "minecraft:ender_dragon": "2024-05-22 12:49:08 -0500",
       "minecraft:shulker": "2024-05-15 10:47:11 -0500",
       "minecraft:cave_spider": "2024-05-09 19:34:39 -0500",
       "minecraft:piglin": "2024-05-11 12:36:45 -0500",
       "minecraft:silverfish": "2024-05-07 11:03:44 -0500",
       "minecraft:enderman": "2024-05-10 11:05:12 -0500",
+      "minecraft:stray": "2024-05-22 11:17:45 -0500",
       "minecraft:vex": "2024-05-10 12:26:47 -0500",
       "minecraft:zombie": "2024-05-06 12:21:30 -0500",
       "minecraft:drowned": "2024-05-06 12:09:31 -0500",
@@ -4023,9 +4027,10 @@
       "minecraft:crimson_forest": "2024-05-08 13:20:19 -0500",
       "minecraft:nether_wastes": "2024-05-08 13:27:05 -0500",
       "minecraft:soul_sand_valley": "2024-05-16 13:01:27 -0500",
-      "minecraft:warped_forest": "2024-05-10 11:45:07 -0500"
+      "minecraft:warped_forest": "2024-05-10 11:45:07 -0500",
+      "minecraft:basalt_deltas": "2024-05-22 14:21:26 -0500"
     },
-    "done": false
+    "done": true
   },
   "minecraft:nether/find_fortress": {
     "criteria": {
@@ -10164,7 +10169,8 @@
   },
   "dungeons_enhanced:ambitious_explorer": {
     "criteria": {
-      "entered_miners_house": "2024-05-19 11:04:42 -0500"
+      "entered_miners_house": "2024-05-19 11:04:42 -0500",
+      "entered_ruined_building": "2024-05-22 12:18:17 -0500"
     },
     "done": false
   },
@@ -10297,22 +10303,39 @@
     },
     "done": true
   },
-  "twilightforest:beanstalk": {
-    "criteria": {
-      "beans": "2024-05-21 12:35:56 -0500",
-      "use_beans": "2024-05-21 12:37:00 -0500"
-    },
-    "done": true
-  },
   "twilightforest:recipes/redstone/vanishing_block": {
     "criteria": {
       "has_item": "2024-05-21 11:01:09 -0500"
     },
     "done": true
   },
-  "twilightforest:recipes/misc/ur_ghast_banner_pattern": {
+  "twilightforest:recipes/redstone/reappearing_block": {
     "criteria": {
-      "has_trophy": "2024-05-21 12:28:29 -0500"
+      "has_item": "2024-05-21 11:01:09 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:ghast_trap": {
+    "criteria": {
+      "activate_ghast_trap": "2024-05-21 11:08:15 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/material/carminite": {
+    "criteria": {
+      "has_item": "2024-05-21 11:41:56 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/wood/smoked_cracked_towerwood": {
+    "criteria": {
+      "has_item": "2024-05-21 11:42:15 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/wood/mossy_towerwood": {
+    "criteria": {
+      "has_item": "2024-05-21 11:42:15 -0500"
     },
     "done": true
   },
@@ -10329,33 +10352,9 @@
     },
     "done": true
   },
-  "twilightforest:recipes/building_blocks/wood/smoked_cracked_towerwood": {
-    "criteria": {
-      "has_item": "2024-05-21 11:42:15 -0500"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/building_blocks/wood/mossy_towerwood": {
-    "criteria": {
-      "has_item": "2024-05-21 11:42:15 -0500"
-    },
-    "done": true
-  },
   "twilightforest:recipes/redstone/carminite_reactor": {
     "criteria": {
       "has_item": "2024-05-21 11:55:34 -0500"
-    },
-    "done": true
-  },
-  "artifacts:chest_slayer": {
-    "criteria": {
-      "kill_mimic": "2024-05-21 13:05:47 -0500"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/redstone/reappearing_block": {
-    "criteria": {
-      "has_item": "2024-05-21 11:01:09 -0500"
     },
     "done": true
   },
@@ -10365,15 +10364,22 @@
     },
     "done": true
   },
-  "twilightforest:recipes/misc/material/carminite": {
+  "twilightforest:recipes/misc/ur_ghast_banner_pattern": {
     "criteria": {
-      "has_item": "2024-05-21 11:41:56 -0500"
+      "has_trophy": "2024-05-21 12:28:29 -0500"
     },
     "done": true
   },
   "twilightforest:troll": {
     "criteria": {
       "troll": "2024-05-21 12:35:04 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:beanstalk": {
+    "criteria": {
+      "beans": "2024-05-21 12:35:56 -0500",
+      "use_beans": "2024-05-21 12:37:00 -0500"
     },
     "done": true
   },
@@ -10384,15 +10390,87 @@
     },
     "done": true
   },
-  "twilightforest:ghast_trap": {
+  "artifacts:chest_slayer": {
     "criteria": {
-      "activate_ghast_trap": "2024-05-21 11:08:15 -0500"
+      "kill_mimic": "2024-05-21 13:05:47 -0500"
     },
     "done": true
   },
   "artifacts:amateur_archaeologist": {
     "criteria": {
       "find_artifact": "2024-05-21 13:05:48 -0500"
+    },
+    "done": true
+  },
+  "dungeons_plus:adventure/find_tower": {
+    "criteria": {
+      "in_structure": "2024-05-22 11:26:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2024-05-22 12:25:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2024-05-22 12:25:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2024-05-22 12:25:21 -0500"
+    },
+    "done": true
+  },
+  "simpleplanes:recipes/plane": {
+    "criteria": {
+      "in_fire": "2024-05-22 12:34:47 -0500"
+    },
+    "done": true
+  },
+  "minecraft:end/kill_dragon": {
+    "criteria": {
+      "killed_dragon": "2024-05-22 12:49:08 -0500"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2024-05-22 12:49:49 -0500"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_heavenly_rider": {
+    "criteria": {
+      "location0": "2024-05-22 12:52:22 -0500"
+    },
+    "done": true
+  },
+  "dungeons_plus:end/find_end_ruins": {
+    "criteria": {
+      "in_structure": "2024-05-22 12:55:14 -0500"
+    },
+    "done": true
+  },
+  "tombstone:adventure/crime_in_town": {
+    "criteria": {
+      "coded_trigger": "2024-05-22 13:22:30 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/tools/remote_access_sentry": {
+    "criteria": {
+      "has_sentry": "2024-05-22 13:43:25 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/ginger_seed": {
+    "criteria": {
+      "has_ginger": "2024-05-22 14:34:23 -0500"
     },
     "done": true
   },
