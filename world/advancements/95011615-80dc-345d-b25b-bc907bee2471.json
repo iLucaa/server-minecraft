@@ -8145,5 +8145,17 @@
     },
     "done": false
   },
+  "twilightforest:recipes/decorations/cicada_jar": {
+    "criteria": {
+      "has_item": "2024-05-21 23:20:06 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_carpet": {
+    "criteria": {
+      "has_the_recipe": "2024-05-22 00:05:47 -0500"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
