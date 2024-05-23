@@ -6,13 +6,13 @@
 
 	[Mobs.GhostOfCaptainCornelia]
 		#Range: 0.0 ~ 10.0
-		movementSpeed = 0.2
+		movementSpeed = 0.4
 		#Range: 1.0 ~ 100000.0
-		maxHealth = 200.0
+		maxHealth = 400.0
 		#Range: 0.0 ~ 1000.0
 		armor = 16.0
 		#Range: 1.0 ~ 1000.0
-		attackDamage = 1.0
+		attackDamage = 5.0
 		#Range: 0.0 ~ 10.0
 		knockbackResistance = 0.5
 		#Range: 0.0 ~ 10.0
@@ -27,7 +27,7 @@
 		#Range: 0.0 ~ 100.0
 		swimSpeed = 3.0
 		#Range: 1.0 ~ 100000.0
-		maxHealth = 40.0
+		maxHealth = 110.0
 		#Range: 0.0 ~ 1000.0
 		armor = 2.0
 		#Range: 0.0 ~ 10.0
@@ -45,7 +45,7 @@
 		#Range: 0.0 ~ 100.0
 		swimSpeed = 5.0
 		#Range: 1.0 ~ 100000.0
-		maxHealth = 20.0
+		maxHealth = 80.0
 		#Range: 0.0 ~ 1000.0
 		armor = 0.0
 		#Range: 0.0 ~ 10.0
@@ -63,7 +63,7 @@
 		#Range: 0.0 ~ 100.0
 		swimSpeed = 3.0
 		#Range: 1.0 ~ 100000.0
-		maxHealth = 30.0
+		maxHealth = 100.0
 		#Range: 0.0 ~ 1000.0
 		armor = 4.0
 		#Range: 0.0 ~ 10.0
@@ -79,7 +79,7 @@
 		#Range: 0.0 ~ 100.0
 		swimSpeed = 3.0
 		#Range: 1.0 ~ 100000.0
-		maxHealth = 100.0
+		maxHealth = 200.0
 		#Range: 0.0 ~ 1000.0
 		armor = 6.0
 		#Range: 0.0 ~ 10.0
@@ -93,7 +93,7 @@
 
 	[Mobs.Eel]
 		#Range: 1.0 ~ 100000.0
-		maxHealth = 180.0
+		maxHealth = 350.0
 		#Range: 0.0 ~ 1000.0
 		armor = 20.0
 		#Range: 1.0 ~ 1000.0

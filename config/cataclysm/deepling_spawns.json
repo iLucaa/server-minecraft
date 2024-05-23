@@ -17,7 +17,7 @@
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": false,
+        "negate": true,
         "value": "minecraft:deep_cold_ocean"
       }
     ],
@@ -45,7 +45,7 @@
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": false,
+        "negate": true,
         "value": "alexscaves:abyssal_chasm"
       }
     ]
