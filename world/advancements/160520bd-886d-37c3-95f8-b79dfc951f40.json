@@ -42,9 +42,11 @@
       "minecraft:cold_ocean": "2024-05-13 12:06:39 -0500",
       "minecraft:forest": "2024-05-06 12:36:50 -0500",
       "minecraft:lush_caves": "2024-05-06 13:27:05 -0500",
+      "minecraft:deep_cold_ocean": "2024-05-24 10:27:12 -0500",
       "minecraft:frozen_ocean": "2024-05-14 12:41:38 -0500",
       "minecraft:desert": "2024-05-19 09:10:28 -0500",
       "minecraft:windswept_forest": "2024-05-16 11:30:40 -0500",
+      "minecraft:deep_frozen_ocean": "2024-05-24 14:33:30 -0500",
       "minecraft:ocean": "2024-05-07 10:50:03 -0500",
       "minecraft:jungle": "2024-05-14 12:06:59 -0500",
       "minecraft:old_growth_spruce_taiga": "2024-05-10 11:40:36 -0500",
@@ -123,6 +125,7 @@
       "soybean_seed": "2024-05-13 00:51:39 -0500",
       "rutabaga_seed": "2024-05-06 11:57:34 -0500",
       "strawberry_seed": "2024-05-06 11:58:38 -0500",
+      "grape_seed": "2024-05-24 12:58:30 -0500",
       "celery_seed": "2024-05-23 12:14:05 -0500",
       "leek_seed": "2024-05-16 17:35:36 -0500",
       "greenonion_seed": "2024-05-09 11:29:28 -0500",
@@ -365,6 +368,7 @@
       "blueberry_seed": "2024-05-06 11:57:43 -0500",
       "strawberry_seed": "2024-05-06 11:58:38 -0500",
       "tomato_seed": "2024-05-15 12:18:07 -0500",
+      "grape_seed": "2024-05-24 12:58:30 -0500",
       "raspberry_seed": "2024-05-06 11:57:27 -0500",
       "celery_seed": "2024-05-23 12:14:05 -0500"
     },
@@ -9865,6 +9869,192 @@
   "cataclysm:find_ruined_citadel": {
     "criteria": {
       "citadel": "2024-05-23 12:55:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_waxed_copper_block": {
+    "criteria": {
+      "has_waxed_copper_block": "2024-05-24 10:31:12 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper": {
+    "criteria": {
+      "has_waxed_copper_block": "2024-05-24 10:31:12 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_slab_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2024-05-24 10:31:12 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2024-05-24 10:31:12 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_stairs_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2024-05-24 10:31:12 -0500"
+    },
+    "done": true
+  },
+  "minecraft:end/respawn_dragon": {
+    "criteria": {
+      "summoned_dragon": "2024-05-24 10:45:41 -0500"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_breath": {
+    "criteria": {
+      "dragon_breath": "2024-05-24 10:53:19 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2024-05-24 11:20:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2024-05-24 12:26:22 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/acacia_cabinet": {
+    "criteria": {
+      "has_acacia_trapdoor": "2024-05-24 12:28:33 -0500"
+    },
+    "done": true
+  },
+  "tombstone:adventure/use_knowledge": {
+    "criteria": {
+      "coded_trigger": "2024-05-24 12:30:27 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/decorations/glow_display_case": {
+    "criteria": {
+      "has_item_frame": "2024-05-24 12:31:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2024-05-24 12:51:52 -0500"
+    },
+    "done": true
+  },
+  "aquamirae:recipes/spinefish": {
+    "criteria": {
+      "has_item": "2024-05-24 14:37:36 -0500"
+    },
+    "done": true
+  },
+  "aquamirae:adventure/obtain_fin": {
+    "criteria": {
+      "fin": "2024-05-24 14:39:15 -0500"
+    },
+    "done": true
+  },
+  "aquamirae:recipes/sharp_bones": {
+    "criteria": {
+      "has_item": "2024-05-24 14:37:16 -0500"
+    },
+    "done": true
+  },
+  "aquamirae:recipes/esca": {
+    "criteria": {
+      "has_item": "2024-05-24 14:38:55 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_smelting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2024-05-24 14:10:11 -0500"
+    },
+    "done": true
+  },
+  "aquamirae:adventure/obtain_esca": {
+    "criteria": {
+      "esca": "2024-05-24 14:38:55 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
+    "criteria": {
+      "has_coast_armor_trim_smithing_template": "2024-05-24 14:41:31 -0500"
+    },
+    "done": true
+  },
+  "aquamirae:adventure/find_ice_maze": {
+    "criteria": {
+      "deep_frozen_ocean": "2024-05-24 14:33:30 -0500"
+    },
+    "done": true
+  },
+  "aquamirae:adventure/obtain_anglers_fang": {
+    "criteria": {
+      "anglers_fang": "2024-05-24 14:33:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/music_disc_5": {
+    "criteria": {
+      "has_disc_fragment_5": "2024-05-24 14:02:18 -0500"
+    },
+    "done": true
+  },
+  "aquamirae:recipes/anglers_fang": {
+    "criteria": {
+      "has_item": "2024-05-24 14:33:33 -0500"
+    },
+    "done": true
+  },
+  "aquamirae:recipes/pirate_pouch": {
+    "criteria": {
+      "has_item": "2024-05-24 14:37:13 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-05-24 14:41:31 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_blasting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2024-05-24 14:10:11 -0500"
+    },
+    "done": true
+  },
+  "aquamirae:recipes/wisteria_niveis": {
+    "criteria": {
+      "has_item": "2024-05-24 14:34:47 -0500"
+    },
+    "done": true
+  },
+  "aquamirae:recipes/fin": {
+    "criteria": {
+      "has_item": "2024-05-24 14:39:15 -0500"
+    },
+    "done": true
+  },
+  "aquamirae:recipes/sea_stew": {
+    "criteria": {
+      "has_item": "2024-05-24 14:38:11 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/recovery_compass": {
+    "criteria": {
+      "has_echo_shard": "2024-05-24 14:03:45 -0500"
     },
     "done": true
   },
