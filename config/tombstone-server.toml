@@ -3,7 +3,7 @@
 [player_death]
 	#Experience loss on death (%) [-1..100|default:100|disabled:-1]
 	#Range: -1 ~ 100
-	xp_loss = 10
+	xp_loss = 1
 	#The time in minutes before a grave is unlocked to anyone [-1..MAX|default:-1|disabled:-1]
 	#Range: > -1
 	decay_time = -1

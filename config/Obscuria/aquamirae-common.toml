@@ -27,7 +27,7 @@
 		#Range: 0.0 ~ 100.0
 		swimSpeed = 3.0
 		#Range: 1.0 ~ 100000.0
-		maxHealth = 110.0
+		maxHealth = 120.0
 		#Range: 0.0 ~ 1000.0
 		armor = 2.0
 		#Range: 0.0 ~ 10.0
@@ -63,7 +63,7 @@
 		#Range: 0.0 ~ 100.0
 		swimSpeed = 3.0
 		#Range: 1.0 ~ 100000.0
-		maxHealth = 100.0
+		maxHealth = 120.0
 		#Range: 0.0 ~ 1000.0
 		armor = 4.0
 		#Range: 0.0 ~ 10.0
@@ -93,7 +93,7 @@
 
 	[Mobs.Eel]
 		#Range: 1.0 ~ 100000.0
-		maxHealth = 350.0
+		maxHealth = 400.0
 		#Range: 0.0 ~ 1000.0
 		armor = 20.0
 		#Range: 1.0 ~ 1000.0

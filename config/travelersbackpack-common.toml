@@ -16,7 +16,7 @@
 		toolSlotsAcceptableItems = []
 		#List of items that can't be put in backpack inventory (Use registry names, for example: minecraft:apple, minecraft:flint)
 		blacklistedItems = []
-		allowShulkerBoxes = false
+		allowShulkerBoxes = true
 		#Represents tanks capacity for each tier, from left: Leather, Iron, Gold, Diamond, Netherite, 1000 equals 1 Bucket
 		tanksCapacity = [2000, 3000, 4000, 5000, 6000]
 		#Prevents backpack disappearing in void
