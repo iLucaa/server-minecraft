@@ -15,7 +15,9 @@
     "criteria": {
       "minecraft:snowy_slopes": "2024-05-07 11:17:21 -0500",
       "minecraft:old_growth_pine_taiga": "2024-05-10 14:27:01 -0500",
+      "minecraft:mushroom_fields": "2024-05-25 12:15:52 -0500",
       "minecraft:taiga": "2024-05-06 11:59:35 -0500",
+      "minecraft:deep_ocean": "2024-05-25 12:15:03 -0500",
       "minecraft:eroded_badlands": "2024-05-20 14:21:07 -0500",
       "minecraft:frozen_river": "2024-05-06 12:00:11 -0500",
       "minecraft:cherry_grove": "2024-05-07 12:07:49 -0500",
@@ -43,6 +45,7 @@
       "minecraft:forest": "2024-05-06 14:00:04 -0500",
       "minecraft:lush_caves": "2024-05-06 12:26:36 -0500",
       "minecraft:deep_cold_ocean": "2024-05-24 14:32:34 -0500",
+      "minecraft:ice_spikes": "2024-05-25 11:56:22 -0500",
       "minecraft:frozen_ocean": "2024-05-15 11:44:07 -0500",
       "minecraft:desert": "2024-05-20 10:28:42 -0500",
       "minecraft:windswept_forest": "2024-05-11 12:00:34 -0500",
@@ -59,6 +62,7 @@
       "minecraft:old_growth_birch_forest": "2024-05-07 10:28:24 -0500",
       "minecraft:deep_dark": "2024-05-07 11:22:35 -0500",
       "minecraft:meadow": "2024-05-07 10:27:05 -0500",
+      "minecraft:windswept_gravelly_hills": "2024-05-25 13:22:19 -0500",
       "minecraft:savanna": "2024-05-16 12:25:24 -0500",
       "minecraft:plains": "2024-05-06 13:24:11 -0500"
     },
@@ -2993,6 +2997,7 @@
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
       "minecraft:sheep": "2024-05-08 10:57:47 -0500",
+      "minecraft:mooshroom": "2024-05-25 12:17:57 -0500",
       "minecraft:cow": "2024-05-08 12:07:00 -0500"
     },
     "done": false
@@ -7332,6 +7337,12 @@
     },
     "done": true
   },
+  "aquamirae:adventure/find_ice_maze": {
+    "criteria": {
+      "deep_frozen_ocean": "2024-05-24 14:32:21 -0500"
+    },
+    "done": true
+  },
   "aquamirae:adventure/obtain_fin": {
     "criteria": {
       "fin": "2024-05-24 14:32:51 -0500"
@@ -7350,9 +7361,9 @@
     },
     "done": true
   },
-  "aquamirae:adventure/find_ice_maze": {
+  "aquamirae:recipes/fin": {
     "criteria": {
-      "deep_frozen_ocean": "2024-05-24 14:32:21 -0500"
+      "has_item": "2024-05-24 14:32:51 -0500"
     },
     "done": true
   },
@@ -7368,15 +7379,237 @@
     },
     "done": true
   },
-  "aquamirae:recipes/fin": {
-    "criteria": {
-      "has_item": "2024-05-24 14:32:51 -0500"
-    },
-    "done": true
-  },
   "aquamirae:recipes/three_bolt_helmet": {
     "criteria": {
       "has_item": "2024-05-24 14:38:30 -0500"
+    },
+    "done": true
+  },
+  "legendary_monsters:legendary_monsters_root": {
+    "criteria": {
+      "custom_test_name": "2024-05-25 10:12:32 -0500"
+    },
+    "done": true
+  },
+  "legendary_monsters:end_root": {
+    "criteria": {
+      "custom_test_name": "2024-05-25 10:12:32 -0500"
+    },
+    "done": true
+  },
+  "legendary_monsters:nether_root": {
+    "criteria": {
+      "custom_test_name": "2024-05-25 10:12:32 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:twilight_hunter": {
+    "criteria": {
+      "kobold": "2024-05-25 10:47:42 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:progress_knights": {
+    "criteria": {
+      "trophy": "2024-05-25 10:48:22 -0500"
+    },
+    "done": false
+  },
+  "twilightforest:recipes/misc/knight_phantom_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2024-05-25 10:48:22 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/minoshroom_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2024-05-25 10:48:52 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/grilled_salmon": {
+    "criteria": {
+      "has_salmon": "2024-05-25 11:05:03 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/fish_stew": {
+    "criteria": {
+      "has_any_ingredient": "2024-05-25 11:05:03 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2024-05-25 12:43:19 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2024-05-25 13:25:11 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_red_sandstone": {
+    "criteria": {
+      "has_red_sandstone": "2024-05-25 12:26:59 -0500"
+    },
+    "done": true
+  },
+  "bossominium:skele_slayer": {
+    "criteria": {
+      "skele_slayer": "2024-05-25 12:08:43 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_red_sandstone": {
+    "criteria": {
+      "has_red_sandstone": "2024-05-25 12:26:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_red_sandstone": {
+    "criteria": {
+      "has_red_sandstone": "2024-05-25 12:26:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_sandstone_wall_from_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_red_sandstone": "2024-05-25 12:26:59 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_ham": {
+    "criteria": {
+      "ham": "2024-05-25 12:47:17 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_mossy_cobblestone_from_vanilla_moss": {
+    "criteria": {
+      "has_moss": "2024-05-25 11:55:46 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_red_sandstone_slab_from_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_red_sandstone": "2024-05-25 12:26:59 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_mossy_stone_bricks_from_vanilla_moss": {
+    "criteria": {
+      "has_moss": "2024-05-25 11:55:46 -0500"
+    },
+    "done": true
+  },
+  "bossominium:skelenados": {
+    "criteria": {
+      "skelenados": "2024-05-25 12:07:16 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_sandstone_wall": {
+    "criteria": {
+      "has_red_sandstone": "2024-05-25 12:26:59 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/smoked_ham": {
+    "criteria": {
+      "has_ham": "2024-05-25 12:47:17 -0500"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/dark_oak": {
+    "criteria": {
+      "has_wood": "2024-05-25 13:00:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone": {
+    "criteria": {
+      "has_sand": "2024-05-25 12:26:30 -0500"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:adventure/void_blossom_defeat": {
+    "criteria": {
+      "bosses_of_mass_destruction:void_blossom": "2024-05-25 11:59:49 -0500"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_heavenly_rider": {
+    "criteria": {
+      "location0": "2024-05-25 12:21:13 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2024-05-25 12:43:19 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone_slab": {
+    "criteria": {
+      "has_red_sandstone": "2024-05-25 12:26:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2024-05-25 12:43:19 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone_stairs": {
+    "criteria": {
+      "has_red_sandstone": "2024-05-25 12:26:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_red_sandstone_from_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_red_sandstone": "2024-05-25 12:26:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2024-05-25 13:00:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone_slab_from_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_red_sandstone": "2024-05-25 12:26:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2024-05-25 13:25:11 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_red_sandstone_from_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_red_sandstone": "2024-05-25 12:26:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2024-05-25 13:25:11 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone_stairs_from_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_red_sandstone": "2024-05-25 12:26:59 -0500"
     },
     "done": true
   },

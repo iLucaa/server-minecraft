@@ -15,6 +15,7 @@
     "criteria": {
       "minecraft:snowy_slopes": "2024-05-07 14:59:18 -0500",
       "minecraft:old_growth_pine_taiga": "2024-05-10 13:40:12 -0500",
+      "minecraft:mushroom_fields": "2024-05-25 12:13:59 -0500",
       "minecraft:taiga": "2024-05-06 12:01:16 -0500",
       "minecraft:deep_ocean": "2024-05-16 14:40:53 -0500",
       "minecraft:frozen_river": "2024-05-06 12:02:50 -0500",
@@ -7215,9 +7216,15 @@
     },
     "done": true
   },
-  "twilightforest:recipes/decorations/wood/birch_banister": {
+  "aquamirae:adventure/find_ice_maze": {
     "criteria": {
-      "has_item": "2024-05-24 14:27:38 -0500"
+      "deep_frozen_ocean": "2024-05-24 14:11:26 -0500"
+    },
+    "done": true
+  },
+  "aquamirae:adventure/obtain_shell_horn": {
+    "criteria": {
+      "shell_horn": "2024-05-24 14:17:21 -0500"
     },
     "done": true
   },
@@ -7227,21 +7234,165 @@
     },
     "done": true
   },
-  "aquamirae:adventure/find_ice_maze": {
-    "criteria": {
-      "deep_frozen_ocean": "2024-05-24 14:11:26 -0500"
-    },
-    "done": true
-  },
   "aquamirae:recipes/pirate_pouch": {
     "criteria": {
       "has_item": "2024-05-24 14:19:52 -0500"
     },
     "done": true
   },
-  "aquamirae:adventure/obtain_shell_horn": {
+  "twilightforest:recipes/decorations/wood/birch_banister": {
     "criteria": {
-      "shell_horn": "2024-05-24 14:17:21 -0500"
+      "has_item": "2024-05-24 14:27:38 -0500"
+    },
+    "done": true
+  },
+  "legendary_monsters:legendary_monsters_root": {
+    "criteria": {
+      "custom_test_name": "2024-05-25 10:14:15 -0500"
+    },
+    "done": true
+  },
+  "legendary_monsters:end_root": {
+    "criteria": {
+      "custom_test_name": "2024-05-25 10:14:15 -0500"
+    },
+    "done": true
+  },
+  "legendary_monsters:nether_root": {
+    "criteria": {
+      "custom_test_name": "2024-05-25 10:14:15 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/doughnut": {
+    "criteria": {
+      "has_milk": "2024-05-25 10:26:39 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/oatmeal": {
+    "criteria": {
+      "has_milk": "2024-05-25 10:26:39 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/glow_berry_custard": {
+    "criteria": {
+      "has_any_ingredient": "2024-05-25 10:26:39 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/hot_cocoa": {
+    "criteria": {
+      "has_any_ingredient": "2024-05-25 10:26:39 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_milk_bottle": {
+    "criteria": {
+      "has_milk": "2024-05-25 10:26:39 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/milk_bottle": {
+    "criteria": {
+      "has_milk_bucket": "2024-05-25 10:26:39 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/crema": {
+    "criteria": {
+      "has_milk": "2024-05-25 10:26:39 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/mashed_potatoes": {
+    "criteria": {
+      "has_milk": "2024-05-25 10:26:39 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/butter": {
+    "criteria": {
+      "has_milk": "2024-05-25 10:26:39 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/cheese": {
+    "criteria": {
+      "has_milk": "2024-05-25 10:26:39 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/churros": {
+    "criteria": {
+      "has_milk": "2024-05-25 10:26:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_slab": {
+    "criteria": {
+      "has_smooth_quartz": "2024-05-25 11:49:50 -0500"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_wishing_well": {
+    "criteria": {
+      "location0": "2024-05-25 11:39:05 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2024-05-25 13:10:05 -0500"
+    },
+    "done": true
+  },
+  "tombstone:adventure/use_home": {
+    "criteria": {
+      "coded_trigger": "2024-05-25 11:42:57 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2024-05-25 13:10:05 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_stairs": {
+    "criteria": {
+      "has_smooth_quartz": "2024-05-25 11:49:50 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_pink_petals": {
+    "criteria": {
+      "has_pink_petals": "2024-05-25 11:35:37 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_slab_from_smooth_quartz_stonecutting": {
+    "criteria": {
+      "has_smooth_quartz": "2024-05-25 11:49:50 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2024-05-25 13:10:05 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_stairs_from_smooth_quartz_stonecutting": {
+    "criteria": {
+      "has_smooth_quartz": "2024-05-25 11:49:50 -0500"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_merchant_campsite": {
+    "criteria": {
+      "location0": "2024-05-25 11:36:51 -0500"
     },
     "done": true
   },

@@ -23,6 +23,7 @@
       "minecraft:sunflower_plains": "2024-05-07 10:58:23 -0500",
       "minecraft:birch_forest": "2024-05-07 12:29:39 -0500",
       "minecraft:windswept_hills": "2024-05-10 11:32:17 -0500",
+      "minecraft:bamboo_jungle": "2024-05-25 11:25:21 -0500",
       "minecraft:badlands": "2024-05-19 11:04:22 -0500",
       "minecraft:savanna_plateau": "2024-05-20 00:11:56 -0500",
       "minecraft:beach": "2024-05-11 12:09:10 -0500",
@@ -43,6 +44,7 @@
       "minecraft:forest": "2024-05-06 12:36:50 -0500",
       "minecraft:lush_caves": "2024-05-06 13:27:05 -0500",
       "minecraft:deep_cold_ocean": "2024-05-24 10:27:12 -0500",
+      "minecraft:ice_spikes": "2024-05-25 11:49:15 -0500",
       "minecraft:frozen_ocean": "2024-05-14 12:41:38 -0500",
       "minecraft:desert": "2024-05-19 09:10:28 -0500",
       "minecraft:windswept_forest": "2024-05-16 11:30:40 -0500",
@@ -59,6 +61,7 @@
       "minecraft:old_growth_birch_forest": "2024-05-07 12:28:58 -0500",
       "minecraft:deep_dark": "2024-05-07 11:22:28 -0500",
       "minecraft:meadow": "2024-05-07 10:47:25 -0500",
+      "minecraft:windswept_gravelly_hills": "2024-05-25 13:10:03 -0500",
       "minecraft:savanna": "2024-05-13 00:22:15 -0500",
       "minecraft:plains": "2024-05-06 12:36:08 -0500"
     },
@@ -8772,6 +8775,7 @@
   },
   "twilightforest:arborist": {
     "criteria": {
+      "mossy_towerwood": "2024-05-25 12:10:31 -0500",
       "transformation_sapling": "2024-05-20 16:18:00 -0500",
       "mangrove_sapling": "2024-05-20 16:18:03 -0500",
       "liveroot_block": "2024-05-17 12:28:07 -0500",
@@ -9273,6 +9277,7 @@
   },
   "croptopia:gather_tree_all": {
     "criteria": {
+      "cinnamon_sapling": "2024-05-25 12:54:11 -0500",
       "nutmeg_sapling": "2024-05-20 16:16:27 -0500",
       "avocado_sapling": "2024-05-19 04:55:56 -0500",
       "dragonfruit_sapling": "2024-05-20 16:16:45 -0500",
@@ -9543,7 +9548,8 @@
       "kumquat_sapling": "2024-05-23 02:40:36 -0500",
       "coconut_sapling": "2024-05-23 02:40:37 -0500",
       "nutmeg_sapling": "2024-05-20 16:16:27 -0500",
-      "date_sapling": "2024-05-23 02:40:31 -0500"
+      "date_sapling": "2024-05-23 02:40:31 -0500",
+      "cinnamon_sapling": "2024-05-25 12:54:11 -0500"
     },
     "done": false
   },
@@ -10075,6 +10081,168 @@
   "legendary_monsters:nether_root": {
     "criteria": {
       "custom_test_name": "2024-05-24 19:42:47 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/compressed_blocks/steeleaf_block": {
+    "criteria": {
+      "has_item": "2024-05-25 10:38:27 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/vanilla_to_tf_moss": {
+    "criteria": {
+      "has_item": "2024-05-25 10:40:02 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/vanilla_to_tf_lilypad": {
+    "criteria": {
+      "has_item": "2024-05-25 10:40:02 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/tf_moss_to_vanilla": {
+    "criteria": {
+      "has_item": "2024-05-25 10:40:02 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/tf_to_vanilla_lilypad": {
+    "criteria": {
+      "has_item": "2024-05-25 10:40:02 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/compressed_blocks/reversed/ironwood_block_ingot": {
+    "criteria": {
+      "has_item": "2024-05-25 10:40:53 -0500"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:adventure/night_lich_defeat": {
+    "criteria": {
+      "bosses_of_mass_destruction:lich": "2024-05-25 11:04:12 -0500"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/mob_ward": {
+    "criteria": {
+      "has_ancient_anima": "2024-05-25 11:04:14 -0500"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/levitation_block": {
+    "criteria": {
+      "has_ancient_anima": "2024-05-25 11:04:14 -0500"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/charged_ender_pearl": {
+    "criteria": {
+      "has_ancient_anima": "2024-05-25 11:04:14 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/wood/spruce_banister": {
+    "criteria": {
+      "has_item": "2024-05-25 11:16:38 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2024-05-25 11:22:48 -0500"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/jungle": {
+    "criteria": {
+      "has_wood": "2024-05-25 11:22:48 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2024-05-25 11:22:48 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_fruit_cake": {
+    "criteria": {
+      "has_nutmeg": "2024-05-25 11:22:59 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/nutmeg_sapling": {
+    "criteria": {
+      "has_nutmeg": "2024-05-25 11:22:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wild_armor_trim_smithing_template": {
+    "criteria": {
+      "has_wild_armor_trim_smithing_template": "2024-05-25 11:35:42 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wild_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-05-25 11:35:42 -0500"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/void_lily": {
+    "criteria": {
+      "has_amethyst_shard": "2024-05-25 11:36:46 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2024-05-25 11:36:46 -0500"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/earthdive_spear": {
+    "criteria": {
+      "has_void_thorn": "2024-05-25 11:59:56 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/quesadilla": {
+    "criteria": {
+      "has_avocado": "2024-05-25 12:09:10 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/avocado_sapling": {
+    "criteria": {
+      "has_avocado": "2024-05-25 12:09:10 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_avocado_toast": {
+    "criteria": {
+      "has_avocado": "2024-05-25 12:09:10 -0500"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/brimstone_nectar": {
+    "criteria": {
+      "has_ghast_tear": "2024-05-25 12:30:05 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/snout_armor_trim_smithing_template": {
+    "criteria": {
+      "has_snout_armor_trim_smithing_template": "2024-05-25 12:38:43 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/snout_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-05-25 12:38:43 -0500"
     },
     "done": true
   },
