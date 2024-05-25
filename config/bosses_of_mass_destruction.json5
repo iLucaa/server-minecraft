@@ -35,7 +35,7 @@
 		}
 	},
 	"obsidilithConfig": {
-		"health": 500.0,
+		"health": 800.0,
 		"armor": 14.0,
 		"attack": 16.0,
 		"idleHealingPerTick": 0.5,
@@ -44,7 +44,7 @@
 		"anvilAttackExplosionStrength": 4.0
 	},
 	"gauntletConfig": {
-		"health": 400.0,
+		"health": 900.0,
 		"armor": 8.0,
 		"attack": 16.0,
 		"idleHealingPerTick": 0.5,
@@ -54,7 +54,7 @@
 		"normalPunchExplosionMultiplier": 1.5
 	},
 	"voidBlossomConfig": {
-		"health": 500.0,
+		"health": 1000.0,
 		"armor": 4.0,
 		"attack": 12.0,
 		"idleHealingPerTick": 0.5,
