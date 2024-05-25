@@ -1,639 +1,386 @@
-[24may2024 13:30:25.818] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[24may2024 13:30:25.822] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.2 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
-[24may2024 13:30:26.207] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[24may2024 13:30:26.213] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
-[24may2024 13:30:26.215] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file URL: union:/C:/Users/lcadi/OneDrive/Escritorio/SERVER/mods/OptiFine_1.20.1_HD_U_I6.jar%23142!/
-[24may2024 13:30:26.219] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: C:\Users\lcadi\OneDrive\Escritorio\SERVER\mods\OptiFine_1.20.1_HD_U_I6.jar
-[24may2024 13:30:26.221] [main/INFO] [optifine.OptiFineTransformer/]: Target.PRE_CLASS is available
-[24may2024 13:30:26.258] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/lcadi/OneDrive/Escritorio/SERVER/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[24may2024 13:30:26.262] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
-[24may2024 13:30:26.447] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lcadi\OneDrive\Escritorio\SERVER\libraries\net\minecraftforge\fmlcore\1.20.1-47.2.0\fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
-[24may2024 13:30:26.450] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lcadi\OneDrive\Escritorio\SERVER\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.2.0\javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[24may2024 13:30:26.452] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lcadi\OneDrive\Escritorio\SERVER\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.2.0\lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[24may2024 13:30:26.454] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lcadi\OneDrive\Escritorio\SERVER\libraries\net\minecraftforge\mclanguage\1.20.1-47.2.0\mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[24may2024 13:30:26.588] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[24may2024 13:30:26.589] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 7 dependencies adding them to mods collection
-[24may2024 13:30:26.908] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.transformers
-[24may2024 13:30:26.913] [main/INFO] [optifine.OptiFineTransformer/]: Targets: 412
-[24may2024 13:30:27.356] [main/INFO] [optifine.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
-[24may2024 13:30:27.698] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[24may2024 13:30:27.772] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[24may2024 13:30:27.777] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
-[24may2024 13:30:27.782] [main/WARN] [mixin/]: Reference map 'cookingforblockheads.refmap.json' for cookingforblockheads.mixins.json could not be read. If this is a development environment you can ignore this message
-[24may2024 13:30:27.785] [main/WARN] [mixin/]: Reference map 'EpheroLib-refmap.json' for epherolib.mixins.json could not be read. If this is a development environment you can ignore this message
-[24may2024 13:30:27.879] [main/WARN] [mixin/]: Reference map 'Aquamirae.refmap.json' for aquamirae.mixins.json could not be read. If this is a development environment you can ignore this message
-[24may2024 13:30:28.445] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.2.1-beta.2).
-[24may2024 13:30:32.038] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
-[24may2024 13:30:32.038] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
-[24may2024 13:30:32.052] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/obscuria/obscureapi/client/renderer/PatreonLayer for invalid dist DEDICATED_SERVER
-[24may2024 13:30:32.128] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[24may2024 13:30:32.131] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[24may2024 13:30:32.134] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[24may2024 13:30:32.137] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[24may2024 13:30:32.140] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[24may2024 13:30:32.143] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[24may2024 13:30:32.179] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
-[24may2024 13:30:32.337] [modloading-worker-0/INFO] [com.epherical.epherolib.config.CommonConfig/]: Creating default config file: croptopia_v3.conf
-[24may2024 13:30:33.655] [main/INFO] [Moonlight/]: Initialized block sets in 16ms
-[24may2024 13:30:34.350] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 17
-[24may2024 13:30:34.406] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
-[24may2024 13:30:34.411] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
-[24may2024 13:30:34.411] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
-[24may2024 13:30:34.412] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
-[24may2024 13:30:34.461] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obscure_api] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/obscure_api/versions.json
-[24may2024 13:30:34.821] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[24may.2024 19:41:35.401] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[24may.2024 19:41:35.409] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.1 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[24may.2024 19:41:36.482] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[24may.2024 19:41:36.504] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
+[24may.2024 19:41:36.509] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file URL: union:/C:/Users/LUCA/Desktop/SERVER/mods/OptiFine_1.20.1_HD_U_I6.jar%23144!/
+[24may.2024 19:41:36.529] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: C:\Users\LUCA\Desktop\SERVER\mods\OptiFine_1.20.1_HD_U_I6.jar
+[24may.2024 19:41:36.534] [main/INFO] [optifine.OptiFineTransformer/]: Target.PRE_CLASS is available
+[24may.2024 19:41:36.642] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/LUCA/Desktop/SERVER/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[24may.2024 19:41:36.661] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
+[24may.2024 19:41:37.202] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\LUCA\Desktop\SERVER\libraries\net\minecraftforge\fmlcore\1.20.1-47.2.0\fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
+[24may.2024 19:41:37.209] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\LUCA\Desktop\SERVER\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.2.0\javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[24may.2024 19:41:37.214] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\LUCA\Desktop\SERVER\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.2.0\lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[24may.2024 19:41:37.220] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\LUCA\Desktop\SERVER\libraries\net\minecraftforge\mclanguage\1.20.1-47.2.0\mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[24may.2024 19:41:37.551] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[24may.2024 19:41:37.554] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 7 dependencies adding them to mods collection
+[24may.2024 19:41:38.478] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.transformers
+[24may.2024 19:41:38.486] [main/INFO] [optifine.OptiFineTransformer/]: Targets: 412
+[24may.2024 19:41:39.442] [main/INFO] [optifine.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
+[24may.2024 19:41:40.226] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[24may.2024 19:41:40.404] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[24may.2024 19:41:40.409] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[24may.2024 19:41:40.419] [main/WARN] [mixin/]: Reference map 'cookingforblockheads.refmap.json' for cookingforblockheads.mixins.json could not be read. If this is a development environment you can ignore this message
+[24may.2024 19:41:40.426] [main/WARN] [mixin/]: Reference map 'EpheroLib-refmap.json' for epherolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[24may.2024 19:41:40.557] [main/WARN] [mixin/]: Reference map 'Aquamirae.refmap.json' for aquamirae.mixins.json could not be read. If this is a development environment you can ignore this message
+[24may.2024 19:41:41.898] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.2.1-beta.2).
+[24may.2024 19:41:49.818] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/obscuria/obscureapi/client/renderer/PatreonLayer for invalid dist DEDICATED_SERVER
+[24may.2024 19:41:49.858] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
+[24may.2024 19:41:49.858] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
+[24may.2024 19:41:50.074] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[24may.2024 19:41:50.079] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[24may.2024 19:41:50.095] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[24may.2024 19:41:50.104] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[24may.2024 19:41:50.111] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[24may.2024 19:41:50.120] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[24may.2024 19:41:50.605] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[24may.2024 19:41:50.690] [modloading-worker-0/INFO] [com.epherical.epherolib.config.CommonConfig/]: Creating default config file: croptopia_v3.conf
+[24may.2024 19:41:52.957] [main/INFO] [Moonlight/]: Initialized block sets in 19ms
+[24may.2024 19:41:55.319] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 17
+[24may.2024 19:41:55.492] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[24may.2024 19:41:55.501] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[24may.2024 19:41:55.503] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[24may.2024 19:41:55.504] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[24may.2024 19:41:55.586] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obscure_api] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/obscure_api/versions.json
+[24may.2024 19:41:55.861] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.2.0.jar%23186!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.2.0.jar%23190!/:?]
 	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.2.0.jar%23186!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.2.0.jar%23190!/:?]
 Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
 	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[24may2024 13:30:34.821] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[24may2024 13:30:35.071] [main/INFO] [journeymap/]: Initializing Packet Registries
-[24may2024 13:30:35.116] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:aiming for minecraft:player
-[24may2024 13:30:35.117] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:reloading for minecraft:player
-[24may2024 13:30:35.117] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:shooting for minecraft:player
-[24may2024 13:30:35.131] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
-[24may2024 13:30:35.131] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
-[24may2024 13:30:35.132] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
-[24may2024 13:30:35.132] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
-[24may2024 13:30:35.154] [main/INFO] [Moonlight/]: Initialized color sets in 14ms
-[24may2024 13:30:35.189] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.cookingforblockheads.compat.ForgeJadeCookingForBlockheadsPlugin
-[24may2024 13:30:35.194] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at twilightforest.compat.jade.JadeCompat
-[24may2024 13:30:35.195] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[24may2024 13:30:35.202] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[24may2024 13:30:35.205] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[24may2024 13:30:35.206] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.waila.JadeDataProvider
-[24may2024 13:30:35.207] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
-[24may2024 13:30:35.550] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.9.18 Target: 5.9.21
-[24may2024 13:30:35.552] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
-[24may2024 13:30:35.896] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: OUTDATED Current: 9.1.12 Target: 9.1.14
-[24may2024 13:30:35.898] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[24may2024 13:30:36.502] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.2.0 Target: null
-[24may2024 13:30:36.502] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
-[24may2024 13:30:36.976] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: AHEAD Current: 4.3.2145 Target: null
-[24may2024 13:30:36.977] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://maxhenkel.de/update/voicechat.json
-[24may2024 13:30:37.083] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[24may2024 13:30:38.455] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/lcadi/OneDrive/Escritorio/SERVER/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23185!/assets/.mcassetsroot' uses unexpected schema
-[24may2024 13:30:38.456] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/lcadi/OneDrive/Escritorio/SERVER/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23185!/data/.mcassetsroot' uses unexpected schema
-[24may2024 13:30:39.043] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: UP_TO_DATE Current: 1.20.1-2.4.32 Target: null
-[24may2024 13:30:39.043] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
-[24may2024 13:30:39.085] [main/INFO] [com.github.L_Ender.cataclysm.Cataclysm/]: Adding datapack listener altar_of_amethyst_recipes
-[24may2024 13:30:39.127] [Worker-Main-12/WARN] [artifacts.Artifacts/]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-8.5.5-1.20.1.jar
-[24may2024 13:30:39.134] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.11.17 Target: null
-[24may2024 13:30:39.134] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jeiintegration] Starting version check at https://cdn.snowshock35.com/mods/jei-integration/update.json
-[24may2024 13:30:39.461] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
-[24may2024 13:30:39.486] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
-[24may2024 13:30:39.490] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
-[24may2024 13:30:39.496] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
-[24may2024 13:30:39.517] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
-[24may2024 13:30:39.518] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
-[24may2024 13:30:39.519] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
-[24may2024 13:30:39.522] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
-[24may2024 13:30:39.525] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 17 recipes
-[24may2024 13:30:39.591] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jeiintegration] Found status: BETA Current: 10.0.0 Target: null
-[24may2024 13:30:39.591] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[24may2024 13:30:39.607] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3392 advancements
-[24may2024 13:30:39.611] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
-[24may2024 13:30:39.618] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
-[24may2024 13:30:39.625] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[24may2024 13:30:40.806] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.9.8 Target: 1.9.9
-[24may2024 13:30:40.806] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[24may2024 13:30:40.882] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.5.5 Target: 8.6.5
-[24may2024 13:30:40.882] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
-[24may2024 13:30:40.916] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: UP_TO_DATE Current: 3.2.2 Target: null
-[24may2024 13:30:40.916] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[24may2024 13:30:41.145] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[24may2024 13:30:41.145] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[24may2024 13:30:41.145] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[24may2024 13:30:41.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[24may2024 13:30:41.182] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[24may2024 13:30:41.189] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[24may2024 13:30:41.274] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[24may2024 13:30:41.274] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[24may2024 13:30:41.274] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[24may2024 13:30:41.274] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[24may2024 13:30:41.285] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[24may2024 13:30:41.316] [Server thread/INFO] [Framework/]: Loading server configs...
-[24may2024 13:30:41.337] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[24may2024 13:30:41.760] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.custom.obsidilith.ObsidilithEntity from class com.cerbon.bosses_of_mass_destruction.entity.custom.obsidilith.ObsidilithUtils
-[24may2024 13:30:41.772] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.custom.gauntlet.GauntletEntity from class com.cerbon.bosses_of_mass_destruction.projectile.PetalBladeProjectile
-[24may2024 13:30:41.783] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.util.BaseEntity from class com.cerbon.bosses_of_mass_destruction.entity.custom.void_blossom.hitbox.NetworkedHitboxManager
-[24may2024 13:30:42.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[24may2024 13:30:42.232] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.6.27 Target: 0.6.27
-[24may2024 13:30:42.232] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aquamirae] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/aquamirae/versions.json
-[24may2024 13:30:42.281] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[24may.2024 19:41:55.864] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[24may.2024 19:41:55.924] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:aiming for minecraft:player
+[24may.2024 19:41:55.924] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:reloading for minecraft:player
+[24may.2024 19:41:55.924] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:shooting for minecraft:player
+[24may.2024 19:41:55.931] [main/INFO] [journeymap/]: Initializing Packet Registries
+[24may.2024 19:41:55.971] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[24may.2024 19:41:55.971] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[24may.2024 19:41:55.972] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[24may.2024 19:41:55.973] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[24may.2024 19:41:56.022] [main/INFO] [Moonlight/]: Initialized color sets in 31ms
+[24may.2024 19:41:56.104] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.cookingforblockheads.compat.ForgeJadeCookingForBlockheadsPlugin
+[24may.2024 19:41:56.118] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at twilightforest.compat.jade.JadeCompat
+[24may.2024 19:41:56.120] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[24may.2024 19:41:56.142] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[24may.2024 19:41:56.150] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[24may.2024 19:41:56.152] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.waila.JadeDataProvider
+[24may.2024 19:41:56.156] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[24may.2024 19:41:56.241] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.9.18 Target: 5.9.21
+[24may.2024 19:41:56.242] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[24may.2024 19:41:56.325] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: OUTDATED Current: 9.1.12 Target: 9.1.14
+[24may.2024 19:41:56.329] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[24may.2024 19:41:56.732] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.2.0 Target: null
+[24may.2024 19:41:56.732] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[24may.2024 19:41:57.073] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: AHEAD Current: 4.3.2145 Target: null
+[24may.2024 19:41:57.074] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://maxhenkel.de/update/voicechat.json
+[24may.2024 19:41:58.513] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: UP_TO_DATE Current: 1.20.1-2.4.32 Target: null
+[24may.2024 19:41:58.514] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[24may.2024 19:41:58.544] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.11.17 Target: null
+[24may.2024 19:41:58.544] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jeiintegration] Starting version check at https://cdn.snowshock35.com/mods/jei-integration/update.json
+[24may.2024 19:41:58.696] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jeiintegration] Found status: BETA Current: 10.0.0 Target: null
+[24may.2024 19:41:58.697] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[24may.2024 19:41:59.392] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.9.8 Target: 1.9.9
+[24may.2024 19:41:59.392] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[24may.2024 19:41:59.408] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.5.5 Target: 8.6.5
+[24may.2024 19:41:59.408] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
+[24may.2024 19:41:59.692] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: UP_TO_DATE Current: 3.2.2 Target: null
+[24may.2024 19:41:59.692] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[24may.2024 19:41:59.890] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[24may.2024 19:42:00.389] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: legendary_monsters:ancient_dripstone_bricks Expected: 2517 Got: 3104
+[24may.2024 19:42:00.401] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: legendary_monsters:ancient_dripstone_block Expected: 2518 Got: 3105
+[24may.2024 19:42:00.404] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: legendary_monsters:ancient_dripstone_tiles Expected: 2519 Got: 3106
+[24may.2024 19:42:00.429] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: legendary_monsters:ancient_dripstone_brick_wall Expected: 2520 Got: 3107
+[24may.2024 19:42:00.521] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: legendary_monsters:ancient_dripstone_brick_slab Expected: 2521 Got: 3108
+[24may.2024 19:42:00.559] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: legendary_monsters:ancient_dripstone_brick_stairs Expected: 2522 Got: 3109
+[24may.2024 19:42:00.599] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: legendary_monsters:ancient_dripstone_tile_slab Expected: 2523 Got: 3110
+[24may.2024 19:42:00.606] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: legendary_monsters:ancient_dripstone_tile_stairs Expected: 2524 Got: 3111
+[24may.2024 19:42:00.632] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: legendary_monsters:ancient_dripstone_tile_wall Expected: 2525 Got: 3112
+[24may.2024 19:42:00.632] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: legendary_monsters:cloud_block Expected: 2526 Got: 3113
+[24may.2024 19:42:00.645] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:chorus_blade Expected: 3677 Got: 4374
+[24may.2024 19:42:00.651] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:dinosaur_bone Expected: 3678 Got: 4375
+[24may.2024 19:42:00.655] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:withered_bone Expected: 3679 Got: 4376
+[24may.2024 19:42:00.755] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:infected_chorus_fruit Expected: 3680 Got: 4377
+[24may.2024 19:42:00.783] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:chorus_bomb_projectile Expected: 3681 Got: 4378
+[24may.2024 19:42:00.785] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:chorus_crystal Expected: 3682 Got: 4379
+[24may.2024 19:42:00.710] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.6.27 Target: 0.6.27
+[24may.2024 19:42:00.799] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:frozen_rune Expected: 3683 Got: 4380
+[24may.2024 19:42:00.815] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:the_great_frost Expected: 3684 Got: 4381
+[24may.2024 19:42:00.805] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aquamirae] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/aquamirae/versions.json
+[24may.2024 19:42:00.841] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:large_shulker_shell Expected: 3685 Got: 4382
+[24may.2024 19:42:00.852] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:lava_eaters_skin Expected: 3686 Got: 4383
+[24may.2024 19:42:00.864] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:entity_warper Expected: 3687 Got: 4384
+[24may.2024 19:42:00.865] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:void_entity_warper Expected: 3688 Got: 4385
+[24may.2024 19:42:00.871] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:nature_crystal Expected: 3689 Got: 4386
+[24may.2024 19:42:00.872] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:void_gem Expected: 3690 Got: 4387
+[24may.2024 19:42:00.873] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:dinosaur_bone_shield Expected: 3691 Got: 4388
+[24may.2024 19:42:00.880] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:shulker_shield Expected: 3692 Got: 4389
+[24may.2024 19:42:00.889] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:frostbitten_shield Expected: 3693 Got: 4390
+[24may.2024 19:42:00.892] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:ender_hammer Expected: 3694 Got: 4391
+[24may.2024 19:42:00.900] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:mossy_hammer Expected: 3695 Got: 4392
+[24may.2024 19:42:00.880] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.2.0.jar%23186!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.2.0.jar%23190!/:?]
 	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.2.0.jar%23186!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.2.0.jar%23190!/:?]
 Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
 	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[24may2024 13:30:43.766] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24may2024 13:30:43.775] [Worker-Main-17/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24may2024 13:30:43.791] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24may2024 13:30:43.795] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24may2024 13:30:44.068] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
-[24may2024 13:30:44.304] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2236 ms
-[24may2024 13:30:44.304] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.020s)! For help, type "help"
-[24may2024 13:30:44.325] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[24may2024 13:30:44.366] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[24may2024 13:30:44.374] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 25565
-[24may2024 13:31:08.181] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
-[24may2024 13:31:08.254] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iLuca08[/192.168.1.19:58428] logged in with entity id 597 at (288.75938048378487, 68.0, 435.76249998807907)
-[24may2024 13:31:08.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 joined the game
-[24may2024 13:31:08.382] [Server thread/INFO] [Jade/]: Syncing config to iLuca08 (160520bd-886d-37c3-95f8-b79dfc951f40)
-[24may2024 13:31:09.002] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of iLuca08 (17)
-[24may2024 13:31:09.006] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to iLuca08
-[24may2024 13:31:12.015] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 160520bd-886d-37c3-95f8-b79dfc951f40
-[24may2024 13:31:13.012] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 160520bd-886d-37c3-95f8-b79dfc951f40
-[24may2024 13:31:13.014] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player iLuca08 (160520bd-886d-37c3-95f8-b79dfc951f40) successfully connected to voice chat
-[24may2024 13:31:52.262] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: m4rluu[/192.168.1.26:57422] logged in with entity id 1002 at (-487.9941269052737, 82.42778732109791, -63.22837699981389)
-[24may2024 13:31:52.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu joined the game
-[24may2024 13:31:52.416] [Server thread/INFO] [Jade/]: Syncing config to m4rluu (b697c606-0605-39e2-a05f-9e6661d42c15)
-[24may2024 13:31:56.291] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of m4rluu (17)
-[24may2024 13:31:56.294] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to m4rluu
-[24may2024 13:31:59.779] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player b697c606-0605-39e2-a05f-9e6661d42c15
-[24may2024 13:32:00.782] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player b697c606-0605-39e2-a05f-9e6661d42c15
-[24may2024 13:32:00.804] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player m4rluu (b697c606-0605-39e2-a05f-9e6661d42c15) successfully connected to voice chat
-[24may2024 13:33:37.052] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! 744.377875409006,-43.80375422298617,452.19748443003544
-[24may2024 13:33:37.060] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! 744.377875409006,-43.80375422298617,452.19748443003544
-[24may2024 13:33:37.068] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! 744.377875409006,-43.80375422298617,452.19748443003544
-[24may2024 13:35:23.247] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: YISUS[/192.168.1.25:51198] logged in with entity id 4238 at (-1825.0925359096298, 232.0, -3711.025076396695)
-[24may2024 13:35:23.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YISUS joined the game
-[24may2024 13:35:23.291] [Server thread/INFO] [Jade/]: Syncing config to YISUS (ec7a9526-0ad8-3620-b27b-922730b555ec)
-[24may2024 13:35:26.300] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of YISUS (17)
-[24may2024 13:35:26.323] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to YISUS
-[24may2024 13:35:26.344] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3020ms or 60 ticks behind
-[24may2024 13:35:26.989] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player ec7a9526-0ad8-3620-b27b-922730b555ec
-[24may2024 13:35:28.819] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player ec7a9526-0ad8-3620-b27b-922730b555ec
-[24may2024 13:35:28.825] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player YISUS (ec7a9526-0ad8-3620-b27b-922730b555ec) successfully connected to voice chat
-[24may2024 13:42:51.671] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dcarlox[/192.168.1.53:60320] logged in with entity id 6507 at (4722.661530643723, 101.2237696032138, 4234.528375063194)
-[24may2024 13:42:51.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dcarlox joined the game
-[24may2024 13:42:51.781] [Server thread/INFO] [Jade/]: Syncing config to Dcarlox (dd3b7e2e-1465-3e48-adec-987010ccd3c7)
-[24may2024 13:42:51.808] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iLuca08 moved too quickly! -52.501304854582685,98.0,-315.6127554555631
-[24may2024 13:42:52.428] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Dcarlox (17)
-[24may2024 13:42:52.428] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Dcarlox
-[24may2024 13:42:55.298] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player dd3b7e2e-1465-3e48-adec-987010ccd3c7
-[24may2024 13:42:56.298] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player dd3b7e2e-1465-3e48-adec-987010ccd3c7
-[24may2024 13:42:56.299] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Dcarlox (dd3b7e2e-1465-3e48-adec-987010ccd3c7) successfully connected to voice chat
-[24may2024 13:43:17.370] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dcarlox moved too quickly! -4337.727575436335,3.0,-3912.1477305270028
-[24may2024 13:43:27.163] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iLuca08 moved too quickly! -107.13552245340475,-5.40486111851537,306.67332031968266
-[24may2024 13:43:44.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [m4rluu: Teleported m4rluu to iLuca08]
-[24may2024 13:43:44.226] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! -29.426875336493424,14.0,294.29571998019986
-[24may2024 13:47:15.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [m4rluu: Teleported m4rluu to iLuca08]
-[24may2024 13:47:15.870] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! 3070.6614213727426,-28.55041277023362,-105.92379924403076
-[24may2024 13:49:42.660] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! 12.034319655444506,7.141245268055172,-11.527093419944691
-[24may2024 13:49:53.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu fell from a high place
-[24may2024 13:49:53.475] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 13:49:53.582] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 13:50:48.198] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iLuca08 moved too quickly! 14.931896854507158,4.790659170663943,-9.535339642661015
-[24may2024 13:52:47.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu experienced kinetic energy
-[24may2024 13:52:47.412] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 13:52:47.417] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 13:52:59.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu experienced kinetic energy
-[24may2024 13:52:59.550] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 13:52:59.554] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 13:53:10.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu experienced kinetic energy
-[24may2024 13:53:10.973] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 13:53:11.027] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 13:53:15.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was blown up by Creeper
-[24may2024 13:53:15.222] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 13:53:15.232] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 13:57:02.813] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! -42.30000001192093,23.768257464956662,7.300000011920929
-[24may2024 13:57:02.818] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! -42.30000001192093,23.768257464956662,7.300000011920929
-[24may2024 13:57:02.820] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! -42.30000001192093,23.768257464956662,7.300000011920929
-[24may2024 13:58:08.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was blown up by Creeper
-[24may2024 13:58:08.374] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 13:58:08.391] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 13:58:19.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu froze to death
-[24may2024 13:58:19.252] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 13:58:19.255] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:01:55.171] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1814, y=-37, z=-306} BlockPos{x=1815, y=-37, z=-306}
-[24may2024 14:01:55.220] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1814, y=-37, z=-306} BlockPos{x=1815, y=-37, z=-306}
-[24may2024 14:02:04.520] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1806, y=-42, z=-309} BlockPos{x=1806, y=-42, z=-308}
-[24may2024 14:02:28.719] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1813, y=-33, z=-323} BlockPos{x=1813, y=-32, z=-322}
-[24may2024 14:02:28.772] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1813, y=-33, z=-323} BlockPos{x=1813, y=-32, z=-322}
-[24may2024 14:02:28.820] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1813, y=-33, z=-323} BlockPos{x=1813, y=-32, z=-322}
-[24may2024 14:02:32.619] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1815, y=-32, z=-318} BlockPos{x=1815, y=-33, z=-318}
-[24may2024 14:02:32.682] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1815, y=-32, z=-318} BlockPos{x=1815, y=-33, z=-318}
-[24may2024 14:02:32.729] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1815, y=-32, z=-318} BlockPos{x=1815, y=-33, z=-318}
-[24may2024 14:02:32.774] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1815, y=-32, z=-318} BlockPos{x=1815, y=-33, z=-318}
-[24may2024 14:02:49.418] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1816, y=-39, z=-307} BlockPos{x=1815, y=-39, z=-306}
-[24may2024 14:02:57.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was slain by Warden
-[24may2024 14:02:57.447] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:02:57.457] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:03:07.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was slain by Warden
-[24may2024 14:03:07.007] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:03:07.019] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:03:12.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was slain by Warden
-[24may2024 14:03:12.105] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:03:12.118] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:03:14.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [m4rluu: Teleported m4rluu to iLuca08]
-[24may2024 14:04:42.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was obliterated by a sonically-charged shriek
-[24may2024 14:04:42.302] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:04:42.316] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:04:58.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was obliterated by a sonically-charged shriek
-[24may2024 14:04:58.518] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:04:58.535] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:05:02.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 is bleeding. iLuca08 was obliterated by a sonically-charged shriek
-[24may2024 14:05:02.094] [Server thread/WARN] [tombstone/]: The death event of the player iLuca08 was canceled by another mod
-[24may2024 14:05:02.106] [Server thread/INFO] [tombstone/]: The player iLuca08 has successfully been saved
-[24may2024 14:05:11.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu experienced kinetic energy
-[24may2024 14:05:11.212] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:05:11.219] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:05:19.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 is bleeding. iLuca08 was slain by Warden
-[24may2024 14:05:19.201] [Server thread/WARN] [tombstone/]: The death event of the player iLuca08 was canceled by another mod
-[24may2024 14:05:19.241] [Server thread/INFO] [tombstone/]: The player iLuca08 has successfully been saved
-[24may2024 14:05:23.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 is bleeding. iLuca08 was slain by Warden
-[24may2024 14:05:23.306] [Server thread/WARN] [tombstone/]: The death event of the player iLuca08 was canceled by another mod
-[24may2024 14:05:23.320] [Server thread/INFO] [tombstone/]: The player iLuca08 has successfully been saved
-[24may2024 14:05:25.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu experienced kinetic energy
-[24may2024 14:05:25.680] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:05:25.684] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:05:27.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 is bleeding. iLuca08 was slain by Warden
-[24may2024 14:05:27.458] [Server thread/WARN] [tombstone/]: The death event of the player iLuca08 was canceled by another mod
-[24may2024 14:05:27.478] [Server thread/INFO] [tombstone/]: The player iLuca08 has successfully been saved
-[24may2024 14:05:30.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was slain by Warden
-[24may2024 14:05:30.948] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:05:30.966] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:05:32.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 is bleeding. iLuca08 was slain by Warden
-[24may2024 14:05:32.451] [Server thread/WARN] [tombstone/]: The death event of the player iLuca08 was canceled by another mod
-[24may2024 14:05:32.467] [Server thread/INFO] [tombstone/]: The player iLuca08 has successfully been saved
-[24may2024 14:05:36.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was slain by Warden
-[24may2024 14:05:36.252] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:05:36.270] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:05:40.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was slain by Warden
-[24may2024 14:05:40.963] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:05:40.982] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:05:43.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was slain by Warden
-[24may2024 14:05:43.810] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:05:43.829] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:05:46.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 is bleeding. iLuca08 was obliterated by a sonically-charged shriek
-[24may2024 14:05:46.104] [Server thread/WARN] [tombstone/]: The death event of the player iLuca08 was canceled by another mod
-[24may2024 14:05:46.118] [Server thread/INFO] [tombstone/]: The player iLuca08 has successfully been saved
-[24may2024 14:05:51.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 is bleeding. iLuca08 was obliterated by a sonically-charged shriek
-[24may2024 14:05:51.200] [Server thread/WARN] [tombstone/]: The death event of the player iLuca08 was canceled by another mod
-[24may2024 14:05:51.216] [Server thread/INFO] [tombstone/]: The player iLuca08 has successfully been saved
-[24may2024 14:06:01.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was obliterated by a sonically-charged shriek
-[24may2024 14:06:01.545] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:06:01.561] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:06:05.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu experienced kinetic energy whilst trying to escape Warden
-[24may2024 14:06:05.014] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:06:05.017] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:06:07.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 is bleeding. iLuca08 was obliterated by a sonically-charged shriek
-[24may2024 14:06:07.408] [Server thread/WARN] [tombstone/]: The death event of the player iLuca08 was canceled by another mod
-[24may2024 14:06:07.426] [Server thread/INFO] [tombstone/]: The player iLuca08 has successfully been saved
-[24may2024 14:06:22.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was obliterated by a sonically-charged shriek
-[24may2024 14:06:22.145] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:06:22.161] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:06:22.569] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved wrongly!
-[24may2024 14:06:30.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was slain by Warden
-[24may2024 14:06:30.713] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:06:30.723] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:06:40.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was slain by Warden
-[24may2024 14:06:40.446] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:06:40.455] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:06:43.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was slain by Warden
-[24may2024 14:06:43.215] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:06:43.226] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:06:49.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was slain by Warden
-[24may2024 14:06:49.703] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:06:49.722] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:06:52.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was slain by Warden
-[24may2024 14:06:52.651] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:06:52.669] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:07:06.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was obliterated by a sonically-charged shriek
-[24may2024 14:07:06.760] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:07:06.777] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:07:22.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was obliterated by a sonically-charged shriek
-[24may2024 14:07:22.090] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:07:22.107] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:07:37.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was obliterated by a sonically-charged shriek
-[24may2024 14:07:37.935] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:07:37.950] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:08:29.708] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! -5.0494186487524075,5.0,86.69999998807907
-[24may2024 14:08:29.712] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! -5.0494186487524075,5.0,86.69999998807907
-[24may2024 14:08:29.715] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! -5.0494186487524075,5.0,86.69999998807907
-[24may2024 14:08:29.723] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! -5.0494186487524075,5.0,86.69999998807907
-[24may2024 14:08:44.873] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! -32.176218580098066,-16.0,-40.590506994655925
-[24may2024 14:08:49.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 is bleeding. iLuca08 was obliterated by a sonically-charged shriek
-[24may2024 14:08:49.153] [Server thread/WARN] [tombstone/]: The death event of the player iLuca08 was canceled by another mod
-[24may2024 14:08:49.162] [Server thread/INFO] [tombstone/]: The player iLuca08 has successfully been saved
-[24may2024 14:08:49.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was obliterated by a sonically-charged shriek
-[24may2024 14:08:49.708] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:08:49.719] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:08:56.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 is bleeding. iLuca08 experienced kinetic energy
-[24may2024 14:08:56.060] [Server thread/WARN] [tombstone/]: The death event of the player iLuca08 was canceled by another mod
-[24may2024 14:08:56.065] [Server thread/INFO] [tombstone/]: The player iLuca08 has successfully been saved
-[24may2024 14:08:56.717] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1985, y=-52, z=-437} BlockPos{x=1985, y=-52, z=-438}
-[24may2024 14:08:56.767] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1985, y=-52, z=-437} BlockPos{x=1985, y=-52, z=-438}
-[24may2024 14:08:56.817] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1985, y=-52, z=-437} BlockPos{x=1985, y=-52, z=-438}
-[24may2024 14:08:57.767] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1984, y=-51, z=-435} BlockPos{x=1984, y=-51, z=-434}
-[24may2024 14:09:01.667] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1971, y=-52, z=-431} BlockPos{x=1973, y=-52, z=-431}
-[24may2024 14:09:01.716] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1971, y=-52, z=-431} BlockPos{x=1973, y=-52, z=-431}
-[24may2024 14:09:02.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was slain by Warden
-[24may2024 14:09:02.998] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:09:03.015] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:09:07.167] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1969, y=-52, z=-443} BlockPos{x=1968, y=-52, z=-441}
-[24may2024 14:09:07.216] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1969, y=-52, z=-443} BlockPos{x=1968, y=-52, z=-441}
-[24may2024 14:09:07.267] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1969, y=-52, z=-443} BlockPos{x=1968, y=-52, z=-441}
-[24may2024 14:09:07.317] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1969, y=-52, z=-443} BlockPos{x=1968, y=-52, z=-441}
-[24may2024 14:09:07.367] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1969, y=-52, z=-443} BlockPos{x=1968, y=-52, z=-441}
-[24may2024 14:09:07.417] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1969, y=-52, z=-443} BlockPos{x=1968, y=-52, z=-441}
-[24may2024 14:09:10.765] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1958, y=-53, z=-443} BlockPos{x=1957, y=-52, z=-443}
-[24may2024 14:09:15.338] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1942, y=-52, z=-443} BlockPos{x=1943, y=-52, z=-442}
-[24may2024 14:09:17.409] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iLuca08 moved too quickly! 54.69999998807907,1.0,97.53695175458711
-[24may2024 14:09:17.416] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iLuca08 moved too quickly! 54.69999998807907,1.0,97.53695175458711
-[24may2024 14:09:18.316] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1931, y=-52, z=-438} BlockPos{x=1931, y=-52, z=-440}
-[24may2024 14:09:18.520] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1931, y=-52, z=-438} BlockPos{x=1932, y=-52, z=-438}
-[24may2024 14:09:18.568] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1931, y=-52, z=-438} BlockPos{x=1932, y=-52, z=-438}
-[24may2024 14:09:19.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was obliterated by a sonically-charged shriek
-[24may2024 14:09:19.195] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:09:19.210] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:09:27.023] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! 66.71823988991196,39.0,279.8049515996889
-[24may2024 14:09:39.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 is bleeding. iLuca08 was obliterated by a sonically-charged shriek
-[24may2024 14:09:39.705] [Server thread/WARN] [tombstone/]: The death event of the player iLuca08 was canceled by another mod
-[24may2024 14:09:39.726] [Server thread/INFO] [tombstone/]: The player iLuca08 has successfully been saved
-[24may2024 14:09:52.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu has made the advancement [Chest Slayer]
-[24may2024 14:10:04.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 is bleeding. iLuca08 was obliterated by a sonically-charged shriek
-[24may2024 14:10:04.066] [Server thread/WARN] [tombstone/]: The death event of the player iLuca08 was canceled by another mod
-[24may2024 14:10:04.085] [Server thread/INFO] [tombstone/]: The player iLuca08 has successfully been saved
-[24may2024 14:10:08.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iLuca08: Teleported iLuca08 to m4rluu]
-[24may2024 14:10:08.222] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iLuca08 moved too quickly! -52.651067741205,47.0,334.74238499758815
-[24may2024 14:10:32.914] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-318, y=-45, z=-204}
-[24may2024 14:10:32.916] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-318, y=-45, z=-202}
-[24may2024 14:10:32.943] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-320, y=-45, z=-203}
-[24may2024 14:10:42.668] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1920, y=-30, z=-93} BlockPos{x=1921, y=-30, z=-93}
-[24may2024 14:10:49.571] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1920, y=-31, z=-94} BlockPos{x=1921, y=-30, z=-94}
-[24may2024 14:11:26.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YISUS has made the advancement [Ice Maze]
-[24may2024 14:11:32.434] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=5422, y=81, z=-9004}
-[24may2024 14:11:32.473] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=5427, y=81, z=-9009}
-[24may2024 14:11:32.513] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=5427, y=81, z=-9007}
-[24may2024 14:11:32.513] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=5427, y=81, z=-9008}
-[24may2024 14:11:32.514] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=5427, y=81, z=-9001}
-[24may2024 14:11:32.514] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=5427, y=81, z=-9000}
-[24may2024 14:11:32.514] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=5427, y=81, z=-8999}
-[24may2024 14:11:49.178] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! 29.681991148192765,-5.0,6.62031368782683
-[24may2024 14:11:49.187] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! 29.681991148192765,-5.0,6.62031368782683
-[24may2024 14:11:49.199] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! 29.681991148192765,-5.0,6.62031368782683
-[24may2024 14:11:49.203] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! 29.681991148192765,-5.0,6.62031368782683
-[24may2024 14:12:39.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YISUS is bleeding. YISUS was slain by Vindicator
-[24may2024 14:12:39.593] [Server thread/WARN] [tombstone/]: The death event of the player YISUS was canceled by another mod
-[24may2024 14:12:39.612] [Server thread/INFO] [tombstone/]: The player YISUS has successfully been saved
-[24may2024 14:12:43.072] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! 6.954743089679141,-33.0,29.905629423989765
-[24may2024 14:12:54.869] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! 67.39358657349976,1.0,36.24005344744615
-[24may2024 14:12:54.872] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! 67.39358657349976,1.0,36.24005344744615
-[24may2024 14:13:00.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YISUS is bleeding. YISUS was shot by Pillager
-[24may2024 14:13:00.038] [Server thread/WARN] [tombstone/]: The death event of the player YISUS was canceled by another mod
-[24may2024 14:13:00.042] [Server thread/INFO] [tombstone/]: The player YISUS has successfully been saved
-[24may2024 14:13:08.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YISUS is bleeding. YISUS froze to death
-[24may2024 14:13:08.274] [Server thread/WARN] [tombstone/]: The death event of the player YISUS was canceled by another mod
-[24may2024 14:13:08.313] [Server thread/INFO] [tombstone/]: The player YISUS has successfully been saved
-[24may2024 14:13:24.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu suffocated in a wall
-[24may2024 14:13:24.330] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:13:24.373] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:13:26.170] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iLuca08 moved too quickly! 149.78802079805797,14.0,-74.4357530305341
-[24may2024 14:14:05.303] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! 5.468351102098495,1.0,43.53897543351853
-[24may2024 14:14:05.306] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! 5.468351102098495,1.0,43.53897543351853
-[24may2024 14:14:05.310] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! 5.468351102098495,1.0,43.53897543351853
-[24may2024 14:14:05.312] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! 5.468351102098495,1.0,43.53897543351853
-[24may2024 14:14:05.315] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! 5.468351102098495,1.0,43.53897543351853
-[24may2024 14:14:05.320] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! 5.468351102098495,1.0,43.53897543351853
-[24may2024 14:14:05.323] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! 5.468351102098495,1.0,43.53897543351853
-[24may2024 14:14:20.516] [Worker-Main-17/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-1329, y=109, z=1363}
-[24may2024 14:14:32.323] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! 61.92176199788946,-0.0625,144.9756913288212
-[24may2024 14:15:26.319] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! 88.18462594094717,-0.5,33.73222392518451
-[24may2024 14:15:26.324] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! 88.18462594094717,-0.5,33.73222392518451
-[24may2024 14:15:40.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [m4rluu: Teleported m4rluu to iLuca08]
-[24may2024 14:15:40.826] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! -2250.48487509872,135.0,91.9375
-[24may2024 14:17:21.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YISUS has made the advancement [Exploration]
-[24may2024 14:20:26.265] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: YISUS moved wrongly!
-[24may2024 14:21:37.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [m4rluu: Teleported m4rluu to iLuca08]
-[24may2024 14:21:37.313] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! -15.487426588817016,-4.0,71.39709279551022
-[24may2024 14:22:56.985] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1593, y=91, z=-459} BlockPos{x=1593, y=90, z=-459}
-[24may2024 14:22:57.028] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1593, y=91, z=-459} BlockPos{x=1593, y=90, z=-459}
-[24may2024 14:22:57.069] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1593, y=91, z=-459} BlockPos{x=1593, y=90, z=-459}
-[24may2024 14:22:57.152] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1593, y=91, z=-459} BlockPos{x=1593, y=90, z=-459}
-[24may2024 14:23:23.893] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! -4.095841263995226,-1.8455793393722786,-17.196478505050038
-[24may2024 14:23:54.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was shot by Skeleton
-[24may2024 14:23:54.893] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:23:54.897] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:23:59.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [m4rluu: Teleported m4rluu to iLuca08]
-[24may2024 14:23:59.303] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! -68.91080338954953,-6.0,-122.41723767876476
-[24may2024 14:23:59.320] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! -68.91080338954953,-6.0,-122.41723767876476
-[24may2024 14:25:29.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was blown up by Creeper
-[24may2024 14:25:29.191] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:25:29.211] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:26:24.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [m4rluu: Teleported m4rluu to iLuca08]
-[24may2024 14:26:24.217] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! 17.759107571425602,10.0,4.986051326818142
-[24may2024 14:26:24.222] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! 17.759107571425602,10.0,4.986051326818142
-[24may2024 14:27:11.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [m4rluu: Teleported m4rluu to iLuca08]
-[24may2024 14:27:11.472] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! 39.78284052599315,13.529327378784032,-86.13142845246591
-[24may2024 14:28:29.510] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2257, y=66, z=-1134} BlockPos{x=2257, y=66, z=-1135}
-[24may2024 14:28:34.073] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2258, y=61, z=-1134} BlockPos{x=2258, y=61, z=-1135}
-[24may2024 14:28:34.111] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2258, y=61, z=-1134} BlockPos{x=2258, y=61, z=-1135}
-[24may2024 14:28:34.166] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2258, y=61, z=-1134} BlockPos{x=2258, y=61, z=-1135}
-[24may2024 14:28:34.213] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2258, y=61, z=-1134} BlockPos{x=2258, y=61, z=-1135}
-[24may2024 14:28:34.258] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2258, y=61, z=-1134} BlockPos{x=2258, y=61, z=-1135}
-[24may2024 14:29:01.762] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2259, y=59, z=-1136} BlockPos{x=2258, y=59, z=-1138}
-[24may2024 14:29:36.821] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iLuca08 moved too quickly! -55.65972964537059,52.0,28.297390368613605
-[24may2024 14:29:37.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu experienced kinetic energy
-[24may2024 14:29:37.416] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:29:37.419] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:29:40.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [m4rluu: Teleported m4rluu to iLuca08]
-[24may2024 14:29:50.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu experienced kinetic energy
-[24may2024 14:29:50.894] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:29:50.896] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:29:58.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu experienced kinetic energy
-[24may2024 14:29:58.545] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:29:58.549] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:30:01.208] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2258, y=98, z=-1137} BlockPos{x=2259, y=97, z=-1137}
-[24may2024 14:30:01.265] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2258, y=97, z=-1137} BlockPos{x=2259, y=97, z=-1137}
-[24may2024 14:30:05.869] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iLuca08 moved wrongly!
-[24may2024 14:30:23.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu fell from a high place
-[24may2024 14:30:23.962] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:30:23.964] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:30:29.269] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: YISUS moved too quickly! 2343.7130946404022,5.0,4854.157493843428
-[24may2024 14:30:59.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was slain by Skeleton
-[24may2024 14:30:59.263] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:30:59.269] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:31:09.118] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YISUS is bleeding. YISUS was slain by Ghost of Captain Cornelia
-[24may2024 14:31:09.121] [Server thread/WARN] [tombstone/]: The death event of the player YISUS was canceled by another mod
-[24may2024 14:31:09.143] [Server thread/INFO] [tombstone/]: The player YISUS has successfully been saved
-[24may2024 14:31:15.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YISUS is bleeding. YISUS was slain by Ghost of Captain Cornelia
-[24may2024 14:31:15.494] [Server thread/WARN] [tombstone/]: The death event of the player YISUS was canceled by another mod
-[24may2024 14:31:15.505] [Server thread/INFO] [tombstone/]: The player YISUS has successfully been saved
-[24may2024 14:32:21.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dcarlox: Teleported Dcarlox to YISUS]
-[24may2024 14:32:21.209] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dcarlox moved too quickly! -2303.6045369300855,-21.153758181110135,-4640.361569018965
-[24may2024 14:32:21.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dcarlox has made the advancement [Ice Maze]
-[24may2024 14:32:51.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dcarlox has made the advancement [The Light In The Darkness]
-[24may2024 14:32:51.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dcarlox has made the advancement [Almost Like a Fan]
-[24may2024 14:32:58.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YISUS is bleeding. YISUS was slain by Ghost of Captain Cornelia
-[24may2024 14:32:58.494] [Server thread/WARN] [tombstone/]: The death event of the player YISUS was canceled by another mod
-[24may2024 14:32:58.503] [Server thread/INFO] [tombstone/]: The player YISUS has successfully been saved
-[24may2024 14:33:08.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iLuca08: Teleported iLuca08 to Dcarlox]
-[24may2024 14:33:08.999] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iLuca08 moved too quickly! -4161.705956292923,-14.0,-3201.6708592260943
-[24may2024 14:33:10.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [m4rluu: Teleported m4rluu to Dcarlox]
-[24may2024 14:33:10.406] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! -4158.224600849193,-14.0,-3212.5527169342395
-[24may2024 14:33:10.406] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! -4158.224600849193,-14.0,-3212.5527169342395
-[24may2024 14:33:10.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YISUS is bleeding. YISUS was slain by Ghost of Captain Cornelia
-[24may2024 14:33:10.790] [Server thread/WARN] [tombstone/]: The death event of the player YISUS was canceled by another mod
-[24may2024 14:33:10.803] [Server thread/INFO] [tombstone/]: The player YISUS has successfully been saved
-[24may2024 14:33:25.387] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu has made the advancement [Ice Maze]
-[24may2024 14:33:29.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu has made the advancement [The Light In The Darkness]
-[24may2024 14:33:30.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 has made the advancement [Ice Maze]
-[24may2024 14:33:33.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 has made the advancement [Perfect Instance]
-[24may2024 14:34:16.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YISUS is bleeding. YISUS was slain by Dcarlox
-[24may2024 14:34:16.498] [Server thread/WARN] [tombstone/]: The death event of the player YISUS was canceled by another mod
-[24may2024 14:34:16.502] [Server thread/INFO] [tombstone/]: The player YISUS has successfully been saved
-[24may2024 14:34:33.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 is bleeding. iLuca08 was slain by Ghost of Captain Cornelia
-[24may2024 14:34:33.140] [Server thread/WARN] [tombstone/]: The death event of the player iLuca08 was canceled by another mod
-[24may2024 14:34:33.148] [Server thread/INFO] [tombstone/]: The player iLuca08 has successfully been saved
-[24may2024 14:34:56.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YISUS is bleeding. YISUS was slain by Ghost of Captain Cornelia
-[24may2024 14:34:56.589] [Server thread/WARN] [tombstone/]: The death event of the player YISUS was canceled by another mod
-[24may2024 14:34:56.594] [Server thread/INFO] [tombstone/]: The player YISUS has successfully been saved
-[24may2024 14:34:59.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YISUS is bleeding. YISUS was slain by Ghost of Captain Cornelia
-[24may2024 14:34:59.933] [Server thread/WARN] [tombstone/]: The death event of the player YISUS was canceled by another mod
-[24may2024 14:34:59.937] [Server thread/INFO] [tombstone/]: The player YISUS has successfully been saved
-[24may2024 14:35:09.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YISUS is bleeding. YISUS was slain by Ghost of Captain Cornelia
-[24may2024 14:35:09.290] [Server thread/WARN] [tombstone/]: The death event of the player YISUS was canceled by another mod
-[24may2024 14:35:09.295] [Server thread/INFO] [tombstone/]: The player YISUS has successfully been saved
-[24may2024 14:35:39.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YISUS is bleeding. YISUS was slain by Ghost of Captain Cornelia
-[24may2024 14:35:39.884] [Server thread/WARN] [tombstone/]: The death event of the player YISUS was canceled by another mod
-[24may2024 14:35:39.893] [Server thread/INFO] [tombstone/]: The player YISUS has successfully been saved
-[24may2024 14:35:41.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 is bleeding. iLuca08 was slain by m4rluu
-[24may2024 14:35:41.213] [Server thread/WARN] [tombstone/]: The death event of the player iLuca08 was canceled by another mod
-[24may2024 14:35:41.215] [Server thread/INFO] [tombstone/]: The player iLuca08 has successfully been saved
-[24may2024 14:35:51.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YISUS is bleeding. YISUS was killed by iLuca08 using magic
-[24may2024 14:35:51.098] [Server thread/WARN] [tombstone/]: The death event of the player YISUS was canceled by another mod
-[24may2024 14:35:51.102] [Server thread/INFO] [tombstone/]: The player YISUS has successfully been saved
-[24may2024 14:35:54.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was shot by iLuca08
-[24may2024 14:35:54.146] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:35:54.150] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:35:54.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 is bleeding. iLuca08 was slain by Ghost of Captain Cornelia
-[24may2024 14:35:54.939] [Server thread/WARN] [tombstone/]: The death event of the player iLuca08 was canceled by another mod
-[24may2024 14:35:54.947] [Server thread/INFO] [tombstone/]: The player iLuca08 has successfully been saved
-[24may2024 14:36:10.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 is bleeding. iLuca08 was slain by YISUS using [BIGTULA]
-[24may2024 14:36:10.039] [Server thread/WARN] [tombstone/]: The death event of the player iLuca08 was canceled by another mod
-[24may2024 14:36:10.043] [Server thread/INFO] [tombstone/]: The player iLuca08 has successfully been saved
-[24may2024 14:36:12.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 is bleeding. iLuca08 was slain by Ghost of Captain Cornelia
-[24may2024 14:36:12.083] [Server thread/WARN] [tombstone/]: The death event of the player iLuca08 was canceled by another mod
-[24may2024 14:36:12.091] [Server thread/INFO] [tombstone/]: The player iLuca08 has successfully been saved
-[24may2024 14:36:31.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 is bleeding. iLuca08 was slain by Ghost of Captain Cornelia
-[24may2024 14:36:31.939] [Server thread/WARN] [tombstone/]: The death event of the player iLuca08 was canceled by another mod
-[24may2024 14:36:31.949] [Server thread/INFO] [tombstone/]: The player iLuca08 has successfully been saved
-[24may2024 14:36:34.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 is bleeding. iLuca08 was slain by m4rluu
-[24may2024 14:36:34.360] [Server thread/WARN] [tombstone/]: The death event of the player iLuca08 was canceled by another mod
-[24may2024 14:36:34.363] [Server thread/INFO] [tombstone/]: The player iLuca08 has successfully been saved
-[24may2024 14:36:36.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 is bleeding. iLuca08 was slain by Ghost of Captain Cornelia
-[24may2024 14:36:36.449] [Server thread/WARN] [tombstone/]: The death event of the player iLuca08 was canceled by another mod
-[24may2024 14:36:36.454] [Server thread/INFO] [tombstone/]: The player iLuca08 has successfully been saved
-[24may2024 14:36:38.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 is bleeding. iLuca08 was slain by m4rluu
-[24may2024 14:36:38.510] [Server thread/WARN] [tombstone/]: The death event of the player iLuca08 was canceled by another mod
-[24may2024 14:36:38.512] [Server thread/INFO] [tombstone/]: The player iLuca08 has successfully been saved
-[24may2024 14:36:41.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 is bleeding. iLuca08 was doomed to fall
-[24may2024 14:36:41.869] [Server thread/WARN] [tombstone/]: The death event of the player iLuca08 was canceled by another mod
-[24may2024 14:36:41.873] [Server thread/INFO] [tombstone/]: The player iLuca08 has successfully been saved
-[24may2024 14:37:06.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 is bleeding. iLuca08 experienced kinetic energy
-[24may2024 14:37:06.444] [Server thread/WARN] [tombstone/]: The death event of the player iLuca08 was canceled by another mod
-[24may2024 14:37:06.447] [Server thread/INFO] [tombstone/]: The player iLuca08 has successfully been saved
-[24may2024 14:37:23.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was slain by Ghost of Captain Cornelia
-[24may2024 14:37:23.586] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:37:23.595] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:38:30.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dcarlox has completed the challenge [The Dead Sea]
-[24may2024 14:38:55.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 has made the advancement [The Light In The Darkness]
-[24may2024 14:39:07.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [m4rluu: Teleported m4rluu to iLuca08]
-[24may2024 14:39:07.698] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! -26.036383811204814,1.0,6.847384246929323
-[24may2024 14:39:07.704] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! -26.036383811204814,1.0,6.847384246929323
-[24may2024 14:39:07.712] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! -26.036383811204814,1.0,6.847384246929323
-[24may2024 14:39:07.718] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! -26.036383811204814,1.0,6.847384246929323
-[24may2024 14:39:07.723] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! -26.036383811204814,1.0,6.847384246929323
-[24may2024 14:39:15.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 has made the advancement [Almost Like a Fan]
-[24may2024 14:40:41.016] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! -157.2579482264614,0.0,73.0896474125002
-[24may2024 14:40:41.023] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! -157.2579482264614,0.0,73.0896474125002
-[24may2024 14:41:00.094] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iLuca08 moved too quickly! -18.35938889758745,-2.0654016582497405,3.5241665929770534
-[24may2024 14:41:00.120] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! 8.915952344882498,1.359873798575876,-15.290661612676558
-[24may2024 14:41:14.175] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=5422, y=81, z=-9004}
-[24may2024 14:41:14.208] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=5427, y=81, z=-9009}
-[24may2024 14:41:14.208] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=5427, y=81, z=-9007}
-[24may2024 14:41:14.208] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=5427, y=81, z=-9008}
-[24may2024 14:41:14.210] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=5427, y=81, z=-9001}
-[24may2024 14:41:14.210] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=5427, y=81, z=-9000}
-[24may2024 14:41:14.210] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=5427, y=81, z=-8999}
-[24may2024 14:41:24.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iLuca08: Teleported iLuca08 to m4rluu]
-[24may2024 14:41:49.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was slain by Vindicator
-[24may2024 14:41:49.695] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:41:49.706] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:41:52.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was slain by Vindicator
-[24may2024 14:41:52.506] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:41:52.517] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:42:39.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 is bleeding. iLuca08 was slain by Vindicator
-[24may2024 14:42:39.342] [Server thread/WARN] [tombstone/]: The death event of the player iLuca08 was canceled by another mod
-[24may2024 14:42:39.354] [Server thread/INFO] [tombstone/]: The player iLuca08 has successfully been saved
-[24may2024 14:42:56.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was slain by Vindicator
-[24may2024 14:42:56.006] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:42:56.024] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:42:58.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was slain by Vindicator
-[24may2024 14:42:58.901] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:42:58.920] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:43:00.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was slain by Vindicator
-[24may2024 14:43:00.959] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:43:00.978] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:43:08.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu was killed by iLuca08 using magic
-[24may2024 14:43:08.218] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:43:08.222] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:43:10.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 is bleeding. iLuca08 was shot by Pillager
-[24may2024 14:43:10.168] [Server thread/WARN] [tombstone/]: The death event of the player iLuca08 was canceled by another mod
-[24may2024 14:43:10.170] [Server thread/INFO] [tombstone/]: The player iLuca08 has successfully been saved
-[24may2024 14:43:22.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu is bleeding. m4rluu suffocated in a wall whilst fighting Pillager
-[24may2024 14:43:22.608] [Server thread/WARN] [tombstone/]: The death event of the player m4rluu was canceled by another mod
-[24may2024 14:43:22.611] [Server thread/INFO] [tombstone/]: The player m4rluu has successfully been saved
-[24may2024 14:43:26.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 is bleeding. iLuca08 was shot by Pillager
-[24may2024 14:43:26.003] [Server thread/WARN] [tombstone/]: The death event of the player iLuca08 was canceled by another mod
-[24may2024 14:43:26.006] [Server thread/INFO] [tombstone/]: The player iLuca08 has successfully been saved
-[24may2024 14:43:34.063] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iLuca08 moved too quickly! 203.68606583661267,-6.0,230.12355080788893
-[24may2024 14:43:34.065] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iLuca08 moved too quickly! 203.68606583661267,-6.0,230.12355080788893
-[24may2024 14:43:59.857] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iLuca08 moved too quickly! -254.05554471236587,23.0,174.3362489884721
-[24may2024 14:44:21.467] [Worker-Main-12/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-1329, y=109, z=1363}
-[24may2024 14:44:25.811] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iLuca08 lost connection: Disconnected
-[24may2024 14:44:25.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 left the game
-[24may2024 14:44:25.817] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client iLuca08
-[24may2024 14:44:31.891] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! 14.522209195234609,-1.6519072564217083,-9.551113162504407
-[24may2024 14:44:32.164] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dcarlox lost connection: Disconnected
-[24may2024 14:44:32.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dcarlox left the game
-[24may2024 14:44:32.171] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Dcarlox
-[24may2024 14:44:34.606] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: YISUS lost connection: Disconnected
-[24may2024 14:44:34.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YISUS left the game
-[24may2024 14:44:34.615] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client YISUS
-[24may2024 14:44:45.204] [Worker-Main-5/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-1329, y=109, z=1363}
-[24may2024 14:44:57.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[24may2024 14:44:57.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[24may2024 14:44:57.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[24may2024 14:44:58.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[24may2024 14:44:58.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[24may2024 14:44:58.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[24may2024 14:44:58.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
-[24may2024 14:44:58.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[24may2024 14:44:58.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[24may2024 14:44:58.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[24may2024 14:44:58.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
-[24may2024 14:44:58.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[24may2024 14:44:58.840] [Server thread/INFO] [Framework/]: Unloading server configs...
-[24may2024 14:44:58.857] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[24may.2024 19:42:00.912] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:mossy_chestplate Expected: 3696 Got: 4393
+[24may.2024 19:42:00.926] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:withered_ribcage Expected: 3697 Got: 4394
+[24may.2024 19:42:00.926] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:shulker_helmet Expected: 3698 Got: 4395
+[24may.2024 19:42:00.929] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:chorus_mask Expected: 3699 Got: 4396
+[24may.2024 19:42:00.935] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:dinosaur_bone_club Expected: 3700 Got: 4397
+[24may.2024 19:42:00.938] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:void_sword Expected: 3701 Got: 4398
+[24may.2024 19:42:00.942] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:fiery_jaw Expected: 3702 Got: 4399
+[24may.2024 19:42:00.951] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:warped_mushroom_cap_part Expected: 3703 Got: 4400
+[24may.2024 19:42:01.005] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:overgrown_colossus_spawn_egg Expected: 3704 Got: 4401
+[24may.2024 19:42:01.053] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:endersent_spawn_egg Expected: 3705 Got: 4402
+[24may.2024 19:42:01.057] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:warped_fungussus_spawn_egg Expected: 3706 Got: 4403
+[24may.2024 19:42:01.060] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:skeletosaurus_spawn_egg Expected: 3707 Got: 4404
+[24may.2024 19:42:01.064] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:lava_eater_spawn_egg Expected: 3708 Got: 4405
+[24may.2024 19:42:01.065] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:frostbitten_golem_spawn_egg Expected: 3709 Got: 4406
+[24may.2024 19:42:01.067] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:shulker_mimic_spawn_egg Expected: 3710 Got: 4407
+[24may.2024 19:42:01.072] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:withered_abomination_spawn_egg Expected: 3711 Got: 4408
+[24may.2024 19:42:01.074] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:chorus_cannon Expected: 3712 Got: 4409
+[24may.2024 19:42:01.075] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:withered_scythe Expected: 3713 Got: 4410
+[24may.2024 19:42:01.078] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:chorusling_spawn_egg Expected: 3714 Got: 4411
+[24may.2024 19:42:01.080] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:ambusher_spawn_egg Expected: 3715 Got: 4412
+[24may.2024 19:42:01.084] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:spike_bug_spawn_egg Expected: 3716 Got: 4413
+[24may.2024 19:42:01.093] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:ancient_guardian_spawn_egg Expected: 3717 Got: 4414
+[24may.2024 19:42:01.097] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:cloud_golem_spawn_egg Expected: 3718 Got: 4415
+[24may.2024 19:42:01.100] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:spiky_shield Expected: 3719 Got: 4416
+[24may.2024 19:42:01.103] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:monstrous_anchor Expected: 3720 Got: 4417
+[24may.2024 19:42:01.104] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:sharp_battle_axe Expected: 3721 Got: 4418
+[24may.2024 19:42:01.106] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:sharp_sai Expected: 3722 Got: 4419
+[24may.2024 19:42:01.109] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:reinforced_monstrous_anchor Expected: 3723 Got: 4420
+[24may.2024 19:42:01.113] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:ancient_spike Expected: 3724 Got: 4421
+[24may.2024 19:42:01.116] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:anchor_handle Expected: 3725 Got: 4422
+[24may.2024 19:42:01.121] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:eye_of_many_ribs Expected: 3726 Got: 4423
+[24may.2024 19:42:01.123] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:eye_of_frost Expected: 3727 Got: 4424
+[24may.2024 19:42:01.123] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:eye_of_air Expected: 3728 Got: 4425
+[24may.2024 19:42:01.125] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:eye_of_moss Expected: 3729 Got: 4426
+[24may.2024 19:42:01.132] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:eye_of_shulker Expected: 3730 Got: 4427
+[24may.2024 19:42:01.133] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:eye_of_chorus Expected: 3731 Got: 4428
+[24may.2024 19:42:01.137] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:eye_of_magma Expected: 3732 Got: 4429
+[24may.2024 19:42:01.142] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:eye_of_bones Expected: 3733 Got: 4430
+[24may.2024 19:42:01.143] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:eye_of_soul Expected: 3734 Got: 4431
+[24may.2024 19:42:01.147] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:ambushers_skin Expected: 3735 Got: 4432
+[24may.2024 19:42:01.149] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:falling_cloud_projectile Expected: 3736 Got: 4433
+[24may.2024 19:42:01.151] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:falling_cloud_small_projectile Expected: 3737 Got: 4434
+[24may.2024 19:42:01.154] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:air_rune Expected: 3738 Got: 4435
+[24may.2024 19:42:01.158] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:wand_of_clouds Expected: 3739 Got: 4436
+[24may.2024 19:42:01.165] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:axe_of_lightning Expected: 3740 Got: 4437
+[24may.2024 19:42:01.168] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:molten_metal_ingot Expected: 3741 Got: 4438
+[24may.2024 19:42:01.169] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:atmospheric_boots Expected: 3742 Got: 4439
+[24may.2024 19:42:01.170] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:dinosaur_bone_helmet Expected: 3743 Got: 4440
+[24may.2024 19:42:01.175] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:ancient_dripstone_bricks Expected: 3744 Got: 4441
+[24may.2024 19:42:01.177] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:ancient_dripstone_block Expected: 3745 Got: 4442
+[24may.2024 19:42:01.182] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:ancient_dripstone_tiles Expected: 3746 Got: 4443
+[24may.2024 19:42:01.184] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:ancient_dripstone_brick_wall Expected: 3747 Got: 4444
+[24may.2024 19:42:01.187] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:ancient_dripstone_brick_slab Expected: 3748 Got: 4445
+[24may.2024 19:42:01.189] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:ancient_dripstone_brick_stairs Expected: 3749 Got: 4446
+[24may.2024 19:42:01.192] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:ancient_dripstone_tile_slab Expected: 3750 Got: 4447
+[24may.2024 19:42:01.194] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:ancient_dripstone_tile_stairs Expected: 3751 Got: 4448
+[24may.2024 19:42:01.197] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:ancient_dripstone_tile_wall Expected: 3752 Got: 4449
+[24may.2024 19:42:01.199] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: legendary_monsters:cloud_block Expected: 3753 Got: 4450
+[24may.2024 19:42:01.203] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: legendary_monsters:soul_eater Expected: 56 Got: 81
+[24may.2024 19:42:01.206] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: legendary_monsters:chorus_infection Expected: 57 Got: 82
+[24may.2024 19:42:01.207] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: legendary_monsters:freeze Expected: 58 Got: 83
+[24may.2024 19:42:01.209] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: legendary_monsters:bleeding Expected: 59 Got: 84
+[24may.2024 19:42:01.210] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: legendary_monsters:low_attack_reach Expected: 60 Got: 85
+[24may.2024 19:42:01.217] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: legendary_monsters:endersent_attack Expected: 1994 Got: 2028
+[24may.2024 19:42:01.222] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: legendary_monsters:endersent_ambient Expected: 1995 Got: 2029
+[24may.2024 19:42:01.223] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: legendary_monsters:endersent_death Expected: 1996 Got: 2030
+[24may.2024 19:42:01.231] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: legendary_monsters:endersent_hurt1 Expected: 1997 Got: 2031
+[24may.2024 19:42:01.232] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: legendary_monsters:endersent_hurt2 Expected: 1998 Got: 2032
+[24may.2024 19:42:01.235] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: legendary_monsters:overgrown_colossus_hurt Expected: 1999 Got: 2033
+[24may.2024 19:42:01.245] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: legendary_monsters:overgrown_colossus_death Expected: 2000 Got: 2034
+[24may.2024 19:42:01.246] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: legendary_monsters:skeletosaurus_hurt1 Expected: 2001 Got: 2035
+[24may.2024 19:42:01.246] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: legendary_monsters:skeletosaurus_hurt2 Expected: 2002 Got: 2036
+[24may.2024 19:42:01.246] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: legendary_monsters:skeletosaurus_hurt3 Expected: 2003 Got: 2037
+[24may.2024 19:42:01.246] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: legendary_monsters:skeletosaurus_death Expected: 2004 Got: 2038
+[24may.2024 19:42:01.254] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: legendary_monsters:chorusling_death Expected: 2005 Got: 2039
+[24may.2024 19:42:01.260] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: legendary_monsters:chorusling_hurt Expected: 2006 Got: 2040
+[24may.2024 19:42:01.262] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: legendary_monsters:chorusling_ambient Expected: 2007 Got: 2041
+[24may.2024 19:42:01.263] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: legendary_monsters:chorusling_attack Expected: 2008 Got: 2042
+[24may.2024 19:42:01.265] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: legendary_monsters:withered_abomination_hurt Expected: 2009 Got: 2043
+[24may.2024 19:42:01.269] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: legendary_monsters:withered_abomination_death Expected: 2010 Got: 2044
+[24may.2024 19:42:01.272] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: legendary_monsters:ancient_guardian_hurt Expected: 2011 Got: 2045
+[24may.2024 19:42:01.272] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: legendary_monsters:ancient_guardian_death Expected: 2012 Got: 2046
+[24may.2024 19:42:01.274] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: legendary_monsters:skeletosaurus Expected: 371 Got: 387
+[24may.2024 19:42:01.274] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: legendary_monsters:overgrown_colossus Expected: 372 Got: 388
+[24may.2024 19:42:01.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: legendary_monsters:endersent Expected: 373 Got: 389
+[24may.2024 19:42:01.277] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: legendary_monsters:warped_fungussus Expected: 374 Got: 390
+[24may.2024 19:42:01.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: legendary_monsters:lava_eater Expected: 375 Got: 391
+[24may.2024 19:42:01.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: legendary_monsters:frostbitten_golem Expected: 376 Got: 392
+[24may.2024 19:42:01.280] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: legendary_monsters:shulker_mimic Expected: 377 Got: 393
+[24may.2024 19:42:01.280] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: legendary_monsters:chorusling Expected: 378 Got: 394
+[24may.2024 19:42:01.281] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: legendary_monsters:withered_abomination Expected: 379 Got: 395
+[24may.2024 19:42:01.282] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: legendary_monsters:chorus_bomb Expected: 380 Got: 396
+[24may.2024 19:42:01.282] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: legendary_monsters:falling_cloud Expected: 381 Got: 397
+[24may.2024 19:42:01.283] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: legendary_monsters:falling_cloud_small Expected: 382 Got: 398
+[24may.2024 19:42:01.283] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: legendary_monsters:ancient_guardian Expected: 383 Got: 399
+[24may.2024 19:42:01.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: legendary_monsters:ambusher Expected: 384 Got: 400
+[24may.2024 19:42:01.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: legendary_monsters:spiky_bug Expected: 385 Got: 401
+[24may.2024 19:42:01.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: legendary_monsters:cloud_golem Expected: 386 Got: 402
+[24may.2024 19:42:01.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: legendary_monsters:dark_cloud_golem Expected: 387 Got: 403
+[24may.2024 19:42:01.286] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: legendary_monsters:spear Expected: 388 Got: 404
+[24may.2024 19:42:04.359] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/LUCA/Desktop/SERVER/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23189!/assets/.mcassetsroot' uses unexpected schema
+[24may.2024 19:42:04.359] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/LUCA/Desktop/SERVER/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23189!/data/.mcassetsroot' uses unexpected schema
+[24may.2024 19:42:05.573] [main/INFO] [com.github.L_Ender.cataclysm.Cataclysm/]: Adding datapack listener altar_of_amethyst_recipes
+[24may.2024 19:42:05.654] [Worker-Main-7/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [minecraft:spruce_forest (from legendarymonsters-1.0.6.jar)] as it is missing following references: minecraft:spruce_forest (from legendarymonsters-1.0.6.jar)
+[24may.2024 19:42:05.692] [Worker-Main-9/WARN] [artifacts.Artifacts/]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-8.5.5-1.20.1.jar
+[24may.2024 19:42:05.724] [Worker-Main-2/ERROR] [net.minecraft.Util/]: Invalid path in pack: legendary_monsters:recipes/MoltenMetalIngot.json, ignoring
+[24may.2024 19:42:06.401] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[24may.2024 19:42:06.461] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[24may.2024 19:42:06.470] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[24may.2024 19:42:06.491] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[24may.2024 19:42:06.517] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:ancient_dripstone_brick_stairs_left
+com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:ancient_dripstone_brick'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23189!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23189!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23189!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.2.0-universal.jar%23194!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.2.0-universal.jar%23194!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23189!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23189!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23189!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23189!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.2.0-universal.jar%23194!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23189!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23189!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23189!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23189!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23189!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23189!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23189!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23189!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[24may.2024 19:42:06.535] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:dinosaur_bone_meal
+com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:dinosaur_bone_meal'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.2.0-universal.jar%23194!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.2.0-universal.jar%23194!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23189!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:311) ~[server-1.20.1-20230612.114412-srg.jar%23189!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23189!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.2.0-universal.jar%23194!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23189!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23189!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23189!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23189!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23189!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23189!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23189!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23189!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[24may.2024 19:42:06.561] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[24may.2024 19:42:06.564] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[24may.2024 19:42:06.568] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[24may.2024 19:42:06.582] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[24may.2024 19:42:06.590] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 17 recipes
+[24may.2024 19:42:06.810] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3417 advancements
+[24may.2024 19:42:06.819] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[24may.2024 19:42:06.830] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
+[24may.2024 19:42:06.841] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[24may.2024 19:42:10.058] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[24may.2024 19:42:10.058] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[24may.2024 19:42:10.059] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[24may.2024 19:42:10.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[24may.2024 19:42:10.121] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[24may.2024 19:42:10.137] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[24may.2024 19:42:10.291] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[24may.2024 19:42:10.291] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[24may.2024 19:42:10.292] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[24may.2024 19:42:10.292] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[24may.2024 19:42:10.323] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[24may.2024 19:42:10.423] [Server thread/INFO] [Framework/]: Loading server configs...
+[24may.2024 19:42:10.440] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[24may.2024 19:42:12.188] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.custom.obsidilith.ObsidilithEntity from class com.cerbon.bosses_of_mass_destruction.entity.custom.obsidilith.ObsidilithUtils
+[24may.2024 19:42:12.200] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.custom.gauntlet.GauntletEntity from class com.cerbon.bosses_of_mass_destruction.projectile.PetalBladeProjectile
+[24may.2024 19:42:12.232] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.util.BaseEntity from class com.cerbon.bosses_of_mass_destruction.entity.custom.void_blossom.hitbox.NetworkedHitboxManager
+[24may.2024 19:42:12.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[24may.2024 19:42:16.272] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24may.2024 19:42:16.295] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24may.2024 19:42:16.307] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24may.2024 19:42:16.320] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24may.2024 19:42:16.375] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24may.2024 19:42:16.385] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24may.2024 19:42:16.392] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24may.2024 19:42:16.400] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24may.2024 19:42:16.748] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
+[24may.2024 19:42:17.163] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4416 ms
+[24may.2024 19:42:17.163] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (6.845s)! For help, type "help"
+[24may.2024 19:42:17.178] [LanServerPinger #1/WARN] [net.minecraft.client.server.LanServerPinger/]: LanServerPinger: Network is unreachable: no further information
+[24may.2024 19:42:17.204] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[24may.2024 19:42:17.275] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[24may.2024 19:42:17.288] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 25565
+[24may.2024 19:42:46.697] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[24may.2024 19:42:46.819] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iLuca08[/192.168.0.8:60537] logged in with entity id 630 at (276.60047794348196, 68.0, 417.07927689987105)
+[24may.2024 19:42:46.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 joined the game
+[24may.2024 19:42:46.985] [Server thread/INFO] [Jade/]: Syncing config to iLuca08 (160520bd-886d-37c3-95f8-b79dfc951f40)
+[24may.2024 19:42:47.972] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of iLuca08 (17)
+[24may.2024 19:42:47.974] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to iLuca08
+[24may.2024 19:42:54.047] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 160520bd-886d-37c3-95f8-b79dfc951f40
+[24may.2024 19:42:55.040] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 160520bd-886d-37c3-95f8-b79dfc951f40
+[24may.2024 19:42:55.046] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player iLuca08 (160520bd-886d-37c3-95f8-b79dfc951f40) successfully connected to voice chat
+[24may.2024 19:48:48.047] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iLuca08 lost connection: Disconnected
+[24may.2024 19:48:48.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 left the game
+[24may.2024 19:48:48.054] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client iLuca08
+[24may.2024 19:49:33.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[24may.2024 19:49:33.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[24may.2024 19:49:33.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[24may.2024 19:49:33.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[24may.2024 19:49:33.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
+[24may.2024 19:49:33.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[24may.2024 19:49:33.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[24may.2024 19:49:33.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[24may.2024 19:49:33.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[24may.2024 19:49:33.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[24may.2024 19:49:33.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[24may.2024 19:49:33.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[24may.2024 19:49:33.811] [Server thread/INFO] [Framework/]: Unloading server configs...
+[24may.2024 19:49:33.814] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
