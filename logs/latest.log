@@ -1,47 +1,47 @@
-[26may.2024 16:46:03.546] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[26may.2024 16:46:03.551] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.1 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
-[26may.2024 16:46:04.068] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[26may.2024 16:46:04.084] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
-[26may.2024 16:46:04.086] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file URL: union:/C:/Users/LUCA/Desktop/SERVER/mods/OptiFine_1.20.1_HD_U_I6.jar%23144!/
-[26may.2024 16:46:04.095] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: C:\Users\LUCA\Desktop\SERVER\mods\OptiFine_1.20.1_HD_U_I6.jar
-[26may.2024 16:46:04.097] [main/INFO] [optifine.OptiFineTransformer/]: Target.PRE_CLASS is available
-[26may.2024 16:46:04.157] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/LUCA/Desktop/SERVER/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[26may.2024 16:46:04.169] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
-[26may.2024 16:46:04.534] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\LUCA\Desktop\SERVER\libraries\net\minecraftforge\fmlcore\1.20.1-47.2.0\fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
-[26may.2024 16:46:04.538] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\LUCA\Desktop\SERVER\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.2.0\javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[26may.2024 16:46:04.541] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\LUCA\Desktop\SERVER\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.2.0\lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[26may.2024 16:46:04.544] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\LUCA\Desktop\SERVER\libraries\net\minecraftforge\mclanguage\1.20.1-47.2.0\mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[26may.2024 16:46:04.732] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[26may.2024 16:46:04.734] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 7 dependencies adding them to mods collection
-[26may.2024 16:46:05.225] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.transformers
-[26may.2024 16:46:05.232] [main/INFO] [optifine.OptiFineTransformer/]: Targets: 412
-[26may.2024 16:46:05.785] [main/INFO] [optifine.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
-[26may.2024 16:46:06.285] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[26may.2024 16:46:06.403] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[26may.2024 16:46:06.407] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
-[26may.2024 16:46:06.414] [main/WARN] [mixin/]: Reference map 'cookingforblockheads.refmap.json' for cookingforblockheads.mixins.json could not be read. If this is a development environment you can ignore this message
-[26may.2024 16:46:06.418] [main/WARN] [mixin/]: Reference map 'EpheroLib-refmap.json' for epherolib.mixins.json could not be read. If this is a development environment you can ignore this message
-[26may.2024 16:46:06.520] [main/WARN] [mixin/]: Reference map 'Aquamirae.refmap.json' for aquamirae.mixins.json could not be read. If this is a development environment you can ignore this message
-[26may.2024 16:46:07.453] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.2.1-beta.2).
-[26may.2024 16:46:13.287] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/obscuria/obscureapi/client/renderer/PatreonLayer for invalid dist DEDICATED_SERVER
-[26may.2024 16:46:13.306] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
-[26may.2024 16:46:13.306] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
-[26may.2024 16:46:13.416] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[26may.2024 16:46:13.420] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[26may.2024 16:46:13.428] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[26may.2024 16:46:13.433] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[26may.2024 16:46:13.437] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[26may.2024 16:46:13.442] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[26may.2024 16:46:13.755] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
-[26may.2024 16:46:13.829] [modloading-worker-0/INFO] [com.epherical.epherolib.config.CommonConfig/]: Creating default config file: croptopia_v3.conf
-[26may.2024 16:46:16.316] [main/INFO] [Moonlight/]: Initialized block sets in 13ms
-[26may.2024 16:46:17.686] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 17
-[26may.2024 16:46:17.794] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
-[26may.2024 16:46:17.802] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
-[26may.2024 16:46:17.803] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
-[26may.2024 16:46:17.803] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
-[26may.2024 16:46:17.876] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obscure_api] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/obscure_api/versions.json
-[26may.2024 16:46:18.095] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[26may.2024 23:16:28.363] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[26may.2024 23:16:28.373] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.1 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[26may.2024 23:16:29.968] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[26may.2024 23:16:29.998] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
+[26may.2024 23:16:30.003] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file URL: union:/C:/Users/LUCA/Desktop/SERVER/mods/OptiFine_1.20.1_HD_U_I6.jar%23144!/
+[26may.2024 23:16:30.018] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: C:\Users\LUCA\Desktop\SERVER\mods\OptiFine_1.20.1_HD_U_I6.jar
+[26may.2024 23:16:30.025] [main/INFO] [optifine.OptiFineTransformer/]: Target.PRE_CLASS is available
+[26may.2024 23:16:30.163] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/LUCA/Desktop/SERVER/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[26may.2024 23:16:30.182] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
+[26may.2024 23:16:30.878] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\LUCA\Desktop\SERVER\libraries\net\minecraftforge\fmlcore\1.20.1-47.2.0\fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
+[26may.2024 23:16:30.886] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\LUCA\Desktop\SERVER\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.2.0\javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[26may.2024 23:16:30.892] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\LUCA\Desktop\SERVER\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.2.0\lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[26may.2024 23:16:30.896] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\LUCA\Desktop\SERVER\libraries\net\minecraftforge\mclanguage\1.20.1-47.2.0\mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[26may.2024 23:16:31.252] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[26may.2024 23:16:31.255] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 7 dependencies adding them to mods collection
+[26may.2024 23:16:32.108] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.transformers
+[26may.2024 23:16:32.117] [main/INFO] [optifine.OptiFineTransformer/]: Targets: 412
+[26may.2024 23:16:33.103] [main/INFO] [optifine.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
+[26may.2024 23:16:33.964] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[26may.2024 23:16:34.217] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[26may.2024 23:16:34.240] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[26may.2024 23:16:34.259] [main/WARN] [mixin/]: Reference map 'cookingforblockheads.refmap.json' for cookingforblockheads.mixins.json could not be read. If this is a development environment you can ignore this message
+[26may.2024 23:16:34.267] [main/WARN] [mixin/]: Reference map 'EpheroLib-refmap.json' for epherolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[26may.2024 23:16:34.475] [main/WARN] [mixin/]: Reference map 'Aquamirae.refmap.json' for aquamirae.mixins.json could not be read. If this is a development environment you can ignore this message
+[26may.2024 23:16:36.073] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.2.1-beta.2).
+[26may.2024 23:16:46.721] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/obscuria/obscureapi/client/renderer/PatreonLayer for invalid dist DEDICATED_SERVER
+[26may.2024 23:16:46.784] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
+[26may.2024 23:16:46.785] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
+[26may.2024 23:16:47.024] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[26may.2024 23:16:47.031] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[26may.2024 23:16:47.058] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[26may.2024 23:16:47.070] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[26may.2024 23:16:47.079] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[26may.2024 23:16:47.091] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[26may.2024 23:16:47.973] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[26may.2024 23:16:48.139] [modloading-worker-0/INFO] [com.epherical.epherolib.config.CommonConfig/]: Creating default config file: croptopia_v3.conf
+[26may.2024 23:16:52.190] [main/INFO] [Moonlight/]: Initialized block sets in 41ms
+[26may.2024 23:16:54.768] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 17
+[26may.2024 23:16:55.056] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[26may.2024 23:16:55.071] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[26may.2024 23:16:55.074] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[26may.2024 23:16:55.074] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[26may.2024 23:16:55.197] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obscure_api] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/obscure_api/versions.json
+[26may.2024 23:16:55.688] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
@@ -56,47 +56,46 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[26may.2024 16:46:18.096] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[26may.2024 16:46:18.136] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:aiming for minecraft:player
-[26may.2024 16:46:18.137] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:reloading for minecraft:player
-[26may.2024 16:46:18.137] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:shooting for minecraft:player
-[26may.2024 16:46:18.160] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
-[26may.2024 16:46:18.160] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
-[26may.2024 16:46:18.161] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
-[26may.2024 16:46:18.161] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
-[26may.2024 16:46:18.161] [main/INFO] [journeymap/]: Initializing Packet Registries
-[26may.2024 16:46:18.215] [main/INFO] [Moonlight/]: Initialized color sets in 29ms
-[26may.2024 16:46:18.276] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.cookingforblockheads.compat.ForgeJadeCookingForBlockheadsPlugin
-[26may.2024 16:46:18.285] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at twilightforest.compat.jade.JadeCompat
-[26may.2024 16:46:18.286] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[26may.2024 16:46:18.298] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[26may.2024 16:46:18.303] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[26may.2024 16:46:18.305] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.waila.JadeDataProvider
-[26may.2024 16:46:18.307] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
-[26may.2024 16:46:18.490] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.9.18 Target: 5.9.21
-[26may.2024 16:46:18.490] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
-[26may.2024 16:46:18.583] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: OUTDATED Current: 9.1.12 Target: 9.1.14
-[26may.2024 16:46:18.587] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[26may.2024 16:46:18.989] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.2.0 Target: null
-[26may.2024 16:46:18.989] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
-[26may.2024 16:46:19.328] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: AHEAD Current: 4.3.2145 Target: null
-[26may.2024 16:46:19.329] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://maxhenkel.de/update/voicechat.json
-[26may.2024 16:46:20.834] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: UP_TO_DATE Current: 1.20.1-2.4.32 Target: null
-[26may.2024 16:46:20.834] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
-[26may.2024 16:46:20.967] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.11.17 Target: null
-[26may.2024 16:46:20.969] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jeiintegration] Starting version check at https://cdn.snowshock35.com/mods/jei-integration/update.json
-[26may.2024 16:46:21.111] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jeiintegration] Found status: BETA Current: 10.0.0 Target: null
-[26may.2024 16:46:21.111] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[26may.2024 16:46:21.828] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[26may.2024 16:46:21.829] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.9.8 Target: 1.9.9
-[26may.2024 16:46:21.831] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[26may.2024 16:46:21.850] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.5.5 Target: 8.6.5
-[26may.2024 16:46:21.850] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
-[26may.2024 16:46:21.868] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: UP_TO_DATE Current: 3.2.2 Target: null
-[26may.2024 16:46:21.868] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[26may.2024 16:46:22.717] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.6.27 Target: 0.6.27
-[26may.2024 16:46:22.718] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aquamirae] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/aquamirae/versions.json
-[26may.2024 16:46:22.737] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[26may.2024 23:16:55.689] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[26may.2024 23:16:55.712] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:aiming for minecraft:player
+[26may.2024 23:16:55.713] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:reloading for minecraft:player
+[26may.2024 23:16:55.714] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:shooting for minecraft:player
+[26may.2024 23:16:55.761] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[26may.2024 23:16:55.763] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[26may.2024 23:16:55.764] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[26may.2024 23:16:55.764] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[26may.2024 23:16:55.765] [main/INFO] [journeymap/]: Initializing Packet Registries
+[26may.2024 23:16:55.840] [main/INFO] [Moonlight/]: Initialized color sets in 39ms
+[26may.2024 23:16:55.947] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.cookingforblockheads.compat.ForgeJadeCookingForBlockheadsPlugin
+[26may.2024 23:16:55.961] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at twilightforest.compat.jade.JadeCompat
+[26may.2024 23:16:55.963] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[26may.2024 23:16:55.995] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[26may.2024 23:16:56.008] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[26may.2024 23:16:56.011] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.waila.JadeDataProvider
+[26may.2024 23:16:56.015] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[26may.2024 23:16:56.084] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.9.18 Target: 5.9.21
+[26may.2024 23:16:56.086] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[26may.2024 23:16:56.175] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: OUTDATED Current: 9.1.12 Target: 9.1.14
+[26may.2024 23:16:56.192] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[26may.2024 23:16:56.648] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.2.0 Target: null
+[26may.2024 23:16:56.649] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[26may.2024 23:16:57.014] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: AHEAD Current: 4.3.2145 Target: null
+[26may.2024 23:16:57.016] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://maxhenkel.de/update/voicechat.json
+[26may.2024 23:16:58.684] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: UP_TO_DATE Current: 1.20.1-2.4.32 Target: null
+[26may.2024 23:16:58.684] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[26may.2024 23:16:58.705] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.11.17 Target: null
+[26may.2024 23:16:58.706] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jeiintegration] Starting version check at https://cdn.snowshock35.com/mods/jei-integration/update.json
+[26may.2024 23:16:58.825] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jeiintegration] Found status: BETA Current: 10.0.0 Target: null
+[26may.2024 23:16:58.825] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[26may.2024 23:16:59.593] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.9.8 Target: 1.9.9
+[26may.2024 23:16:59.593] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[26may.2024 23:16:59.613] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.5.5 Target: 8.6.5
+[26may.2024 23:16:59.613] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
+[26may.2024 23:16:59.637] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: UP_TO_DATE Current: 3.2.2 Target: null
+[26may.2024 23:16:59.638] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[26may.2024 23:17:00.386] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.6.27 Target: 0.6.27
+[26may.2024 23:17:00.388] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aquamirae] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/aquamirae/versions.json
+[26may.2024 23:17:00.414] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
@@ -111,17 +110,18 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[26may.2024 16:46:24.466] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/LUCA/Desktop/SERVER/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23189!/assets/.mcassetsroot' uses unexpected schema
-[26may.2024 16:46:24.468] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/LUCA/Desktop/SERVER/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23189!/data/.mcassetsroot' uses unexpected schema
-[26may.2024 16:46:25.586] [main/INFO] [com.github.L_Ender.cataclysm.Cataclysm/]: Adding datapack listener altar_of_amethyst_recipes
-[26may.2024 16:46:25.664] [Worker-Main-8/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [minecraft:spruce_forest (from legendarymonsters-1.0.6.jar)] as it is missing following references: minecraft:spruce_forest (from legendarymonsters-1.0.6.jar)
-[26may.2024 16:46:25.669] [Worker-Main-7/WARN] [artifacts.Artifacts/]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-8.5.5-1.20.1.jar
-[26may.2024 16:46:25.703] [Worker-Main-11/ERROR] [net.minecraft.Util/]: Invalid path in pack: legendary_monsters:recipes/MoltenMetalIngot.json, ignoring
-[26may.2024 16:46:26.301] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
-[26may.2024 16:46:26.362] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
-[26may.2024 16:46:26.371] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
-[26may.2024 16:46:26.387] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
-[26may.2024 16:46:26.408] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:ancient_dripstone_brick_stairs_left
+[26may.2024 23:17:02.748] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[26may.2024 23:17:07.044] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/LUCA/Desktop/SERVER/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23189!/assets/.mcassetsroot' uses unexpected schema
+[26may.2024 23:17:07.045] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/LUCA/Desktop/SERVER/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23189!/data/.mcassetsroot' uses unexpected schema
+[26may.2024 23:17:09.783] [main/INFO] [com.github.L_Ender.cataclysm.Cataclysm/]: Adding datapack listener altar_of_amethyst_recipes
+[26may.2024 23:17:09.933] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [minecraft:spruce_forest (from legendarymonsters-1.0.6.jar)] as it is missing following references: minecraft:spruce_forest (from legendarymonsters-1.0.6.jar)
+[26may.2024 23:17:09.969] [Worker-Main-8/WARN] [artifacts.Artifacts/]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-8.5.5-1.20.1.jar
+[26may.2024 23:17:10.060] [Worker-Main-7/ERROR] [net.minecraft.Util/]: Invalid path in pack: legendary_monsters:recipes/MoltenMetalIngot.json, ignoring
+[26may.2024 23:17:11.283] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[26may.2024 23:17:11.439] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[26may.2024 23:17:11.462] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[26may.2024 23:17:11.516] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[26may.2024 23:17:11.576] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:ancient_dripstone_brick_stairs_left
 com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:ancient_dripstone_brick'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23189!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -157,7 +157,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:ancient_dr
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[26may.2024 16:46:26.424] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:dinosaur_bone_meal
+[26may.2024 23:17:11.614] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:dinosaur_bone_meal
 com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:dinosaur_bone_meal'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.2.0-universal.jar%23194!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.2.0-universal.jar%23194!/:?]
@@ -188,754 +188,105 @@ com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:dinosaur_b
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[26may.2024 16:46:26.444] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
-[26may.2024 16:46:26.447] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
-[26may.2024 16:46:26.450] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
-[26may.2024 16:46:26.461] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
-[26may.2024 16:46:26.466] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 17 recipes
-[26may.2024 16:46:26.580] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3417 advancements
-[26may.2024 16:46:26.586] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
-[26may.2024 16:46:26.593] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
-[26may.2024 16:46:26.600] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[26may.2024 16:46:29.186] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[26may.2024 16:46:29.186] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[26may.2024 16:46:29.186] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[26may.2024 16:46:29.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[26may.2024 16:46:29.236] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[26may.2024 16:46:29.254] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[26may.2024 16:46:29.421] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[26may.2024 16:46:29.421] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[26may.2024 16:46:29.421] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[26may.2024 16:46:29.422] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[26may.2024 16:46:29.455] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[26may.2024 16:46:29.456] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[26may.2024 16:46:29.457] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[26may.2024 16:46:29.546] [Server thread/INFO] [Framework/]: Loading server configs...
-[26may.2024 16:46:29.562] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[26may.2024 16:46:30.187] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.custom.obsidilith.ObsidilithEntity from class com.cerbon.bosses_of_mass_destruction.entity.custom.obsidilith.ObsidilithUtils
-[26may.2024 16:46:30.238] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.custom.gauntlet.GauntletEntity from class com.cerbon.bosses_of_mass_destruction.projectile.PetalBladeProjectile
-[26may.2024 16:46:30.245] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.util.BaseEntity from class com.cerbon.bosses_of_mass_destruction.entity.custom.void_blossom.hitbox.NetworkedHitboxManager
-[26may.2024 16:46:31.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[26may.2024 16:46:34.530] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26may.2024 16:46:34.579] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26may.2024 16:46:34.590] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26may.2024 16:46:34.597] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26may.2024 16:46:34.604] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26may.2024 16:46:34.616] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26may.2024 16:46:34.626] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26may.2024 16:46:34.638] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26may.2024 16:46:35.053] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
-[26may.2024 16:46:35.404] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4351 ms
-[26may.2024 16:46:35.404] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (5.957s)! For help, type "help"
-[26may.2024 16:46:35.416] [LanServerPinger #1/WARN] [net.minecraft.client.server.LanServerPinger/]: LanServerPinger: Network is unreachable: no further information
-[26may.2024 16:46:35.438] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[26may.2024 16:46:35.510] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[26may.2024 16:46:35.526] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 25565
-[26may.2024 16:51:25.334] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
-[26may.2024 16:51:25.456] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iLuca08[/[::1]:56165] logged in with entity id 624 at (275.627415329517, 63.0, 410.20597810398516)
-[26may.2024 16:51:25.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 joined the game
-[26may.2024 16:51:25.604] [Server thread/INFO] [Jade/]: Syncing config to iLuca08 (160520bd-886d-37c3-95f8-b79dfc951f40)
-[26may.2024 16:51:27.568] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of iLuca08 (17)
-[26may.2024 16:51:27.572] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to iLuca08
-[26may.2024 16:52:27.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iLuca08: Set own game mode to Creative Mode]
-[26may.2024 16:53:00.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iLuca08: Set own game mode to Survival Mode]
-[26may.2024 16:53:42.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 is bleeding. iLuca08 fell from a high place
-[26may.2024 16:53:42.225] [Server thread/WARN] [tombstone/]: The death event of the player iLuca08 was canceled by another mod
-[26may.2024 16:53:42.258] [Server thread/INFO] [tombstone/]: The player iLuca08 has successfully been saved
-[26may.2024 16:54:07.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 is bleeding. iLuca08 fell from a high place
-[26may.2024 16:54:07.397] [Server thread/WARN] [tombstone/]: The death event of the player iLuca08 was canceled by another mod
-[26may.2024 16:54:07.402] [Server thread/INFO] [tombstone/]: The player iLuca08 has successfully been saved
-[26may.2024 16:54:37.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iLuca08: Set own game mode to Creative Mode]
-[26may.2024 16:56:14.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iLuca08: Set own game mode to Survival Mode]
-[26may.2024 17:16:29.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iLuca08: Set own game mode to Creative Mode]
-[26may.2024 17:17:44.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iLuca08: Set own game mode to Survival Mode]
-[26may.2024 17:18:02.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iLuca08: Set own game mode to Creative Mode]
-[26may.2024 17:18:18.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iLuca08: Set own game mode to Survival Mode]
-[26may.2024 17:18:42.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iLuca08: Set own game mode to Creative Mode]
-[26may.2024 17:21:46.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iLuca08: Set own game mode to Survival Mode]
-[26may.2024 17:22:40.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iLuca08: Set own game mode to Creative Mode]
-[26may.2024 17:24:50.093] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@26052da0[id=<null>,name=DiandraEli,properties={},legacy=false] (/[::1]:57067): Took too long to log in
-[26may.2024 17:24:50.094] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@26052da0[id=<null>,name=DiandraEli,properties={},legacy=false] (/[::1]:57067) lost connection: Took too long to log in
-[26may.2024 17:24:50.136] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[26may.2024 17:25:48.593] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:end_robes_helmet is
-[26may.2024 17:25:48.593] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what supplementaries:cage is
-[26may.2024 17:25:48.594] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what supplementaries:item_shelf is
-[26may.2024 17:25:48.595] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what supplementaries:soap is
-[26may.2024 17:25:48.596] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:leaverpalm is
-[26may.2024 17:25:48.596] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:full_plate_spooky_chestplate is
-[26may.2024 17:25:48.598] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what supplementaries:rope_arrow is
-[26may.2024 17:25:48.598] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:full_plate_spooky_helmet is
-[26may.2024 17:25:48.599] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:endlinge is
-[26may.2024 17:25:48.599] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:necromancer is
-[26may.2024 17:25:48.600] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:captainmountaineer is
-[26may.2024 17:25:48.600] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:squallgolem is
-[26may.2024 17:25:48.600] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:illagergeomancerattack is
-[26may.2024 17:25:48.601] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:snareling is
-[26may.2024 17:25:48.601] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:pigchest is
-[26may.2024 17:25:48.601] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:woolycow is
-[26may.2024 17:25:48.601] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:frozenzombie is
-[26may.2024 17:25:48.601] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:blastling is
-[26may.2024 17:25:48.602] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:mountaineer is
-[26may.2024 17:25:48.603] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:sunkenskeletonyellow is
-[26may.2024 17:25:48.603] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:bluekinghat_leggings is
-[26may.2024 17:25:48.603] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:bamboooldplant is
-[26may.2024 17:25:48.604] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:bluebookitem is
-[26may.2024 17:25:48.604] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what supplementaries:ash is
-[26may.2024 17:25:48.605] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:swamplog is
-[26may.2024 17:25:48.605] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:rug_3 is
-[26may.2024 17:25:48.605] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what supplementaries:flax_seeds is
-[26may.2024 17:25:48.606] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:satchelelements is
-[26may.2024 17:25:48.606] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:telescope is
-[26may.2024 17:25:48.606] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:yellowbigcoral is
-[26may.2024 17:25:48.606] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:swampdirt is
-[26may.2024 17:25:48.607] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:shulker_armorunique_1_chestplate is
-[26may.2024 17:25:48.607] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:palmlog is
-[26may.2024 17:25:48.607] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:pumpkinscarecrow is
-[26may.2024 17:25:48.608] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what simpleplanes:plane is
-[26may.2024 17:25:48.608] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:flowersheatherorange is
-[26may.2024 17:25:48.608] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:highlandfern is
-[26may.2024 17:25:48.608] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:leaveswindswept is
-[26may.2024 17:25:48.609] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:nethergrass is
-[26may.2024 17:25:48.609] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:soggyswamobricks is
-[26may.2024 17:25:48.609] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:leaverpalm is
-[26may.2024 17:25:48.610] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what justenoughdrugz:weed_edible is
-[26may.2024 17:25:48.610] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:ravager_gatewood is
-[26may.2024 17:25:48.610] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:giter is
-[26may.2024 17:25:48.611] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what justenoughdrugz:weed_seed is
-[26may.2024 17:25:48.611] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:bluebanner is
-[26may.2024 17:25:48.612] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:bluekinghat_chestplate is
-[26may.2024 17:25:48.612] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:limeglass is
-[26may.2024 17:25:48.613] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:wintershroom is
-[26may.2024 17:25:48.613] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what supplementaries:cage is
-[26may.2024 17:25:48.614] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:fancyfence_corner is
-[26may.2024 17:25:48.614] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:cobwebdig is
-[26may.2024 17:25:48.614] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:wood_stronghold is
-[26may.2024 17:25:48.615] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:necromancerball is
-[26may.2024 17:25:48.615] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:highlandberrybushempty is
-[26may.2024 17:25:48.616] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:outposttent is
-[26may.2024 17:25:48.616] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:goldchest is
-[26may.2024 17:25:48.616] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:scorchgrass is
-[26may.2024 17:25:48.617] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:ravagergatewood_3 is
-[26may.2024 17:25:48.617] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:bluekinghat_helmet is
-[26may.2024 17:25:48.617] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:naturalcandle is
-[26may.2024 17:25:48.617] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:flowersheatherblue is
-[26may.2024 17:25:48.618] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what supplementaries:rope_arrow is
-[26may.2024 17:25:48.619] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:crystalblue is
-[26may.2024 17:25:48.619] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:grandpiano is
-[26may.2024 17:25:48.619] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:lost_evocation is
-[26may.2024 17:25:48.619] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:end_lamp is
-[26may.2024 17:25:48.619] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:end_robes_helmet is
-[26may.2024 17:25:48.620] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:leavesbigbamboo is
-[26may.2024 17:25:48.620] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:bamboooldplant is
-[26may.2024 17:25:48.620] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:wintershroom is
-[26may.2024 17:25:48.621] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what supplementaries:wild_flax is
-[26may.2024 17:25:48.621] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what supplementaries:ash is
-[26may.2024 17:25:48.621] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:swamplog is
-[26may.2024 17:25:48.621] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:rug_3 is
-[26may.2024 17:25:48.621] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:cobwebdig is
-[26may.2024 17:25:48.623] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:bluebook is
-[26may.2024 17:25:48.623] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:telescope is
-[26may.2024 17:25:48.623] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:swampdirt is
-[26may.2024 17:25:48.623] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what supplementaries:book_pile is
-[26may.2024 17:25:48.624] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:highlandgrass is
-[26may.2024 17:25:48.624] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:palmlog is
-[26may.2024 17:25:48.624] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:pumpkinscarecrow is
-[26may.2024 17:25:48.625] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:longbluebanner is
-[26may.2024 17:25:48.625] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:highlandberrybushempty is
-[26may.2024 17:25:48.625] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:tallchorusgrass is
-[26may.2024 17:25:48.625] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:highlandtallgrass is
-[26may.2024 17:25:48.626] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:fernsnow is
-[26may.2024 17:25:48.626] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:outposttent is
-[26may.2024 17:25:48.626] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:purplefaireflowersmall is
-[26may.2024 17:25:48.626] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:flowersheatherorange is
-[26may.2024 17:25:48.626] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:goldchest is
-[26may.2024 17:25:48.627] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:highlandfern is
-[26may.2024 17:25:48.627] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:leaveswindswept is
-[26may.2024 17:25:48.627] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:doubleplanthighlandfern is
-[26may.2024 17:25:48.627] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:scorchgrass is
-[26may.2024 17:25:48.627] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:ravagergatewood_3 is
-[26may.2024 17:25:48.628] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:nethergrass is
-[26may.2024 17:25:48.628] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:soggyswamobricks is
-[26may.2024 17:25:48.628] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:leaverpalm is
-[26may.2024 17:25:48.628] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:ravager_gatewood is
-[26may.2024 17:25:48.629] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:naturalcandle is
-[26may.2024 17:25:48.629] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:flowersheatherblue is
-[26may.2024 17:25:48.629] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:swampgrassside is
-[26may.2024 17:25:48.629] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:grandpiano is
-[26may.2024 17:25:48.630] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:andesitehighlandstone is
-[26may.2024 17:25:48.630] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:highlandlampwood is
-[26may.2024 17:25:48.630] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:fancyfence is
-[26may.2024 17:25:48.630] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what supplementaries:flax is
-[26may.2024 17:25:48.630] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:end_lamp is
-[26may.2024 17:25:48.631] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:limeglass is
-[26may.2024 17:25:48.631] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:glaivespooky is
-[26may.2024 17:25:48.632] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what supplementaries:cage is
-[26may.2024 17:25:48.632] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what supplementaries:ash is
-[26may.2024 17:25:48.633] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what supplementaries:item_shelf is
-[26may.2024 17:25:48.633] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:bluebook is
-[26may.2024 17:25:48.634] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:sanctumstonepatternedgilded is
-[26may.2024 17:25:48.634] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what supplementaries:flax_seeds is
-[26may.2024 17:25:48.634] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:telescope is
-[26may.2024 17:25:48.635] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:highlandberrybushempty is
-[26may.2024 17:25:48.635] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:goldchest is
-[26may.2024 17:25:48.636] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:leaveswindswept is
-[26may.2024 17:25:48.636] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:ravagergatewood_3 is
-[26may.2024 17:25:48.637] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:bluekinghat_helmet is
-[26may.2024 17:25:48.637] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:soggyswamobricks is
-[26may.2024 17:25:48.637] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:ravager_gatewood is
-[26may.2024 17:25:48.637] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:rampartbrazier is
-[26may.2024 17:25:48.638] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:grandpiano is
-[26may.2024 17:25:48.639] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:icewand is
-[26may.2024 17:25:48.640] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:end_lamp is
-[26may.2024 17:25:48.640] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\world\stats\95011615-80dc-345d-b25b-bc907bee2471.json: Don't know what duneons:limeglass is
-[26may.2024 17:25:48.689] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/statue' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.689] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/planter_rich' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.689] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/turn_table' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.689] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/clock_block' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.689] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/soap/map' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.689] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/lock_block' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.691] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/hourglass' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.691] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/boat_jar' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.691] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/decorations/sign_post_cherry' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.691] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/bed_from_feather_block' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.691] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/checker' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.691] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/speaker_block' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.692] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/notice_board' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.692] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/sign_post_cherry' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.692] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/jar' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.692] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/pulley' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.692] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/pancake_fd' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.692] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/pedestal' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.692] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/stone_tile' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.694] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/stonecutting/stone_tile' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.694] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/sign_post_spruce' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.695] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/decorations/sign_post_spruce' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.695] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/spring_launcher' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.695] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/candle_holders/candle_holder_blue' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.696] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/candle_holders/candle_holder_lime' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.696] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/candle_holders/candle_holder_light_blue' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.696] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/candle_holders/candle_holder_gray' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.696] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/cage' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.697] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/bomb' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.697] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/candle_holders/candle_holder_light_gray' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.697] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/candle_holders/candle_holder_orange' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.697] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/candle_holders/candle_holder_purple' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.697] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/candle_holders/candle_holder_red' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.697] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/bubble_blower' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.698] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/candle_holders/candle_holder_magenta' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.698] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/faucet' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.698] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/candle_holders/candle_holder_pink' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.698] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/candle_holders/candle_holder_white' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.698] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/candle_holders/candle_holder_brown' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.698] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/goblet' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.700] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/iron_gate' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.700] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/candle_holders/candle_holder_black' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.700] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/candle_holders/candle_holder_green' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.700] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/candle_holders/candle_holder' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.700] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/candle_holders/candle_holder_cyan' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.700] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/candle_holders/candle_holder_yellow' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.701] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/flint_block' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.701] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/crank' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.701] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/flags/flag_orange' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.701] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/flags/flag_magenta' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.701] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/daub_cross_brace' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.701] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/flags/flag_pink' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.701] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/timber_frame' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.702] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/slingshot' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.702] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/timber_brace' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.702] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/flags/flag_black' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.702] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/flags/flag_green' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.702] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/flags/flag_purple' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.703] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/flags/flag_white' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.703] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/timber_cross_brace' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.703] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/flags/flag_brown' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.703] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/flags/flag_gray' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.703] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/flags/flag_light_blue' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.704] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/daub_brace' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.704] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/flags/flag_blue' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.704] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/daub_frame' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.704] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/flags/flag_cyan' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.704] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/flags/flag_yellow' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.705] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/flags/flag_light_gray' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.705] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/flags/flag_red' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.705] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/flags/flag_lime' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.705] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/sconce' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.705] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/soap' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.706] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/flower_box' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.706] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/key' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.706] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/gold_trapdoor' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.706] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/gold_door' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.707] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/netherite_trapdoor' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.707] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/netherite_door' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.707] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/sack' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.707] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/blackboard' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.707] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/ash_brick' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.708] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/decorations/sign_post_birch' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.708] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/sign_post_birch' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.708] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/candle_holders/candle_holder_white_dye' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.709] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/daub' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.709] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/redstone_illuminator' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.709] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/altimeter' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.710] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/sconce_lever' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.710] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/decorations/sign_post_dark_oak' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.710] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/item_shelf' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.712] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/sign_post_dark_oak' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.712] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/bamboo_spikes' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.712] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/bellows' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.713] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/sconce_soul' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.713] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/feather_block' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.713] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/candle_holders/candle_holder_pink_dye' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.713] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/lapis_bricks' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.713] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/safe' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.714] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/sign_post_oak' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.714] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:adventure/way_sign' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.714] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/candy' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.714] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/sugar_cube' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.716] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/crystal_display' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.716] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/present' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.716] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/decorations/sign_post_jungle' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.716] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/soap_block' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.716] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/soap/spike' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.717] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/soap/piston' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.717] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/soap/blackboard' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.717] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/soap/globe' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.717] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/cog_block' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.717] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/wrench' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.718] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/flute' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.718] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'betterdungeons:root' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.718] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'dungeons_enhanced:ambitious_explorer' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.718] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'dungeons_enhanced:root' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.718] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/dispenser_minecart' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.719] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/stone_lamp' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.720] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'supplementaries:recipes/slice_map' in progress file .\world\advancements\95011615-80dc-345d-b25b-bc907bee2471.json - it doesn't exist anymore?
-[26may.2024 17:25:48.737] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:bellows removed now.
-[26may.2024 17:25:48.737] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:sconce_lever removed now.
-[26may.2024 17:25:48.737] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flint_block removed now.
-[26may.2024 17:25:48.737] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:notice_board removed now.
-[26may.2024 17:25:48.738] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_purple removed now.
-[26may.2024 17:25:48.738] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_green removed now.
-[26may.2024 17:25:48.738] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flags/flag_brown removed now.
-[26may.2024 17:25:48.738] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:bubble_blower removed now.
-[26may.2024 17:25:48.738] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:crank removed now.
-[26may.2024 17:25:48.738] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:netherite_trapdoor removed now.
-[26may.2024 17:25:48.739] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flute removed now.
-[26may.2024 17:25:48.739] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_orange removed now.
-[26may.2024 17:25:48.739] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_white_dye removed now.
-[26may.2024 17:25:48.739] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:redstone_illuminator removed now.
-[26may.2024 17:25:48.739] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:planter_rich removed now.
-[26may.2024 17:25:48.740] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flags/flag_cyan removed now.
-[26may.2024 17:25:48.740] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:statue removed now.
-[26may.2024 17:25:48.740] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:clock_block removed now.
-[26may.2024 17:25:48.740] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flags/flag_red removed now.
-[26may.2024 17:25:48.740] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:stone_lamp removed now.
-[26may.2024 17:25:48.741] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_cyan removed now.
-[26may.2024 17:25:48.741] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:timber_frame removed now.
-[26may.2024 17:25:48.741] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:daub_cross_brace removed now.
-[26may.2024 17:25:48.741] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:sign_post_dark_oak removed now.
-[26may.2024 17:25:48.741] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:present removed now.
-[26may.2024 17:25:48.741] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: duneons:palmcraft removed now.
-[26may.2024 17:25:48.741] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:stone_tile removed now.
-[26may.2024 17:25:48.743] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:item_shelf removed now.
-[26may.2024 17:25:48.743] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flags/flag_white removed now.
-[26may.2024 17:25:48.743] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:timber_brace removed now.
-[26may.2024 17:25:48.743] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:bed_from_feather_block removed now.
-[26may.2024 17:25:48.744] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:feather_block removed now.
-[26may.2024 17:25:48.744] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:cog_block removed now.
-[26may.2024 17:25:48.745] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:pancake_fd removed now.
-[26may.2024 17:25:48.745] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:boat_jar removed now.
-[26may.2024 17:25:48.746] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:bomb removed now.
-[26may.2024 17:25:48.746] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:lapis_bricks removed now.
-[26may.2024 17:25:48.746] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:blackboard removed now.
-[26may.2024 17:25:48.747] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:sign_post_cherry removed now.
-[26may.2024 17:25:48.747] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flags/flag_yellow removed now.
-[26may.2024 17:25:48.747] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:faucet removed now.
-[26may.2024 17:25:48.747] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:ash_brick removed now.
-[26may.2024 17:25:48.748] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flags/flag_light_blue removed now.
-[26may.2024 17:25:48.748] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:pulley removed now.
-[26may.2024 17:25:48.748] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flags/flag_orange removed now.
-[26may.2024 17:25:48.748] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:soap/spike removed now.
-[26may.2024 17:25:48.748] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:sign_post_oak removed now.
-[26may.2024 17:25:48.748] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:sconce_soul removed now.
-[26may.2024 17:25:48.749] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:hourglass removed now.
-[26may.2024 17:25:48.749] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:dispenser_minecart removed now.
-[26may.2024 17:25:48.749] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:checker removed now.
-[26may.2024 17:25:48.749] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_light_gray removed now.
-[26may.2024 17:25:48.749] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:soap removed now.
-[26may.2024 17:25:48.749] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:gold_door removed now.
-[26may.2024 17:25:48.750] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:altimeter removed now.
-[26may.2024 17:25:48.750] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:sign_post_jungle removed now.
-[26may.2024 17:25:48.750] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_blue removed now.
-[26may.2024 17:25:48.750] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:daub_brace removed now.
-[26may.2024 17:25:48.751] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flags/flag_lime removed now.
-[26may.2024 17:25:48.751] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flags/flag_magenta removed now.
-[26may.2024 17:25:48.751] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_red removed now.
-[26may.2024 17:25:48.751] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_white removed now.
-[26may.2024 17:25:48.751] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_lime removed now.
-[26may.2024 17:25:48.752] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flags/flag_light_gray removed now.
-[26may.2024 17:25:48.752] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:daub_frame removed now.
-[26may.2024 17:25:48.752] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:jar removed now.
-[26may.2024 17:25:48.752] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:gold_trapdoor removed now.
-[26may.2024 17:25:48.753] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:lock_block removed now.
-[26may.2024 17:25:48.753] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_brown removed now.
-[26may.2024 17:25:48.754] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_light_blue removed now.
-[26may.2024 17:25:48.754] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:goblet removed now.
-[26may.2024 17:25:48.754] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:cage removed now.
-[26may.2024 17:25:48.754] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:soap/blackboard removed now.
-[26may.2024 17:25:48.754] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_pink_dye removed now.
-[26may.2024 17:25:48.754] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder removed now.
-[26may.2024 17:25:48.754] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:netherite_door removed now.
-[26may.2024 17:25:48.754] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flags/flag_blue removed now.
-[26may.2024 17:25:48.756] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:sign_post_birch removed now.
-[26may.2024 17:25:48.756] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_magenta removed now.
-[26may.2024 17:25:48.756] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:wrench removed now.
-[26may.2024 17:25:48.756] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:sack removed now.
-[26may.2024 17:25:48.756] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:sign_post_spruce removed now.
-[26may.2024 17:25:48.757] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:sconce removed now.
-[26may.2024 17:25:48.757] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_gray removed now.
-[26may.2024 17:25:48.757] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:turn_table removed now.
-[26may.2024 17:25:48.757] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flags/flag_pink removed now.
-[26may.2024 17:25:48.757] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flags/flag_green removed now.
-[26may.2024 17:25:48.758] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candy removed now.
-[26may.2024 17:25:48.758] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:pedestal removed now.
-[26may.2024 17:25:48.758] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:iron_gate removed now.
-[26may.2024 17:25:48.758] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:bamboo_spikes removed now.
-[26may.2024 17:25:48.758] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:soap_block removed now.
-[26may.2024 17:25:48.759] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:timber_cross_brace removed now.
-[26may.2024 17:25:48.759] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_black removed now.
-[26may.2024 17:25:48.759] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:key removed now.
-[26may.2024 17:25:48.759] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flower_box removed now.
-[26may.2024 17:25:48.759] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:crystal_display removed now.
-[26may.2024 17:25:48.759] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:soap/map removed now.
-[26may.2024 17:25:48.759] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:sugar_cube removed now.
-[26may.2024 17:25:48.759] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_pink removed now.
-[26may.2024 17:25:48.760] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:stonecutting/stone_tile removed now.
-[26may.2024 17:25:48.760] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flags/flag_black removed now.
-[26may.2024 17:25:48.760] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:soap/piston removed now.
-[26may.2024 17:25:48.760] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flags/flag_gray removed now.
-[26may.2024 17:25:48.760] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_yellow removed now.
-[26may.2024 17:25:48.761] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:slice_map removed now.
-[26may.2024 17:25:48.761] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:slingshot removed now.
-[26may.2024 17:25:48.761] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flags/flag_purple removed now.
-[26may.2024 17:25:48.761] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:spring_launcher removed now.
-[26may.2024 17:25:48.761] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:safe removed now.
-[26may.2024 17:25:48.762] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:daub removed now.
-[26may.2024 17:25:48.762] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:speaker_block removed now.
-[26may.2024 17:25:48.762] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:bellows removed now.
-[26may.2024 17:25:48.762] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:sconce_lever removed now.
-[26may.2024 17:25:48.762] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flint_block removed now.
-[26may.2024 17:25:48.762] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:notice_board removed now.
-[26may.2024 17:25:48.763] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_purple removed now.
-[26may.2024 17:25:48.763] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_green removed now.
-[26may.2024 17:25:48.763] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flags/flag_brown removed now.
-[26may.2024 17:25:48.763] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:bubble_blower removed now.
-[26may.2024 17:25:48.764] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:crank removed now.
-[26may.2024 17:25:48.764] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:netherite_trapdoor removed now.
-[26may.2024 17:25:48.764] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flute removed now.
-[26may.2024 17:25:48.764] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_orange removed now.
-[26may.2024 17:25:48.764] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_white_dye removed now.
-[26may.2024 17:25:48.766] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:redstone_illuminator removed now.
-[26may.2024 17:25:48.766] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:planter_rich removed now.
-[26may.2024 17:25:48.766] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flags/flag_cyan removed now.
-[26may.2024 17:25:48.766] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:statue removed now.
-[26may.2024 17:25:48.767] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:clock_block removed now.
-[26may.2024 17:25:48.767] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flags/flag_red removed now.
-[26may.2024 17:25:48.767] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:stone_lamp removed now.
-[26may.2024 17:25:48.767] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_cyan removed now.
-[26may.2024 17:25:48.768] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:timber_frame removed now.
-[26may.2024 17:25:48.768] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:daub_cross_brace removed now.
-[26may.2024 17:25:48.768] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:sign_post_dark_oak removed now.
-[26may.2024 17:25:48.768] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:present removed now.
-[26may.2024 17:25:48.768] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: duneons:palmcraft removed now.
-[26may.2024 17:25:48.769] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:stone_tile removed now.
-[26may.2024 17:25:48.769] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:item_shelf removed now.
-[26may.2024 17:25:48.769] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flags/flag_white removed now.
-[26may.2024 17:25:48.769] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:timber_brace removed now.
-[26may.2024 17:25:48.771] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:bed_from_feather_block removed now.
-[26may.2024 17:25:48.771] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:feather_block removed now.
-[26may.2024 17:25:48.771] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:cog_block removed now.
-[26may.2024 17:25:48.771] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:pancake_fd removed now.
-[26may.2024 17:25:48.771] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:boat_jar removed now.
-[26may.2024 17:25:48.771] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:bomb removed now.
-[26may.2024 17:25:48.772] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:lapis_bricks removed now.
-[26may.2024 17:25:48.772] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:blackboard removed now.
-[26may.2024 17:25:48.772] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:sign_post_cherry removed now.
-[26may.2024 17:25:48.772] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flags/flag_yellow removed now.
-[26may.2024 17:25:48.772] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:faucet removed now.
-[26may.2024 17:25:48.772] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:ash_brick removed now.
-[26may.2024 17:25:48.772] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flags/flag_light_blue removed now.
-[26may.2024 17:25:48.773] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:pulley removed now.
-[26may.2024 17:25:48.773] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flags/flag_orange removed now.
-[26may.2024 17:25:48.773] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:soap/spike removed now.
-[26may.2024 17:25:48.773] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:sign_post_oak removed now.
-[26may.2024 17:25:48.773] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:sconce_soul removed now.
-[26may.2024 17:25:48.773] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:hourglass removed now.
-[26may.2024 17:25:48.774] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:dispenser_minecart removed now.
-[26may.2024 17:25:48.774] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:checker removed now.
-[26may.2024 17:25:48.774] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_light_gray removed now.
-[26may.2024 17:25:48.774] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:soap removed now.
-[26may.2024 17:25:48.774] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:gold_door removed now.
-[26may.2024 17:25:48.774] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:altimeter removed now.
-[26may.2024 17:25:48.775] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:sign_post_jungle removed now.
-[26may.2024 17:25:48.775] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_blue removed now.
-[26may.2024 17:25:48.775] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:daub_brace removed now.
-[26may.2024 17:25:48.775] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flags/flag_lime removed now.
-[26may.2024 17:25:48.775] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flags/flag_magenta removed now.
-[26may.2024 17:25:48.775] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_red removed now.
-[26may.2024 17:25:48.775] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_white removed now.
-[26may.2024 17:25:48.776] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_lime removed now.
-[26may.2024 17:25:48.776] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flags/flag_light_gray removed now.
-[26may.2024 17:25:48.776] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:daub_frame removed now.
-[26may.2024 17:25:48.776] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:jar removed now.
-[26may.2024 17:25:48.776] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:gold_trapdoor removed now.
-[26may.2024 17:25:48.777] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:lock_block removed now.
-[26may.2024 17:25:48.777] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_brown removed now.
-[26may.2024 17:25:48.777] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_light_blue removed now.
-[26may.2024 17:25:48.777] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:goblet removed now.
-[26may.2024 17:25:48.777] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:cage removed now.
-[26may.2024 17:25:48.777] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:soap/blackboard removed now.
-[26may.2024 17:25:48.777] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_pink_dye removed now.
-[26may.2024 17:25:48.778] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder removed now.
-[26may.2024 17:25:48.778] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:netherite_door removed now.
-[26may.2024 17:25:48.778] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flags/flag_blue removed now.
-[26may.2024 17:25:48.778] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:sign_post_birch removed now.
-[26may.2024 17:25:48.778] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_magenta removed now.
-[26may.2024 17:25:48.779] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:wrench removed now.
-[26may.2024 17:25:48.779] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:sack removed now.
-[26may.2024 17:25:48.779] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:sign_post_spruce removed now.
-[26may.2024 17:25:48.779] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:sconce removed now.
-[26may.2024 17:25:48.779] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_gray removed now.
-[26may.2024 17:25:48.779] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:turn_table removed now.
-[26may.2024 17:25:48.780] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flags/flag_pink removed now.
-[26may.2024 17:25:48.780] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flags/flag_green removed now.
-[26may.2024 17:25:48.780] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candy removed now.
-[26may.2024 17:25:48.780] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:pedestal removed now.
-[26may.2024 17:25:48.780] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:iron_gate removed now.
-[26may.2024 17:25:48.781] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:bamboo_spikes removed now.
-[26may.2024 17:25:48.781] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:soap_block removed now.
-[26may.2024 17:25:48.781] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:timber_cross_brace removed now.
-[26may.2024 17:25:48.781] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_black removed now.
-[26may.2024 17:25:48.782] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:key removed now.
-[26may.2024 17:25:48.782] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flower_box removed now.
-[26may.2024 17:25:48.783] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:crystal_display removed now.
-[26may.2024 17:25:48.783] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:soap/map removed now.
-[26may.2024 17:25:48.783] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:sugar_cube removed now.
-[26may.2024 17:25:48.783] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_pink removed now.
-[26may.2024 17:25:48.784] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:stonecutting/stone_tile removed now.
-[26may.2024 17:25:48.784] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flags/flag_black removed now.
-[26may.2024 17:25:48.784] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:soap/piston removed now.
-[26may.2024 17:25:48.784] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flags/flag_gray removed now.
-[26may.2024 17:25:48.785] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:candle_holders/candle_holder_yellow removed now.
-[26may.2024 17:25:48.785] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:slice_map removed now.
-[26may.2024 17:25:48.786] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:slingshot removed now.
-[26may.2024 17:25:48.786] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:flags/flag_purple removed now.
-[26may.2024 17:25:48.786] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:spring_launcher removed now.
-[26may.2024 17:25:48.786] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:safe removed now.
-[26may.2024 17:25:48.787] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:daub removed now.
-[26may.2024 17:25:48.787] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: supplementaries:speaker_block removed now.
-[26may.2024 17:25:48.787] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DiandraEli[/[::1]:57099] logged in with entity id 9552 at (1521.8357701346818, 73.0, 244.87329859559676)
-[26may.2024 17:25:48.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli joined the game
-[26may.2024 17:25:48.860] [Server thread/INFO] [Jade/]: Syncing config to DiandraEli (95011615-80dc-345d-b25b-bc907bee2471)
-[26may.2024 17:25:51.442] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2766ms or 55 ticks behind
-[26may.2024 17:25:51.473] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DiandraEli (17)
-[26may.2024 17:25:51.475] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DiandraEli
-[26may.2024 17:25:59.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iLuca08: Teleported DiandraEli to iLuca08]
-[26may.2024 17:26:18.888] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DiandraEli lost connection: Timed out
-[26may.2024 17:26:18.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli left the game
-[26may.2024 17:26:18.891] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DiandraEli
-[26may.2024 17:26:19.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iLuca08: Set own game mode to Survival Mode]
-[26may.2024 17:26:52.211] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DiandraEli[/[::1]:57139] logged in with entity id 10918 at (337.0, 74.0, 683.0)
-[26may.2024 17:26:52.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli joined the game
-[26may.2024 17:26:52.265] [Server thread/INFO] [Jade/]: Syncing config to DiandraEli (95011615-80dc-345d-b25b-bc907bee2471)
-[26may.2024 17:26:52.681] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DiandraEli (17)
-[26may.2024 17:26:52.682] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DiandraEli
-[26may.2024 17:27:22.291] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DiandraEli lost connection: Timed out
-[26may.2024 17:27:22.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli left the game
-[26may.2024 17:27:22.293] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DiandraEli
-[26may.2024 17:27:54.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iLuca08: Set own game mode to Creative Mode]
-[26may.2024 17:28:08.656] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DiandraEli[/[::1]:57173] logged in with entity id 11899 at (337.0, 74.0, 683.0)
-[26may.2024 17:28:08.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli joined the game
-[26may.2024 17:28:08.701] [Server thread/INFO] [Jade/]: Syncing config to DiandraEli (95011615-80dc-345d-b25b-bc907bee2471)
-[26may.2024 17:28:09.156] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DiandraEli (17)
-[26may.2024 17:28:09.156] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DiandraEli
-[26may.2024 17:28:14.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iLuca08: Set own game mode to Survival Mode]
-[26may.2024 17:28:38.792] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DiandraEli lost connection: Timed out
-[26may.2024 17:28:38.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli left the game
-[26may.2024 17:28:38.793] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DiandraEli
-[26may.2024 17:29:02.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iLuca08: Set the time to 1000]
-[26may.2024 17:29:24.038] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1b427e35[id=<null>,name=DiandraEli,properties={},legacy=false] (/[::1]:57203) lost connection: Disconnected
-[26may.2024 17:30:06.636] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4a690de0[id=<null>,name=DiandraEli,properties={},legacy=false] (/[::1]:57232) lost connection: Timed out
-[26may.2024 17:30:47.989] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1318f798[id=<null>,name=DiandraEli,properties={},legacy=false] (/[::1]:57266) lost connection: Timed out
-[26may.2024 17:31:20.904] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DiandraEli[/[::1]:57311] logged in with entity id 13724 at (337.0, 74.0, 683.0)
-[26may.2024 17:31:20.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli joined the game
-[26may.2024 17:31:20.971] [Server thread/INFO] [Jade/]: Syncing config to DiandraEli (95011615-80dc-345d-b25b-bc907bee2471)
-[26may.2024 17:31:21.543] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DiandraEli (17)
-[26may.2024 17:31:21.544] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DiandraEli
-[26may.2024 17:31:50.986] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DiandraEli lost connection: Timed out
-[26may.2024 17:31:50.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli left the game
-[26may.2024 17:31:50.987] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DiandraEli
-[26may.2024 17:32:36.937] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@35107662[id=<null>,name=DiandraEli,properties={},legacy=false] (/[::1]:57349) lost connection: Disconnected
-[26may.2024 17:33:59.558] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DiandraEli[/[::1]:57445] logged in with entity id 14717 at (337.0, 74.0, 683.0)
-[26may.2024 17:33:59.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli joined the game
-[26may.2024 17:33:59.621] [Server thread/INFO] [Jade/]: Syncing config to DiandraEli (95011615-80dc-345d-b25b-bc907bee2471)
-[26may.2024 17:34:00.158] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DiandraEli (17)
-[26may.2024 17:34:00.159] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DiandraEli
-[26may.2024 17:34:29.686] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DiandraEli lost connection: Timed out
-[26may.2024 17:34:29.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli left the game
-[26may.2024 17:34:29.687] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DiandraEli
-[26may.2024 17:35:09.654] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DiandraEli[/[::1]:57480] logged in with entity id 15477 at (337.0, 74.0, 683.0)
-[26may.2024 17:35:09.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli joined the game
-[26may.2024 17:35:09.719] [Server thread/INFO] [Jade/]: Syncing config to DiandraEli (95011615-80dc-345d-b25b-bc907bee2471)
-[26may.2024 17:35:10.054] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DiandraEli (17)
-[26may.2024 17:35:10.055] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DiandraEli
-[26may.2024 17:35:32.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iLuca08: Teleported DiandraEli to iLuca08]
-[26may.2024 17:35:38.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iLuca08: Teleported DiandraEli to iLuca08]
-[26may.2024 17:36:00.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> no hay chat de voz aviso
-[26may.2024 17:36:09.837] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DiandraEli lost connection: Timed out
-[26may.2024 17:36:09.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli left the game
-[26may.2024 17:36:09.838] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DiandraEli
-[26may.2024 17:36:53.937] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7b30d688[id=<null>,name=DiandraEli,properties={},legacy=false] (/[::1]:57532) lost connection: Disconnected
-[26may.2024 17:37:05.352] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DiandraEli[/[::1]:57551] logged in with entity id 17072 at (311.2419024446993, 74.0, 685.6455229851784)
-[26may.2024 17:37:05.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli joined the game
-[26may.2024 17:37:05.408] [Server thread/INFO] [Jade/]: Syncing config to DiandraEli (95011615-80dc-345d-b25b-bc907bee2471)
-[26may.2024 17:37:05.737] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DiandraEli (17)
-[26may.2024 17:37:05.737] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DiandraEli
-[26may.2024 17:37:40.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> suelta al puerco
-[26may.2024 17:37:41.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DiandraEli> por qué mi casa de movió?
-[26may.2024 17:37:53.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> el mundo es otro porque se quitaron los mods que nos hacian lag
-[26may.2024 17:38:05.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> mira tua animales
-[26may.2024 17:38:08.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> los hice yo
-[26may.2024 17:38:17.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> todo esta igual tal como lo dejaste la ultima vez que entraste
-[26may.2024 17:38:19.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> ntp
-[26may.2024 17:38:28.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> suelta al puerco
-[26may.2024 17:38:32.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DiandraEli> no esta igual
-[26may.2024 17:38:40.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DiandraEli> había 3 cubos
-[26may.2024 17:38:50.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DiandraEli> hay uno de piedra nada más entre cada cultivo
-[26may.2024 17:38:50.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> como asi
-[26may.2024 17:39:08.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> yo le puse el camino de piedra
-[26may.2024 17:39:22.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> las cabras estan asi porque saltan mucho y se salen
-[26may.2024 17:39:46.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> te deje semillas en estos dos cofres
-[26may.2024 17:40:01.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> mira el cofre donde estoy hay un collar
-[26may.2024 17:40:53.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> ponte tus zapatos de gato
-[26may.2024 17:40:57.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> estan lindos
-[26may.2024 17:41:13.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> pontelos en la parte izquierda
-[26may.2024 17:41:37.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iLuca08: Set the time to 1000]
-[26may.2024 17:42:06.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> te dweje mochilas
-[26may.2024 17:42:20.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DiandraEli> mmm
-[26may.2024 17:42:30.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> que
-[26may.2024 17:43:59.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DiandraEli> así era el camino
-[26may.2024 17:44:15.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> pero en el otro no
-[26may.2024 17:44:17.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> solo aca
-[26may.2024 17:44:28.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DiandraEli> pero lo cambiaste
-[26may.2024 17:44:35.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> pero se ve bonito
-[26may.2024 17:44:38.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> ........
-[26may.2024 17:45:21.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DiandraEli> yo tenía más arboles aqui
-[26may.2024 17:45:25.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DiandraEli> de frutas
-[26may.2024 17:45:55.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> estan aca
-[26may.2024 17:45:58.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DiandraEli> no
-[26may.2024 17:47:22.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DiandraEli: Teleported DiandraEli to iLuca08]
-[26may.2024 17:47:35.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> que haces
-[26may.2024 17:48:16.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> no piques
-[26may.2024 17:48:18.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> carmaba
-[26may.2024 17:48:38.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> con space subes y con shift bajas
-[26may.2024 17:49:17.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DiandraEli: Teleported DiandraEli to iLuca08]
-[26may.2024 17:49:42.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> sigueme
-[26may.2024 17:49:47.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> te enseo las casas
-[26may.2024 17:49:54.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> ven
-[26may.2024 17:50:20.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> venn
-[26may.2024 17:51:09.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> ven
-[26may.2024 17:51:13.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DiandraEli: Teleported DiandraEli to iLuca08]
-[26may.2024 17:51:21.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> casa de mariano
-[26may.2024 17:51:40.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DiandraEli> no pueo entrar
-[26may.2024 17:51:48.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> los bloques estan desactivados
-[26may.2024 17:52:22.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> ven
-[26may.2024 17:52:25.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DiandraEli> no pueo entrar
-[26may.2024 17:52:28.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DiandraEli: Teleported DiandraEli to iLuca08]
-[26may.2024 17:52:46.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> casa de carlos
-[26may.2024 17:53:56.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> ven
-[26may.2024 17:54:01.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DiandraEli: Teleported DiandraEli to iLuca08]
-[26may.2024 17:54:05.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> casa de nestor
-[26may.2024 17:55:13.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> tengo otro regalo
-[26may.2024 17:55:14.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> toma
-[26may.2024 17:55:18.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> antes que me vaya
-[26may.2024 17:55:40.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DiandraEli> awwwwwwww
-[26may.2024 17:55:44.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DiandraEli> gracias
-[26may.2024 17:55:49.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> ahora si ya me voy
-[26may.2024 17:55:53.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> sabes como ir a tu casa?
-[26may.2024 17:56:02.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DiandraEli> no
-[26may.2024 17:56:08.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> tp
-[26may.2024 17:56:18.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DiandraEli: Teleported DiandraEli to iLuca08]
-[26may.2024 17:56:24.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> guardalo en tu mapa
-[26may.2024 17:56:25.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> y ya
-[26may.2024 17:56:56.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> has la comidas que dijiste que haras
-[26may.2024 17:56:59.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> para que vendas
-[26may.2024 17:57:20.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> awww
-[26may.2024 17:57:24.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> te amo jamon
-[26may.2024 17:57:48.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DiandraEli: Teleported DiandraEli to iLuca08]
-[26may.2024 17:57:56.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DiandraEli: Teleported DiandraEli to iLuca08]
-[26may.2024 17:58:03.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> que pasa
-[26may.2024 17:58:39.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DiandraEli: Teleported DiandraEli to iLuca08]
-[26may.2024 17:58:55.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> quitale la rienda
-[26may.2024 17:59:01.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> luego lo dejas ahi
-[26may.2024 17:59:06.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> con su rienda
-[26may.2024 18:00:35.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> dejalop amarrado o se va
-[26may.2024 18:01:10.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> aca metelo
-[26may.2024 18:01:35.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> ven donde esto
-[26may.2024 18:01:38.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> esta vacio
-[26may.2024 18:01:58.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> jajaja
-[26may.2024 18:02:02.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> dejalo sentado pues
-[26may.2024 18:02:26.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DiandraEli> es mio?
-[26may.2024 18:02:32.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> si quedatelo
-[26may.2024 18:02:49.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DiandraEli> así ya no quiero
-[26may.2024 18:02:54.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> xd
-[26may.2024 18:05:33.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> te ves graciosa
-[26may.2024 18:05:42.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> dame
-[26may.2024 18:05:49.467] [Server thread/INFO] [twilightforest/]: Did not find a safe portal spot first try, trying again with longer range.
-[26may.2024 18:05:49.558] [Server thread/INFO] [twilightforest/]: Did not find a safe portal spot second try, trying to move slightly towards the center between key biomes.
-[26may.2024 18:05:49.617] [Server thread/INFO] [twilightforest/]: Did not find a safe portal spot third try, trying to move further towards the center between key biomes.
-[26may.2024 18:05:49.680] [Server thread/WARN] [twilightforest/]: Still did not find a safe portal spot.
-[26may.2024 18:05:50.764] [Server thread/INFO] [twilightforest/]: Did not find a safe portal spot first try, trying again with longer range.
-[26may.2024 18:05:50.805] [Server thread/INFO] [twilightforest/]: Did not find a safe portal spot second try, trying to move slightly towards the center between key biomes.
-[26may.2024 18:05:50.843] [Server thread/INFO] [twilightforest/]: Did not find a safe portal spot third try, trying to move further towards the center between key biomes.
-[26may.2024 18:05:50.889] [Server thread/WARN] [twilightforest/]: Still did not find a safe portal spot.
-[26may.2024 18:06:19.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DiandraEli> no quiero estar aqui
-[26may.2024 18:06:28.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <iLuca08> tp
-[26may.2024 18:06:35.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DiandraEli: Teleported DiandraEli to iLuca08]
-[26may.2024 18:06:52.690] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DiandraEli lost connection: Timed out
-[26may.2024 18:06:52.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli left the game
-[26may.2024 18:06:52.692] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DiandraEli
-[26may.2024 18:07:09.490] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iLuca08 lost connection: Disconnected
-[26may.2024 18:07:09.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 left the game
-[26may.2024 18:07:09.492] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client iLuca08
-[26may.2024 18:07:32.877] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@471cc613[id=<null>,name=DiandraEli,properties={},legacy=false] (/[::1]:58357) lost connection: Disconnected
-[26may.2024 18:08:07.279] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DiandraEli[/[::1]:58420] logged in with entity id 28552 at (276.56698267238306, 68.7531999805212, 418.89518828662654)
-[26may.2024 18:08:07.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli joined the game
-[26may.2024 18:08:07.321] [Server thread/INFO] [Jade/]: Syncing config to DiandraEli (95011615-80dc-345d-b25b-bc907bee2471)
-[26may.2024 18:08:07.673] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DiandraEli (17)
-[26may.2024 18:08:07.675] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DiandraEli
-[26may.2024 18:08:09.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli has made the advancement [Bring Home the Beacon]
-[26may.2024 18:08:09.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli has reached the goal [Beaconator]
-[26may.2024 18:08:37.349] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DiandraEli lost connection: Timed out
-[26may.2024 18:08:37.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli left the game
-[26may.2024 18:08:37.350] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DiandraEli
-[26may.2024 18:10:32.498] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DiandraEli[/[::1]:58489] logged in with entity id 28808 at (276.56698267238306, 68.7531999805212, 418.89518828662654)
-[26may.2024 18:10:32.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli joined the game
-[26may.2024 18:10:32.519] [Server thread/INFO] [Jade/]: Syncing config to DiandraEli (95011615-80dc-345d-b25b-bc907bee2471)
-[26may.2024 18:10:33.093] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DiandraEli (17)
-[26may.2024 18:10:33.094] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DiandraEli
-[26may.2024 18:11:02.650] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DiandraEli lost connection: Timed out
-[26may.2024 18:11:02.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli left the game
-[26may.2024 18:11:02.652] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DiandraEli
-[26may.2024 19:30:07.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[26may.2024 19:30:07.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[26may.2024 19:30:07.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[26may.2024 19:30:07.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[26may.2024 19:30:07.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[26may.2024 19:30:07.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[26may.2024 19:30:07.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
-[26may.2024 19:30:07.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[26may.2024 19:30:07.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[26may.2024 19:30:07.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[26may.2024 19:30:07.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
-[26may.2024 19:30:07.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[26may.2024 19:30:07.461] [Server thread/INFO] [Framework/]: Unloading server configs...
-[26may.2024 19:30:07.464] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[26may.2024 23:17:11.666] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[26may.2024 23:17:11.673] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[26may.2024 23:17:11.684] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[26may.2024 23:17:11.717] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[26may.2024 23:17:11.736] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 17 recipes
+[26may.2024 23:17:12.074] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3417 advancements
+[26may.2024 23:17:12.087] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[26may.2024 23:17:12.108] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
+[26may.2024 23:17:12.125] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[26may.2024 23:17:16.146] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[26may.2024 23:17:16.146] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[26may.2024 23:17:16.146] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[26may.2024 23:17:16.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[26may.2024 23:17:16.246] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[26may.2024 23:17:16.264] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[26may.2024 23:17:16.440] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[26may.2024 23:17:16.440] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[26may.2024 23:17:16.440] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[26may.2024 23:17:16.440] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[26may.2024 23:17:16.469] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[26may.2024 23:17:16.581] [Server thread/INFO] [Framework/]: Loading server configs...
+[26may.2024 23:17:16.616] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[26may.2024 23:17:18.085] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.custom.obsidilith.ObsidilithEntity from class com.cerbon.bosses_of_mass_destruction.entity.custom.obsidilith.ObsidilithUtils
+[26may.2024 23:17:18.122] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.custom.gauntlet.GauntletEntity from class com.cerbon.bosses_of_mass_destruction.projectile.PetalBladeProjectile
+[26may.2024 23:17:18.138] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.util.BaseEntity from class com.cerbon.bosses_of_mass_destruction.entity.custom.void_blossom.hitbox.NetworkedHitboxManager
+[26may.2024 23:17:18.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[26may.2024 23:17:24.192] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26may.2024 23:17:24.251] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26may.2024 23:17:24.261] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26may.2024 23:17:24.287] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26may.2024 23:17:24.302] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26may.2024 23:17:24.326] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26may.2024 23:17:24.344] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26may.2024 23:17:24.368] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26may.2024 23:17:24.383] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26may.2024 23:17:24.401] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26may.2024 23:17:24.404] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26may.2024 23:17:24.405] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26may.2024 23:17:24.681] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26may.2024 23:17:25.181] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 36%
+[26may.2024 23:17:25.682] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
+[26may.2024 23:17:25.768] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7087 ms
+[26may.2024 23:17:25.769] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.307s)! For help, type "help"
+[26may.2024 23:17:25.793] [LanServerPinger #1/WARN] [net.minecraft.client.server.LanServerPinger/]: LanServerPinger: Network is unreachable: no further information
+[26may.2024 23:17:25.830] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[26may.2024 23:17:25.943] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[26may.2024 23:17:25.963] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 25565
+[26may.2024 23:20:08.424] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@335c2ec0[id=<null>,name=DiandraEli,properties={},legacy=false] (/[::1]:3573): Took too long to log in
+[26may.2024 23:20:08.427] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@335c2ec0[id=<null>,name=DiandraEli,properties={},legacy=false] (/[::1]:3573) lost connection: Took too long to log in
+[26may.2024 23:20:08.465] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[26may.2024 23:29:11.322] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5fe07e2b[id=<null>,name=DiandraEli,properties={},legacy=false] (/[::1]:3880) lost connection: Disconnected
+[26may.2024 23:29:38.039] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[26may.2024 23:29:38.239] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DiandraEli[/[::1]:3889] logged in with entity id 623 at (253.28521311314773, 75.0, 673.3472811269787)
+[26may.2024 23:29:38.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli joined the game
+[26may.2024 23:29:38.689] [Server thread/INFO] [Jade/]: Syncing config to DiandraEli (95011615-80dc-345d-b25b-bc907bee2471)
+[26may.2024 23:29:40.270] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2156ms or 43 ticks behind
+[26may.2024 23:29:41.564] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DiandraEli (17)
+[26may.2024 23:29:41.569] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DiandraEli
+[26may.2024 23:30:08.395] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DiandraEli lost connection: Timed out
+[26may.2024 23:30:08.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli left the game
+[26may.2024 23:30:08.405] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DiandraEli
+[26may.2024 23:30:39.422] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DiandraEli[/[::1]:3912] logged in with entity id 861 at (253.28521311314773, 75.0, 673.3472811269787)
+[26may.2024 23:30:39.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli joined the game
+[26may.2024 23:30:39.544] [Server thread/INFO] [Jade/]: Syncing config to DiandraEli (95011615-80dc-345d-b25b-bc907bee2471)
+[26may.2024 23:30:40.474] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DiandraEli (17)
+[26may.2024 23:30:40.475] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DiandraEli
+[26may.2024 23:31:09.528] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DiandraEli lost connection: Timed out
+[26may.2024 23:31:09.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli left the game
+[26may.2024 23:31:09.532] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DiandraEli
+[26may.2024 23:31:37.913] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DiandraEli[/[::1]:3969] logged in with entity id 1100 at (253.28521311314773, 75.0, 673.3472811269787)
+[26may.2024 23:31:37.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli joined the game
+[26may.2024 23:31:37.995] [Server thread/INFO] [Jade/]: Syncing config to DiandraEli (95011615-80dc-345d-b25b-bc907bee2471)
+[26may.2024 23:31:39.255] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DiandraEli (17)
+[26may.2024 23:31:39.257] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DiandraEli
+[26may.2024 23:32:07.989] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DiandraEli lost connection: Timed out
+[26may.2024 23:32:07.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli left the game
+[26may.2024 23:32:07.994] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DiandraEli
+[26may.2024 23:32:50.201] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DiandraEli[/[::1]:4005] logged in with entity id 1334 at (253.28521311314773, 75.0, 673.3472811269787)
+[26may.2024 23:32:50.232] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli joined the game
+[26may.2024 23:32:50.270] [Server thread/INFO] [Jade/]: Syncing config to DiandraEli (95011615-80dc-345d-b25b-bc907bee2471)
+[26may.2024 23:32:50.958] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DiandraEli (17)
+[26may.2024 23:32:50.961] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DiandraEli
+[26may.2024 23:33:20.340] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DiandraEli lost connection: Timed out
+[26may.2024 23:33:20.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli left the game
+[26may.2024 23:33:20.342] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DiandraEli
+[26may.2024 23:33:59.523] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@22a5cae8[id=<null>,name=DiandraEli,properties={},legacy=false] (/[::1]:4048) lost connection: Disconnected
+[26may.2024 23:34:12.390] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DiandraEli[/[::1]:4050] logged in with entity id 1572 at (253.28521311314773, 75.0, 673.3472811269787)
+[26may.2024 23:34:12.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli joined the game
+[26may.2024 23:34:12.425] [Server thread/INFO] [Jade/]: Syncing config to DiandraEli (95011615-80dc-345d-b25b-bc907bee2471)
+[26may.2024 23:34:13.099] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DiandraEli (17)
+[26may.2024 23:34:13.101] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DiandraEli
+[26may.2024 23:36:02.828] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DiandraEli lost connection: Disconnected
+[26may.2024 23:36:02.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli left the game
+[26may.2024 23:36:02.832] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DiandraEli
+[26may.2024 23:37:15.601] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DiandraEli[/[::1]:4173] logged in with entity id 2015 at (252.64039005376864, 75.0, 672.4378582529746)
+[26may.2024 23:37:15.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli joined the game
+[26may.2024 23:37:15.671] [Server thread/INFO] [Jade/]: Syncing config to DiandraEli (95011615-80dc-345d-b25b-bc907bee2471)
+[26may.2024 23:37:16.541] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DiandraEli (17)
+[26may.2024 23:37:16.542] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DiandraEli
+[26may.2024 23:37:45.739] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DiandraEli lost connection: Timed out
+[26may.2024 23:37:45.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli left the game
+[26may.2024 23:37:45.741] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DiandraEli
