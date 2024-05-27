@@ -470,6 +470,7 @@
       "cooked_beef": "2024-05-06 13:22:16 -0500",
       "baked_potato": "2024-05-10 12:28:00 -0500",
       "porkchop": "2024-05-25 12:57:30 -0500",
+      "tropical_fish": "2024-05-27 10:13:21 -0500",
       "apple": "2024-05-11 11:29:37 -0500",
       "pumpkin_pie": "2024-05-10 11:28:02 -0500",
       "bread": "2024-05-07 11:21:29 -0500",
@@ -482,6 +483,7 @@
       "enchanted_golden_apple": "2024-05-20 14:48:00 -0500",
       "mushroom_stew": "2024-05-10 11:49:23 -0500",
       "cod": "2024-05-22 12:19:30 -0500",
+      "cooked_salmon": "2024-05-27 12:38:22 -0500",
       "carrot": "2024-05-10 12:48:06 -0500"
     },
     "done": false
@@ -7567,6 +7569,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/white_dye_from_lily_of_the_valley": {
+    "criteria": {
+      "has_lily_of_the_valley": "2024-05-25 11:44:10 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/red_dye_from_poppy": {
     "criteria": {
       "has_poppy": "2024-05-25 12:19:33 -0500"
@@ -7585,15 +7593,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/magenta_dye_from_allium": {
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
     "criteria": {
-      "has_allium": "2024-05-25 13:12:31 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/white_dye_from_lily_of_the_valley": {
-    "criteria": {
-      "has_lily_of_the_valley": "2024-05-25 11:44:10 -0500"
+      "has_oxeye_daisy": "2024-05-25 12:19:33 -0500"
     },
     "done": true
   },
@@ -7603,9 +7605,183 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+  "minecraft:recipes/misc/magenta_dye_from_allium": {
     "criteria": {
-      "has_oxeye_daisy": "2024-05-25 12:19:33 -0500"
+      "has_allium": "2024-05-25 13:12:31 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_banner": {
+    "criteria": {
+      "has_red_wool": "2024-05-27 10:15:30 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_bed": {
+    "criteria": {
+      "has_red_wool": "2024-05-27 10:15:30 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_carpet": {
+    "criteria": {
+      "has_red_wool": "2024-05-27 10:15:30 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/redstone/reappearing_block": {
+    "criteria": {
+      "has_item": "2024-05-27 10:20:09 -0500"
+    },
+    "done": true
+  },
+  "bossominium:the_bigger_they_are": {
+    "criteria": {
+      "the_bigger_they_are": "2024-05-27 11:04:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_glazed_terracotta": {
+    "criteria": {
+      "has_white_terracotta": "2024-05-27 11:04:23 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall": {
+    "criteria": {
+      "has_blackstone": "2024-05-27 12:26:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-27 12:26:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-27 12:26:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-27 12:26:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs": {
+    "criteria": {
+      "has_blackstone": "2024-05-27 12:26:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-27 12:26:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab": {
+    "criteria": {
+      "has_blackstone": "2024-05-27 12:26:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-27 12:26:00 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/tools/codebreaker": {
+    "criteria": {
+      "has_nether_star": "2024-05-27 11:56:12 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2024-05-27 11:59:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-27 12:26:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2024-05-27 11:56:12 -0500"
+    },
+    "done": true
+  },
+  "bossominium:broken_once_again": {
+    "criteria": {
+      "broken_once_again": "2024-05-27 11:41:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-27 12:26:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-27 12:26:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-27 12:26:00 -0500"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:nether/gauntlet_defeat": {
+    "criteria": {
+      "bosses_of_mass_destruction:gauntlet": "2024-05-27 12:30:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2024-05-27 11:59:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone": {
+    "criteria": {
+      "has_blackstone": "2024-05-27 12:26:00 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:main/master_chef": {
+    "criteria": {
+      "roast_chicken": "2024-05-27 14:42:02 -0500"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-27 12:26:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-27 12:26:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-27 12:26:00 -0500"
     },
     "done": true
   },

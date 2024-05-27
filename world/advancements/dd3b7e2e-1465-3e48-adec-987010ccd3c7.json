@@ -850,6 +850,7 @@
       "minecraft:pillager": "2024-05-06 13:59:46 -0500",
       "minecraft:skeleton": "2024-05-06 12:19:31 -0500",
       "minecraft:ravager": "2024-05-09 11:52:57 -0500",
+      "minecraft:ghast": "2024-05-27 12:15:41 -0500",
       "minecraft:hoglin": "2024-05-06 13:10:07 -0500",
       "minecraft:guardian": "2024-05-21 11:30:02 -0500",
       "minecraft:vindicator": "2024-05-14 13:09:08 -0500",
@@ -1259,9 +1260,10 @@
       "minecraft:crimson_forest": "2024-05-06 12:41:09 -0500",
       "minecraft:nether_wastes": "2024-05-06 13:12:57 -0500",
       "minecraft:soul_sand_valley": "2024-05-08 13:54:58 -0500",
-      "minecraft:warped_forest": "2024-05-10 11:40:14 -0500"
+      "minecraft:warped_forest": "2024-05-10 11:40:14 -0500",
+      "minecraft:basalt_deltas": "2024-05-27 12:15:26 -0500"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/building_blocks/polished_diorite": {
     "criteria": {
@@ -7439,27 +7441,51 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blast_furnace": {
+  "securitycraft:recipes/building_blocks/reinforced_mossy_cobblestone_from_vanilla_moss": {
     "criteria": {
-      "has_smooth_stone": "2024-05-25 12:43:19 -0500"
+      "has_moss": "2024-05-25 11:55:46 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_cod_from_smoking": {
+  "securitycraft:recipes/building_blocks/reinforced_mossy_stone_bricks_from_vanilla_moss": {
     "criteria": {
-      "has_cod": "2024-05-25 13:25:11 -0500"
+      "has_moss": "2024-05-25 11:55:46 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/smooth_red_sandstone": {
+  "bosses_of_mass_destruction:adventure/void_blossom_defeat": {
     "criteria": {
-      "has_red_sandstone": "2024-05-25 12:26:59 -0500"
+      "bosses_of_mass_destruction:void_blossom": "2024-05-25 11:59:49 -0500"
+    },
+    "done": true
+  },
+  "bossominium:skelenados": {
+    "criteria": {
+      "skelenados": "2024-05-25 12:07:16 -0500"
     },
     "done": true
   },
   "bossominium:skele_slayer": {
     "criteria": {
       "skele_slayer": "2024-05-25 12:08:43 -0500"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_heavenly_rider": {
+    "criteria": {
+      "location0": "2024-05-25 12:21:13 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone": {
+    "criteria": {
+      "has_sand": "2024-05-25 12:26:30 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_red_sandstone": {
+    "criteria": {
+      "has_red_sandstone": "2024-05-25 12:26:59 -0500"
     },
     "done": true
   },
@@ -7481,33 +7507,9 @@
     },
     "done": true
   },
-  "farmersdelight:main/get_ham": {
-    "criteria": {
-      "ham": "2024-05-25 12:47:17 -0500"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_mossy_cobblestone_from_vanilla_moss": {
-    "criteria": {
-      "has_moss": "2024-05-25 11:55:46 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/cut_red_sandstone_slab_from_red_sandstone_stonecutting": {
     "criteria": {
       "has_red_sandstone": "2024-05-25 12:26:59 -0500"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_mossy_stone_bricks_from_vanilla_moss": {
-    "criteria": {
-      "has_moss": "2024-05-25 11:55:46 -0500"
-    },
-    "done": true
-  },
-  "bossominium:skelenados": {
-    "criteria": {
-      "skelenados": "2024-05-25 12:07:16 -0500"
     },
     "done": true
   },
@@ -7517,51 +7519,9 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/food/smoked_ham": {
-    "criteria": {
-      "has_ham": "2024-05-25 12:47:17 -0500"
-    },
-    "done": true
-  },
-  "mcwfurnitures:recipes/dark_oak": {
-    "criteria": {
-      "has_wood": "2024-05-25 13:00:22 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/red_sandstone": {
-    "criteria": {
-      "has_sand": "2024-05-25 12:26:30 -0500"
-    },
-    "done": true
-  },
-  "bosses_of_mass_destruction:adventure/void_blossom_defeat": {
-    "criteria": {
-      "bosses_of_mass_destruction:void_blossom": "2024-05-25 11:59:49 -0500"
-    },
-    "done": true
-  },
-  "dungeons_arise:find_heavenly_rider": {
-    "criteria": {
-      "location0": "2024-05-25 12:21:13 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_stone_slab": {
-    "criteria": {
-      "has_smooth_stone": "2024-05-25 12:43:19 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/red_sandstone_slab": {
     "criteria": {
       "has_red_sandstone": "2024-05-25 12:26:59 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
-    "criteria": {
-      "has_smooth_stone": "2024-05-25 12:43:19 -0500"
     },
     "done": true
   },
@@ -7577,21 +7537,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dark_oak_wood": {
-    "criteria": {
-      "has_log": "2024-05-25 13:00:22 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/red_sandstone_slab_from_red_sandstone_stonecutting": {
     "criteria": {
       "has_red_sandstone": "2024-05-25 12:26:59 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
-    "criteria": {
-      "has_cod": "2024-05-25 13:25:11 -0500"
     },
     "done": true
   },
@@ -7601,15 +7549,177 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/red_sandstone_stairs_from_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_red_sandstone": "2024-05-25 12:26:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2024-05-25 12:43:19 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2024-05-25 12:43:19 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2024-05-25 12:43:19 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_ham": {
+    "criteria": {
+      "ham": "2024-05-25 12:47:17 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/smoked_ham": {
+    "criteria": {
+      "has_ham": "2024-05-25 12:47:17 -0500"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/dark_oak": {
+    "criteria": {
+      "has_wood": "2024-05-25 13:00:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2024-05-25 13:00:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2024-05-25 13:25:11 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2024-05-25 13:25:11 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_cod": {
     "criteria": {
       "has_cod": "2024-05-25 13:25:11 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/red_sandstone_stairs_from_red_sandstone_stonecutting": {
+  "bossominium:rise_once_more": {
     "criteria": {
-      "has_red_sandstone": "2024-05-25 12:26:59 -0500"
+      "rise_once_more": "2024-05-27 11:04:04 -0500"
+    },
+    "done": true
+  },
+  "bossominium:floral_destroyer": {
+    "criteria": {
+      "floral_destroyer": "2024-05-27 11:07:44 -0500"
+    },
+    "done": true
+  },
+  "bossominium:the_monster_of_1000_souls": {
+    "criteria": {
+      "the_monster_of_1000_souls": "2024-05-27 11:12:32 -0500"
+    },
+    "done": true
+  },
+  "bossominium:restless_soul": {
+    "criteria": {
+      "restless_soul": "2024-05-27 11:13:00 -0500"
+    },
+    "done": true
+  },
+  "bossominium:heart_struck": {
+    "criteria": {
+      "heart_struck": "2024-05-27 11:15:50 -0500"
+    },
+    "done": true
+  },
+  "bossominium:heart_attack": {
+    "criteria": {
+      "heart_attack": "2024-05-27 11:16:08 -0500"
+    },
+    "done": true
+  },
+  "bossominium:cult_of_the_emerald_eye": {
+    "criteria": {
+      "cult_of_the_emerald_eye": "2024-05-27 11:18:49 -0500"
+    },
+    "done": true
+  },
+  "bossominium:be_not_afraid": {
+    "criteria": {
+      "be_not_afraid": "2024-05-27 11:25:40 -0500"
+    },
+    "done": true
+  },
+  "bossominium:put_a_ring_on_it": {
+    "criteria": {
+      "put_a_ring_on_it": "2024-05-27 11:26:47 -0500"
+    },
+    "done": true
+  },
+  "legendary_monsters:defeat_chorusling": {
+    "criteria": {
+      "chorusling": "2024-05-27 11:44:01 -0500"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/levitation_block": {
+    "criteria": {
+      "has_blazing_eye": "2024-05-27 12:30:32 -0500"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/blast_amplifier": {
+    "criteria": {
+      "has_blazing_eye": "2024-05-27 12:30:32 -0500"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/brimstone_nectar": {
+    "criteria": {
+      "has_ghast_tear": "2024-05-27 12:15:42 -0500"
+    },
+    "done": true
+  },
+  "bossominium:howl_of_fire": {
+    "criteria": {
+      "howl_of_fire": "2024-05-27 12:55:50 -0500"
+    },
+    "done": true
+  },
+  "minecraft:end/levitate": {
+    "criteria": {
+      "levitated": "2024-05-27 11:38:28 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2024-05-27 11:57:18 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2024-05-27 11:53:09 -0500"
+    },
+    "done": true
+  },
+  "bossominium:canine_cracker": {
+    "criteria": {
+      "canine_cracker": "2024-05-27 12:56:53 -0500"
     },
     "done": true
   },

@@ -259,6 +259,7 @@
       "cauliflower_seed": "2024-05-09 02:27:14 -0500",
       "yam_seed": "2024-05-10 13:15:11 -0500",
       "tea_seed": "2024-05-08 10:38:53 -0500",
+      "saguaro_seed": "2024-05-27 11:10:36 -0500",
       "tomato_seed": "2024-05-07 00:44:27 -0500",
       "pepper_seed": "2024-05-13 02:23:28 -0500",
       "basil_seed": "2024-05-10 13:15:00 -0500",
@@ -273,6 +274,7 @@
       "blueberry_seed": "2024-05-06 12:15:46 -0500",
       "ginger_seed": "2024-05-16 13:16:02 -0500",
       "soybean_seed": "2024-05-13 00:50:18 -0500",
+      "artichoke_seed": "2024-05-27 10:50:55 -0500",
       "rutabaga_seed": "2024-05-06 12:18:13 -0500",
       "strawberry_seed": "2024-05-06 12:11:07 -0500",
       "grape_seed": "2024-05-08 10:38:48 -0500",
@@ -281,6 +283,7 @@
       "greenonion_seed": "2024-05-09 02:05:56 -0500",
       "broccoli_seed": "2024-05-07 00:46:40 -0500",
       "cranberry_seed": "2024-05-09 02:05:56 -0500",
+      "asparagus_seed": "2024-05-27 12:48:01 -0500",
       "barley_seed": "2024-05-06 12:15:34 -0500",
       "eggplant_seed": "2024-05-10 13:15:08 -0500",
       "raspberry_seed": "2024-05-06 12:11:05 -0500",
@@ -292,6 +295,7 @@
       "corn_seed": "2024-05-06 12:44:12 -0500",
       "oat_seed": "2024-05-06 23:00:50 -0500",
       "mustard_seed": "2024-05-07 00:43:40 -0500",
+      "currant_seed": "2024-05-27 12:47:27 -0500",
       "zucchini_seed": "2024-05-10 13:15:00 -0500",
       "garlic_seed": "2024-05-09 02:05:56 -0500"
     },
@@ -992,6 +996,7 @@
       "pumpkin_pie": "2024-05-08 00:28:46 -0500",
       "bread": "2024-05-07 15:33:18 -0500",
       "golden_apple": "2024-05-09 11:59:51 -0500",
+      "suspicious_stew": "2024-05-27 10:49:22 -0500",
       "glow_berries": "2024-05-08 10:53:13 -0500",
       "golden_carrot": "2024-05-13 01:59:31 -0500",
       "beetroot": "2024-05-13 12:14:28 -0500",
@@ -4509,9 +4514,12 @@
   },
   "croptopia:gather_swamp": {
     "criteria": {
-      "cranberry_seed": "2024-05-09 02:05:56 -0500"
+      "cranberry_seed": "2024-05-09 02:05:56 -0500",
+      "currant_seed": "2024-05-27 12:47:27 -0500",
+      "asparagus_seed": "2024-05-27 12:48:01 -0500",
+      "artichoke_seed": "2024-05-27 10:50:55 -0500"
     },
-    "done": false
+    "done": true
   },
   "croptopia:recipes/food/molasses_from_smoking_sugar_cane": {
     "criteria": {
@@ -4655,6 +4663,7 @@
       "cherry_sapling": "2024-05-10 13:10:12 -0500",
       "apricot_sapling": "2024-05-10 13:10:10 -0500",
       "apple_sapling": "2024-05-10 13:10:10 -0500",
+      "date_sapling": "2024-05-27 12:58:10 -0500",
       "cashew_sapling": "2024-05-10 13:10:10 -0500",
       "starfruit_sapling": "2024-05-10 13:10:10 -0500"
     },
@@ -5884,7 +5893,8 @@
       "minecraft:pig": "2024-05-13 00:23:09 -0500",
       "minecraft:cow": "2024-05-10 14:41:10 -0500",
       "minecraft:chicken": "2024-05-11 02:56:11 -0500",
-      "minecraft:wolf": "2024-05-13 11:10:38 -0500"
+      "minecraft:wolf": "2024-05-13 11:10:38 -0500",
+      "minecraft:panda": "2024-05-27 12:26:54 -0500"
     },
     "done": false
   },
@@ -7524,7 +7534,8 @@
   },
   "croptopia:gather_tree_jungle": {
     "criteria": {
-      "dragonfruit_sapling": "2024-05-22 12:50:41 -0500"
+      "dragonfruit_sapling": "2024-05-22 12:50:41 -0500",
+      "date_sapling": "2024-05-27 12:58:10 -0500"
     },
     "done": false
   },
@@ -7723,6 +7734,175 @@
   "minecraft:nether/create_beacon": {
     "criteria": {
       "beacon": "2024-05-26 18:08:09 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/saguaro_juice": {
+    "criteria": {
+      "has_saguaro": "2024-05-27 11:10:36 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/saguaro_seed": {
+    "criteria": {
+      "has_saguaro": "2024-05-27 11:10:36 -0500"
+    },
+    "done": true
+  },
+  "croptopia:gather_desert": {
+    "criteria": {
+      "saguaro_seed": "2024-05-27 11:10:36 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_chiseled_sandstone": "2024-05-27 11:21:47 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab": {
+    "criteria": {
+      "has_chiseled_sandstone": "2024-05-27 11:21:47 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2024-05-27 12:40:31 -0500"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/jungle": {
+    "criteria": {
+      "has_wood": "2024-05-27 12:40:31 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2024-05-27 12:40:31 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_any_sniffer_seed": {
+    "criteria": {
+      "torchflower": "2024-05-27 12:56:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_torchflower": {
+    "criteria": {
+      "has_torchflower": "2024-05-27 12:59:35 -0500"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/void_lily": {
+    "criteria": {
+      "has_amethyst_shard": "2024-05-27 13:00:05 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:main/master_chef": {
+    "criteria": {
+      "bacon_and_eggs": "2024-05-27 13:57:26 -0500",
+      "fried_rice": "2024-05-27 13:02:22 -0500"
+    },
+    "done": false
+  },
+  "croptopia:recipes/shaped_fruit_cake": {
+    "criteria": {
+      "has_nutmeg": "2024-05-27 13:03:08 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/nutmeg_sapling": {
+    "criteria": {
+      "has_nutmeg": "2024-05-27 13:03:08 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/cooked_bacon_from_campfire_cooking": {
+    "criteria": {
+      "cooked_bacon": "2024-05-27 13:04:26 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/cooked_bacon_from_smoking": {
+    "criteria": {
+      "cooked_bacon": "2024-05-27 13:04:26 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/cooked_bacon": {
+    "criteria": {
+      "cooked_bacon": "2024-05-27 13:04:26 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:main/use_cutting_board": {
+    "criteria": {
+      "cutting_board": "2024-05-27 13:04:26 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/bacon_sandwich": {
+    "criteria": {
+      "has_bacon": "2024-05-27 13:05:09 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/bacon_and_eggs": {
+    "criteria": {
+      "has_bacon": "2024-05-27 13:05:09 -0500"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2024-05-27 13:12:53 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:main/eat_nourishing_food": {
+    "criteria": {
+      "nourishment": "2024-05-27 13:57:26 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2024-05-27 14:16:24 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/salt_from_water_bottle": {
+    "criteria": {
+      "has_water_bottle": "2024-05-27 14:18:29 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/salt_from_smoking_water_bottle": {
+    "criteria": {
+      "has_water_bottle": "2024-05-27 14:18:29 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/blasting_salt": {
+    "criteria": {
+      "has_water": "2024-05-27 14:18:29 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:main/place_feast": {
+    "criteria": {
+      "roast_chicken": "2024-05-27 14:23:43 -0500"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_bandit_towers": {
+    "criteria": {
+      "location0": "2024-05-27 14:32:06 -0500"
     },
     "done": true
   },

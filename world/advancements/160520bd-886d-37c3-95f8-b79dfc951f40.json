@@ -143,7 +143,8 @@
       "corn_seed": "2024-05-17 00:41:05 -0500",
       "mustard_seed": "2024-05-19 04:58:27 -0500",
       "currant_seed": "2024-05-09 11:29:28 -0500",
-      "zucchini_seed": "2024-05-09 11:29:28 -0500"
+      "zucchini_seed": "2024-05-09 11:29:28 -0500",
+      "garlic_seed": "2024-05-27 13:50:25 -0500"
     },
     "done": false
   },
@@ -4495,7 +4496,8 @@
       "greenonion_seed": "2024-05-09 11:29:28 -0500",
       "rhubarb_seed": "2024-05-09 11:29:28 -0500",
       "pineapple_seed": "2024-05-16 16:57:51 -0500",
-      "onion_seed": "2024-05-16 16:59:16 -0500"
+      "onion_seed": "2024-05-16 16:59:16 -0500",
+      "garlic_seed": "2024-05-27 13:50:25 -0500"
     },
     "done": false
   },
@@ -8355,7 +8357,8 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
-      "minecraft:cow": "2024-05-15 11:49:22 -0500"
+      "minecraft:cow": "2024-05-15 11:49:22 -0500",
+      "minecraft:panda": "2024-05-27 10:52:09 -0500"
     },
     "done": false
   },
@@ -8778,6 +8781,7 @@
       "mossy_towerwood": "2024-05-25 12:10:31 -0500",
       "transformation_sapling": "2024-05-20 16:18:00 -0500",
       "mangrove_sapling": "2024-05-20 16:18:03 -0500",
+      "encased_towerwood": "2024-05-27 10:05:35 -0500",
       "liveroot_block": "2024-05-17 12:28:07 -0500",
       "towerwood": "2024-05-21 11:42:15 -0500",
       "canopy_sapling": "2024-05-20 16:18:33 -0500",
@@ -10321,6 +10325,120 @@
   "securitycraft:recipes/building_blocks/reinforced_stone_stairs_from_reinforced_stone_stonecutting": {
     "criteria": {
       "has_reinforced_stone": "2024-05-26 17:19:47 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_red_sandstone": {
+    "criteria": {
+      "has_red_sandstone": "2024-05-27 11:04:24 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_red_sandstone": {
+    "criteria": {
+      "has_red_sandstone": "2024-05-27 11:04:24 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_red_sandstone": {
+    "criteria": {
+      "has_red_sandstone": "2024-05-27 11:04:24 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_sandstone_wall_from_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_red_sandstone": "2024-05-27 11:04:24 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_red_sandstone_slab_from_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_red_sandstone": "2024-05-27 11:04:24 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_sandstone_wall": {
+    "criteria": {
+      "has_red_sandstone": "2024-05-27 11:04:24 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone_slab": {
+    "criteria": {
+      "has_red_sandstone": "2024-05-27 11:04:24 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone_stairs": {
+    "criteria": {
+      "has_red_sandstone": "2024-05-27 11:04:24 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_red_sandstone_from_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_red_sandstone": "2024-05-27 11:04:24 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone_slab_from_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_red_sandstone": "2024-05-27 11:04:24 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_red_sandstone_from_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_red_sandstone": "2024-05-27 11:04:24 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone_stairs_from_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_red_sandstone": "2024-05-27 11:04:24 -0500"
+    },
+    "done": true
+  },
+  "bossominium:forest_fire": {
+    "criteria": {
+      "forest_fire": "2024-05-27 11:11:00 -0500"
+    },
+    "done": true
+  },
+  "bossominium:ritual_complete": {
+    "criteria": {
+      "ritual_complete": "2024-05-27 11:19:03 -0500"
+    },
+    "done": true
+  },
+  "legendary_monsters:locate_shulker_tower": {
+    "criteria": {
+      "tower": "2024-05-27 11:53:02 -0500"
+    },
+    "done": true
+  },
+  "bossominium:the_ender_protector": {
+    "criteria": {
+      "the_ender_protector": "2024-05-27 11:40:21 -0500"
+    },
+    "done": true
+  },
+  "legendary_monsters:defeat_shulker_mimic": {
+    "criteria": {
+      "shulker_mimic": "2024-05-27 11:53:55 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:main/master_chef": {
+    "criteria": {
+      "bacon_and_eggs": "2024-05-27 13:59:39 -0500"
+    },
+    "done": false
+  },
+  "farmersdelight:main/eat_nourishing_food": {
+    "criteria": {
+      "nourishment": "2024-05-27 13:59:39 -0500"
     },
     "done": true
   },
