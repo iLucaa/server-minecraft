@@ -7514,93 +7514,15 @@
     },
     "done": false
   },
-  "minecraft:recipes/decorations/light_gray_glazed_terracotta": {
+  "legendary_monsters:locate_shulker_tower": {
     "criteria": {
-      "has_light_gray_terracotta": "2024-05-27 13:23:32 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/birch_button": {
-    "criteria": {
-      "has_planks": "2024-05-27 13:55:54 -0500"
-    },
-    "done": true
-  },
-  "legendary_monsters:locate_cloudy_temple": {
-    "criteria": {
-      "cloudy_temple": "2024-05-27 13:10:20 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/white_glazed_terracotta": {
-    "criteria": {
-      "has_white_terracotta": "2024-05-27 13:23:36 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/birch_door": {
-    "criteria": {
-      "has_planks": "2024-05-27 13:55:54 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/birch_fence": {
-    "criteria": {
-      "has_planks": "2024-05-27 13:55:54 -0500"
+      "tower": "2024-05-27 11:52:34 -0500"
     },
     "done": true
   },
   "croptopia:recipes/leafy_salad": {
     "criteria": {
       "has_kale": "2024-05-27 12:55:46 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/birch_sign": {
-    "criteria": {
-      "has_planks": "2024-05-27 13:55:54 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/brown_glazed_terracotta": {
-    "criteria": {
-      "has_brown_terracotta": "2024-05-27 13:47:09 -0500"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/bacon_sandwich": {
-    "criteria": {
-      "has_bacon": "2024-05-27 13:05:03 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/birch_fence_gate": {
-    "criteria": {
-      "has_planks": "2024-05-27 13:55:54 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/birch_slab": {
-    "criteria": {
-      "has_planks": "2024-05-27 13:55:54 -0500"
-    },
-    "done": true
-  },
-  "farmersdelight:main/eat_comfort_food": {
-    "criteria": {
-      "comfort": "2024-05-27 13:13:05 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/birch_stairs": {
-    "criteria": {
-      "has_planks": "2024-05-27 13:55:54 -0500"
-    },
-    "done": true
-  },
-  "legendary_monsters:locate_shulker_tower": {
-    "criteria": {
-      "tower": "2024-05-27 11:52:34 -0500"
     },
     "done": true
   },
@@ -7616,27 +7538,39 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
-    "criteria": {
-      "has_iron_nugget": "2024-05-27 13:48:45 -0500"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/nether_salad": {
-    "criteria": {
-      "has_bowl": "2024-05-27 13:13:05 -0500"
-    },
-    "done": true
-  },
   "croptopia:recipes/kale_chips": {
     "criteria": {
       "has_kale": "2024-05-27 12:55:46 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+  "farmersdelight:recipes/food/bacon_sandwich": {
     "criteria": {
-      "has_azure_bluet": "2024-05-27 13:18:07 -0500"
+      "has_bacon": "2024-05-27 13:05:03 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/bacon_and_eggs": {
+    "criteria": {
+      "has_bacon": "2024-05-27 13:05:03 -0500"
+    },
+    "done": true
+  },
+  "legendary_monsters:locate_cloudy_temple": {
+    "criteria": {
+      "cloudy_temple": "2024-05-27 13:10:20 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:main/eat_comfort_food": {
+    "criteria": {
+      "comfort": "2024-05-27 13:13:05 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/nether_salad": {
+    "criteria": {
+      "has_bowl": "2024-05-27 13:13:05 -0500"
     },
     "done": true
   },
@@ -7658,9 +7592,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/birch_trapdoor": {
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
     "criteria": {
-      "has_planks": "2024-05-27 13:55:54 -0500"
+      "has_azure_bluet": "2024-05-27 13:18:07 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_glazed_terracotta": {
+    "criteria": {
+      "has_light_gray_terracotta": "2024-05-27 13:23:32 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_glazed_terracotta": {
+    "criteria": {
+      "has_white_terracotta": "2024-05-27 13:23:36 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_glazed_terracotta": {
+    "criteria": {
+      "has_brown_terracotta": "2024-05-27 13:47:09 -0500"
     },
     "done": true
   },
@@ -7670,15 +7622,81 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2024-05-27 13:48:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_button": {
+    "criteria": {
+      "has_planks": "2024-05-27 13:55:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_door": {
+    "criteria": {
+      "has_planks": "2024-05-27 13:55:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_fence": {
+    "criteria": {
+      "has_planks": "2024-05-27 13:55:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_sign": {
+    "criteria": {
+      "has_planks": "2024-05-27 13:55:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-05-27 13:55:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_slab": {
+    "criteria": {
+      "has_planks": "2024-05-27 13:55:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_stairs": {
+    "criteria": {
+      "has_planks": "2024-05-27 13:55:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-05-27 13:55:54 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_pressure_plate": {
     "criteria": {
       "has_planks": "2024-05-27 13:55:54 -0500"
     },
     "done": true
   },
-  "farmersdelight:recipes/food/bacon_and_eggs": {
+  "croptopia:recipes/misc/orange_sapling": {
     "criteria": {
-      "has_bacon": "2024-05-27 13:05:03 -0500"
+      "has_orange": "2024-05-28 12:53:38 -0500"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_mushroom_house": {
+    "criteria": {
+      "location0": "2024-05-28 14:15:38 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/orange_juice": {
+    "criteria": {
+      "has_orange": "2024-05-28 12:53:38 -0500"
     },
     "done": true
   },
