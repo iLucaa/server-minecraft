@@ -10412,15 +10412,15 @@
     },
     "done": true
   },
-  "legendary_monsters:locate_shulker_tower": {
-    "criteria": {
-      "tower": "2024-05-27 11:53:02 -0500"
-    },
-    "done": true
-  },
   "bossominium:the_ender_protector": {
     "criteria": {
       "the_ender_protector": "2024-05-27 11:40:21 -0500"
+    },
+    "done": true
+  },
+  "legendary_monsters:locate_shulker_tower": {
+    "criteria": {
+      "tower": "2024-05-27 11:53:02 -0500"
     },
     "done": true
   },
@@ -10439,6 +10439,12 @@
   "farmersdelight:main/eat_nourishing_food": {
     "criteria": {
       "nourishment": "2024-05-27 13:59:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2024-05-27 23:30:40 -0500"
     },
     "done": true
   },
