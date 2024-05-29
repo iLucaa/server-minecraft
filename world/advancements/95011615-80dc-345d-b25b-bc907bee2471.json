@@ -4658,6 +4658,7 @@
       "pecan_sapling": "2024-05-10 13:10:10 -0500",
       "dragonfruit_sapling": "2024-05-22 12:50:41 -0500",
       "walnut_sapling": "2024-05-10 13:10:10 -0500",
+      "coconut_sapling": "2024-05-29 11:35:40 -0500",
       "peach_sapling": "2024-05-10 13:10:10 -0500",
       "plum_sapling": "2024-05-10 13:10:10 -0500",
       "cherry_sapling": "2024-05-10 13:10:12 -0500",
@@ -5894,7 +5895,8 @@
       "minecraft:cow": "2024-05-10 14:41:10 -0500",
       "minecraft:chicken": "2024-05-11 02:56:11 -0500",
       "minecraft:wolf": "2024-05-13 11:10:38 -0500",
-      "minecraft:panda": "2024-05-27 12:26:54 -0500"
+      "minecraft:panda": "2024-05-27 12:26:54 -0500",
+      "minecraft:bee": "2024-05-29 12:32:00 -0500"
     },
     "done": false
   },
@@ -7535,6 +7537,7 @@
   "croptopia:gather_tree_jungle": {
     "criteria": {
       "dragonfruit_sapling": "2024-05-22 12:50:41 -0500",
+      "coconut_sapling": "2024-05-29 11:35:40 -0500",
       "date_sapling": "2024-05-27 12:58:10 -0500"
     },
     "done": false
@@ -7805,6 +7808,7 @@
   },
   "farmersdelight:main/master_chef": {
     "criteria": {
+      "roast_chicken": "2024-05-29 13:37:45 -0500",
       "bacon_and_eggs": "2024-05-27 13:57:26 -0500",
       "fried_rice": "2024-05-27 13:02:22 -0500"
     },
@@ -7903,6 +7907,174 @@
   "dungeons_arise:find_bandit_towers": {
     "criteria": {
       "location0": "2024-05-27 14:32:06 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/artichoke_seed": {
+    "criteria": {
+      "has_artichoke": "2024-05-29 11:31:49 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/artichoke_dip": {
+    "criteria": {
+      "has_artichoke": "2024-05-29 11:31:49 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_stuffed_artichoke": {
+    "criteria": {
+      "has_artichokes": "2024-05-29 11:31:49 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_roasted_asparagus": {
+    "criteria": {
+      "has_asparagus": "2024-05-29 11:32:20 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/asparagus_seed": {
+    "criteria": {
+      "has_asparagus": "2024-05-29 11:32:20 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_cheesy_asparagus": {
+    "criteria": {
+      "has_asparagus": "2024-05-29 11:32:20 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/ginger_seed": {
+    "criteria": {
+      "has_ginger": "2024-05-29 11:32:43 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_candle": {
+    "criteria": {
+      "has_purple_dye": "2024-05-29 12:23:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_purple_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-05-29 12:23:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_purple_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-05-29 12:23:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_purple_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-05-29 12:23:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_purple_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-05-29 12:23:45 -0500"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_wishing_well": {
+    "criteria": {
+      "location0": "2024-05-29 12:26:43 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_allium": {
+    "criteria": {
+      "has_allium": "2024-05-29 12:28:52 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/nectarine_sapling": {
+    "criteria": {
+      "has_nectarine": "2024-05-29 12:34:45 -0500"
+    },
+    "done": true
+  },
+  "croptopia:salt": {
+    "criteria": {
+      "salt": "2024-05-29 12:36:37 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/dead_bush": {
+    "criteria": {
+      "has_salts": "2024-05-29 12:36:37 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_stairs": {
+    "criteria": {
+      "has_oxidized_cut_copper": "2024-05-29 12:52:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_stairs_from_oxidized_cut_copper_stonecutting": {
+    "criteria": {
+      "has_oxidized_cut_copper": "2024-05-29 12:52:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_slab": {
+    "criteria": {
+      "has_oxidized_cut_copper": "2024-05-29 12:52:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_slab_from_oxidized_cut_copper_stonecutting": {
+    "criteria": {
+      "has_oxidized_cut_copper": "2024-05-29 12:52:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_from_honeycomb": {
+    "criteria": {
+      "has_oxidized_cut_copper": "2024-05-29 12:52:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
+    "criteria": {
+      "has_white_tulip": "2024-05-29 12:58:06 -0500"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/brimstone_nectar": {
+    "criteria": {
+      "has_netherite_scrap": "2024-05-29 13:10:46 -0500"
+    },
+    "done": true
+  },
+  "tombstone:adventure/use_purification": {
+    "criteria": {
+      "has_magic_scroll": "2024-05-29 13:47:19 -0500"
+    },
+    "done": true
+  },
+  "tombstone:adventure/neighborhood_brawl": {
+    "criteria": {
+      "coded_trigger": "2024-05-29 14:09:10 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:progress_glacier": {
+    "criteria": {
+      "trophy": "2024-05-29 14:07:16 -0500"
+    },
+    "done": false
+  },
+  "twilightforest:recipes/misc/snow_queen_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2024-05-29 14:07:16 -0500"
     },
     "done": true
   },

@@ -43,6 +43,7 @@
       "minecraft:jagged_peaks": "2024-05-08 13:23:53 -0500",
       "minecraft:cold_ocean": "2024-05-14 13:28:25 -0500",
       "minecraft:forest": "2024-05-06 12:21:46 -0500",
+      "minecraft:lush_caves": "2024-05-29 10:59:13 -0500",
       "minecraft:deep_cold_ocean": "2024-05-24 14:33:11 -0500",
       "minecraft:ice_spikes": "2024-05-25 11:49:04 -0500",
       "minecraft:frozen_ocean": "2024-05-14 11:09:53 -0500",
@@ -472,6 +473,8 @@
       "porkchop": "2024-05-25 12:57:30 -0500",
       "tropical_fish": "2024-05-27 10:13:21 -0500",
       "apple": "2024-05-11 11:29:37 -0500",
+      "potato": "2024-05-29 11:41:38 -0500",
+      "poisonous_potato": "2024-05-29 11:56:38 -0500",
       "pumpkin_pie": "2024-05-10 11:28:02 -0500",
       "bread": "2024-05-07 11:21:29 -0500",
       "golden_apple": "2024-05-09 12:12:08 -0500",
@@ -2338,6 +2341,7 @@
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
       "sugar_cane": "2024-05-25 13:22:38 -0500",
+      "potato": "2024-05-29 11:32:38 -0500",
       "wheat": "2024-05-08 10:29:40 -0500",
       "carrot": "2024-05-17 10:57:56 -0500"
     },
@@ -7788,6 +7792,48 @@
   "minecraft:recipes/misc/iron_ingot_from_nuggets": {
     "criteria": {
       "has_iron_nugget": "2024-05-28 13:19:09 -0500"
+    },
+    "done": true
+  },
+  "aquamirae:adventure/root": {
+    "criteria": {
+      "crafting_table": "2024-05-29 11:38:24 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2024-05-29 11:45:07 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_stairs": {
+    "criteria": {
+      "has_oxidized_cut_copper": "2024-05-29 14:04:42 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_stairs_from_oxidized_cut_copper_stonecutting": {
+    "criteria": {
+      "has_oxidized_cut_copper": "2024-05-29 14:04:42 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_slab": {
+    "criteria": {
+      "has_oxidized_cut_copper": "2024-05-29 14:04:42 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_slab_from_oxidized_cut_copper_stonecutting": {
+    "criteria": {
+      "has_oxidized_cut_copper": "2024-05-29 14:04:42 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_from_honeycomb": {
+    "criteria": {
+      "has_oxidized_cut_copper": "2024-05-29 14:04:42 -0500"
     },
     "done": true
   },
