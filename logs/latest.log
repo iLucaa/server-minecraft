@@ -1,53 +1,47 @@
-[29may2024 13:56:21.274] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[29may2024 13:56:21.277] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.2 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
-[29may2024 13:56:21.695] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[29may2024 13:56:21.701] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
-[29may2024 13:56:21.702] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file URL: union:/C:/Users/lcadi/OneDrive/Escritorio/SERVER/mods/OptiFine_1.20.1_HD_U_I6.jar%23144!/
-[29may2024 13:56:21.706] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: C:\Users\lcadi\OneDrive\Escritorio\SERVER\mods\OptiFine_1.20.1_HD_U_I6.jar
-[29may2024 13:56:21.708] [main/INFO] [optifine.OptiFineTransformer/]: Target.PRE_CLASS is available
-[29may2024 13:56:21.739] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/lcadi/OneDrive/Escritorio/SERVER/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[29may2024 13:56:21.744] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
-[29may2024 13:56:21.935] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lcadi\OneDrive\Escritorio\SERVER\libraries\net\minecraftforge\fmlcore\1.20.1-47.2.0\fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
-[29may2024 13:56:21.937] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lcadi\OneDrive\Escritorio\SERVER\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.2.0\javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[29may2024 13:56:21.939] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lcadi\OneDrive\Escritorio\SERVER\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.2.0\lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[29may2024 13:56:21.940] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lcadi\OneDrive\Escritorio\SERVER\libraries\net\minecraftforge\mclanguage\1.20.1-47.2.0\mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[29may2024 13:56:22.080] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[29may2024 13:56:22.081] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 7 dependencies adding them to mods collection
-[29may2024 13:56:22.381] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.transformers
-[29may2024 13:56:22.384] [main/INFO] [optifine.OptiFineTransformer/]: Targets: 412
-[29may2024 13:56:22.816] [main/INFO] [optifine.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
-[29may2024 13:56:23.177] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[29may2024 13:56:23.327] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[29may2024 13:56:23.331] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
-[29may2024 13:56:23.336] [main/WARN] [mixin/]: Reference map 'cookingforblockheads.refmap.json' for cookingforblockheads.mixins.json could not be read. If this is a development environment you can ignore this message
-[29may2024 13:56:23.345] [main/WARN] [mixin/]: Reference map 'EpheroLib-refmap.json' for epherolib.mixins.json could not be read. If this is a development environment you can ignore this message
-[29may2024 13:56:23.424] [main/WARN] [mixin/]: Reference map 'Aquamirae.refmap.json' for aquamirae.mixins.json could not be read. If this is a development environment you can ignore this message
-[29may2024 13:56:23.986] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.2.1-beta.2).
-[29may2024 13:56:27.631] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
-[29may2024 13:56:27.632] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
-[29may2024 13:56:27.650] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/obscuria/obscureapi/client/renderer/PatreonLayer for invalid dist DEDICATED_SERVER
-[29may2024 13:56:27.718] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[29may2024 13:56:27.720] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[29may2024 13:56:27.728] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[29may2024 13:56:27.731] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[29may2024 13:56:27.734] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[29may2024 13:56:27.737] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[29may2024 13:56:27.791] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
-[29may2024 13:56:27.967] [modloading-worker-0/INFO] [com.epherical.epherolib.config.CommonConfig/]: Creating default config file: croptopia_v3.conf
-[29may2024 13:56:29.376] [main/INFO] [Moonlight/]: Initialized block sets in 15ms
-[29may2024 13:56:30.184] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 17
-[29may2024 13:56:30.241] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
-[29may2024 13:56:30.246] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
-[29may2024 13:56:30.246] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
-[29may2024 13:56:30.246] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
-[29may2024 13:56:30.332] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obscure_api] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/obscure_api/versions.json
-[29may2024 13:56:30.726] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
-[29may2024 13:56:30.726] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
-[29may2024 13:56:30.727] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
-[29may2024 13:56:30.727] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
-[29may2024 13:56:30.743] [main/INFO] [Moonlight/]: Initialized color sets in 15ms
-[29may2024 13:56:30.749] [main/INFO] [journeymap/]: Initializing Packet Registries
-[29may2024 13:56:30.752] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[29may.2024 22:43:59.725] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[29may.2024 22:43:59.734] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.1 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[29may.2024 22:44:00.444] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[29may.2024 22:44:00.460] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
+[29may.2024 22:44:00.462] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file URL: union:/C:/Users/LUCA/Desktop/SERVER/mods/OptiFine_1.20.1_HD_U_I6.jar%23144!/
+[29may.2024 22:44:00.469] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: C:\Users\LUCA\Desktop\SERVER\mods\OptiFine_1.20.1_HD_U_I6.jar
+[29may.2024 22:44:00.471] [main/INFO] [optifine.OptiFineTransformer/]: Target.PRE_CLASS is available
+[29may.2024 22:44:00.544] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/LUCA/Desktop/SERVER/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[29may.2024 22:44:00.561] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
+[29may.2024 22:44:01.212] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\LUCA\Desktop\SERVER\libraries\net\minecraftforge\fmlcore\1.20.1-47.2.0\fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
+[29may.2024 22:44:01.220] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\LUCA\Desktop\SERVER\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.2.0\javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[29may.2024 22:44:01.227] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\LUCA\Desktop\SERVER\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.2.0\lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[29may.2024 22:44:01.235] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\LUCA\Desktop\SERVER\libraries\net\minecraftforge\mclanguage\1.20.1-47.2.0\mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[29may.2024 22:44:01.535] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[29may.2024 22:44:01.537] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 7 dependencies adding them to mods collection
+[29may.2024 22:44:02.179] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.transformers
+[29may.2024 22:44:02.184] [main/INFO] [optifine.OptiFineTransformer/]: Targets: 412
+[29may.2024 22:44:02.981] [main/INFO] [optifine.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
+[29may.2024 22:44:03.684] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[29may.2024 22:44:03.832] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[29may.2024 22:44:03.838] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[29may.2024 22:44:03.847] [main/WARN] [mixin/]: Reference map 'cookingforblockheads.refmap.json' for cookingforblockheads.mixins.json could not be read. If this is a development environment you can ignore this message
+[29may.2024 22:44:03.854] [main/WARN] [mixin/]: Reference map 'EpheroLib-refmap.json' for epherolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[29may.2024 22:44:03.983] [main/WARN] [mixin/]: Reference map 'Aquamirae.refmap.json' for aquamirae.mixins.json could not be read. If this is a development environment you can ignore this message
+[29may.2024 22:44:05.205] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.2.1-beta.2).
+[29may.2024 22:44:12.711] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/obscuria/obscureapi/client/renderer/PatreonLayer for invalid dist DEDICATED_SERVER
+[29may.2024 22:44:12.727] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
+[29may.2024 22:44:12.727] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
+[29may.2024 22:44:12.868] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[29may.2024 22:44:12.873] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[29may.2024 22:44:12.882] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[29may.2024 22:44:12.888] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[29may.2024 22:44:12.894] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[29may.2024 22:44:12.899] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[29may.2024 22:44:13.301] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[29may.2024 22:44:13.412] [modloading-worker-0/INFO] [com.epherical.epherolib.config.CommonConfig/]: Creating default config file: croptopia_v3.conf
+[29may.2024 22:44:16.509] [main/INFO] [Moonlight/]: Initialized block sets in 17ms
+[29may.2024 22:44:18.160] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 17
+[29may.2024 22:44:18.298] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[29may.2024 22:44:18.307] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[29may.2024 22:44:18.307] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[29may.2024 22:44:18.307] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[29may.2024 22:44:18.439] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obscure_api] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/obscure_api/versions.json
+[29may.2024 22:44:18.730] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
@@ -62,43 +56,72 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[29may2024 13:56:30.753] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[29may2024 13:56:30.803] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:aiming for minecraft:player
-[29may2024 13:56:30.803] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:reloading for minecraft:player
-[29may2024 13:56:30.803] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:shooting for minecraft:player
-[29may2024 13:56:30.839] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.cookingforblockheads.compat.ForgeJadeCookingForBlockheadsPlugin
-[29may2024 13:56:30.844] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at twilightforest.compat.jade.JadeCompat
-[29may2024 13:56:30.844] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[29may2024 13:56:30.852] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[29may2024 13:56:30.854] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[29may2024 13:56:30.855] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.waila.JadeDataProvider
-[29may2024 13:56:30.856] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
-[29may2024 13:56:31.272] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.9.18 Target: 5.9.21
-[29may2024 13:56:31.273] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
-[29may2024 13:56:31.494] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: OUTDATED Current: 9.1.12 Target: 9.1.14
-[29may2024 13:56:31.496] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[29may2024 13:56:31.983] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.2.0 Target: null
-[29may2024 13:56:31.983] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
-[29may2024 13:56:32.449] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: AHEAD Current: 4.3.2145 Target: null
-[29may2024 13:56:32.450] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://maxhenkel.de/update/voicechat.json
-[29may2024 13:56:32.562] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[29may2024 13:56:33.934] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/lcadi/OneDrive/Escritorio/SERVER/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23189!/assets/.mcassetsroot' uses unexpected schema
-[29may2024 13:56:33.934] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/lcadi/OneDrive/Escritorio/SERVER/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23189!/data/.mcassetsroot' uses unexpected schema
-[29may2024 13:56:34.268] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: UP_TO_DATE Current: 1.20.1-2.4.32 Target: null
-[29may2024 13:56:34.269] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
-[29may2024 13:56:34.315] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.11.17 Target: null
-[29may2024 13:56:34.315] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jeiintegration] Starting version check at https://cdn.snowshock35.com/mods/jei-integration/update.json
-[29may2024 13:56:34.610] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jeiintegration] Found status: BETA Current: 10.0.0 Target: null
-[29may2024 13:56:34.610] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[29may2024 13:56:34.632] [main/INFO] [com.github.L_Ender.cataclysm.Cataclysm/]: Adding datapack listener altar_of_amethyst_recipes
-[29may2024 13:56:34.681] [Worker-Main-6/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [minecraft:spruce_forest (from legendarymonsters-1.0.6.jar)] as it is missing following references: minecraft:spruce_forest (from legendarymonsters-1.0.6.jar)
-[29may2024 13:56:34.694] [Worker-Main-14/WARN] [artifacts.Artifacts/]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-8.5.5-1.20.1.jar
-[29may2024 13:56:34.712] [Worker-Main-9/ERROR] [net.minecraft.Util/]: Invalid path in pack: legendary_monsters:recipes/MoltenMetalIngot.json, ignoring
-[29may2024 13:56:35.062] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
-[29may2024 13:56:35.089] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
-[29may2024 13:56:35.093] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
-[29may2024 13:56:35.101] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
-[29may2024 13:56:35.110] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:ancient_dripstone_brick_stairs_left
+[29may.2024 22:44:18.732] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[29may.2024 22:44:18.801] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:aiming for minecraft:player
+[29may.2024 22:44:18.801] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:reloading for minecraft:player
+[29may.2024 22:44:18.801] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:shooting for minecraft:player
+[29may.2024 22:44:18.824] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[29may.2024 22:44:18.824] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[29may.2024 22:44:18.825] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[29may.2024 22:44:18.826] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[29may.2024 22:44:18.827] [main/INFO] [journeymap/]: Initializing Packet Registries
+[29may.2024 22:44:18.884] [main/INFO] [Moonlight/]: Initialized color sets in 31ms
+[29may.2024 22:44:18.955] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.cookingforblockheads.compat.ForgeJadeCookingForBlockheadsPlugin
+[29may.2024 22:44:18.963] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at twilightforest.compat.jade.JadeCompat
+[29may.2024 22:44:18.964] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[29may.2024 22:44:18.979] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[29may.2024 22:44:18.984] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[29may.2024 22:44:18.987] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.waila.JadeDataProvider
+[29may.2024 22:44:18.989] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[29may.2024 22:44:19.098] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.9.18 Target: 5.9.21
+[29may.2024 22:44:19.098] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[29may.2024 22:44:19.177] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: OUTDATED Current: 9.1.12 Target: 9.1.14
+[29may.2024 22:44:19.183] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[29may.2024 22:44:19.546] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.2.0 Target: null
+[29may.2024 22:44:19.547] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[29may.2024 22:44:19.877] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: AHEAD Current: 4.3.2145 Target: null
+[29may.2024 22:44:19.878] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://maxhenkel.de/update/voicechat.json
+[29may.2024 22:44:21.351] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: UP_TO_DATE Current: 1.20.1-2.4.32 Target: null
+[29may.2024 22:44:21.351] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[29may.2024 22:44:21.370] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.11.17 Target: null
+[29may.2024 22:44:21.370] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jeiintegration] Starting version check at https://cdn.snowshock35.com/mods/jei-integration/update.json
+[29may.2024 22:44:21.519] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jeiintegration] Found status: BETA Current: 10.0.0 Target: null
+[29may.2024 22:44:21.519] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[29may.2024 22:44:22.231] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.9.8 Target: 1.9.9
+[29may.2024 22:44:22.232] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[29may.2024 22:44:22.249] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.5.5 Target: 8.6.5
+[29may.2024 22:44:22.250] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
+[29may.2024 22:44:22.269] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: UP_TO_DATE Current: 3.2.2 Target: null
+[29may.2024 22:44:22.269] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[29may.2024 22:44:23.011] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[29may.2024 22:44:23.146] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.6.27 Target: 0.6.27
+[29may.2024 22:44:23.147] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aquamirae] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/aquamirae/versions.json
+[29may.2024 22:44:23.268] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.2.0.jar%23190!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.2.0.jar%23190!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[29may.2024 22:44:25.857] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/LUCA/Desktop/SERVER/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23189!/assets/.mcassetsroot' uses unexpected schema
+[29may.2024 22:44:25.857] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/LUCA/Desktop/SERVER/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23189!/data/.mcassetsroot' uses unexpected schema
+[29may.2024 22:44:27.159] [main/INFO] [com.github.L_Ender.cataclysm.Cataclysm/]: Adding datapack listener altar_of_amethyst_recipes
+[29may.2024 22:44:27.246] [Worker-Main-5/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [minecraft:spruce_forest (from legendarymonsters-1.0.6.jar)] as it is missing following references: minecraft:spruce_forest (from legendarymonsters-1.0.6.jar)
+[29may.2024 22:44:27.280] [Worker-Main-8/WARN] [artifacts.Artifacts/]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-8.5.5-1.20.1.jar
+[29may.2024 22:44:27.283] [Worker-Main-3/ERROR] [net.minecraft.Util/]: Invalid path in pack: legendary_monsters:recipes/MoltenMetalIngot.json, ignoring
+[29may.2024 22:44:27.886] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[29may.2024 22:44:27.940] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[29may.2024 22:44:27.950] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[29may.2024 22:44:27.969] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[29may.2024 22:44:27.989] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:ancient_dripstone_brick_stairs_left
 com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:ancient_dripstone_brick'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23189!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -134,7 +157,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:ancient_dr
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[29may2024 13:56:35.118] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:dinosaur_bone_meal
+[29may.2024 22:44:28.007] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:dinosaur_bone_meal
 com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:dinosaur_bone_meal'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.2.0-universal.jar%23194!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.2.0-universal.jar%23194!/:?]
@@ -165,200 +188,208 @@ com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:dinosaur_b
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[29may2024 13:56:35.130] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
-[29may2024 13:56:35.131] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
-[29may2024 13:56:35.132] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
-[29may2024 13:56:35.136] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
-[29may2024 13:56:35.138] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 17 recipes
-[29may2024 13:56:35.220] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3417 advancements
-[29may2024 13:56:35.233] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
-[29may2024 13:56:35.239] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[29may2024 13:56:35.240] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
-[29may2024 13:56:35.821] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.9.8 Target: 1.9.9
-[29may2024 13:56:35.821] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[29may2024 13:56:35.858] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.5.5 Target: 8.6.5
-[29may2024 13:56:35.858] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
-[29may2024 13:56:35.889] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: UP_TO_DATE Current: 3.2.2 Target: null
-[29may2024 13:56:35.889] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[29may2024 13:56:37.223] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.6.27 Target: 0.6.27
-[29may2024 13:56:37.223] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aquamirae] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/aquamirae/versions.json
-[29may2024 13:56:37.317] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.2.0.jar%23190!/:?]
-	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.2.0.jar%23190!/:?]
-Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
-	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
-	... 6 more
-[29may2024 13:56:38.427] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[29may2024 13:56:38.429] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[29may2024 13:56:38.429] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[29may2024 13:56:38.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[29may2024 13:56:38.557] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[29may2024 13:56:38.576] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[29may2024 13:56:38.725] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[29may2024 13:56:38.725] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[29may2024 13:56:38.726] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[29may2024 13:56:38.726] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[29may2024 13:56:38.748] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[29may2024 13:56:38.843] [Server thread/INFO] [Framework/]: Loading server configs...
-[29may2024 13:56:38.865] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[29may2024 13:56:39.751] [Netty Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[29may2024 13:56:42.170] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.custom.obsidilith.ObsidilithEntity from class com.cerbon.bosses_of_mass_destruction.entity.custom.obsidilith.ObsidilithUtils
-[29may2024 13:56:42.189] [Netty Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[29may2024 13:56:42.193] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.custom.gauntlet.GauntletEntity from class com.cerbon.bosses_of_mass_destruction.projectile.PetalBladeProjectile
-[29may2024 13:56:42.194] [Netty Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[29may2024 13:56:42.246] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.util.BaseEntity from class com.cerbon.bosses_of_mass_destruction.entity.custom.void_blossom.hitbox.NetworkedHitboxManager
-[29may2024 13:56:42.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[29may2024 13:56:43.511] [Netty Server IO #4/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[29may2024 13:56:44.038] [Netty Server IO #5/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[29may2024 13:56:44.541] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29may2024 13:56:44.546] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29may2024 13:56:44.550] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29may2024 13:56:44.559] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29may2024 13:56:44.762] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29may2024 13:56:45.233] [Netty Server IO #7/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[29may2024 13:56:45.262] [Worker-Main-19/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
-[29may2024 13:56:45.294] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2533 ms
-[29may2024 13:56:45.295] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (6.550s)! For help, type "help"
-[29may2024 13:56:45.321] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[29may2024 13:56:45.363] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[29may2024 13:56:45.371] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 25565
-[29may2024 13:56:48.982] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
-[29may2024 13:56:49.143] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iLuca08[/192.168.1.19:52029] logged in with entity id 625 at (256.29597734743095, 65.0, 418.4294433143743)
-[29may2024 13:56:49.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 joined the game
-[29may2024 13:56:49.655] [Server thread/INFO] [Jade/]: Syncing config to iLuca08 (160520bd-886d-37c3-95f8-b79dfc951f40)
-[29may2024 13:56:49.691] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of iLuca08 (17)
-[29may2024 13:56:49.694] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to iLuca08
-[29may2024 13:56:51.508] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 160520bd-886d-37c3-95f8-b79dfc951f40
-[29may2024 13:56:52.484] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 160520bd-886d-37c3-95f8-b79dfc951f40
-[29may2024 13:56:52.493] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player iLuca08 (160520bd-886d-37c3-95f8-b79dfc951f40) successfully connected to voice chat
-[29may2024 13:57:00.454] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dcarlox[/192.168.1.53:49906] logged in with entity id 987 at (353.590040413874, 104.38474735031399, 7138.037244216954)
-[29may2024 13:57:00.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dcarlox joined the game
-[29may2024 13:57:00.528] [Server thread/INFO] [Jade/]: Syncing config to Dcarlox (dd3b7e2e-1465-3e48-adec-987010ccd3c7)
-[29may2024 13:57:01.337] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Dcarlox (17)
-[29may2024 13:57:01.340] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Dcarlox
-[29may2024 13:57:02.431] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player dd3b7e2e-1465-3e48-adec-987010ccd3c7
-[29may2024 13:57:03.431] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player dd3b7e2e-1465-3e48-adec-987010ccd3c7
-[29may2024 13:57:03.433] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Dcarlox (dd3b7e2e-1465-3e48-adec-987010ccd3c7) successfully connected to voice chat
-[29may2024 13:57:09.780] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DiandraEli[/192.168.1.13:58144] logged in with entity id 1065 at (312.6605676701924, 97.0, 369.76475571220635)
-[29may2024 13:57:09.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli joined the game
-[29may2024 13:57:10.173] [Server thread/INFO] [Jade/]: Syncing config to DiandraEli (95011615-80dc-345d-b25b-bc907bee2471)
-[29may2024 13:57:10.224] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DiandraEli (17)
-[29may2024 13:57:10.229] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DiandraEli
-[29may2024 13:57:18.707] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 95011615-80dc-345d-b25b-bc907bee2471
-[29may2024 13:57:19.709] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 95011615-80dc-345d-b25b-bc907bee2471
-[29may2024 13:57:19.762] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player DiandraEli (95011615-80dc-345d-b25b-bc907bee2471) successfully connected to voice chat
-[29may2024 13:57:22.909] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@6a92d821[id=<null>,name=m4rluu,properties={},legacy=false] (/192.168.1.26:52184): Took too long to log in
-[29may2024 13:57:22.912] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6a92d821[id=<null>,name=m4rluu,properties={},legacy=false] (/192.168.1.26:52184) lost connection: Took too long to log in
-[29may2024 13:57:22.947] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[29may2024 13:57:28.851] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: YISUS[/192.168.1.25:51957] logged in with entity id 1745 at (469.51368559265137, 83.0, 439.3420353220723)
-[29may2024 13:57:28.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YISUS joined the game
-[29may2024 13:57:28.938] [Server thread/INFO] [Jade/]: Syncing config to YISUS (ec7a9526-0ad8-3620-b27b-922730b555ec)
-[29may2024 13:57:28.990] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of YISUS (17)
-[29may2024 13:57:28.993] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to YISUS
-[29may2024 13:57:30.880] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player ec7a9526-0ad8-3620-b27b-922730b555ec
-[29may2024 13:57:31.881] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player ec7a9526-0ad8-3620-b27b-922730b555ec
-[29may2024 13:57:31.883] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player YISUS (ec7a9526-0ad8-3620-b27b-922730b555ec) successfully connected to voice chat
-[29may2024 13:57:34.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DiandraEli: Teleported DiandraEli to iLuca08]
-[29may2024 13:59:13.019] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2198ms or 43 ticks behind
-[29may2024 13:59:13.068] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dcarlox moved too quickly! -2.4591524589145024,14.500539194022416,10.406381242845782
-[29may2024 13:59:13.077] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DiandraEli moved too quickly! 9.600157849860238,2.203264399331289,-2.2167538610126485
-[29may2024 13:59:20.942] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: m4rluu[/192.168.1.26:52263] logged in with entity id 5892 at (418.69999998807907, 81.0, 268.48230225102253)
-[29may2024 13:59:20.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu joined the game
-[29may2024 13:59:20.996] [Server thread/INFO] [Jade/]: Syncing config to m4rluu (b697c606-0605-39e2-a05f-9e6661d42c15)
-[29may2024 13:59:21.011] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of m4rluu (17)
-[29may2024 13:59:21.017] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to m4rluu
-[29may2024 13:59:23.331] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player b697c606-0605-39e2-a05f-9e6661d42c15
-[29may2024 13:59:24.332] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player b697c606-0605-39e2-a05f-9e6661d42c15
-[29may2024 13:59:24.333] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player m4rluu (b697c606-0605-39e2-a05f-9e6661d42c15) successfully connected to voice chat
-[29may2024 14:00:13.172] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[29may2024 14:00:27.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dcarlox has made the advancement [Sunken City]
-[29may2024 14:00:46.407] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2036ms or 40 ticks behind
-[29may2024 14:00:52.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DiandraEli: Teleported DiandraEli to iLuca08]
-[29may2024 14:01:05.483] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
-[29may2024 14:01:30.422] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[29may2024 14:01:50.877] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
-[29may2024 14:02:08.704] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2833ms or 56 ticks behind
-[29may2024 14:02:26.024] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2354ms or 47 ticks behind
-[29may2024 14:02:43.529] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2509ms or 50 ticks behind
-[29may2024 14:03:01.551] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3031ms or 60 ticks behind
-[29may2024 14:04:13.575] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[29may2024 14:04:16.944] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-190, y=12, z=60} BlockPos{x=-192, y=12, z=62}
-[29may2024 14:04:17.018] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-190, y=12, z=60} BlockPos{x=-192, y=12, z=62}
-[29may2024 14:04:17.074] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-190, y=12, z=60} BlockPos{x=-192, y=12, z=62}
-[29may2024 14:04:17.129] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-190, y=12, z=60} BlockPos{x=-192, y=12, z=62}
-[29may2024 14:04:17.186] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-190, y=12, z=60} BlockPos{x=-192, y=12, z=62}
-[29may2024 14:04:17.240] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-190, y=12, z=60} BlockPos{x=-192, y=12, z=62}
-[29may2024 14:04:32.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DiandraEli: Teleported DiandraEli to m4rluu]
-[29may2024 14:04:32.631] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
-[29may2024 14:05:06.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DiandraEli: Teleported DiandraEli to iLuca08]
-[29may2024 14:05:38.278] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[29may2024 14:05:59.929] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[29may2024 14:06:18.178] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[29may2024 14:06:36.501] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3330ms or 66 ticks behind
-[29may2024 14:06:51.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DiandraEli: Teleported DiandraEli to iLuca08]
-[29may2024 14:06:54.206] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2735ms or 54 ticks behind
-[29may2024 14:07:39.778] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
-[29may2024 14:07:40.187] [Server thread/INFO] [twilightforest/]: Did not find a safe portal spot first try, trying again with longer range.
-[29may2024 14:07:40.246] [Server thread/INFO] [twilightforest/]: Did not find a safe portal spot second try, trying to move slightly towards the center between key biomes.
-[29may2024 14:07:40.288] [Server thread/INFO] [twilightforest/]: Did not find a safe portal spot third try, trying to move further towards the center between key biomes.
-[29may2024 14:07:40.336] [Server thread/WARN] [twilightforest/]: Still did not find a safe portal spot.
-[29may2024 14:07:50.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DiandraEli: Teleported DiandraEli to iLuca08]
-[29may2024 14:07:57.536] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2765ms or 55 ticks behind
-[29may2024 14:08:16.372] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[29may2024 14:08:43.531] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-211, y=11, z=92} BlockPos{x=-211, y=11, z=93}
-[29may2024 14:08:43.591] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-211, y=11, z=92} BlockPos{x=-211, y=11, z=93}
-[29may2024 14:08:45.873] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[29may2024 14:09:10.846] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/631, l='ServerLevel[world]', x=232.70, y=66.00, z=421.70] died, message: 'Unemployed was slain by DiandraEli'
-[29may2024 14:09:10.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli has made the advancement [Neighborhood Brawl]
-[29may2024 14:09:22.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli is bleeding. DiandraEli was slain by iLuca08
-[29may2024 14:09:22.169] [Server thread/WARN] [tombstone/]: The death event of the player DiandraEli was canceled by another mod
-[29may2024 14:09:22.262] [Server thread/INFO] [tombstone/]: The player DiandraEli has successfully been saved
-[29may2024 14:09:37.675] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[29may2024 14:09:55.272] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[29may2024 14:10:09.284] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iLuca08 moved too quickly! 2732.131763995114,3.0625,1904.5277652822977
-[29may2024 14:10:10.219] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu moved too quickly! -14.251235900835525,4.497597757249196,9.753396080634161
-[29may2024 14:10:12.964] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2693ms or 53 ticks behind
-[29may2024 14:12:41.605] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2034ms or 40 ticks behind
-[29may2024 14:13:27.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DiandraEli: Teleported DiandraEli to m4rluu]
-[29may2024 14:13:36.925] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[29may2024 14:14:15.934] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
-[29may2024 14:14:36.331] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
-[29may2024 14:14:53.374] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[29may2024 14:15:11.922] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[29may2024 14:15:29.109] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2188ms or 43 ticks behind
-[29may2024 14:15:46.417] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2346ms or 46 ticks behind
-[29may2024 14:16:03.464] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2094ms or 41 ticks behind
-[29may2024 14:16:21.239] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2818ms or 56 ticks behind
-[29may2024 14:16:39.075] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2855ms or 57 ticks behind
-[29may2024 14:16:57.178] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3107ms or 62 ticks behind
-[29may2024 14:17:15.427] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3256ms or 65 ticks behind
-[29may2024 14:17:34.363] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3942ms or 78 ticks behind
-[29may2024 14:17:53.893] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4571ms or 91 ticks behind
-[29may2024 14:18:13.481] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4610ms or 92 ticks behind
-[29may2024 14:18:27.185] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iLuca08 moved too quickly! 13.951862563820498,-9.750055000834791,-4.926118389256601
-[29may2024 14:18:33.986] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5515ms or 110 ticks behind
-[29may2024 14:20:32.256] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DiandraEli moved too quickly! -143.6408497773847,-2.0,384.0596774396294
-[29may2024 14:22:33.553] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m4rluu lost connection: Disconnected
-[29may2024 14:22:33.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m4rluu left the game
-[29may2024 14:22:33.558] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client m4rluu
-[29may2024 14:25:25.507] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iLuca08 lost connection: Disconnected
-[29may2024 14:25:25.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 left the game
-[29may2024 14:25:25.510] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client iLuca08
-[29may2024 14:26:58.508] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DiandraEli lost connection: Timed out
-[29may2024 14:26:58.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli left the game
-[29may2024 14:26:58.510] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DiandraEli
-[29may2024 14:28:00.541] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: YISUS lost connection: Disconnected
-[29may2024 14:28:00.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YISUS left the game
-[29may2024 14:28:00.543] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client YISUS
-[29may2024 14:28:27.991] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dcarlox lost connection: Disconnected
-[29may2024 14:28:27.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dcarlox left the game
-[29may2024 14:28:27.993] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Dcarlox
+[29may.2024 22:44:28.029] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[29may.2024 22:44:28.033] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[29may.2024 22:44:28.036] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[29may.2024 22:44:28.047] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[29may.2024 22:44:28.053] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 17 recipes
+[29may.2024 22:44:28.199] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3417 advancements
+[29may.2024 22:44:28.204] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[29may.2024 22:44:28.214] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
+[29may.2024 22:44:28.222] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[29may.2024 22:44:31.240] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[29may.2024 22:44:31.241] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[29may.2024 22:44:31.242] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[29may.2024 22:44:31.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[29may.2024 22:44:31.326] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[29may.2024 22:44:31.352] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[29may.2024 22:44:31.534] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[29may.2024 22:44:31.534] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[29may.2024 22:44:31.535] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[29may.2024 22:44:31.535] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[29may.2024 22:44:31.567] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[29may.2024 22:44:31.568] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[29may.2024 22:44:31.570] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[29may.2024 22:44:31.687] [Server thread/INFO] [Framework/]: Loading server configs...
+[29may.2024 22:44:31.711] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[29may.2024 22:44:32.776] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.custom.obsidilith.ObsidilithEntity from class com.cerbon.bosses_of_mass_destruction.entity.custom.obsidilith.ObsidilithUtils
+[29may.2024 22:44:32.811] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.custom.gauntlet.GauntletEntity from class com.cerbon.bosses_of_mass_destruction.projectile.PetalBladeProjectile
+[29may.2024 22:44:32.823] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.util.BaseEntity from class com.cerbon.bosses_of_mass_destruction.entity.custom.void_blossom.hitbox.NetworkedHitboxManager
+[29may.2024 22:44:33.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[29may.2024 22:44:37.897] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29may.2024 22:44:37.932] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29may.2024 22:44:37.951] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29may.2024 22:44:38.021] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29may.2024 22:44:38.047] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29may.2024 22:44:38.059] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29may.2024 22:44:38.071] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29may.2024 22:44:38.086] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29may.2024 22:44:38.100] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29may.2024 22:44:38.452] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29may.2024 22:44:38.952] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
+[29may.2024 22:44:39.381] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5430 ms
+[29may.2024 22:44:39.382] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (7.819s)! For help, type "help"
+[29may.2024 22:44:39.407] [LanServerPinger #1/WARN] [net.minecraft.client.server.LanServerPinger/]: LanServerPinger: Network is unreachable: no further information
+[29may.2024 22:44:39.437] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[29may.2024 22:44:39.552] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[29may.2024 22:44:39.575] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 25565
+[29may.2024 23:02:43.146] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[29may.2024 23:02:43.365] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DiandraEli[/[::1]:52254] logged in with entity id 626 at (249.76405013248066, 75.0, 672.7753000100066)
+[29may.2024 23:02:43.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli joined the game
+[29may.2024 23:02:43.694] [Server thread/INFO] [Jade/]: Syncing config to DiandraEli (95011615-80dc-345d-b25b-bc907bee2471)
+[29may.2024 23:02:47.491] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DiandraEli (17)
+[29may.2024 23:02:47.495] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DiandraEli
+[29may.2024 23:03:33.907] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DiandraEli lost connection: Disconnected
+[29may.2024 23:03:33.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli left the game
+[29may.2024 23:03:33.926] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DiandraEli
+[29may.2024 23:04:11.125] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DiandraEli[/[::1]:52300] logged in with entity id 879 at (249.76405013248066, 75.0, 672.7753000100066)
+[29may.2024 23:04:11.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli joined the game
+[29may.2024 23:04:11.201] [Server thread/INFO] [Jade/]: Syncing config to DiandraEli (95011615-80dc-345d-b25b-bc907bee2471)
+[29may.2024 23:04:12.066] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DiandraEli (17)
+[29may.2024 23:04:12.067] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DiandraEli
+[29may.2024 23:04:41.242] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DiandraEli lost connection: Timed out
+[29may.2024 23:04:41.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli left the game
+[29may.2024 23:04:41.245] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DiandraEli
+[29may.2024 23:05:44.940] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@212cc351[id=<null>,name=DiandraEli,properties={},legacy=false] (/[::1]:52342) lost connection: Disconnected
+[29may.2024 23:07:46.776] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@20ce0b45[id=<null>,name=DiandraEli,properties={},legacy=false] (/[::1]:52397) lost connection: Disconnected
+[29may.2024 23:08:10.466] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DiandraEli[/[::1]:52409] logged in with entity id 1097 at (249.76405013248066, 75.0, 672.7753000100066)
+[29may.2024 23:08:10.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli joined the game
+[29may.2024 23:08:10.546] [Server thread/INFO] [Jade/]: Syncing config to DiandraEli (95011615-80dc-345d-b25b-bc907bee2471)
+[29may.2024 23:08:11.357] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DiandraEli (17)
+[29may.2024 23:08:11.357] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DiandraEli
+[29may.2024 23:08:40.605] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DiandraEli lost connection: Timed out
+[29may.2024 23:08:40.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli left the game
+[29may.2024 23:08:40.607] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DiandraEli
+[29may.2024 23:10:31.890] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@36becf2b[id=<null>,name=DiandraEli,properties={},legacy=false] (/[::1]:52469): Took too long to log in
+[29may.2024 23:10:31.893] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@36becf2b[id=<null>,name=DiandraEli,properties={},legacy=false] (/[::1]:52469) lost connection: Took too long to log in
+[29may.2024 23:10:31.935] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[29may.2024 23:11:29.961] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DiandraEli[/[::1]:52500] logged in with entity id 1328 at (249.76405013248066, 75.0, 672.7753000100066)
+[29may.2024 23:11:29.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli joined the game
+[29may.2024 23:11:30.036] [Server thread/INFO] [Jade/]: Syncing config to DiandraEli (95011615-80dc-345d-b25b-bc907bee2471)
+[29may.2024 23:11:30.741] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DiandraEli (17)
+[29may.2024 23:11:30.743] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DiandraEli
+[29may.2024 23:12:00.046] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DiandraEli lost connection: Timed out
+[29may.2024 23:12:00.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli left the game
+[29may.2024 23:12:00.050] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DiandraEli
+[29may.2024 23:12:31.163] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DiandraEli[/[::1]:52528] logged in with entity id 1561 at (249.76405013248066, 75.0, 672.7753000100066)
+[29may.2024 23:12:31.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli joined the game
+[29may.2024 23:12:31.231] [Server thread/INFO] [Jade/]: Syncing config to DiandraEli (95011615-80dc-345d-b25b-bc907bee2471)
+[29may.2024 23:12:32.003] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DiandraEli (17)
+[29may.2024 23:12:32.005] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DiandraEli
+[29may.2024 23:13:01.247] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DiandraEli lost connection: Timed out
+[29may.2024 23:13:01.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli left the game
+[29may.2024 23:13:01.250] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DiandraEli
+[29may.2024 23:14:04.879] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2d011c39[id=<null>,name=DiandraEli,properties={},legacy=false] (/[::1]:52565) lost connection: Disconnected
+[29may.2024 23:14:22.649] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DiandraEli[/[::1]:52589] logged in with entity id 1795 at (249.76405013248066, 75.0, 672.7753000100066)
+[29may.2024 23:14:22.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli joined the game
+[29may.2024 23:14:22.690] [Server thread/INFO] [Jade/]: Syncing config to DiandraEli (95011615-80dc-345d-b25b-bc907bee2471)
+[29may.2024 23:14:23.434] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DiandraEli (17)
+[29may.2024 23:14:23.435] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DiandraEli
+[29may.2024 23:14:52.743] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DiandraEli lost connection: Timed out
+[29may.2024 23:14:52.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli left the game
+[29may.2024 23:14:52.745] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DiandraEli
+[29may.2024 23:15:25.613] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DiandraEli[/[::1]:52615] logged in with entity id 2036 at (249.76405013248066, 75.0, 672.7753000100066)
+[29may.2024 23:15:25.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli joined the game
+[29may.2024 23:15:25.668] [Server thread/INFO] [Jade/]: Syncing config to DiandraEli (95011615-80dc-345d-b25b-bc907bee2471)
+[29may.2024 23:15:26.864] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DiandraEli (17)
+[29may.2024 23:15:26.867] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DiandraEli
+[29may.2024 23:15:55.707] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DiandraEli lost connection: Timed out
+[29may.2024 23:15:55.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli left the game
+[29may.2024 23:15:55.711] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DiandraEli
+[29may.2024 23:16:44.787] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@c682eb[id=<null>,name=DiandraEli,properties={},legacy=false] (/[::1]:52643) lost connection: Timed out
+[29may.2024 23:17:23.285] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6b1f9130[id=<null>,name=DiandraEli,properties={},legacy=false] (/[::1]:52662) lost connection: Disconnected
+[29may.2024 23:17:36.867] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DiandraEli[/[::1]:52677] logged in with entity id 2277 at (249.76405013248066, 75.0, 672.7753000100066)
+[29may.2024 23:17:36.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli joined the game
+[29may.2024 23:17:36.939] [Server thread/INFO] [Jade/]: Syncing config to DiandraEli (95011615-80dc-345d-b25b-bc907bee2471)
+[29may.2024 23:17:38.059] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DiandraEli (17)
+[29may.2024 23:17:38.061] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DiandraEli
+[29may.2024 23:18:06.994] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DiandraEli lost connection: Timed out
+[29may.2024 23:18:06.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli left the game
+[29may.2024 23:18:06.996] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DiandraEli
+[29may.2024 23:18:29.514] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DiandraEli[/[::1]:52705] logged in with entity id 2521 at (249.76405013248066, 75.0, 672.7753000100066)
+[29may.2024 23:18:29.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli joined the game
+[29may.2024 23:18:29.575] [Server thread/INFO] [Jade/]: Syncing config to DiandraEli (95011615-80dc-345d-b25b-bc907bee2471)
+[29may.2024 23:18:30.230] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DiandraEli (17)
+[29may.2024 23:18:30.231] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DiandraEli
+[29may.2024 23:18:59.648] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DiandraEli lost connection: Timed out
+[29may.2024 23:18:59.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli left the game
+[29may.2024 23:18:59.652] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DiandraEli
+[29may.2024 23:19:41.780] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@709a1e98[id=<null>,name=DiandraEli,properties={},legacy=false] (/[::1]:52733): Took too long to log in
+[29may.2024 23:19:41.781] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@709a1e98[id=<null>,name=DiandraEli,properties={},legacy=false] (/[::1]:52733) lost connection: Took too long to log in
+[29may.2024 23:19:41.826] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[29may.2024 23:19:55.898] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DiandraEli[/[::1]:52794] logged in with entity id 2768 at (249.76405013248066, 75.0, 672.7753000100066)
+[29may.2024 23:19:55.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli joined the game
+[29may.2024 23:19:55.917] [Server thread/INFO] [Jade/]: Syncing config to DiandraEli (95011615-80dc-345d-b25b-bc907bee2471)
+[29may.2024 23:19:56.458] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DiandraEli (17)
+[29may.2024 23:19:56.459] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DiandraEli
+[29may.2024 23:20:26.044] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DiandraEli lost connection: Timed out
+[29may.2024 23:20:26.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli left the game
+[29may.2024 23:20:26.045] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DiandraEli
+[29may.2024 23:21:26.711] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DiandraEli[/[::1]:52834] logged in with entity id 3015 at (249.76405013248066, 75.0, 672.7753000100066)
+[29may.2024 23:21:26.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli joined the game
+[29may.2024 23:21:26.772] [Server thread/INFO] [Jade/]: Syncing config to DiandraEli (95011615-80dc-345d-b25b-bc907bee2471)
+[29may.2024 23:21:30.647] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DiandraEli (17)
+[29may.2024 23:21:30.647] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DiandraEli
+[29may.2024 23:21:56.844] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DiandraEli lost connection: Timed out
+[29may.2024 23:21:56.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli left the game
+[29may.2024 23:21:56.847] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DiandraEli
+[29may.2024 23:23:24.929] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@57aa23c7[id=<null>,name=DiandraEli,properties={},legacy=false] (/[::1]:52885) lost connection: Disconnected
+[29may.2024 23:24:09.114] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DiandraEli[/[::1]:52913] logged in with entity id 3273 at (249.76405013248066, 75.0, 672.7753000100066)
+[29may.2024 23:24:09.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli joined the game
+[29may.2024 23:24:09.176] [Server thread/INFO] [Jade/]: Syncing config to DiandraEli (95011615-80dc-345d-b25b-bc907bee2471)
+[29may.2024 23:24:09.935] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DiandraEli (17)
+[29may.2024 23:24:09.937] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DiandraEli
+[29may.2024 23:24:39.195] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DiandraEli lost connection: Timed out
+[29may.2024 23:24:39.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli left the game
+[29may.2024 23:24:39.198] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DiandraEli
+[29may.2024 23:25:45.502] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DiandraEli[/[::1]:52967] logged in with entity id 3521 at (249.76405013248066, 75.0, 672.7753000100066)
+[29may.2024 23:25:45.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli joined the game
+[29may.2024 23:25:45.527] [Server thread/INFO] [Jade/]: Syncing config to DiandraEli (95011615-80dc-345d-b25b-bc907bee2471)
+[29may.2024 23:25:48.019] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DiandraEli (17)
+[29may.2024 23:25:48.021] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DiandraEli
+[29may.2024 23:26:15.645] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DiandraEli lost connection: Timed out
+[29may.2024 23:26:15.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli left the game
+[29may.2024 23:26:15.646] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DiandraEli
+[29may.2024 23:26:49.589] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DiandraEli[/[::1]:53061] logged in with entity id 3773 at (249.76405013248066, 75.0, 672.7753000100066)
+[29may.2024 23:26:49.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli joined the game
+[29may.2024 23:26:49.606] [Server thread/INFO] [Jade/]: Syncing config to DiandraEli (95011615-80dc-345d-b25b-bc907bee2471)
+[29may.2024 23:26:51.202] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DiandraEli (17)
+[29may.2024 23:26:51.203] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DiandraEli
+[29may.2024 23:27:19.684] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DiandraEli lost connection: Timed out
+[29may.2024 23:27:19.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli left the game
+[29may.2024 23:27:19.686] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DiandraEli
+[29may.2024 23:28:23.889] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DiandraEli[/[::1]:53145] logged in with entity id 4031 at (249.76405013248066, 75.0, 672.7753000100066)
+[29may.2024 23:28:23.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli joined the game
+[29may.2024 23:28:23.906] [Server thread/INFO] [Jade/]: Syncing config to DiandraEli (95011615-80dc-345d-b25b-bc907bee2471)
+[29may.2024 23:28:24.574] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DiandraEli (17)
+[29may.2024 23:28:24.574] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DiandraEli
+[29may.2024 23:28:54.034] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DiandraEli lost connection: Timed out
+[29may.2024 23:28:54.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli left the game
+[29may.2024 23:28:54.035] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DiandraEli
+[29may.2024 23:31:27.747] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iLuca08[/[::1]:53326] logged in with entity id 4288 at (275.5541060691034, 68.0, 409.7315980811388)
+[29may.2024 23:31:27.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 joined the game
+[29may.2024 23:31:27.763] [Server thread/INFO] [Jade/]: Syncing config to iLuca08 (160520bd-886d-37c3-95f8-b79dfc951f40)
+[29may.2024 23:31:29.622] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of iLuca08 (17)
+[29may.2024 23:31:29.622] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to iLuca08
+[29may.2024 23:32:35.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iLuca08: Gave 100 experience levels to iLuca08]
+[29may.2024 23:32:46.336] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7d0697b4[id=<null>,name=DiandraEli,properties={},legacy=false] (/[::1]:53352) lost connection: Timed out
+[29may.2024 23:34:26.404] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DiandraEli[/[::1]:53431] logged in with entity id 4873 at (249.76405013248066, 75.0, 672.7753000100066)
+[29may.2024 23:34:26.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli joined the game
+[29may.2024 23:34:26.435] [Server thread/INFO] [Jade/]: Syncing config to DiandraEli (95011615-80dc-345d-b25b-bc907bee2471)
+[29may.2024 23:34:27.253] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DiandraEli (17)
+[29may.2024 23:34:27.253] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DiandraEli
+[29may.2024 23:34:37.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iLuca08: Teleported iLuca08 to DiandraEli]
+[29may.2024 23:34:56.484] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DiandraEli lost connection: Timed out
+[29may.2024 23:34:56.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DiandraEli left the game
+[29may.2024 23:34:56.486] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DiandraEli
+[29may.2024 23:36:11.535] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@2319d623[id=<null>,name=DiandraEli,properties={},legacy=false] (/[::1]:53480): Took too long to log in
+[29may.2024 23:36:11.536] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2319d623[id=<null>,name=DiandraEli,properties={},legacy=false] (/[::1]:53480) lost connection: Took too long to log in
+[29may.2024 23:36:11.584] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[29may.2024 23:36:58.633] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@479a6a34[id=<null>,name=DiandraEli,properties={},legacy=false] (/[::1]:53508): Took too long to log in
+[29may.2024 23:36:58.635] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@479a6a34[id=<null>,name=DiandraEli,properties={},legacy=false] (/[::1]:53508) lost connection: Took too long to log in
+[29may.2024 23:36:58.688] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[29may.2024 23:43:47.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iLuca08: Set own game mode to Creative Mode]
+[29may.2024 23:43:57.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iLuca08: Set own game mode to Survival Mode]
+[29may.2024 23:47:27.009] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iLuca08 lost connection: Disconnected
+[29may.2024 23:47:27.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 left the game
+[29may.2024 23:47:27.012] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client iLuca08

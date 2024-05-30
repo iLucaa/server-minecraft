@@ -8060,12 +8060,6 @@
     },
     "done": true
   },
-  "tombstone:adventure/neighborhood_brawl": {
-    "criteria": {
-      "coded_trigger": "2024-05-29 14:09:10 -0500"
-    },
-    "done": true
-  },
   "twilightforest:progress_glacier": {
     "criteria": {
       "trophy": "2024-05-29 14:07:16 -0500"
@@ -8075,6 +8069,12 @@
   "twilightforest:recipes/misc/snow_queen_banner_pattern": {
     "criteria": {
       "has_trophy": "2024-05-29 14:07:16 -0500"
+    },
+    "done": true
+  },
+  "tombstone:adventure/neighborhood_brawl": {
+    "criteria": {
+      "coded_trigger": "2024-05-29 14:09:10 -0500"
     },
     "done": true
   },
