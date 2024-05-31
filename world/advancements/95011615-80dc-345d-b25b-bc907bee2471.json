@@ -47,6 +47,7 @@
       "minecraft:flower_forest": "2024-05-06 13:26:16 -0500",
       "minecraft:frozen_peaks": "2024-05-06 23:11:53 -0500",
       "minecraft:old_growth_birch_forest": "2024-05-07 16:03:25 -0500",
+      "minecraft:deep_dark": "2024-05-31 12:45:17 -0500",
       "minecraft:meadow": "2024-05-06 23:42:03 -0500",
       "minecraft:savanna": "2024-05-13 00:11:06 -0500",
       "minecraft:plains": "2024-05-06 12:37:56 -0500"
@@ -245,6 +246,7 @@
       "leek_seed": "2024-05-22 14:35:00 -0500",
       "squash_seed": "2024-05-06 12:11:00 -0500",
       "zucchini_seed": "2024-05-10 13:15:00 -0500",
+      "kiwi_seed": "2024-05-31 12:31:37 -0500",
       "ginger_seed": "2024-05-16 13:16:02 -0500",
       "rutabaga_seed": "2024-05-06 12:18:13 -0500",
       "olive_seed": "2024-05-13 00:14:27 -0500"
@@ -271,6 +273,7 @@
       "olive_seed": "2024-05-13 00:14:27 -0500",
       "onion_seed": "2024-05-18 12:14:39 -0500",
       "kale_seed": "2024-05-07 00:47:16 -0500",
+      "kiwi_seed": "2024-05-31 12:31:37 -0500",
       "blueberry_seed": "2024-05-06 12:15:46 -0500",
       "ginger_seed": "2024-05-16 13:16:02 -0500",
       "soybean_seed": "2024-05-13 00:50:18 -0500",
@@ -488,10 +491,12 @@
       "minecraft:creeper": "2024-05-09 11:25:21 -0500",
       "minecraft:slime": "2024-05-16 14:39:20 -0500",
       "minecraft:phantom": "2024-05-13 01:26:22 -0500",
+      "minecraft:zombified_piglin": "2024-05-31 10:22:13 -0500",
       "minecraft:witch": "2024-05-13 00:57:41 -0500",
       "minecraft:wither_skeleton": "2024-05-08 10:25:29 -0500",
       "minecraft:husk": "2024-05-13 11:38:02 -0500",
       "minecraft:cave_spider": "2024-05-18 11:49:22 -0500",
+      "minecraft:piglin": "2024-05-31 14:00:00 -0500",
       "minecraft:silverfish": "2024-05-13 00:39:52 -0500",
       "minecraft:enderman": "2024-05-20 14:04:22 -0500",
       "minecraft:zombie": "2024-05-06 12:26:21 -0500",
@@ -4051,9 +4056,11 @@
     "criteria": {
       "minecraft:crimson_forest": "2024-05-08 13:20:23 -0500",
       "minecraft:nether_wastes": "2024-05-08 13:21:28 -0500",
-      "minecraft:soul_sand_valley": "2024-05-16 13:01:30 -0500"
+      "minecraft:soul_sand_valley": "2024-05-16 13:01:30 -0500",
+      "minecraft:basalt_deltas": "2024-05-31 12:54:58 -0500",
+      "minecraft:warped_forest": "2024-05-31 13:06:03 -0500"
     },
-    "done": false
+    "done": true
   },
   "minecraft:story/enter_the_nether": {
     "criteria": {
@@ -8075,6 +8082,324 @@
   "tombstone:adventure/neighborhood_brawl": {
     "criteria": {
       "coded_trigger": "2024-05-29 14:09:10 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:twilight_dinner": {
+    "criteria": {
+      "maze_wafer": "2024-05-31 10:19:31 -0500"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
+    "criteria": {
+      "has_warped_fungus": "2024-05-31 10:34:03 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall": {
+    "criteria": {
+      "has_blackstone": "2024-05-31 10:36:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-31 10:36:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-31 10:36:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-31 10:36:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs": {
+    "criteria": {
+      "has_blackstone": "2024-05-31 10:36:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-31 10:36:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab": {
+    "criteria": {
+      "has_blackstone": "2024-05-31 10:36:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-31 10:36:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-31 10:36:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-31 10:36:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-31 10:36:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-31 10:36:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone": {
+    "criteria": {
+      "has_blackstone": "2024-05-31 10:36:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-31 10:36:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-31 10:36:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-31 10:36:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2024-05-31 10:37:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_hoglin_stable": "2024-05-31 10:37:26 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_ham": {
+    "criteria": {
+      "ham": "2024-05-31 10:44:05 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/smoked_ham": {
+    "criteria": {
+      "has_ham": "2024-05-31 10:44:05 -0500"
+    },
+    "done": true
+  },
+  "tombstone:adventure/use_knowledge": {
+    "criteria": {
+      "coded_trigger": "2024-05-31 10:52:15 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-05-31 10:56:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-05-31 10:56:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-05-31 10:56:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-05-31 10:56:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-05-31 10:56:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-05-31 10:56:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-05-31 10:56:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2024-05-31 10:56:36 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2024-05-31 10:56:36 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2024-05-31 10:56:36 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/wood/jungle_banister": {
+    "criteria": {
+      "has_item": "2024-05-31 11:24:54 -0500"
+    },
+    "done": true
+  },
+  "legendary_monsters:defeat_skeletosaurus": {
+    "criteria": {
+      "skeletosaurus": "2024-05-31 11:35:27 -0500"
+    },
+    "done": true
+  },
+  "legendary_monsters:defeat_lava_eater": {
+    "criteria": {
+      "ambusher": "2024-05-31 11:36:04 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/kelp_roll": {
+    "criteria": {
+      "has_dried_kelp": "2024-05-31 11:41:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dried_kelp_block": {
+    "criteria": {
+      "has_dried_kelp": "2024-05-31 11:41:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2024-05-31 11:48:40 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/fall_from_world_height": {
+    "criteria": {
+      "fall_from_world_height": "2024-05-31 11:48:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2024-05-31 12:01:43 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/currant_seed": {
+    "criteria": {
+      "has_currant": "2024-05-31 12:27:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_bed": {
+    "criteria": {
+      "has_pink_wool": "2024-05-31 12:35:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_banner": {
+    "criteria": {
+      "has_pink_wool": "2024-05-31 12:35:51 -0500"
+    },
+    "done": true
+  },
+  "cataclysm:find_ancient_factory": {
+    "criteria": {
+      "factory": "2024-05-31 12:45:17 -0500"
+    },
+    "done": true
+  },
+  "legendary_monsters:locate_soul_fortress_remains": {
+    "criteria": {
+      "soul_fortress": "2024-05-31 13:23:47 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/distract_piglin": {
+    "criteria": {
+      "distract_piglin": "2024-05-31 13:46:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_bricks": {
+    "criteria": {
+      "has_nether_brick": "2024-05-31 13:47:05 -0500"
+    },
+    "done": true
+  },
+  "cataclysm:find_burning_arena": {
+    "criteria": {
+      "arena": "2024-05-31 13:47:11 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_planks": {
+    "criteria": {
+      "has_logs": "2024-05-31 14:15:20 -0500"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/crimson": {
+    "criteria": {
+      "has_wood": "2024-05-31 14:15:20 -0500"
+    },
+    "done": true
+  },
+  "cataclysm:find_soul_black_smith": {
+    "criteria": {
+      "blacksmith": "2024-05-31 14:18:04 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_hyphae": {
+    "criteria": {
+      "has_log": "2024-05-31 14:15:20 -0500"
     },
     "done": true
   },

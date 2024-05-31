@@ -7892,12 +7892,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/raw_gold": {
-    "criteria": {
-      "has_raw_gold_block": "2024-05-29 14:12:08 -0500"
-    },
-    "done": true
-  },
   "cataclysm:find_sunken_city": {
     "criteria": {
       "factory": "2024-05-29 14:00:27 -0500"
@@ -7907,6 +7901,72 @@
   "minecraft:recipes/misc/lime_dye_from_smelting": {
     "criteria": {
       "has_sea_pickle": "2024-05-29 14:08:03 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_gold": {
+    "criteria": {
+      "has_raw_gold_block": "2024-05-29 14:12:08 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/fall_from_world_height": {
+    "criteria": {
+      "fall_from_world_height": "2024-05-31 11:47:30 -0500"
+    },
+    "done": true
+  },
+  "cataclysm:find_ancient_factory": {
+    "criteria": {
+      "factory": "2024-05-31 12:38:45 -0500"
+    },
+    "done": true
+  },
+  "cataclysm:kill_harbinger": {
+    "criteria": {
+      "theharbinger": "2024-05-31 12:43:02 -0500"
+    },
+    "done": true
+  },
+  "bossominium:the_tank_of_scrap": {
+    "criteria": {
+      "the_tank_of_scrap": "2024-05-31 12:53:47 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2024-05-31 13:11:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2024-05-31 13:11:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2024-05-31 13:11:54 -0500"
+    },
+    "done": true
+  },
+  "cataclysm:find_burning_arena": {
+    "criteria": {
+      "arena": "2024-05-31 13:48:21 -0500"
+    },
+    "done": true
+  },
+  "cataclysm:find_soul_black_smith": {
+    "criteria": {
+      "blacksmith": "2024-05-31 14:17:48 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2024-05-31 14:16:29 -0500"
     },
     "done": true
   },

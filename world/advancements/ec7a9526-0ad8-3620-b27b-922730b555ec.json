@@ -444,6 +444,7 @@
       "minecraft:blaze": "2024-05-08 13:26:30 -0500",
       "minecraft:skeleton": "2024-05-06 13:00:14 -0500",
       "minecraft:ravager": "2024-05-09 11:37:23 -0500",
+      "minecraft:ghast": "2024-05-31 11:22:03 -0500",
       "minecraft:hoglin": "2024-05-08 13:41:13 -0500",
       "minecraft:vindicator": "2024-05-15 12:10:15 -0500",
       "minecraft:magma_cube": "2024-05-06 14:00:16 -0500",
@@ -1045,6 +1046,7 @@
     "criteria": {
       "minecraft:crimson_forest": "2024-05-06 12:40:58 -0500",
       "minecraft:nether_wastes": "2024-05-08 13:47:12 -0500",
+      "minecraft:soul_sand_valley": "2024-05-31 11:16:37 -0500",
       "minecraft:warped_forest": "2024-05-29 14:00:14 -0500"
     },
     "done": false
@@ -7754,6 +7756,60 @@
   "artifacts:chest_slayer": {
     "criteria": {
       "kill_mimic": "2024-05-29 12:46:28 -0500"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/crimson": {
+    "criteria": {
+      "has_wood": "2024-05-31 11:07:15 -0500"
+    },
+    "done": true
+  },
+  "legendary_monsters:locate_skeletosaurus_nest": {
+    "criteria": {
+      "nest": "2024-05-31 11:34:53 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/fall_from_world_height": {
+    "criteria": {
+      "fall_from_world_height": "2024-05-31 11:48:10 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2024-05-31 11:59:32 -0500"
+    },
+    "done": true
+  },
+  "tombstone:adventure/use_knowledge": {
+    "criteria": {
+      "coded_trigger": "2024-05-31 12:36:14 -0500"
+    },
+    "done": true
+  },
+  "legendary_monsters:locate_ancient_stronghold": {
+    "criteria": {
+      "ancient_stronghold": "2024-05-31 14:17:03 -0500"
+    },
+    "done": true
+  },
+  "legendary_monsters:defeat_spiky_bug": {
+    "criteria": {
+      "spiky_bug": "2024-05-31 14:17:55 -0500"
+    },
+    "done": true
+  },
+  "legendary_monsters:defeat_ambusher": {
+    "criteria": {
+      "ambusher": "2024-05-31 14:18:35 -0500"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_illager_windmill": {
+    "criteria": {
+      "location0": "2024-05-31 13:55:15 -0500"
     },
     "done": true
   },
