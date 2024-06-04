@@ -16,11 +16,14 @@
       "minecraft:snowy_slopes": "2024-05-06 13:08:20 -0500",
       "minecraft:old_growth_pine_taiga": "2024-05-08 11:35:57 -0500",
       "minecraft:taiga": "2024-05-06 12:04:26 -0500",
+      "minecraft:deep_ocean": "2024-06-04 00:58:57 -0500",
       "minecraft:eroded_badlands": "2024-05-20 12:56:04 -0500",
       "minecraft:frozen_river": "2024-05-06 12:10:48 -0500",
       "minecraft:cherry_grove": "2024-05-06 13:06:01 -0500",
       "minecraft:sunflower_plains": "2024-05-06 13:19:42 -0500",
       "minecraft:birch_forest": "2024-05-07 16:18:16 -0500",
+      "minecraft:windswept_hills": "2024-06-04 00:50:48 -0500",
+      "minecraft:bamboo_jungle": "2024-06-04 01:19:36 -0500",
       "minecraft:badlands": "2024-05-20 12:56:19 -0500",
       "minecraft:savanna_plateau": "2024-05-20 10:56:28 -0500",
       "minecraft:beach": "2024-05-08 11:34:56 -0500",
@@ -29,6 +32,7 @@
       "minecraft:mangrove_swamp": "2024-05-20 14:20:08 -0500",
       "minecraft:sparse_jungle": "2024-06-03 13:12:55 -0500",
       "minecraft:river": "2024-05-06 12:45:31 -0500",
+      "minecraft:lukewarm_ocean": "2024-06-04 01:20:57 -0500",
       "minecraft:snowy_plains": "2024-05-06 12:36:08 -0500",
       "minecraft:stony_shore": "2024-05-06 12:42:04 -0500",
       "minecraft:snowy_taiga": "2024-05-06 12:10:47 -0500",
@@ -40,6 +44,7 @@
       "minecraft:forest": "2024-05-06 12:42:01 -0500",
       "minecraft:lush_caves": "2024-05-08 10:42:19 -0500",
       "minecraft:deep_cold_ocean": "2024-05-13 12:12:52 -0500",
+      "minecraft:frozen_ocean": "2024-06-04 01:14:20 -0500",
       "minecraft:desert": "2024-05-20 10:32:45 -0500",
       "minecraft:ocean": "2024-05-08 11:12:12 -0500",
       "minecraft:old_growth_spruce_taiga": "2024-05-08 11:45:19 -0500",
@@ -50,6 +55,7 @@
       "minecraft:old_growth_birch_forest": "2024-05-07 16:03:25 -0500",
       "minecraft:deep_dark": "2024-05-31 12:45:17 -0500",
       "minecraft:meadow": "2024-05-06 23:42:03 -0500",
+      "minecraft:windswept_gravelly_hills": "2024-06-04 00:50:22 -0500",
       "minecraft:savanna": "2024-05-13 00:11:06 -0500",
       "minecraft:plains": "2024-05-06 12:37:56 -0500"
     },
@@ -8416,15 +8422,27 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/food/beef_patty_from_campfire_cooking": {
+  "croptopia:recipes/misc/kiwi_seed": {
     "criteria": {
-      "beef_patty": "2024-06-03 14:31:27 -0500"
+      "has_kiwi": "2024-06-03 12:56:39 -0500"
+    },
+    "done": true
+  },
+  "aquamirae:recipes/wisteria_niveis": {
+    "criteria": {
+      "has_item": "2024-06-03 13:15:01 -0500"
     },
     "done": true
   },
   "legendary_monsters:locate_lava_eater": {
     "criteria": {
       "lava_eater": "2024-06-03 14:02:56 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/ravioli": {
+    "criteria": {
+      "has_cheese": "2024-06-03 14:20:10 -0500"
     },
     "done": true
   },
@@ -8440,27 +8458,9 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/food/beef_patty": {
-    "criteria": {
-      "beef_patty": "2024-06-03 14:31:27 -0500"
-    },
-    "done": true
-  },
   "croptopia:recipes/banana_cream_pie": {
     "criteria": {
       "has_vanilla": "2024-06-03 14:22:32 -0500"
-    },
-    "done": true
-  },
-  "croptopia:recipes/ravioli": {
-    "criteria": {
-      "has_cheese": "2024-06-03 14:20:10 -0500"
-    },
-    "done": true
-  },
-  "croptopia:recipes/misc/kiwi_seed": {
-    "criteria": {
-      "has_kiwi": "2024-06-03 12:56:39 -0500"
     },
     "done": true
   },
@@ -8476,9 +8476,15 @@
     },
     "done": true
   },
-  "aquamirae:recipes/wisteria_niveis": {
+  "farmersdelight:recipes/food/beef_patty_from_campfire_cooking": {
     "criteria": {
-      "has_item": "2024-06-03 13:15:01 -0500"
+      "beef_patty": "2024-06-03 14:31:27 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/beef_patty": {
+    "criteria": {
+      "beef_patty": "2024-06-03 14:31:27 -0500"
     },
     "done": true
   },
@@ -8497,6 +8503,108 @@
   "farmersdelight:recipes/food/honey_glazed_ham_block": {
     "criteria": {
       "has_smoked_ham": "2024-06-03 14:45:03 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/basket": {
+    "criteria": {
+      "has_canvas": "2024-06-03 22:58:50 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/book_from_canvas": {
+    "criteria": {
+      "has_canvas": "2024-06-03 22:58:50 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/full_tatami_mat_from_halves": {
+    "criteria": {
+      "has_canvas": "2024-06-03 22:58:50 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/hanging_canvas_sign": {
+    "criteria": {
+      "has_canvas": "2024-06-03 22:58:50 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/canvas_rug": {
+    "criteria": {
+      "has_canvas": "2024-06-03 22:58:50 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/tatami_block_from_full": {
+    "criteria": {
+      "has_canvas": "2024-06-03 22:58:50 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/full_tatami_mat": {
+    "criteria": {
+      "has_canvas": "2024-06-03 22:58:50 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/half_tatami_mat": {
+    "criteria": {
+      "has_canvas": "2024-06-03 22:58:50 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/tatami": {
+    "criteria": {
+      "has_canvas": "2024-06-03 22:58:50 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/canvas_sign": {
+    "criteria": {
+      "has_canvas": "2024-06-03 22:58:50 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/painting_from_canvas": {
+    "criteria": {
+      "has_canvas": "2024-06-03 22:58:50 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/scaffolding_from_canvas": {
+    "criteria": {
+      "has_canvas": "2024-06-03 22:58:50 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2024-06-03 23:20:24 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/obtain_netherite_hoe": {
+    "criteria": {
+      "netherite_hoe": "2024-06-03 23:20:37 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/gold_nugget_from_smelting_knife": {
+    "criteria": {
+      "has_golden_knife": "2024-06-04 01:13:31 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_pink_tulip": {
+    "criteria": {
+      "has_pink_tulip": "2024-06-04 01:17:00 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/gold_nugget_from_blasting_knife": {
+    "criteria": {
+      "has_golden_knife": "2024-06-04 01:13:31 -0500"
     },
     "done": true
   },
