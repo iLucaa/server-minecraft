@@ -27,6 +27,7 @@
       "minecraft:dark_forest": "2024-05-07 16:03:50 -0500",
       "minecraft:stony_peaks": "2024-05-20 11:01:33 -0500",
       "minecraft:mangrove_swamp": "2024-05-20 14:20:08 -0500",
+      "minecraft:sparse_jungle": "2024-06-03 13:12:55 -0500",
       "minecraft:river": "2024-05-06 12:45:31 -0500",
       "minecraft:snowy_plains": "2024-05-06 12:36:08 -0500",
       "minecraft:stony_shore": "2024-05-06 12:42:04 -0500",
@@ -258,11 +259,13 @@
       "sweetpotato_seed": "2024-05-07 00:41:09 -0500",
       "bellpepper_seed": "2024-05-07 00:43:36 -0500",
       "cantaloupe_seed": "2024-05-07 00:44:24 -0500",
+      "vanilla_seeds": "2024-06-03 13:14:19 -0500",
       "cauliflower_seed": "2024-05-09 02:27:14 -0500",
       "yam_seed": "2024-05-10 13:15:11 -0500",
       "tea_seed": "2024-05-08 10:38:53 -0500",
       "saguaro_seed": "2024-05-27 11:10:36 -0500",
       "tomato_seed": "2024-05-07 00:44:27 -0500",
+      "greenbean_seed": "2024-06-03 13:14:15 -0500",
       "pepper_seed": "2024-05-13 02:23:28 -0500",
       "basil_seed": "2024-05-10 13:15:00 -0500",
       "chile_pepper_seed": "2024-05-06 12:38:11 -0500",
@@ -445,6 +448,7 @@
   "croptopia:gather_plains": {
     "criteria": {
       "lettuce_seed": "2024-05-07 00:43:36 -0500",
+      "greenbean_seed": "2024-06-03 13:14:15 -0500",
       "sweetpotato_seed": "2024-05-07 00:41:09 -0500",
       "pepper_seed": "2024-05-13 02:23:28 -0500",
       "chile_pepper_seed": "2024-05-06 12:38:11 -0500",
@@ -459,7 +463,7 @@
       "barley_seed": "2024-05-06 12:15:34 -0500",
       "soybean_seed": "2024-05-13 00:50:18 -0500"
     },
-    "done": false
+    "done": true
   },
   "croptopia:recipes/flour": {
     "criteria": {
@@ -1603,6 +1607,7 @@
   "croptopia:gather_food": {
     "criteria": {
       "popcorn": "2024-05-06 14:12:31 -0500",
+      "cheese": "2024-06-03 14:20:10 -0500",
       "steamed_crab": "2024-05-09 14:21:31 -0500",
       "corn_bread": "2024-05-13 11:13:15 -0500",
       "anchovy": "2024-05-08 11:23:53 -0500",
@@ -4512,6 +4517,7 @@
       "basil_seed": "2024-05-10 13:15:00 -0500",
       "greenonion_seed": "2024-05-09 02:05:56 -0500",
       "rhubarb_seed": "2024-05-10 13:15:08 -0500",
+      "vanilla_seeds": "2024-06-03 13:14:19 -0500",
       "pineapple_seed": "2024-05-22 14:13:43 -0500",
       "onion_seed": "2024-05-18 12:14:39 -0500",
       "eggplant_seed": "2024-05-10 13:15:08 -0500",
@@ -7815,6 +7821,7 @@
   },
   "farmersdelight:main/master_chef": {
     "criteria": {
+      "beef_stew": "2024-06-03 14:37:27 -0500",
       "roast_chicken": "2024-05-29 13:37:45 -0500",
       "bacon_and_eggs": "2024-05-27 13:57:26 -0500",
       "fried_rice": "2024-05-27 13:02:22 -0500"
@@ -8391,15 +8398,105 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/crimson_hyphae": {
+    "criteria": {
+      "has_log": "2024-05-31 14:15:20 -0500"
+    },
+    "done": true
+  },
   "cataclysm:find_soul_black_smith": {
     "criteria": {
       "blacksmith": "2024-05-31 14:18:04 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/crimson_hyphae": {
+  "croptopia:recipes/shaped_kiwi_sorbet": {
     "criteria": {
-      "has_log": "2024-05-31 14:15:20 -0500"
+      "has_kiwi": "2024-06-03 12:56:39 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/beef_patty_from_campfire_cooking": {
+    "criteria": {
+      "beef_patty": "2024-06-03 14:31:27 -0500"
+    },
+    "done": true
+  },
+  "legendary_monsters:locate_lava_eater": {
+    "criteria": {
+      "lava_eater": "2024-06-03 14:02:56 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_scones": {
+    "criteria": {
+      "has_vanilla": "2024-06-03 14:22:32 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/whipping_cream": {
+    "criteria": {
+      "has_vanilla": "2024-06-03 14:22:32 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/beef_patty": {
+    "criteria": {
+      "beef_patty": "2024-06-03 14:31:27 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/banana_cream_pie": {
+    "criteria": {
+      "has_vanilla": "2024-06-03 14:22:32 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/ravioli": {
+    "criteria": {
+      "has_cheese": "2024-06-03 14:20:10 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/kiwi_seed": {
+    "criteria": {
+      "has_kiwi": "2024-06-03 12:56:39 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/vanilla_ice_cream": {
+    "criteria": {
+      "has_vanilla": "2024-06-03 14:22:32 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/vanilla_seeds": {
+    "criteria": {
+      "has_vanilla": "2024-06-03 14:22:32 -0500"
+    },
+    "done": true
+  },
+  "aquamirae:recipes/wisteria_niveis": {
+    "criteria": {
+      "has_item": "2024-06-03 13:15:01 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/beef_patty_from_smoking": {
+    "criteria": {
+      "beef_patty": "2024-06-03 14:31:27 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/keypad_item": {
+    "criteria": {
+      "has_stone_button": "2024-06-03 14:36:44 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/honey_glazed_ham_block": {
+    "criteria": {
+      "has_smoked_ham": "2024-06-03 14:45:03 -0500"
     },
     "done": true
   },

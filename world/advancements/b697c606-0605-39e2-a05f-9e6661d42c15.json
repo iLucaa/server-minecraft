@@ -481,6 +481,7 @@
       "rotten_flesh": "2024-05-06 12:48:26 -0500",
       "suspicious_stew": "2024-05-16 13:10:44 -0500",
       "salmon": "2024-05-22 13:10:32 -0500",
+      "melon_slice": "2024-06-03 12:57:54 -0500",
       "golden_carrot": "2024-05-08 11:08:25 -0500",
       "cooked_chicken": "2024-05-06 12:36:47 -0500",
       "enchanted_golden_apple": "2024-05-20 14:48:00 -0500",
@@ -2874,14 +2875,17 @@
   "croptopia:gather_forest": {
     "criteria": {
       "spinach_seed": "2024-05-09 10:25:10 -0500",
+      "cauliflower_seed": "2024-06-03 12:43:34 -0500",
       "blueberry_seed": "2024-05-17 10:35:11 -0500"
     },
     "done": false
   },
   "croptopia:gather_all": {
     "criteria": {
+      "cauliflower_seed": "2024-06-03 12:43:34 -0500",
       "blueberry_seed": "2024-05-17 10:35:11 -0500",
       "barley_seed": "2024-05-17 10:35:16 -0500",
+      "lettuce_seed": "2024-06-03 12:43:34 -0500",
       "spinach_seed": "2024-05-09 10:25:10 -0500"
     },
     "done": false
@@ -5641,6 +5645,7 @@
   },
   "croptopia:gather_plains": {
     "criteria": {
+      "lettuce_seed": "2024-06-03 12:43:34 -0500",
       "barley_seed": "2024-05-17 10:35:16 -0500"
     },
     "done": false
@@ -8277,21 +8282,9 @@
     },
     "done": true
   },
-  "cataclysm:kill_ignis": {
+  "cataclysm:find_cursed_pyramid": {
     "criteria": {
-      "ignis": "2024-06-01 13:58:44 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/dune_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2024-06-01 13:20:36 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/trapped_chest": {
-    "criteria": {
-      "has_tripwire_hook": "2024-06-01 13:32:49 -0500"
+      "pyramid": "2024-06-01 13:18:37 -0500"
     },
     "done": true
   },
@@ -8301,21 +8294,117 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/dune_armor_trim_smithing_template": {
-    "criteria": {
-      "has_dune_armor_trim_smithing_template": "2024-06-01 13:20:36 -0500"
-    },
-    "done": true
-  },
   "minecraft:adventure/salvage_sherd": {
     "criteria": {
       "has_sherd": "2024-06-01 13:19:14 -0500"
     },
     "done": false
   },
-  "cataclysm:find_cursed_pyramid": {
+  "minecraft:recipes/misc/dune_armor_trim_smithing_template_smithing_trim": {
     "criteria": {
-      "pyramid": "2024-06-01 13:18:37 -0500"
+      "has_smithing_trim_template": "2024-06-01 13:20:36 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/dune_armor_trim_smithing_template": {
+    "criteria": {
+      "has_dune_armor_trim_smithing_template": "2024-06-01 13:20:36 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2024-06-01 13:32:49 -0500"
+    },
+    "done": true
+  },
+  "cataclysm:kill_ignis": {
+    "criteria": {
+      "ignis": "2024-06-01 13:58:44 -0500"
+    },
+    "done": true
+  },
+  "croptopia:gather_jungle": {
+    "criteria": {
+      "pineapple_seed": "2024-06-03 12:43:34 -0500"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "cod": "2024-06-03 12:50:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_blasting_lapis_ore": {
+    "criteria": {
+      "has_lapis_ore": "2024-06-03 12:53:18 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_smelting_lapis_ore": {
+    "criteria": {
+      "has_lapis_ore": "2024-06-03 12:53:18 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_smelting_deepslate_lapis_ore": {
+    "criteria": {
+      "has_deepslate_lapis_ore": "2024-06-03 12:53:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_blasting_deepslate_lapis_ore": {
+    "criteria": {
+      "has_deepslate_lapis_ore": "2024-06-03 12:53:20 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/melon_juice": {
+    "criteria": {
+      "has_melon_slice": "2024-06-03 12:57:42 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/melon_popsicle": {
+    "criteria": {
+      "has_melon": "2024-06-03 12:57:42 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2024-06-03 12:57:42 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/melon_juice": {
+    "criteria": {
+      "has_melon": "2024-06-03 12:57:42 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2024-06-03 12:57:42 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2024-06-03 12:57:42 -0500"
+    },
+    "done": true
+  },
+  "legendary_monsters:defeat_lava_eater": {
+    "criteria": {
+      "ambusher": "2024-06-03 14:15:58 -0500"
+    },
+    "done": true
+  },
+  "legendary_monsters:defeat_skeletosaurus": {
+    "criteria": {
+      "skeletosaurus": "2024-06-03 14:13:25 -0500"
     },
     "done": true
   },
