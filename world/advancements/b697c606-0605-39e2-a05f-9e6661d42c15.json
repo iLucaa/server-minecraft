@@ -7793,6 +7793,7 @@
   },
   "farmersdelight:main/master_chef": {
     "criteria": {
+      "honey_glazed_ham": "2024-06-06 13:01:25 -0500",
       "roast_chicken": "2024-05-27 14:42:02 -0500"
     },
     "done": false
@@ -9795,27 +9796,9 @@
     },
     "done": true
   },
-  "divinerpg:recipes/shaped/molten_stone": {
+  "divinerpg:overworld/jungle_stegosaurus_slayer": {
     "criteria": {
-      "has_shards": "2024-06-04 13:01:56 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/jungle_rapier": {
-    "criteria": {
-      "has_shadow_bar": "2024-06-04 12:58:05 -0500"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/stone_pickaxe_repairing": {
-    "criteria": {
-      "has_stone_pickaxe": "2024-06-04 12:55:12 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/shadow_stone": {
-    "criteria": {
-      "has_bar": "2024-06-04 12:58:05 -0500"
+      "kill_jungle_dramcryx": "2024-06-04 12:38:14 -0500"
     },
     "done": true
   },
@@ -9825,51 +9808,15 @@
     },
     "done": true
   },
-  "divinerpg:recipes/shapeless/hellstone_ingot": {
-    "criteria": {
-      "has_bar": "2024-06-04 12:58:05 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/corrupted_maul": {
-    "criteria": {
-      "has_corrupted_stone": "2024-06-04 12:46:32 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:overworld/jungle_stegosaurus_slayer": {
-    "criteria": {
-      "kill_jungle_dramcryx": "2024-06-04 12:38:14 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/scorching_sword": {
-    "criteria": {
-      "has_blaze": "2024-06-04 13:33:21 -0500"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/bow_repairing": {
-    "criteria": {
-      "has_bow": "2024-06-04 12:55:12 -0500"
-    },
-    "done": true
-  },
   "divinerpg:recipes/shaped/jungle_stone": {
     "criteria": {
       "has_shards": "2024-06-04 12:38:15 -0500"
     },
     "done": true
   },
-  "divinerpg:recipes/shapeless/shadow_coins": {
+  "divinerpg:recipes/shaped/vile_storm": {
     "criteria": {
-      "has_shadow_bar": "2024-06-04 12:58:05 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/corrupted_chestplate": {
-    "criteria": {
-      "has_corrupted_stone": "2024-06-04 12:46:32 -0500"
+      "has_shards": "2024-06-04 12:38:15 -0500"
     },
     "done": true
   },
@@ -9879,21 +9826,39 @@
     },
     "done": true
   },
+  "aether:recipes/tools/golden_shovel_repairing": {
+    "criteria": {
+      "has_golden_shovel": "2024-06-04 12:39:04 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/corrupted_stone": {
+    "criteria": {
+      "has_shards": "2024-06-04 12:40:41 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/corrupted_bullet": {
+    "criteria": {
+      "has_shards": "2024-06-04 12:40:41 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/corrupted_maul": {
+    "criteria": {
+      "has_corrupted_stone": "2024-06-04 12:46:32 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/corrupted_chestplate": {
+    "criteria": {
+      "has_corrupted_stone": "2024-06-04 12:46:32 -0500"
+    },
+    "done": true
+  },
   "divinerpg:recipes/shaped/corrupted_shovel": {
     "criteria": {
       "has_stone": "2024-06-04 12:46:32 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/maelstrom": {
-    "criteria": {
-      "has_purple_blaze": "2024-06-04 13:33:21 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/frost_cannon": {
-    "criteria": {
-      "has_bar": "2024-06-04 12:58:05 -0500"
     },
     "done": true
   },
@@ -9906,36 +9871,6 @@
   "divinerpg:recipes/shaped/corrupted_cannon": {
     "criteria": {
       "has_corrupted_stone": "2024-06-04 12:46:32 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/legendary_ender_eye": {
-    "criteria": {
-      "has_watching_eye": "2024-06-04 13:07:38 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/infernal_flame": {
-    "criteria": {
-      "has_purple_blaze": "2024-06-04 13:33:21 -0500"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/golden_helmet_repairing": {
-    "criteria": {
-      "has_golden_helmet": "2024-06-04 12:55:14 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/poison_saber": {
-    "criteria": {
-      "has_shadow_bar": "2024-06-04 12:58:05 -0500"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/golden_shovel_repairing": {
-    "criteria": {
-      "has_golden_shovel": "2024-06-04 12:39:04 -0500"
     },
     "done": true
   },
@@ -9957,39 +9892,9 @@
     },
     "done": true
   },
-  "divinerpg:recipes/shaped/shadow_bow": {
-    "criteria": {
-      "has_bar": "2024-06-04 12:58:05 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/ender_bow": {
-    "criteria": {
-      "has_eye": "2024-06-04 13:07:38 -0500"
-    },
-    "done": true
-  },
   "divinerpg:recipes/shaped/corrupted_leggings": {
     "criteria": {
       "has_corrupted_stone": "2024-06-04 12:46:32 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/vile_storm": {
-    "criteria": {
-      "has_shards": "2024-06-04 12:38:15 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/hellspider_pumpkin": {
-    "criteria": {
-      "has_shards": "2024-06-04 13:01:56 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/ghast_cannon": {
-    "criteria": {
-      "has_bar": "2024-06-04 12:58:05 -0500"
     },
     "done": true
   },
@@ -9999,33 +9904,9 @@
     },
     "done": true
   },
-  "divinerpg:recipes/shaped/call_of_the_watcher": {
-    "criteria": {
-      "has_eye": "2024-06-04 13:07:38 -0500"
-    },
-    "done": true
-  },
   "divinerpg:recipes/shaped/corrupted_helmet": {
     "criteria": {
       "has_corrupted_stone": "2024-06-04 12:46:32 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/sound_of_music": {
-    "criteria": {
-      "has_purple_blaze": "2024-06-04 13:33:21 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/serenade_of_death": {
-    "criteria": {
-      "has_bar": "2024-06-04 12:58:05 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/corrupted_stone": {
-    "criteria": {
-      "has_shards": "2024-06-04 12:40:41 -0500"
     },
     "done": true
   },
@@ -10035,9 +9916,729 @@
     },
     "done": true
   },
-  "divinerpg:recipes/shapeless/corrupted_bullet": {
+  "aether:recipes/tools/stone_pickaxe_repairing": {
     "criteria": {
-      "has_shards": "2024-06-04 12:40:41 -0500"
+      "has_stone_pickaxe": "2024-06-04 12:55:12 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/bow_repairing": {
+    "criteria": {
+      "has_bow": "2024-06-04 12:55:12 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_helmet_repairing": {
+    "criteria": {
+      "has_golden_helmet": "2024-06-04 12:55:14 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/jungle_rapier": {
+    "criteria": {
+      "has_shadow_bar": "2024-06-04 12:58:05 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/shadow_stone": {
+    "criteria": {
+      "has_bar": "2024-06-04 12:58:05 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/hellstone_ingot": {
+    "criteria": {
+      "has_bar": "2024-06-04 12:58:05 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/shadow_coins": {
+    "criteria": {
+      "has_shadow_bar": "2024-06-04 12:58:05 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/frost_cannon": {
+    "criteria": {
+      "has_bar": "2024-06-04 12:58:05 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/poison_saber": {
+    "criteria": {
+      "has_shadow_bar": "2024-06-04 12:58:05 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/shadow_bow": {
+    "criteria": {
+      "has_bar": "2024-06-04 12:58:05 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/ghast_cannon": {
+    "criteria": {
+      "has_bar": "2024-06-04 12:58:05 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/serenade_of_death": {
+    "criteria": {
+      "has_bar": "2024-06-04 12:58:05 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/molten_stone": {
+    "criteria": {
+      "has_shards": "2024-06-04 13:01:56 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/hellspider_pumpkin": {
+    "criteria": {
+      "has_shards": "2024-06-04 13:01:56 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/legendary_ender_eye": {
+    "criteria": {
+      "has_watching_eye": "2024-06-04 13:07:38 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/ender_bow": {
+    "criteria": {
+      "has_eye": "2024-06-04 13:07:38 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/call_of_the_watcher": {
+    "criteria": {
+      "has_eye": "2024-06-04 13:07:38 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/scorching_sword": {
+    "criteria": {
+      "has_blaze": "2024-06-04 13:33:21 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/maelstrom": {
+    "criteria": {
+      "has_purple_blaze": "2024-06-04 13:33:21 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/infernal_flame": {
+    "criteria": {
+      "has_purple_blaze": "2024-06-04 13:33:21 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/sound_of_music": {
+    "criteria": {
+      "has_purple_blaze": "2024-06-04 13:33:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2024-06-05 11:29:25 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/smelting/bloodgem": {
+    "criteria": {
+      "has_ore": "2024-06-05 11:50:18 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/blasting/bloodgem": {
+    "criteria": {
+      "has_ore": "2024-06-05 11:50:18 -0500"
+    },
+    "done": true
+  },
+  "legendary_monsters:defeat_warped_fungussus": {
+    "criteria": {
+      "fungussus": "2024-06-05 12:11:19 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/dark_bridge": {
+    "criteria": {
+      "has_dust": "2024-06-05 12:13:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2024-06-05 12:13:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2024-06-05 12:13:20 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/netherite_gloves_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-06-05 12:13:36 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/ender_pumpkin": {
+    "criteria": {
+      "has_ender_pearl": "2024-06-05 12:20:07 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/blasting/torridite_ingot_from_torridite_ore": {
+    "criteria": {
+      "has_ore": "2024-06-05 13:00:08 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/smelting/torridite_ingot_from_torridite_ore": {
+    "criteria": {
+      "has_ore": "2024-06-05 13:00:08 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/torridite_nugget": {
+    "criteria": {
+      "has_ingot": "2024-06-05 13:01:02 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/massivence": {
+    "criteria": {
+      "has_torridite_ingot": "2024-06-05 13:01:02 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/torridite_block": {
+    "criteria": {
+      "has_ingot": "2024-06-05 13:01:02 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/torridite_chunk": {
+    "criteria": {
+      "has_ingot": "2024-06-05 13:01:02 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/hot_spike_block": {
+    "criteria": {
+      "has_ingot": "2024-06-05 13:01:02 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/torridite_lamp": {
+    "criteria": {
+      "has_ingot": "2024-06-05 13:01:02 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/torridite_minibricks": {
+    "criteria": {
+      "has_ingot": "2024-06-05 13:01:02 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/torridite_bricks": {
+    "criteria": {
+      "has_ingot": "2024-06-05 13:01:02 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/horde_horn": {
+    "criteria": {
+      "has_hellstone_ingot": "2024-06-05 13:09:10 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/divine_stone": {
+    "criteria": {
+      "has_shards": "2024-06-05 13:12:40 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/divine_rock": {
+    "criteria": {
+      "has_divine_shards": "2024-06-05 13:12:40 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/diamond_pickaxe_repairing": {
+    "criteria": {
+      "has_diamond_pickaxe": "2024-06-05 13:35:15 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/chainmail_gloves_repairing": {
+    "criteria": {
+      "has_chainmail_gloves": "2024-06-05 13:42:03 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/terran_stone": {
+    "criteria": {
+      "has_shards": "2024-06-05 14:02:41 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:twilight/1001_possibilities": {
+    "criteria": {
+      "enter_eden": "2024-06-05 14:04:43 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:twilight/root": {
+    "criteria": {
+      "divinerpg": "2024-06-05 14:04:43 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/furnace/empowered_meat": {
+    "criteria": {
+      "has_raw_empowered_meat": "2024-06-05 14:05:30 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/campfire/empowered_meat": {
+    "criteria": {
+      "has_raw_empowered_meat": "2024-06-05 14:05:30 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/smoker/empowered_meat": {
+    "criteria": {
+      "has_raw_empowered_meat": "2024-06-05 14:05:30 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/eden_fragments": {
+    "criteria": {
+      "has_soul": "2024-06-05 14:05:39 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_gem_from_souls": {
+    "criteria": {
+      "has_soul": "2024-06-05 14:05:39 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/eden_dust_from_sun_blossom": {
+    "criteria": {
+      "has_sun_blossom": "2024-06-05 14:06:00 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_chest": {
+    "criteria": {
+      "has_fragments": "2024-06-05 14:06:59 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_lamp": {
+    "criteria": {
+      "has_fragments": "2024-06-05 14:06:59 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_gem_from_fragments": {
+    "criteria": {
+      "has_fragments": "2024-06-05 14:06:59 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_torch": {
+    "criteria": {
+      "has_eden_fragments": "2024-06-05 14:06:59 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/smelting/eden_sparkles": {
+    "criteria": {
+      "has_fragments": "2024-06-05 14:06:59 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_arrow": {
+    "criteria": {
+      "has_fragments": "2024-06-05 14:06:59 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:twilight/friend_or_foe": {
+    "criteria": {
+      "kill_twilight_glinthop": "2024-06-05 14:07:26 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_block": {
+    "criteria": {
+      "has_heart": "2024-06-05 14:18:28 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:twilight/champion_of_light": {
+    "criteria": {
+      "kill_boss_sunstorm": "2024-06-05 14:20:50 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_barrel": {
+    "criteria": {
+      "has_slabs": "2024-06-05 14:22:30 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/eden_shickaxe": {
+    "criteria": {
+      "has_shovel": "2024-06-05 14:23:00 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/eden_button": {
+    "criteria": {
+      "has_planks": "2024-06-05 14:23:18 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-06-05 14:23:18 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_fence": {
+    "criteria": {
+      "has_planks": "2024-06-05 14:23:18 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_stairs": {
+    "criteria": {
+      "has_planks": "2024-06-05 14:23:18 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-06-05 14:23:18 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_door": {
+    "criteria": {
+      "has_planks": "2024-06-05 14:23:18 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-06-05 14:23:18 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_slab": {
+    "criteria": {
+      "has_planks": "2024-06-05 14:23:18 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:iceika/root": {
+    "criteria": {
+      "divinerpg": "2024-06-06 11:27:06 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/frozen_stairs": {
+    "criteria": {
+      "has_frozen_stone": "2024-06-06 11:29:58 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/stonecutter/frozen_stairs": {
+    "criteria": {
+      "has_frozen_stone": "2024-06-06 11:29:58 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/glaciline": {
+    "criteria": {
+      "has_frozen_stone": "2024-06-06 11:29:58 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/stonecutter/frozen_bricks": {
+    "criteria": {
+      "has_frozen_stone": "2024-06-06 11:29:58 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/stonecutter/frozen_brick_wall_from_frozen_stone": {
+    "criteria": {
+      "has_frozen_stone": "2024-06-06 11:29:58 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/frozen_slab": {
+    "criteria": {
+      "has_frozen_stone": "2024-06-06 11:29:58 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/stonecutter/frozen_brick_slab_from_frozen_stone": {
+    "criteria": {
+      "has_frozen_stone": "2024-06-06 11:29:58 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/frozen_pressure_plate": {
+    "criteria": {
+      "has_frozen_stone": "2024-06-06 11:29:58 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/frozen_button": {
+    "criteria": {
+      "has_stone": "2024-06-06 11:29:58 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/frozen_bricks": {
+    "criteria": {
+      "has_frozen_stone": "2024-06-06 11:29:58 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/stonecutter/frozen_brick_stairs_from_frozen_stone": {
+    "criteria": {
+      "has_frozen_stone": "2024-06-06 11:29:58 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/stonecutter/frozen_slab": {
+    "criteria": {
+      "has_frozen_stone": "2024-06-06 11:29:58 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_ice": {
+    "criteria": {
+      "has_packed_ice": "2024-06-06 11:31:57 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/shiverspine_ladder": {
+    "criteria": {
+      "has_shards": "2024-06-06 11:32:57 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/ice_stone": {
+    "criteria": {
+      "has_shards": "2024-06-06 11:32:57 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/frosted_allure": {
+    "criteria": {
+      "has_ice_shards": "2024-06-06 11:32:57 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/glacon_pumpkin": {
+    "criteria": {
+      "has_shards": "2024-06-06 11:32:57 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:iceika/frozen_goods": {
+    "criteria": {
+      "obtain_snowflake": "2024-06-06 11:36:02 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/frozen_brick_stairs": {
+    "criteria": {
+      "has_frozen_bricks": "2024-06-06 11:51:51 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/frozen_brick_button": {
+    "criteria": {
+      "has_bricks": "2024-06-06 11:51:51 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/frozen_brick_slab": {
+    "criteria": {
+      "has_frozen_bricks": "2024-06-06 11:51:51 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/stonecutter/frozen_brick_slab_from_frozen_bricks": {
+    "criteria": {
+      "has_frozen_bricks": "2024-06-06 11:51:51 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/stonecutter/frozen_brick_wall_from_frozen_bricks": {
+    "criteria": {
+      "has_frozen_bricks": "2024-06-06 11:51:51 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/frozen_brick_pressure_plate": {
+    "criteria": {
+      "has_frozen_bricks": "2024-06-06 11:51:51 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/frozen_brick_wall": {
+    "criteria": {
+      "has_frozen_bricks": "2024-06-06 11:51:51 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/stonecutter/frozen_brick_stairs_from_frozen_bricks": {
+    "criteria": {
+      "has_frozen_bricks": "2024-06-06 11:51:51 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/frost_sword": {
+    "criteria": {
+      "has_ice_stone": "2024-06-06 11:51:55 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/frozen_chestplate": {
+    "criteria": {
+      "has_ice_stone": "2024-06-06 11:51:55 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/frozen_helmet": {
+    "criteria": {
+      "has_ice_stone": "2024-06-06 11:51:55 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/frozen_boots": {
+    "criteria": {
+      "has_ice_stone": "2024-06-06 11:51:55 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/ice_lamp": {
+    "criteria": {
+      "has_ice_stone": "2024-06-06 11:51:55 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/frost_pumpkin": {
+    "criteria": {
+      "has_stone": "2024-06-06 11:51:55 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/frozen_leggings": {
+    "criteria": {
+      "has_ice_stone": "2024-06-06 11:51:55 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:iceika/a_lil_gift": {
+    "criteria": {
+      "talk_to_workshop_merchant": "2024-06-06 12:22:07 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/inferno_bow": {
+    "criteria": {
+      "has_stone": "2024-06-06 13:02:25 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/inferno_chestplate": {
+    "criteria": {
+      "has_molten_stone": "2024-06-06 13:02:25 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/molten_lamp": {
+    "criteria": {
+      "has_molten_stone": "2024-06-06 13:02:25 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/inferno_boots": {
+    "criteria": {
+      "has_molten_stone": "2024-06-06 13:02:25 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/inferno_helmet": {
+    "criteria": {
+      "has_molten_stone": "2024-06-06 13:02:25 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/molten_sword": {
+    "criteria": {
+      "has_molten_stone": "2024-06-06 13:02:25 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/inferno_leggings": {
+    "criteria": {
+      "has_molten_stone": "2024-06-06 13:02:25 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/bloodgem_block": {
+    "criteria": {
+      "has_gem": "2024-06-06 13:07:58 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/bloodgem_minibricks": {
+    "criteria": {
+      "has_bloodgem": "2024-06-06 13:07:58 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/bloodgem_bricks": {
+    "criteria": {
+      "has_bloodgem": "2024-06-06 13:07:58 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/bloodgem_lamp": {
+    "criteria": {
+      "has_bloodgem": "2024-06-06 13:07:58 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/bloodgem_sword": {
+    "criteria": {
+      "has_bloodgem": "2024-06-06 13:07:58 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:nether/overseeing_eye": {
+    "criteria": {
+      "kill_boss_the_watcher": "2024-06-06 14:07:05 -0500"
     },
     "done": true
   },

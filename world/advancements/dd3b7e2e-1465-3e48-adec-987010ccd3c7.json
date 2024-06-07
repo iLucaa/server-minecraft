@@ -9059,5 +9059,329 @@
     },
     "done": true
   },
+  "aether:recipes/decorations/skyroot_cartography_table": {
+    "criteria": {
+      "has_paper": "2024-06-05 11:53:44 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/ghast_pumpkin": {
+    "criteria": {
+      "has_ghast_tear": "2024-06-05 13:00:14 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/aquatic_blaze_rod": {
+    "criteria": {
+      "has_aqua_ball": "2024-06-05 13:17:30 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/aquatonic_bricks": {
+    "criteria": {
+      "has_aqua_ball": "2024-06-05 13:17:30 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/complete_catalogue": {
+    "criteria": {
+      "minecraft:red": "2024-06-05 13:18:53 -0500"
+    },
+    "done": false
+  },
+  "divinerpg:recipes/shaped/lapis_lazuli_bricks": {
+    "criteria": {
+      "has_lapis": "2024-06-05 13:30:07 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/lapis_lazuli_lamp": {
+    "criteria": {
+      "has_lapis_lazuli": "2024-06-05 13:30:07 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/book_of_lore": {
+    "criteria": {
+      "has_book": "2024-06-05 13:50:53 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/guide_book": {
+    "criteria": {
+      "has_book": "2024-06-05 13:50:53 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/redstone/skyroot_lectern": {
+    "criteria": {
+      "has_book": "2024-06-05 13:50:53 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/skyroot_bookshelf": {
+    "criteria": {
+      "has_book": "2024-06-05 13:50:53 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_pendant_repairing": {
+    "criteria": {
+      "has_zanite_pendant": "2024-06-05 14:01:13 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/food/enchanted_berry_enchanting": {
+    "criteria": {
+      "has_blue_berry": "2024-06-05 14:08:18 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:twilight/1001_possibilities": {
+    "criteria": {
+      "enter_eden": "2024-06-05 14:11:00 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:twilight/root": {
+    "criteria": {
+      "divinerpg": "2024-06-05 14:11:00 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/eden_fragments": {
+    "criteria": {
+      "has_soul": "2024-06-05 14:11:42 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_gem_from_souls": {
+    "criteria": {
+      "has_soul": "2024-06-05 14:11:42 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/furnace/empowered_meat": {
+    "criteria": {
+      "has_raw_empowered_meat": "2024-06-05 14:15:31 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/campfire/empowered_meat": {
+    "criteria": {
+      "has_raw_empowered_meat": "2024-06-05 14:15:31 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/smoker/empowered_meat": {
+    "criteria": {
+      "has_raw_empowered_meat": "2024-06-05 14:15:31 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_chest": {
+    "criteria": {
+      "has_fragments": "2024-06-05 14:15:32 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_lamp": {
+    "criteria": {
+      "has_fragments": "2024-06-05 14:15:32 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_gem_from_fragments": {
+    "criteria": {
+      "has_fragments": "2024-06-05 14:15:32 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_torch": {
+    "criteria": {
+      "has_eden_fragments": "2024-06-05 14:15:32 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/smelting/eden_sparkles": {
+    "criteria": {
+      "has_fragments": "2024-06-05 14:15:32 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_arrow": {
+    "criteria": {
+      "has_fragments": "2024-06-05 14:15:32 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_block": {
+    "criteria": {
+      "has_heart": "2024-06-05 14:23:10 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:twilight/champion_of_light": {
+    "criteria": {
+      "kill_boss_sunstorm": "2024-06-05 14:37:57 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/serenade_of_health": {
+    "criteria": {
+      "has_totem": "2024-06-06 12:37:22 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/furnace/hot_pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin_pie": "2024-06-06 13:05:48 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/smoker/hot_pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin_pie": "2024-06-06 13:05:48 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/campfire/hot_pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin_pie": "2024-06-06 13:05:48 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/advanced_mushroom_stew": {
+    "criteria": {
+      "has_white_mushroom": "2024-06-06 13:18:25 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/white_mushroom_seeds": {
+    "criteria": {
+      "has_white_mushroom": "2024-06-06 13:18:25 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/shiverspine_ladder": {
+    "criteria": {
+      "has_shards": "2024-06-06 13:18:26 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/ice_stone": {
+    "criteria": {
+      "has_shards": "2024-06-06 13:18:26 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/frosted_allure": {
+    "criteria": {
+      "has_ice_shards": "2024-06-06 13:18:26 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/glacon_pumpkin": {
+    "criteria": {
+      "has_shards": "2024-06-06 13:18:26 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/tomato_seeds": {
+    "criteria": {
+      "has_tomato": "2024-06-06 13:22:06 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/tomato_juice": {
+    "criteria": {
+      "has_tomato": "2024-06-06 13:22:06 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/veggie_salad": {
+    "criteria": {
+      "has_the_recipe": "2024-06-06 13:22:06 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/frost_sword": {
+    "criteria": {
+      "has_ice_stone": "2024-06-06 13:22:11 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/frost_cannon": {
+    "criteria": {
+      "has_ice_stone": "2024-06-06 13:22:11 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/frozen_chestplate": {
+    "criteria": {
+      "has_ice_stone": "2024-06-06 13:22:11 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/frozen_helmet": {
+    "criteria": {
+      "has_ice_stone": "2024-06-06 13:22:11 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/frozen_boots": {
+    "criteria": {
+      "has_ice_stone": "2024-06-06 13:22:11 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/ice_lamp": {
+    "criteria": {
+      "has_ice_stone": "2024-06-06 13:22:11 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/frost_pumpkin": {
+    "criteria": {
+      "has_stone": "2024-06-06 13:22:11 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/frozen_leggings": {
+    "criteria": {
+      "has_ice_stone": "2024-06-06 13:22:11 -0500"
+    },
+    "done": true
+  },
+  "legendary_monsters:locate_ancient_stronghold": {
+    "criteria": {
+      "ancient_stronghold": "2024-06-06 13:23:30 -0500"
+    },
+    "done": true
+  },
+  "legendary_monsters:defeat_spiky_bug": {
+    "criteria": {
+      "spiky_bug": "2024-06-06 13:23:37 -0500"
+    },
+    "done": true
+  },
+  "legendary_monsters:defeat_the_ancient_guardian": {
+    "criteria": {
+      "guardian": "2024-06-06 13:31:08 -0500"
+    },
+    "done": true
+  },
+  "legendary_monsters:defeat_ambusher": {
+    "criteria": {
+      "ambusher": "2024-06-06 13:31:25 -0500"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_merchant_campsite": {
+    "criteria": {
+      "location0": "2024-06-06 13:33:38 -0500"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
