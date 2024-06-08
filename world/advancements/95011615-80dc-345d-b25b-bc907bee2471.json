@@ -9585,6 +9585,24 @@
     },
     "done": true
   },
+  "aether:recipes/combat/leather_gloves_repairing": {
+    "criteria": {
+      "has_leather_gloves": "2024-06-05 12:36:44 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/minoshroom_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2024-06-05 12:43:53 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_coarse_dirt": {
+    "criteria": {
+      "has_reinforced_gravel": "2024-06-05 13:32:55 -0500"
+    },
+    "done": true
+  },
   "aether:recipes/decorations/skyroot_barrel": {
     "criteria": {
       "has_planks": "2024-06-05 13:34:27 -0500"
@@ -9603,39 +9621,9 @@
     },
     "done": true
   },
-  "divinerpg:recipes/shaped/eden_chunk": {
-    "criteria": {
-      "has_gem": "2024-06-05 14:29:05 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/furnace/empowered_meat": {
-    "criteria": {
-      "has_raw_empowered_meat": "2024-06-05 14:08:49 -0500"
-    },
-    "done": true
-  },
   "aether:recipes/tools/skyroot_shovel": {
     "criteria": {
       "has_planks": "2024-06-05 13:34:27 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/creeper_pumpkin": {
-    "criteria": {
-      "has_gunpowder": "2024-06-05 13:48:56 -0500"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/leather_boots_repairing": {
-    "criteria": {
-      "has_leather_boots": "2024-06-05 14:26:22 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/eden_bricks": {
-    "criteria": {
-      "has_gem": "2024-06-05 14:29:05 -0500"
     },
     "done": true
   },
@@ -9645,51 +9633,9 @@
     },
     "done": true
   },
-  "divinerpg:recipes/shapeless/bacon": {
-    "criteria": {
-      "has_porkchop": "2024-06-05 13:51:10 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:twilight/friend_or_foe": {
-    "criteria": {
-      "kill_twilight_glinthop": "2024-06-05 14:27:13 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/campfire/empowered_meat": {
-    "criteria": {
-      "has_raw_empowered_meat": "2024-06-05 14:08:49 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:twilight/1001_possibilities": {
-    "criteria": {
-      "enter_eden": "2024-06-05 14:04:42 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shapeless/eden_slicer": {
-    "criteria": {
-      "has_gem": "2024-06-05 14:29:05 -0500"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/misc/minoshroom_banner_pattern": {
-    "criteria": {
-      "has_trophy": "2024-06-05 12:43:53 -0500"
-    },
-    "done": true
-  },
   "aether:recipes/combat/golden_dart_shooter": {
     "criteria": {
       "has_skyroot_planks": "2024-06-05 13:34:27 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/smoker/empowered_meat": {
-    "criteria": {
-      "has_raw_empowered_meat": "2024-06-05 14:08:49 -0500"
     },
     "done": true
   },
@@ -9699,45 +9645,15 @@
     },
     "done": true
   },
-  "securitycraft:recipes/building_blocks/reinforced_coarse_dirt": {
-    "criteria": {
-      "has_reinforced_gravel": "2024-06-05 13:32:55 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shapeless/eden_fragments": {
-    "criteria": {
-      "has_soul": "2024-06-05 14:05:22 -0500"
-    },
-    "done": true
-  },
   "aether:recipes/tools/skyroot_hoe": {
     "criteria": {
       "has_planks": "2024-06-05 13:34:27 -0500"
     },
     "done": true
   },
-  "divinerpg:recipes/shaped/eden_gem_from_souls": {
-    "criteria": {
-      "has_soul": "2024-06-05 14:05:22 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:twilight/root": {
-    "criteria": {
-      "divinerpg": "2024-06-05 14:04:42 -0500"
-    },
-    "done": true
-  },
   "aether:recipes/misc/skyroot_stick": {
     "criteria": {
       "has_planks": "2024-06-05 13:34:27 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:overworld/towering_guardian": {
-    "criteria": {
-      "kill_boss_ancient_entity": "2024-06-05 13:50:26 -0500"
     },
     "done": true
   },
@@ -9801,9 +9717,195 @@
     },
     "done": true
   },
-  "aether:recipes/combat/leather_gloves_repairing": {
+  "divinerpg:recipes/shaped/creeper_pumpkin": {
     "criteria": {
-      "has_leather_gloves": "2024-06-05 12:36:44 -0500"
+      "has_gunpowder": "2024-06-05 13:48:56 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:overworld/towering_guardian": {
+    "criteria": {
+      "kill_boss_ancient_entity": "2024-06-05 13:50:26 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/bacon": {
+    "criteria": {
+      "has_porkchop": "2024-06-05 13:51:10 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:twilight/1001_possibilities": {
+    "criteria": {
+      "enter_eden": "2024-06-05 14:04:42 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:twilight/root": {
+    "criteria": {
+      "divinerpg": "2024-06-05 14:04:42 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/eden_fragments": {
+    "criteria": {
+      "has_soul": "2024-06-05 14:05:22 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_gem_from_souls": {
+    "criteria": {
+      "has_soul": "2024-06-05 14:05:22 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/furnace/empowered_meat": {
+    "criteria": {
+      "has_raw_empowered_meat": "2024-06-05 14:08:49 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/campfire/empowered_meat": {
+    "criteria": {
+      "has_raw_empowered_meat": "2024-06-05 14:08:49 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/smoker/empowered_meat": {
+    "criteria": {
+      "has_raw_empowered_meat": "2024-06-05 14:08:49 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/leather_boots_repairing": {
+    "criteria": {
+      "has_leather_boots": "2024-06-05 14:26:22 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:twilight/friend_or_foe": {
+    "criteria": {
+      "kill_twilight_glinthop": "2024-06-05 14:27:13 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_chunk": {
+    "criteria": {
+      "has_gem": "2024-06-05 14:29:05 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_bricks": {
+    "criteria": {
+      "has_gem": "2024-06-05 14:29:05 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/eden_slicer": {
+    "criteria": {
+      "has_gem": "2024-06-05 14:29:05 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_bed": {
+    "criteria": {
+      "has_wool": "2024-06-08 13:53:28 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_bed": {
+    "criteria": {
+      "has_light_blue_wool": "2024-06-08 13:53:28 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/redstone/skyroot_piston": {
+    "criteria": {
+      "has_redstone": "2024-06-08 14:32:48 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/redstone/skyroot_note_block": {
+    "criteria": {
+      "has_redstone": "2024-06-08 14:32:48 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/red_fence": {
+    "criteria": {
+      "has_redstone": "2024-06-08 14:32:48 -0500"
+    },
+    "done": true
+  },
+  "aether:bronze_dungeon": {
+    "criteria": {
+      "kill_slider": "2024-06-08 14:21:13 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/ambrosium_shard_from_blasting": {
+    "criteria": {
+      "has_ambrosium_ore": "2024-06-08 14:02:55 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_carpet": {
+    "criteria": {
+      "has_light_blue_wool": "2024-06-08 13:53:28 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/flower_to_white_dye": {
+    "criteria": {
+      "has_white_flower": "2024-06-08 13:55:42 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/remedy_bucket_enchanting": {
+    "criteria": {
+      "has_skyroot_poison_bucket": "2024-06-08 14:04:10 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/rainbow_wool": {
+    "criteria": {
+      "has_wool": "2024-06-08 13:53:28 -0500"
+    },
+    "done": true
+  },
+  "aether:lance_loot": {
+    "criteria": {
+      "lance_loot": "2024-06-08 14:22:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_banner": {
+    "criteria": {
+      "has_light_blue_wool": "2024-06-08 13:53:28 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/ambrosium_shard_from_smelting": {
+    "criteria": {
+      "has_ambrosium_ore": "2024-06-08 14:02:55 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_leggings_repairing": {
+    "criteria": {
+      "has_zanite_leggings": "2024-06-08 14:22:28 -0500"
+    },
+    "done": true
+  },
+  "aether:hammer_loot": {
+    "criteria": {
+      "hammer_loot": "2024-06-08 14:22:46 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/blue_cape_light_blue_wool": {
+    "criteria": {
+      "has_light_blue_wool": "2024-06-08 13:53:28 -0500"
     },
     "done": true
   },

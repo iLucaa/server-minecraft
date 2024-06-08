@@ -10642,5 +10642,125 @@
     },
     "done": true
   },
+  "divinerpg:recipes/shaped/eden_helmet": {
+    "criteria": {
+      "has_chunk": "2024-06-08 14:06:50 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_shovel": {
+    "criteria": {
+      "has_chunk": "2024-06-08 14:06:50 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_chunk": {
+    "criteria": {
+      "has_gem": "2024-06-08 13:57:21 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_boots": {
+    "criteria": {
+      "has_chunk": "2024-06-08 14:06:50 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/blasting/torridite_ingot_from_raw_torridite": {
+    "criteria": {
+      "has_raw_torridite": "2024-06-08 12:25:23 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_bricks": {
+    "criteria": {
+      "has_gem": "2024-06-08 13:57:21 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/raw_torridite_block": {
+    "criteria": {
+      "has_raw_torridite": "2024-06-08 12:25:23 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_axe": {
+    "criteria": {
+      "has_chunk": "2024-06-08 14:06:50 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_shield": {
+    "criteria": {
+      "has_chunk": "2024-06-08 14:06:50 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_chestplate": {
+    "criteria": {
+      "has_chunk": "2024-06-08 14:06:50 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/eden_slicer": {
+    "criteria": {
+      "has_gem": "2024-06-08 13:57:21 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_hoe": {
+    "criteria": {
+      "has_chunk": "2024-06-08 14:06:50 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_blade": {
+    "criteria": {
+      "has_chunk": "2024-06-08 14:06:50 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_blitz": {
+    "criteria": {
+      "has_chunk": "2024-06-08 14:06:50 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_leggings": {
+    "criteria": {
+      "has_chunk": "2024-06-08 14:06:50 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/smelting/torridite_ingot_from_raw_torridite": {
+    "criteria": {
+      "has_raw_torridite": "2024-06-08 12:25:23 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_pickaxe": {
+    "criteria": {
+      "has_chunk": "2024-06-08 14:06:50 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_gloves_repairing": {
+    "criteria": {
+      "has_golden_gloves": "2024-06-08 12:46:54 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_bow": {
+    "criteria": {
+      "has_chunk": "2024-06-08 14:06:50 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_phaser": {
+    "criteria": {
+      "has_chunk": "2024-06-08 14:06:50 -0500"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
