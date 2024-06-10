@@ -5914,6 +5914,7 @@
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
       "minecraft:pig": "2024-05-13 00:23:09 -0500",
+      "minecraft:sheep": "2024-06-10 12:35:12 -0500",
       "minecraft:cow": "2024-05-10 14:41:10 -0500",
       "minecraft:chicken": "2024-05-11 02:56:11 -0500",
       "minecraft:wolf": "2024-05-13 11:10:38 -0500",
@@ -9819,6 +9820,78 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/light_blue_carpet": {
+    "criteria": {
+      "has_light_blue_wool": "2024-06-08 13:53:28 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/rainbow_wool": {
+    "criteria": {
+      "has_wool": "2024-06-08 13:53:28 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_banner": {
+    "criteria": {
+      "has_light_blue_wool": "2024-06-08 13:53:28 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/blue_cape_light_blue_wool": {
+    "criteria": {
+      "has_light_blue_wool": "2024-06-08 13:53:28 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/flower_to_white_dye": {
+    "criteria": {
+      "has_white_flower": "2024-06-08 13:55:42 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/ambrosium_shard_from_blasting": {
+    "criteria": {
+      "has_ambrosium_ore": "2024-06-08 14:02:55 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/ambrosium_shard_from_smelting": {
+    "criteria": {
+      "has_ambrosium_ore": "2024-06-08 14:02:55 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/remedy_bucket_enchanting": {
+    "criteria": {
+      "has_skyroot_poison_bucket": "2024-06-08 14:04:10 -0500"
+    },
+    "done": true
+  },
+  "aether:bronze_dungeon": {
+    "criteria": {
+      "kill_slider": "2024-06-08 14:21:13 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_leggings_repairing": {
+    "criteria": {
+      "has_zanite_leggings": "2024-06-08 14:22:28 -0500"
+    },
+    "done": true
+  },
+  "aether:hammer_loot": {
+    "criteria": {
+      "hammer_loot": "2024-06-08 14:22:46 -0500"
+    },
+    "done": true
+  },
+  "aether:lance_loot": {
+    "criteria": {
+      "lance_loot": "2024-06-08 14:22:59 -0500"
+    },
+    "done": true
+  },
   "aether:recipes/redstone/skyroot_piston": {
     "criteria": {
       "has_redstone": "2024-06-08 14:32:48 -0500"
@@ -9837,75 +9910,165 @@
     },
     "done": true
   },
-  "aether:bronze_dungeon": {
+  "divinerpg:recipes/shaped/eden_helmet": {
     "criteria": {
-      "kill_slider": "2024-06-08 14:21:13 -0500"
+      "has_chunk": "2024-06-10 11:54:21 -0500"
     },
     "done": true
   },
-  "aether:recipes/misc/ambrosium_shard_from_blasting": {
+  "divinerpg:recipes/shaped/eden_shovel": {
     "criteria": {
-      "has_ambrosium_ore": "2024-06-08 14:02:55 -0500"
+      "has_chunk": "2024-06-10 11:54:21 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_blue_carpet": {
+  "divinerpg:recipes/shaped/eden_boots": {
     "criteria": {
-      "has_light_blue_wool": "2024-06-08 13:53:28 -0500"
+      "has_chunk": "2024-06-10 11:54:21 -0500"
     },
     "done": true
   },
-  "aether:recipes/misc/flower_to_white_dye": {
+  "divinerpg:iceika/root": {
     "criteria": {
-      "has_white_flower": "2024-06-08 13:55:42 -0500"
+      "divinerpg": "2024-06-10 11:47:25 -0500"
     },
     "done": true
   },
-  "aether:recipes/misc/remedy_bucket_enchanting": {
+  "divinerpg:recipes/shaped/eden_chest": {
     "criteria": {
-      "has_skyroot_poison_bucket": "2024-06-08 14:04:10 -0500"
+      "has_fragments": "2024-06-10 12:02:30 -0500"
     },
     "done": true
   },
-  "divinerpg:recipes/shapeless/rainbow_wool": {
+  "aether:recipes/building_blocks/obsidian_from_bucket_freezing": {
     "criteria": {
-      "has_wool": "2024-06-08 13:53:28 -0500"
+      "has_lava_bucket": "2024-06-10 11:47:50 -0500"
     },
     "done": true
   },
-  "aether:lance_loot": {
+  "divinerpg:recipes/shaped/lava_bricks": {
     "criteria": {
-      "lance_loot": "2024-06-08 14:22:59 -0500"
+      "has_lava_bucket": "2024-06-10 11:47:50 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_blue_banner": {
+  "minecraft:husbandry/complete_catalogue": {
     "criteria": {
-      "has_light_blue_wool": "2024-06-08 13:53:28 -0500"
+      "minecraft:black": "2024-06-10 12:45:25 -0500"
+    },
+    "done": false
+  },
+  "aether:mount_phyg": {
+    "criteria": {
+      "mount_phyg": "2024-06-10 12:37:41 -0500"
     },
     "done": true
   },
-  "aether:recipes/misc/ambrosium_shard_from_smelting": {
+  "divinerpg:recipes/shapeless/eden_shickaxe": {
     "criteria": {
-      "has_ambrosium_ore": "2024-06-08 14:02:55 -0500"
+      "has_shovel": "2024-06-10 12:02:43 -0500"
     },
     "done": true
   },
-  "aether:recipes/combat/zanite_leggings_repairing": {
+  "divinerpg:recipes/shaped/eden_axe": {
     "criteria": {
-      "has_zanite_leggings": "2024-06-08 14:22:28 -0500"
+      "has_chunk": "2024-06-10 11:54:21 -0500"
     },
     "done": true
   },
-  "aether:hammer_loot": {
+  "divinerpg:recipes/shaped/eden_lamp": {
     "criteria": {
-      "hammer_loot": "2024-06-08 14:22:46 -0500"
+      "has_fragments": "2024-06-10 12:02:30 -0500"
     },
     "done": true
   },
-  "aether:recipes/combat/blue_cape_light_blue_wool": {
+  "divinerpg:recipes/shaped/eden_shield": {
     "criteria": {
-      "has_light_blue_wool": "2024-06-08 13:53:28 -0500"
+      "has_chunk": "2024-06-10 11:54:21 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_gem_from_fragments": {
+    "criteria": {
+      "has_fragments": "2024-06-10 12:02:30 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_chestplate": {
+    "criteria": {
+      "has_chunk": "2024-06-10 11:54:21 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_hoe": {
+    "criteria": {
+      "has_chunk": "2024-06-10 11:54:21 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_blade": {
+    "criteria": {
+      "has_chunk": "2024-06-10 11:54:21 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_blitz": {
+    "criteria": {
+      "has_chunk": "2024-06-10 11:54:21 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_leggings": {
+    "criteria": {
+      "has_chunk": "2024-06-10 11:54:21 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_torch": {
+    "criteria": {
+      "has_eden_fragments": "2024-06-10 12:02:30 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/draken_lamp": {
+    "criteria": {
+      "has_lava": "2024-06-10 11:47:50 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/smelting/eden_sparkles": {
+    "criteria": {
+      "has_fragments": "2024-06-10 12:02:30 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_pickaxe": {
+    "criteria": {
+      "has_chunk": "2024-06-10 11:54:21 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_arrow": {
+    "criteria": {
+      "has_fragments": "2024-06-10 12:02:30 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_bow": {
+    "criteria": {
+      "has_chunk": "2024-06-10 11:54:21 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_phaser": {
+    "criteria": {
+      "has_chunk": "2024-06-10 11:54:21 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/lava_lamp": {
+    "criteria": {
+      "has_lava": "2024-06-10 11:47:50 -0500"
     },
     "done": true
   },

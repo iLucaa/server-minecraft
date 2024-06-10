@@ -10642,6 +10642,48 @@
     },
     "done": true
   },
+  "divinerpg:recipes/blasting/torridite_ingot_from_raw_torridite": {
+    "criteria": {
+      "has_raw_torridite": "2024-06-08 12:25:23 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/raw_torridite_block": {
+    "criteria": {
+      "has_raw_torridite": "2024-06-08 12:25:23 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/smelting/torridite_ingot_from_raw_torridite": {
+    "criteria": {
+      "has_raw_torridite": "2024-06-08 12:25:23 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_gloves_repairing": {
+    "criteria": {
+      "has_golden_gloves": "2024-06-08 12:46:54 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_chunk": {
+    "criteria": {
+      "has_gem": "2024-06-08 13:57:21 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_bricks": {
+    "criteria": {
+      "has_gem": "2024-06-08 13:57:21 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/eden_slicer": {
+    "criteria": {
+      "has_gem": "2024-06-08 13:57:21 -0500"
+    },
+    "done": true
+  },
   "divinerpg:recipes/shaped/eden_helmet": {
     "criteria": {
       "has_chunk": "2024-06-08 14:06:50 -0500"
@@ -10654,33 +10696,9 @@
     },
     "done": true
   },
-  "divinerpg:recipes/shaped/eden_chunk": {
-    "criteria": {
-      "has_gem": "2024-06-08 13:57:21 -0500"
-    },
-    "done": true
-  },
   "divinerpg:recipes/shaped/eden_boots": {
     "criteria": {
       "has_chunk": "2024-06-08 14:06:50 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/blasting/torridite_ingot_from_raw_torridite": {
-    "criteria": {
-      "has_raw_torridite": "2024-06-08 12:25:23 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/eden_bricks": {
-    "criteria": {
-      "has_gem": "2024-06-08 13:57:21 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/raw_torridite_block": {
-    "criteria": {
-      "has_raw_torridite": "2024-06-08 12:25:23 -0500"
     },
     "done": true
   },
@@ -10699,12 +10717,6 @@
   "divinerpg:recipes/shaped/eden_chestplate": {
     "criteria": {
       "has_chunk": "2024-06-08 14:06:50 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shapeless/eden_slicer": {
-    "criteria": {
-      "has_gem": "2024-06-08 13:57:21 -0500"
     },
     "done": true
   },
@@ -10732,21 +10744,9 @@
     },
     "done": true
   },
-  "divinerpg:recipes/smelting/torridite_ingot_from_raw_torridite": {
-    "criteria": {
-      "has_raw_torridite": "2024-06-08 12:25:23 -0500"
-    },
-    "done": true
-  },
   "divinerpg:recipes/shaped/eden_pickaxe": {
     "criteria": {
       "has_chunk": "2024-06-08 14:06:50 -0500"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/golden_gloves_repairing": {
-    "criteria": {
-      "has_golden_gloves": "2024-06-08 12:46:54 -0500"
     },
     "done": true
   },
@@ -10759,6 +10759,66 @@
   "divinerpg:recipes/shaped/eden_phaser": {
     "criteria": {
       "has_chunk": "2024-06-08 14:06:50 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/incubation/white_moa_incubation": {
+    "criteria": {
+      "has_white_moa_egg": "2024-06-10 11:12:39 -0500"
+    },
+    "done": true
+  },
+  "aether:incubate_moa": {
+    "criteria": {
+      "incubate_moa": "2024-06-10 11:17:29 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/orange_dye_from_sunbloom": {
+    "criteria": {
+      "has_sunbloom": "2024-06-10 12:17:14 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/chainmail_helmet_repairing": {
+    "criteria": {
+      "has_chainmail_helmet": "2024-06-10 12:37:03 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/book_of_lore": {
+    "criteria": {
+      "has_book": "2024-06-10 12:35:39 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/guide_book": {
+    "criteria": {
+      "has_book": "2024-06-10 12:35:39 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/redstone/skyroot_lectern": {
+    "criteria": {
+      "has_book": "2024-06-10 12:35:39 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_leggings_repairing": {
+    "criteria": {
+      "has_diamond_leggings": "2024-06-10 12:05:39 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:overworld/towering_guardian": {
+    "criteria": {
+      "kill_boss_ancient_entity": "2024-06-10 12:01:53 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/skyroot_bookshelf": {
+    "criteria": {
+      "has_book": "2024-06-10 12:35:39 -0500"
     },
     "done": true
   },

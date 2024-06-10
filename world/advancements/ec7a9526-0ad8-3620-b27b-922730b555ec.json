@@ -9416,6 +9416,42 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2024-06-08 12:49:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_tulip": {
+    "criteria": {
+      "has_red_flower": "2024-06-08 13:02:28 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/ender_watcher_pumpkin": {
+    "criteria": {
+      "has_shards": "2024-06-08 13:34:18 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/ender_stone": {
+    "criteria": {
+      "has_shards": "2024-06-08 13:34:18 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_dart": {
+    "criteria": {
+      "has_feather": "2024-06-08 13:53:47 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:twilight/friend_or_foe": {
+    "criteria": {
+      "kill_twilight_glinthop": "2024-06-08 14:04:51 -0500"
+    },
+    "done": true
+  },
   "aether:recipes/building_blocks/mossy_holystone_slab": {
     "criteria": {
       "has_mossy_holystone": "2024-06-08 14:06:42 -0500"
@@ -9470,12 +9506,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
-    "criteria": {
-      "has_blue_orchid": "2024-06-08 12:49:45 -0500"
-    },
-    "done": true
-  },
   "aether:recipes/combat/holystone_sword": {
     "criteria": {
       "has_holystone": "2024-06-08 14:06:42 -0500"
@@ -9491,12 +9521,6 @@
   "aether:recipes/building_blocks/holystone_stairs": {
     "criteria": {
       "has_holystone": "2024-06-08 14:06:42 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:twilight/friend_or_foe": {
-    "criteria": {
-      "kill_twilight_glinthop": "2024-06-08 14:04:51 -0500"
     },
     "done": true
   },
@@ -9524,12 +9548,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/red_dye_from_tulip": {
-    "criteria": {
-      "has_red_flower": "2024-06-08 13:02:28 -0500"
-    },
-    "done": true
-  },
   "aether:recipes/decorations/freezer": {
     "criteria": {
       "has_holystone": "2024-06-08 14:06:42 -0500"
@@ -9545,18 +9563,6 @@
   "aether:recipes/building_blocks/mossy_holystone_stairs_from_mossy_holystone_stonecutting": {
     "criteria": {
       "has_mossy_holystone": "2024-06-08 14:06:42 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/ender_watcher_pumpkin": {
-    "criteria": {
-      "has_shards": "2024-06-08 13:34:18 -0500"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/golden_dart": {
-    "criteria": {
-      "has_feather": "2024-06-08 13:53:47 -0500"
     },
     "done": true
   },
@@ -9596,12 +9602,6 @@
     },
     "done": true
   },
-  "divinerpg:recipes/shaped/ender_stone": {
-    "criteria": {
-      "has_shards": "2024-06-08 13:34:18 -0500"
-    },
-    "done": true
-  },
   "aether:recipes/tools/holystone_shovel": {
     "criteria": {
       "has_holystone": "2024-06-08 14:06:42 -0500"
@@ -9635,6 +9635,24 @@
   "aether:recipes/redstone/holystone_button": {
     "criteria": {
       "has_holystone": "2024-06-08 14:06:42 -0500"
+    },
+    "done": true
+  },
+  "aether:silver_dungeon": {
+    "criteria": {
+      "kill_valkyrie_queen": "2024-06-10 13:04:46 -0500"
+    },
+    "done": true
+  },
+  "aether:valkyrie_loot": {
+    "criteria": {
+      "valkyrie_chestplate": "2024-06-10 13:05:19 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_sword_repairing": {
+    "criteria": {
+      "has_golden_sword": "2024-06-10 13:04:48 -0500"
     },
     "done": true
   },
