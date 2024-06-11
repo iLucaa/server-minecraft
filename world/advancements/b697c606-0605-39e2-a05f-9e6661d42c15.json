@@ -10774,15 +10774,21 @@
     },
     "done": true
   },
-  "divinerpg:recipes/shapeless/orange_dye_from_sunbloom": {
+  "divinerpg:overworld/towering_guardian": {
     "criteria": {
-      "has_sunbloom": "2024-06-10 12:17:14 -0500"
+      "kill_boss_ancient_entity": "2024-06-10 12:01:53 -0500"
     },
     "done": true
   },
-  "aether:recipes/combat/chainmail_helmet_repairing": {
+  "aether:recipes/combat/diamond_leggings_repairing": {
     "criteria": {
-      "has_chainmail_helmet": "2024-06-10 12:37:03 -0500"
+      "has_diamond_leggings": "2024-06-10 12:05:39 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/orange_dye_from_sunbloom": {
+    "criteria": {
+      "has_sunbloom": "2024-06-10 12:17:14 -0500"
     },
     "done": true
   },
@@ -10804,21 +10810,123 @@
     },
     "done": true
   },
-  "aether:recipes/combat/diamond_leggings_repairing": {
-    "criteria": {
-      "has_diamond_leggings": "2024-06-10 12:05:39 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:overworld/towering_guardian": {
-    "criteria": {
-      "kill_boss_ancient_entity": "2024-06-10 12:01:53 -0500"
-    },
-    "done": true
-  },
   "aether:recipes/building_blocks/skyroot_bookshelf": {
     "criteria": {
       "has_book": "2024-06-10 12:35:39 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/chainmail_helmet_repairing": {
+    "criteria": {
+      "has_chainmail_helmet": "2024-06-10 12:37:03 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:twilight/forest_islands": {
+    "criteria": {
+      "enter_wildwood": "2024-06-11 12:08:46 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/wildwood_gem_from_souls": {
+    "criteria": {
+      "has_soul": "2024-06-11 12:12:58 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/wildwood_fragments": {
+    "criteria": {
+      "has_soul": "2024-06-11 12:12:58 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/wildwood_wood": {
+    "criteria": {
+      "has_log": "2024-06-11 12:23:09 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/wildwood_planks": {
+    "criteria": {
+      "has_log": "2024-06-11 12:23:09 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/wildwood_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-06-11 14:11:41 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_lantern": {
+    "criteria": {
+      "has_soul_torch": "2024-06-11 14:40:21 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/wildwood_button": {
+    "criteria": {
+      "has_planks": "2024-06-11 14:11:41 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/wildwood_slab": {
+    "criteria": {
+      "has_planks": "2024-06-11 14:11:41 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/wildwood_fence": {
+    "criteria": {
+      "has_planks": "2024-06-11 14:11:41 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/wildwood_shickaxe": {
+    "criteria": {
+      "has_pickaxe": "2024-06-11 14:40:16 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/wildwood_dust_from_moonlight_fern": {
+    "criteria": {
+      "has_moonlight_fern": "2024-06-11 14:42:19 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/wildwood_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-06-11 14:11:41 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/wildwood_stairs": {
+    "criteria": {
+      "has_planks": "2024-06-11 14:11:41 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/wildwood_door": {
+    "criteria": {
+      "has_planks": "2024-06-11 14:11:41 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/wildwood_block": {
+    "criteria": {
+      "has_heart": "2024-06-11 14:36:21 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/wildwood_dust_from_tallgrass": {
+    "criteria": {
+      "has_tallgrass": "2024-06-11 14:42:15 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/wildwood_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-06-11 14:11:41 -0500"
     },
     "done": true
   },
