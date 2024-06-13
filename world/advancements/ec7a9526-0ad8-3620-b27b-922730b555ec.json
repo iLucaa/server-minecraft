@@ -9644,15 +9644,141 @@
     },
     "done": true
   },
+  "aether:recipes/combat/golden_sword_repairing": {
+    "criteria": {
+      "has_golden_sword": "2024-06-10 13:04:48 -0500"
+    },
+    "done": true
+  },
   "aether:valkyrie_loot": {
     "criteria": {
       "valkyrie_chestplate": "2024-06-10 13:05:19 -0500"
     },
     "done": true
   },
-  "aether:recipes/combat/golden_sword_repairing": {
+  "divinerpg:twilight/forest_islands": {
     "criteria": {
-      "has_golden_sword": "2024-06-10 13:04:48 -0500"
+      "enter_wildwood": "2024-06-13 11:06:58 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:twilight/forest_scourge": {
+    "criteria": {
+      "kill_boss_termasect": "2024-06-13 11:07:29 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/apalachia_planks": {
+    "criteria": {
+      "has_log": "2024-06-13 11:50:40 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/aquatic_blaze_rod": {
+    "criteria": {
+      "has_aqua_ball": "2024-06-13 12:03:17 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/apalachia_slab": {
+    "criteria": {
+      "has_planks": "2024-06-13 11:47:10 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/apalachia_wood": {
+    "criteria": {
+      "has_log": "2024-06-13 11:50:40 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/apalachia_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-06-13 11:47:10 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/apalachia_button": {
+    "criteria": {
+      "has_planks": "2024-06-13 11:47:10 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/wildwood_wood": {
+    "criteria": {
+      "has_log": "2024-06-13 11:07:47 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/apalachia_fragments": {
+    "criteria": {
+      "has_soul": "2024-06-13 11:43:04 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:twilight/purple_planet": {
+    "criteria": {
+      "enter_apalachia": "2024-06-13 11:40:48 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/apalachia_door": {
+    "criteria": {
+      "has_planks": "2024-06-13 11:47:10 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/apalachia_gem_from_souls": {
+    "criteria": {
+      "has_soul": "2024-06-13 11:43:04 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/aquatonic_bricks": {
+    "criteria": {
+      "has_aqua_ball": "2024-06-13 12:03:17 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/wildwood_planks": {
+    "criteria": {
+      "has_log": "2024-06-13 11:07:47 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/apalachia_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-06-13 11:47:10 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/apalachia_dust_from_dusk_flower": {
+    "criteria": {
+      "has_dusk_flower": "2024-06-13 11:48:17 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/apalachia_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-06-13 11:47:10 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/apalachia_fence": {
+    "criteria": {
+      "has_planks": "2024-06-13 11:47:10 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/apalachia_stairs": {
+    "criteria": {
+      "has_planks": "2024-06-13 11:47:10 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:twilight/colourless_land": {
+    "criteria": {
+      "enter_skythern": "2024-06-13 12:04:44 -0500"
     },
     "done": true
   },

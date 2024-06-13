@@ -67,20 +67,25 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:mushroom_fields": "2024-06-13 10:46:08 -0500",
       "minecraft:taiga": "2024-06-11 12:27:24 -0500",
       "minecraft:deep_ocean": "2024-06-11 12:26:51 -0500",
       "minecraft:sunflower_plains": "2024-06-06 13:48:17 -0500",
       "minecraft:cherry_grove": "2024-06-10 11:23:14 -0500",
       "minecraft:birch_forest": "2024-06-12 14:39:55 -0500",
       "minecraft:beach": "2024-06-11 12:26:46 -0500",
+      "minecraft:sparse_jungle": "2024-06-13 10:43:00 -0500",
       "minecraft:river": "2024-06-06 13:49:16 -0500",
+      "minecraft:lukewarm_ocean": "2024-06-13 10:43:33 -0500",
       "minecraft:stony_shore": "2024-06-11 12:25:53 -0500",
       "minecraft:grove": "2024-06-10 12:04:47 -0500",
       "minecraft:swamp": "2024-06-11 12:26:30 -0500",
       "minecraft:forest": "2024-06-06 13:45:29 -0500",
       "minecraft:jungle": "2024-06-06 13:45:04 -0500",
       "minecraft:ocean": "2024-06-11 12:26:47 -0500",
+      "minecraft:deep_lukewarm_ocean": "2024-06-13 10:46:28 -0500",
       "minecraft:frozen_peaks": "2024-06-10 12:04:50 -0500",
+      "minecraft:old_growth_birch_forest": "2024-06-13 10:42:59 -0500",
       "minecraft:meadow": "2024-06-11 13:17:36 -0500",
       "minecraft:plains": "2024-06-06 13:48:39 -0500"
     },
@@ -555,6 +560,7 @@
       "minecraft:wither_skeleton": "2024-06-11 13:24:22 -0500",
       "minecraft:husk": "2024-06-11 12:33:59 -0500",
       "minecraft:piglin": "2024-06-11 11:26:54 -0500",
+      "minecraft:enderman": "2024-06-13 12:01:29 -0500",
       "minecraft:zombie": "2024-06-10 12:25:40 -0500",
       "minecraft:zombie_villager": "2024-06-11 00:09:15 -0500"
     },
@@ -4316,6 +4322,378 @@
   "farmersdelight:recipes/food/egg_sandwich": {
     "criteria": {
       "has_fried_egg": "2024-06-12 14:52:10 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/red_diamond_chunk": {
+    "criteria": {
+      "has_diamond": "2024-06-13 10:47:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2024-06-13 10:47:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2024-06-13 10:47:59 -0500"
+    },
+    "done": true
+  },
+  "tombstone:recipes/from_grave_key": {
+    "criteria": {
+      "has_ingredient": "2024-06-13 11:50:57 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2024-06-13 10:47:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2024-06-13 10:47:38 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/potato_chips": {
+    "criteria": {
+      "has_potato": "2024-06-13 10:54:40 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/apalachia_planks": {
+    "criteria": {
+      "has_log": "2024-06-13 11:46:47 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:twilight/archaic_bowman": {
+    "criteria": {
+      "kill_boss_eternal_archer": "2024-06-13 11:51:30 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2024-06-13 10:47:59 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/baked_cod_stew": {
+    "criteria": {
+      "has_any_ingredient": "2024-06-13 10:54:40 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2024-06-13 10:47:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2024-06-13 10:47:59 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/base_spawn_crystal": {
+    "criteria": {
+      "has_skythern_soul": "2024-06-13 12:07:21 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/apalachia_wood": {
+    "criteria": {
+      "has_log": "2024-06-13 11:46:47 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/gray_diamond_chunk": {
+    "criteria": {
+      "has_diamond": "2024-06-13 10:47:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2024-06-13 11:08:21 -0500"
+    },
+    "done": true
+  },
+  "tombstone:adventure/first_grave": {
+    "criteria": {
+      "coded_trigger": "2024-06-13 11:50:55 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2024-06-13 10:47:59 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/apalachia_fragments": {
+    "criteria": {
+      "has_soul": "2024-06-13 11:43:27 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:twilight/purple_planet": {
+    "criteria": {
+      "enter_apalachia": "2024-06-13 11:40:46 -0500"
+    },
+    "done": true
+  },
+  "tombstone:adventure/almost_unkillable": {
+    "criteria": {
+      "coded_trigger": "2024-06-13 11:50:55 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/protecto": {
+    "criteria": {
+      "has_ender_eye": "2024-06-13 10:47:38 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/apalachia_gem_from_souls": {
+    "criteria": {
+      "has_soul": "2024-06-13 11:43:27 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_gloves": {
+    "criteria": {
+      "has_diamond": "2024-06-13 10:47:59 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/apalachia_gem_from_fragments": {
+    "criteria": {
+      "has_fragments": "2024-06-13 11:48:33 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/teleportation_crystal": {
+    "criteria": {
+      "has_diamond": "2024-06-13 10:47:59 -0500"
+    },
+    "done": true
+  },
+  "tombstone:adventure/teleport_to_grave": {
+    "criteria": {
+      "coded_trigger": "2024-06-13 11:51:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2024-06-13 10:47:59 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/green_diamond_chunk": {
+    "criteria": {
+      "has_diamond": "2024-06-13 10:47:59 -0500"
+    },
+    "done": true
+  },
+  "tombstone:adventure/strong_or_careful": {
+    "criteria": {
+      "coded_trigger": "2024-06-13 11:50:55 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2024-06-13 10:47:38 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2024-06-13 10:47:59 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/diamond_lamp": {
+    "criteria": {
+      "has_diamond": "2024-06-13 10:47:59 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/diamond_knife": {
+    "criteria": {
+      "has_diamond": "2024-06-13 10:47:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2024-06-13 10:47:59 -0500"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_undead_pirate_ship": {
+    "criteria": {
+      "location0": "2024-06-13 10:47:11 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2024-06-13 10:54:40 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/skythern_fragments": {
+    "criteria": {
+      "has_soul": "2024-06-13 12:07:21 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/skythern_gem_from_souls": {
+    "criteria": {
+      "has_soul": "2024-06-13 12:07:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2024-06-13 10:54:40 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_jukebox": {
+    "criteria": {
+      "has_diamond": "2024-06-13 10:47:59 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/horde_horn": {
+    "criteria": {
+      "has_ender_eye": "2024-06-13 10:47:38 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/skythern_gem_from_fragments": {
+    "criteria": {
+      "has_fragments": "2024-06-13 12:05:23 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/wildwood_gem_from_souls": {
+    "criteria": {
+      "has_soul": "2024-06-13 10:58:58 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/diamond_bricks": {
+    "criteria": {
+      "has_diamond": "2024-06-13 10:47:59 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/apalachia_block": {
+    "criteria": {
+      "has_heart": "2024-06-13 11:51:32 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/apalachia_dust_from_dusk_flower": {
+    "criteria": {
+      "has_dusk_flower": "2024-06-13 11:41:47 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2024-06-13 10:47:59 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/serenade_striker": {
+    "criteria": {
+      "has_diamond": "2024-06-13 10:47:59 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/ender_pumpkin": {
+    "criteria": {
+      "has_ender_pearl": "2024-06-13 12:01:29 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/ender_lamp": {
+    "criteria": {
+      "has_eye": "2024-06-13 10:47:38 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/beef_stew": {
+    "criteria": {
+      "has_any_ingredient": "2024-06-13 10:54:40 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2024-06-13 10:54:40 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/wildwood_fragments": {
+    "criteria": {
+      "has_soul": "2024-06-13 10:58:58 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:twilight/colourless_land": {
+    "criteria": {
+      "enter_skythern": "2024-06-13 12:04:50 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/blue_diamond_chunk": {
+    "criteria": {
+      "has_diamond": "2024-06-13 10:47:59 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/wildwood_dust_from_tallgrass": {
+    "criteria": {
+      "has_tallgrass": "2024-06-13 11:05:16 -0500"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_magic_scroll": {
+    "criteria": {
+      "has_magic_scroll": "2024-06-13 10:48:00 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/french_fries": {
+    "criteria": {
+      "has_potato": "2024-06-13 10:54:40 -0500"
+    },
+    "done": true
+  },
+  "tombstone:adventure/enchant_grave_key": {
+    "criteria": {
+      "has_upgraded_grave_key": "2024-06-13 11:50:57 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2024-06-13 10:47:59 -0500"
     },
     "done": true
   },
