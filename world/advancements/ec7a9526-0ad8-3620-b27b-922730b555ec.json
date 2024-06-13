@@ -9668,27 +9668,39 @@
     },
     "done": true
   },
-  "divinerpg:recipes/shapeless/apalachia_planks": {
+  "divinerpg:recipes/shaped/wildwood_wood": {
     "criteria": {
-      "has_log": "2024-06-13 11:50:40 -0500"
+      "has_log": "2024-06-13 11:07:47 -0500"
     },
     "done": true
   },
-  "divinerpg:recipes/shapeless/aquatic_blaze_rod": {
+  "divinerpg:recipes/shapeless/wildwood_planks": {
     "criteria": {
-      "has_aqua_ball": "2024-06-13 12:03:17 -0500"
+      "has_log": "2024-06-13 11:07:47 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:twilight/purple_planet": {
+    "criteria": {
+      "enter_apalachia": "2024-06-13 11:40:48 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/apalachia_fragments": {
+    "criteria": {
+      "has_soul": "2024-06-13 11:43:04 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/apalachia_gem_from_souls": {
+    "criteria": {
+      "has_soul": "2024-06-13 11:43:04 -0500"
     },
     "done": true
   },
   "divinerpg:recipes/shaped/apalachia_slab": {
     "criteria": {
       "has_planks": "2024-06-13 11:47:10 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/apalachia_wood": {
-    "criteria": {
-      "has_log": "2024-06-13 11:50:40 -0500"
     },
     "done": true
   },
@@ -9704,57 +9716,15 @@
     },
     "done": true
   },
-  "divinerpg:recipes/shaped/wildwood_wood": {
-    "criteria": {
-      "has_log": "2024-06-13 11:07:47 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shapeless/apalachia_fragments": {
-    "criteria": {
-      "has_soul": "2024-06-13 11:43:04 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:twilight/purple_planet": {
-    "criteria": {
-      "enter_apalachia": "2024-06-13 11:40:48 -0500"
-    },
-    "done": true
-  },
   "divinerpg:recipes/shaped/apalachia_door": {
     "criteria": {
       "has_planks": "2024-06-13 11:47:10 -0500"
     },
     "done": true
   },
-  "divinerpg:recipes/shaped/apalachia_gem_from_souls": {
-    "criteria": {
-      "has_soul": "2024-06-13 11:43:04 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/aquatonic_bricks": {
-    "criteria": {
-      "has_aqua_ball": "2024-06-13 12:03:17 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shapeless/wildwood_planks": {
-    "criteria": {
-      "has_log": "2024-06-13 11:07:47 -0500"
-    },
-    "done": true
-  },
   "divinerpg:recipes/shaped/apalachia_fence_gate": {
     "criteria": {
       "has_planks": "2024-06-13 11:47:10 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shapeless/apalachia_dust_from_dusk_flower": {
-    "criteria": {
-      "has_dusk_flower": "2024-06-13 11:48:17 -0500"
     },
     "done": true
   },
@@ -9776,9 +9746,81 @@
     },
     "done": true
   },
+  "divinerpg:recipes/shapeless/apalachia_dust_from_dusk_flower": {
+    "criteria": {
+      "has_dusk_flower": "2024-06-13 11:48:17 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/apalachia_planks": {
+    "criteria": {
+      "has_log": "2024-06-13 11:50:40 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/apalachia_wood": {
+    "criteria": {
+      "has_log": "2024-06-13 11:50:40 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/aquatic_blaze_rod": {
+    "criteria": {
+      "has_aqua_ball": "2024-06-13 12:03:17 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/aquatonic_bricks": {
+    "criteria": {
+      "has_aqua_ball": "2024-06-13 12:03:17 -0500"
+    },
+    "done": true
+  },
   "divinerpg:twilight/colourless_land": {
     "criteria": {
       "enter_skythern": "2024-06-13 12:04:44 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/lapis_lazuli_bricks": {
+    "criteria": {
+      "has_lapis": "2024-06-13 14:56:23 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/lapis_lazuli_lamp": {
+    "criteria": {
+      "has_lapis_lazuli": "2024-06-13 14:56:23 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_sword_repairing": {
+    "criteria": {
+      "has_diamond_sword": "2024-06-13 15:04:10 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/horde_horn": {
+    "criteria": {
+      "has_ender_eye": "2024-06-13 15:00:07 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/blue_stone": {
+    "criteria": {
+      "has_lapis": "2024-06-13 14:56:23 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/ender_lamp": {
+    "criteria": {
+      "has_eye": "2024-06-13 15:00:07 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/slime_sword": {
+    "criteria": {
+      "has_sword": "2024-06-13 15:04:10 -0500"
     },
     "done": true
   },

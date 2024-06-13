@@ -10930,39 +10930,15 @@
     },
     "done": true
   },
+  "divinerpg:recipes/shaped/pure_aquatic_pellets": {
+    "criteria": {
+      "has_pellets": "2024-06-13 10:52:56 -0500"
+    },
+    "done": true
+  },
   "divinerpg:recipes/shaped/wildwood_gem_from_fragments": {
     "criteria": {
       "has_fragments": "2024-06-13 10:56:33 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/apalachia_slab": {
-    "criteria": {
-      "has_planks": "2024-06-13 11:47:11 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shapeless/base_spawn_crystal": {
-    "criteria": {
-      "has_skythern_soul": "2024-06-13 12:07:14 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/apalachia_pressure_plate": {
-    "criteria": {
-      "has_planks": "2024-06-13 11:47:11 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shapeless/light_gray_dye_from_dust_lily": {
-    "criteria": {
-      "has_dust_lily": "2024-06-13 12:11:00 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shapeless/apalachia_button": {
-    "criteria": {
-      "has_planks": "2024-06-13 11:47:11 -0500"
     },
     "done": true
   },
@@ -10972,9 +10948,9 @@
     },
     "done": true
   },
-  "divinerpg:recipes/shapeless/apalachia_fragments": {
+  "aether:recipes/combat/diamond_chestplate_repairing": {
     "criteria": {
-      "has_soul": "2024-06-13 11:41:37 -0500"
+      "has_diamond_chestplate": "2024-06-13 10:59:05 -0500"
     },
     "done": true
   },
@@ -10984,15 +10960,9 @@
     },
     "done": true
   },
-  "divinerpg:recipes/shaped/apalachia_door": {
+  "divinerpg:recipes/shapeless/apalachia_fragments": {
     "criteria": {
-      "has_planks": "2024-06-13 11:47:11 -0500"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/diamond_chestplate_repairing": {
-    "criteria": {
-      "has_diamond_chestplate": "2024-06-13 10:59:05 -0500"
+      "has_soul": "2024-06-13 11:41:37 -0500"
     },
     "done": true
   },
@@ -11002,27 +10972,27 @@
     },
     "done": true
   },
-  "divinerpg:recipes/shapeless/skythern_shickaxe": {
+  "divinerpg:recipes/shaped/apalachia_slab": {
     "criteria": {
-      "has_pickaxe": "2024-06-13 12:11:12 -0500"
+      "has_planks": "2024-06-13 11:47:11 -0500"
     },
     "done": true
   },
-  "divinerpg:recipes/shapeless/skythern_fragments": {
+  "divinerpg:recipes/shaped/apalachia_pressure_plate": {
     "criteria": {
-      "has_soul": "2024-06-13 12:07:14 -0500"
+      "has_planks": "2024-06-13 11:47:11 -0500"
     },
     "done": true
   },
-  "divinerpg:recipes/shaped/skythern_gem_from_souls": {
+  "divinerpg:recipes/shapeless/apalachia_button": {
     "criteria": {
-      "has_soul": "2024-06-13 12:07:14 -0500"
+      "has_planks": "2024-06-13 11:47:11 -0500"
     },
     "done": true
   },
-  "divinerpg:recipes/shaped/skythern_gem_from_fragments": {
+  "divinerpg:recipes/shaped/apalachia_door": {
     "criteria": {
-      "has_fragments": "2024-06-13 12:05:08 -0500"
+      "has_planks": "2024-06-13 11:47:11 -0500"
     },
     "done": true
   },
@@ -11032,27 +11002,9 @@
     },
     "done": true
   },
-  "divinerpg:recipes/shaped/apalachia_block": {
-    "criteria": {
-      "has_heart": "2024-06-13 11:56:43 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shapeless/apalachia_dust_from_dusk_flower": {
-    "criteria": {
-      "has_dusk_flower": "2024-06-13 11:47:16 -0500"
-    },
-    "done": true
-  },
   "divinerpg:recipes/shaped/apalachia_trapdoor": {
     "criteria": {
       "has_planks": "2024-06-13 11:47:11 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/pure_aquatic_pellets": {
-    "criteria": {
-      "has_pellets": "2024-06-13 10:52:56 -0500"
     },
     "done": true
   },
@@ -11068,9 +11020,57 @@
     },
     "done": true
   },
+  "divinerpg:recipes/shapeless/apalachia_dust_from_dusk_flower": {
+    "criteria": {
+      "has_dusk_flower": "2024-06-13 11:47:16 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/apalachia_block": {
+    "criteria": {
+      "has_heart": "2024-06-13 11:56:43 -0500"
+    },
+    "done": true
+  },
   "divinerpg:twilight/colourless_land": {
     "criteria": {
       "enter_skythern": "2024-06-13 12:04:46 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/skythern_gem_from_fragments": {
+    "criteria": {
+      "has_fragments": "2024-06-13 12:05:08 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/base_spawn_crystal": {
+    "criteria": {
+      "has_skythern_soul": "2024-06-13 12:07:14 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/skythern_fragments": {
+    "criteria": {
+      "has_soul": "2024-06-13 12:07:14 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/skythern_gem_from_souls": {
+    "criteria": {
+      "has_soul": "2024-06-13 12:07:14 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/light_gray_dye_from_dust_lily": {
+    "criteria": {
+      "has_dust_lily": "2024-06-13 12:11:00 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/skythern_shickaxe": {
+    "criteria": {
+      "has_pickaxe": "2024-06-13 12:11:12 -0500"
     },
     "done": true
   },
