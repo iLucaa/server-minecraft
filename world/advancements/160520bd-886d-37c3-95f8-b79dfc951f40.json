@@ -4103,9 +4103,15 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/food/egg_sandwich": {
+  "minecraft:recipes/building_blocks/stripped_cherry_wood": {
     "criteria": {
-      "has_fried_egg": "2024-06-12 14:52:10 -0500"
+      "has_log": "2024-06-12 14:36:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cherry_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-06-12 14:36:39 -0500"
     },
     "done": true
   },
@@ -4115,51 +4121,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2024-06-12 14:44:11 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
     "criteria": {
       "has_red_dye": "2024-06-12 14:46:14 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_white_bed": {
-    "criteria": {
-      "has_needed_dye": "2024-06-12 14:47:03 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_red_sleeping_bag": {
     "criteria": {
       "has_needed_dye": "2024-06-12 14:46:14 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/gray_candle": {
-    "criteria": {
-      "has_gray_dye": "2024-06-12 14:50:46 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/gray_stained_glass_pane_from_glass_pane": {
-    "criteria": {
-      "has_gray_dye": "2024-06-12 14:50:46 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stripped_cherry_wood": {
-    "criteria": {
-      "has_log": "2024-06-12 14:36:39 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/lime_dye": {
-    "criteria": {
-      "has_white_dye": "2024-06-12 14:47:03 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
-    "criteria": {
-      "has_white_dye": "2024-06-12 14:47:03 -0500"
     },
     "done": true
   },
@@ -4175,12 +4151,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
-    "criteria": {
-      "has_white_dye": "2024-06-12 14:47:03 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/orange_dye_from_red_yellow": {
     "criteria": {
       "has_red_dye": "2024-06-12 14:46:14 -0500"
@@ -4193,51 +4163,75 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gray_dye": {
-    "criteria": {
-      "has_white_dye": "2024-06-12 14:47:03 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
     "criteria": {
       "has_rose_red": "2024-06-12 14:46:14 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/shulker_box": {
+  "minecraft:recipes/building_blocks/dye_red_carpet": {
     "criteria": {
-      "has_shulker_shell": "2024-06-12 14:44:11 -0500"
+      "has_needed_dye": "2024-06-12 14:46:14 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/cherry_hanging_sign": {
+  "minecraft:recipes/misc/purple_dye": {
     "criteria": {
-      "has_stripped_logs": "2024-06-12 14:36:39 -0500"
+      "has_red_dye": "2024-06-12 14:46:14 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+  "minecraft:recipes/decorations/red_candle": {
     "criteria": {
-      "has_netherite_upgrade_smithing_template": "2024-06-12 14:51:28 -0500"
+      "has_red_dye": "2024-06-12 14:46:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
+    "criteria": {
+      "has_red_dye": "2024-06-12 14:46:14 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_the_recipe": "2024-06-12 14:46:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-06-12 14:47:03 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_white_dye": "2024-06-12 14:47:03 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
+    "criteria": {
+      "has_white_dye": "2024-06-12 14:47:03 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
+    "criteria": {
+      "has_white_dye": "2024-06-12 14:47:03 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_white_dye": "2024-06-12 14:47:03 -0500"
     },
     "done": true
   },
   "minecraft:recipes/decorations/white_candle": {
     "criteria": {
       "has_white_dye": "2024-06-12 14:47:03 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_gray_sleeping_bag": {
-    "criteria": {
-      "has_needed_dye": "2024-06-12 14:50:46 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_red_carpet": {
-    "criteria": {
-      "has_needed_dye": "2024-06-12 14:46:14 -0500"
     },
     "done": true
   },
@@ -4253,27 +4247,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_gray_carpet": {
-    "criteria": {
-      "has_needed_dye": "2024-06-12 14:50:46 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/purple_dye": {
-    "criteria": {
-      "has_red_dye": "2024-06-12 14:46:14 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_white_carpet": {
     "criteria": {
       "has_needed_dye": "2024-06-12 14:47:03 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/red_candle": {
-    "criteria": {
-      "has_red_dye": "2024-06-12 14:46:14 -0500"
     },
     "done": true
   },
@@ -4283,21 +4259,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
-    "criteria": {
-      "has_red_dye": "2024-06-12 14:46:14 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/bedrock_upgrade_template": {
-    "criteria": {
-      "has_upgrade": "2024-06-12 14:51:28 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
     "criteria": {
       "has_white_dye": "2024-06-12 14:47:03 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_candle": {
+    "criteria": {
+      "has_gray_dye": "2024-06-12 14:50:46 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_gray_dye": "2024-06-12 14:50:46 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_gray_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-06-12 14:50:46 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_gray_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-06-12 14:50:46 -0500"
     },
     "done": true
   },
@@ -4313,9 +4301,21 @@
     },
     "done": true
   },
-  "croptopia:recipes/misc/purple_dye": {
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
     "criteria": {
-      "has_the_recipe": "2024-06-12 14:46:14 -0500"
+      "has_netherite_upgrade_smithing_template": "2024-06-12 14:51:28 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/bedrock_upgrade_template": {
+    "criteria": {
+      "has_upgrade": "2024-06-12 14:51:28 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/egg_sandwich": {
+    "criteria": {
+      "has_fried_egg": "2024-06-12 14:52:10 -0500"
     },
     "done": true
   },
