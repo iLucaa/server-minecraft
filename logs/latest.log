@@ -1,80 +1,80 @@
-[14jun2024 00:54:54.593] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[14jun2024 00:54:54.599] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.1 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
-[14jun2024 00:54:55.511] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[14jun2024 00:54:55.526] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
-[14jun2024 00:54:55.529] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file URL: union:/C:/Users/LUCA/Desktop/server-minecraft-v/mods/OptiFine_1.20.1_HD_U_I6.jar%23147!/
-[14jun2024 00:54:55.536] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: C:\Users\LUCA\Desktop\server-minecraft-v\mods\OptiFine_1.20.1_HD_U_I6.jar
-[14jun2024 00:54:55.537] [main/INFO] [optifine.OptiFineTransformer/]: Target.PRE_CLASS is available
-[14jun2024 00:54:55.607] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/LUCA/Desktop/server-minecraft-v/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[14jun2024 00:54:55.617] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
-[14jun2024 00:54:55.968] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\LUCA\Desktop\server-minecraft-v\libraries\net\minecraftforge\fmlcore\1.20.1-47.2.0\fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
-[14jun2024 00:54:55.972] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\LUCA\Desktop\server-minecraft-v\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.2.0\javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[14jun2024 00:54:55.975] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\LUCA\Desktop\server-minecraft-v\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.2.0\lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[14jun2024 00:54:55.978] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\LUCA\Desktop\server-minecraft-v\libraries\net\minecraftforge\mclanguage\1.20.1-47.2.0\mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[14jun2024 00:54:56.202] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[14jun2024 00:54:56.204] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: curios. Using Mod File: C:\Users\LUCA\Desktop\server-minecraft-v\mods\curios-forge-5.7.0+1.20.1.jar
-[14jun2024 00:54:56.204] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
-[14jun2024 00:54:56.721] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.transformers
-[14jun2024 00:54:56.727] [main/INFO] [optifine.OptiFineTransformer/]: Targets: 412
-[14jun2024 00:54:57.255] [main/INFO] [optifine.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
-[14jun2024 00:54:57.853] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[14jun2024 00:54:58.079] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[14jun2024 00:54:58.085] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
-[14jun2024 00:54:58.097] [main/WARN] [mixin/]: Reference map 'cookingforblockheads.refmap.json' for cookingforblockheads.mixins.json could not be read. If this is a development environment you can ignore this message
-[14jun2024 00:54:58.103] [main/WARN] [mixin/]: Reference map 'EpheroLib-refmap.json' for epherolib.mixins.json could not be read. If this is a development environment you can ignore this message
-[14jun2024 00:54:58.204] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
-[14jun2024 00:54:58.208] [main/WARN] [mixin/]: Reference map 'Aquamirae.refmap.json' for aquamirae.mixins.json could not be read. If this is a development environment you can ignore this message
-[14jun2024 00:54:59.244] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.2.1-beta.2).
-[14jun2024 00:55:05.314] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/obscuria/obscureapi/client/renderer/PatreonLayer for invalid dist DEDICATED_SERVER
-[14jun2024 00:55:05.333] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
-[14jun2024 00:55:05.335] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
-[14jun2024 00:55:05.424] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[14jun2024 00:55:05.427] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[14jun2024 00:55:05.435] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[14jun2024 00:55:05.439] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[14jun2024 00:55:05.443] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[14jun2024 00:55:05.448] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[14jun2024 00:55:05.626] [modloading-worker-0/INFO] [com.aetherteam.cumulus.Cumulus/]: Disabling Cumulus as it is on server.
-[14jun2024 00:55:05.737] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
-[14jun2024 00:55:05.888] [modloading-worker-0/INFO] [com.epherical.epherolib.config.CommonConfig/]: Creating default config file: croptopia_v3.conf
-[14jun2024 00:55:06.778] [modloading-worker-0/INFO] [divinerpg.DivineRPG/]: [DivineRPG] Registered events
-[14jun2024 00:55:08.495] [main/INFO] [Moonlight/]: Initialized block sets in 14ms
-[14jun2024 00:55:09.746] [main/INFO] [divinerpg.DivineRPG/]: [DivineRPG] Attached entity attributes
-[14jun2024 00:55:09.897] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\LUCA\Desktop\server-minecraft-v\config\divinerpg\divinerpg-common.toml is not correct. Correcting
-[14jun2024 00:55:09.898] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for DivineRPG.kitraProtected was corrected from [minecraft:salmon, minecraft:cod, minecraft:pufferfish, minecraft:squid, minecraft:tadpole, minecraft:turtle, divinerpg:shark, divinerpg:aequorea, divinerpg:whale, divinerpg:liopleurodon, minecraft:glow_squid, divinerpg:robbin] to its default, [minecraft:salmon, minecraft:cod, minecraft:pufferfish, minecraft:squid, minecraft:tadpole, minecraft:turtle, divinerpg:shark, divinerpg:aequorea, divinerpg:whale, divinerpg:liopleurodon, minecraft:glow_squid, divinerpg:robbin]. 
-[14jun2024 00:55:09.906] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 17
-[14jun2024 00:55:09.955] [modloading-worker-0/INFO] [divinerpg.DivineRPG/]: [DivineRPG] Registered triggers
-[14jun2024 00:55:10.007] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
-[14jun2024 00:55:10.015] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
-[14jun2024 00:55:10.015] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
-[14jun2024 00:55:10.016] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
-[14jun2024 00:55:10.132] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.20.1-develop/update.json
-[14jun2024 00:55:10.378] [main/INFO] [journeymap/]: Initializing Packet Registries
-[14jun2024 00:55:10.455] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:aiming for minecraft:player
-[14jun2024 00:55:10.455] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:reloading for minecraft:player
-[14jun2024 00:55:10.455] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:shooting for minecraft:player
-[14jun2024 00:55:10.470] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
-[14jun2024 00:55:10.470] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
-[14jun2024 00:55:10.471] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
-[14jun2024 00:55:10.471] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
-[14jun2024 00:55:10.517] [main/INFO] [Moonlight/]: Initialized color sets in 36ms
-[14jun2024 00:55:10.586] [modloading-worker-0/INFO] [AttributeFix/]: Loaded values for 31 compatible attributes.
-[14jun2024 00:55:10.591] [modloading-worker-0/INFO] [AttributeFix/]: Loaded 31 values from config.
-[14jun2024 00:55:10.595] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.aetherteam.aether.integration.jade.AetherJadePlugin
-[14jun2024 00:55:10.597] [modloading-worker-0/INFO] [AttributeFix/]: Saving config file. 31 entries.
-[14jun2024 00:55:10.597] [modloading-worker-0/INFO] [AttributeFix/]: Applying changes for 31 attributes.
-[14jun2024 00:55:10.605] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.cookingforblockheads.compat.ForgeJadeCookingForBlockheadsPlugin
-[14jun2024 00:55:10.606] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at twilightforest.compat.jade.JadeCompat
-[14jun2024 00:55:10.607] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[14jun2024 00:55:10.617] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[14jun2024 00:55:10.621] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[14jun2024 00:55:10.622] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.waila.JadeDataProvider
-[14jun2024 00:55:10.624] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
-[14jun2024 00:55:10.735] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Found status: UP_TO_DATE Current: 1.20.1-1.4.2-neoforge Target: null
-[14jun2024 00:55:10.735] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Starting version check at https://updates.blamejared.com/get?n=attributefix&gv=1.20.1
-[14jun2024 00:55:11.444] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Found status: BETA Current: 21.0.4 Target: 21.0.4
-[14jun2024 00:55:11.444] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obscure_api] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/obscure_api/versions.json
-[14jun2024 00:55:11.463] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[14jun.2024 03:59:33.680] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[14jun.2024 03:59:33.689] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.10 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[14jun.2024 03:59:34.585] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[14jun.2024 03:59:34.602] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
+[14jun.2024 03:59:34.604] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file URL: union:/C:/Users/LUCA/Desktop/server-minecraft-v/mods/OptiFine_1.20.1_HD_U_I6.jar%23147!/
+[14jun.2024 03:59:34.614] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: C:\Users\LUCA\Desktop\server-minecraft-v\mods\OptiFine_1.20.1_HD_U_I6.jar
+[14jun.2024 03:59:34.617] [main/INFO] [optifine.OptiFineTransformer/]: Target.PRE_CLASS is available
+[14jun.2024 03:59:34.712] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/LUCA/Desktop/server-minecraft-v/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[14jun.2024 03:59:34.724] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
+[14jun.2024 03:59:35.253] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\LUCA\Desktop\server-minecraft-v\libraries\net\minecraftforge\fmlcore\1.20.1-47.2.0\fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
+[14jun.2024 03:59:35.259] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\LUCA\Desktop\server-minecraft-v\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.2.0\javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[14jun.2024 03:59:35.265] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\LUCA\Desktop\server-minecraft-v\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.2.0\lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[14jun.2024 03:59:35.270] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\LUCA\Desktop\server-minecraft-v\libraries\net\minecraftforge\mclanguage\1.20.1-47.2.0\mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[14jun.2024 03:59:35.574] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[14jun.2024 03:59:35.578] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: curios. Using Mod File: C:\Users\LUCA\Desktop\server-minecraft-v\mods\curios-forge-5.7.0+1.20.1.jar
+[14jun.2024 03:59:35.579] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
+[14jun.2024 03:59:36.327] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.transformers
+[14jun.2024 03:59:36.332] [main/INFO] [optifine.OptiFineTransformer/]: Targets: 412
+[14jun.2024 03:59:37.121] [main/INFO] [optifine.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
+[14jun.2024 03:59:37.978] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[14jun.2024 03:59:38.169] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[14jun.2024 03:59:38.174] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[14jun.2024 03:59:38.191] [main/WARN] [mixin/]: Reference map 'cookingforblockheads.refmap.json' for cookingforblockheads.mixins.json could not be read. If this is a development environment you can ignore this message
+[14jun.2024 03:59:38.198] [main/WARN] [mixin/]: Reference map 'EpheroLib-refmap.json' for epherolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[14jun.2024 03:59:38.332] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[14jun.2024 03:59:38.339] [main/WARN] [mixin/]: Reference map 'Aquamirae.refmap.json' for aquamirae.mixins.json could not be read. If this is a development environment you can ignore this message
+[14jun.2024 03:59:39.796] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.2.1-beta.2).
+[14jun.2024 03:59:47.425] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/obscuria/obscureapi/client/renderer/PatreonLayer for invalid dist DEDICATED_SERVER
+[14jun.2024 03:59:47.451] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
+[14jun.2024 03:59:47.452] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
+[14jun.2024 03:59:47.568] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[14jun.2024 03:59:47.573] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[14jun.2024 03:59:47.581] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[14jun.2024 03:59:47.586] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[14jun.2024 03:59:47.590] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[14jun.2024 03:59:47.593] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[14jun.2024 03:59:47.838] [modloading-worker-0/INFO] [com.aetherteam.cumulus.Cumulus/]: Disabling Cumulus as it is on server.
+[14jun.2024 03:59:47.963] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[14jun.2024 03:59:48.126] [modloading-worker-0/INFO] [com.epherical.epherolib.config.CommonConfig/]: Creating default config file: croptopia_v3.conf
+[14jun.2024 03:59:49.120] [modloading-worker-0/INFO] [divinerpg.DivineRPG/]: [DivineRPG] Registered events
+[14jun.2024 03:59:52.004] [main/INFO] [Moonlight/]: Initialized block sets in 43ms
+[14jun.2024 03:59:53.597] [main/INFO] [divinerpg.DivineRPG/]: [DivineRPG] Attached entity attributes
+[14jun.2024 03:59:53.755] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\LUCA\Desktop\server-minecraft-v\config\divinerpg\divinerpg-common.toml is not correct. Correcting
+[14jun.2024 03:59:53.756] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for DivineRPG.kitraProtected was corrected from [minecraft:salmon, minecraft:cod, minecraft:pufferfish, minecraft:squid, minecraft:tadpole, minecraft:turtle, divinerpg:shark, divinerpg:aequorea, divinerpg:whale, divinerpg:liopleurodon, minecraft:glow_squid, divinerpg:robbin] to its default, [minecraft:salmon, minecraft:cod, minecraft:pufferfish, minecraft:squid, minecraft:tadpole, minecraft:turtle, divinerpg:shark, divinerpg:aequorea, divinerpg:whale, divinerpg:liopleurodon, minecraft:glow_squid, divinerpg:robbin]. 
+[14jun.2024 03:59:53.768] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 17
+[14jun.2024 03:59:53.822] [modloading-worker-0/INFO] [divinerpg.DivineRPG/]: [DivineRPG] Registered triggers
+[14jun.2024 03:59:53.902] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[14jun.2024 03:59:53.910] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[14jun.2024 03:59:53.910] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[14jun.2024 03:59:53.911] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[14jun.2024 03:59:54.041] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.20.1-develop/update.json
+[14jun.2024 03:59:54.194] [main/INFO] [journeymap/]: Initializing Packet Registries
+[14jun.2024 03:59:54.277] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:aiming for minecraft:player
+[14jun.2024 03:59:54.277] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:reloading for minecraft:player
+[14jun.2024 03:59:54.277] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:shooting for minecraft:player
+[14jun.2024 03:59:54.300] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[14jun.2024 03:59:54.301] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[14jun.2024 03:59:54.301] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[14jun.2024 03:59:54.302] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[14jun.2024 03:59:54.346] [main/INFO] [Moonlight/]: Initialized color sets in 33ms
+[14jun.2024 03:59:54.399] [modloading-worker-0/INFO] [AttributeFix/]: Loaded values for 31 compatible attributes.
+[14jun.2024 03:59:54.404] [modloading-worker-0/INFO] [AttributeFix/]: Loaded 31 values from config.
+[14jun.2024 03:59:54.408] [modloading-worker-0/INFO] [AttributeFix/]: Saving config file. 31 entries.
+[14jun.2024 03:59:54.409] [modloading-worker-0/INFO] [AttributeFix/]: Applying changes for 31 attributes.
+[14jun.2024 03:59:54.409] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.aetherteam.aether.integration.jade.AetherJadePlugin
+[14jun.2024 03:59:54.418] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.cookingforblockheads.compat.ForgeJadeCookingForBlockheadsPlugin
+[14jun.2024 03:59:54.420] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at twilightforest.compat.jade.JadeCompat
+[14jun.2024 03:59:54.421] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[14jun.2024 03:59:54.436] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[14jun.2024 03:59:54.441] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[14jun.2024 03:59:54.445] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.waila.JadeDataProvider
+[14jun.2024 03:59:54.447] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[14jun.2024 03:59:55.097] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Found status: UP_TO_DATE Current: 1.20.1-1.4.2-neoforge Target: null
+[14jun.2024 03:59:55.097] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Starting version check at https://updates.blamejared.com/get?n=attributefix&gv=1.20.1
+[14jun.2024 03:59:55.798] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Found status: BETA Current: 21.0.4 Target: 21.0.4
+[14jun.2024 03:59:55.798] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obscure_api] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/obscure_api/versions.json
+[14jun.2024 03:59:56.185] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
@@ -89,37 +89,37 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[14jun2024 00:55:11.464] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[14jun2024 00:55:11.884] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.9.18 Target: 5.9.23
-[14jun2024 00:55:11.884] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
-[14jun2024 00:55:12.013] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: OUTDATED Current: 9.1.12 Target: 9.1.14
-[14jun2024 00:55:12.016] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[14jun2024 00:55:12.282] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.3.0
-[14jun2024 00:55:12.282] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
-[14jun2024 00:55:12.643] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: AHEAD Current: 4.3.2145 Target: null
-[14jun2024 00:55:12.644] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://maxhenkel.de/update/voicechat.json
-[14jun2024 00:55:14.041] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[14jun2024 00:55:14.181] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: UP_TO_DATE Current: 1.20.1-2.4.32 Target: null
-[14jun2024 00:55:14.181] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
-[14jun2024 00:55:14.200] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.11.17 Target: null
-[14jun2024 00:55:14.201] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jeiintegration] Starting version check at https://cdn.snowshock35.com/mods/jei-integration/update.json
-[14jun2024 00:55:14.430] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jeiintegration] Found status: BETA Current: 10.0.0 Target: null
-[14jun2024 00:55:14.430] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[14jun2024 00:55:15.007] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.9.8 Target: 1.9.10
-[14jun2024 00:55:15.007] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[14jun2024 00:55:15.026] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.5.5 Target: 8.6.6
-[14jun2024 00:55:15.026] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Starting version check at https://github.com/The-Aether-Team/Cumulus/raw/1.20.1-develop/update.json
-[14jun2024 00:55:15.154] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Found status: UP_TO_DATE Current: 1.20.1-1.0.0-neoforge Target: null
-[14jun2024 00:55:15.154] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
-[14jun2024 00:55:15.171] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: UP_TO_DATE Current: 3.2.2 Target: null
-[14jun2024 00:55:15.172] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[14jun2024 00:55:16.677] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/LUCA/Desktop/server-minecraft-v/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23195!/assets/.mcassetsroot' uses unexpected schema
-[14jun2024 00:55:16.677] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/LUCA/Desktop/server-minecraft-v/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23195!/data/.mcassetsroot' uses unexpected schema
-[14jun2024 00:55:16.998] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA_OUTDATED Current: 0.6.27 Target: 0.7.6
-[14jun2024 00:55:16.999] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [divinerpg] Starting version check at https://raw.githubusercontent.com/DivineRPG/DivineRPG-Assets/main/divinerpg_update.json
-[14jun2024 00:55:17.029] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [divinerpg] Found status: UP_TO_DATE Current: 1.10.7.3 Target: null
-[14jun2024 00:55:17.029] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aquamirae] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/aquamirae/versions.json
-[14jun2024 00:55:17.049] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[14jun.2024 03:59:56.188] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[14jun.2024 03:59:56.600] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.9.18 Target: 5.9.23
+[14jun.2024 03:59:56.600] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[14jun.2024 03:59:56.675] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: OUTDATED Current: 9.1.12 Target: 9.1.14
+[14jun.2024 03:59:56.678] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[14jun.2024 03:59:57.196] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.3.0
+[14jun.2024 03:59:57.196] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[14jun.2024 03:59:57.587] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: AHEAD Current: 4.3.2145 Target: null
+[14jun.2024 03:59:57.588] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://maxhenkel.de/update/voicechat.json
+[14jun.2024 03:59:58.940] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14jun.2024 03:59:59.480] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: UP_TO_DATE Current: 1.20.1-2.4.32 Target: null
+[14jun.2024 03:59:59.480] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[14jun.2024 03:59:59.512] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.11.17 Target: null
+[14jun.2024 03:59:59.516] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jeiintegration] Starting version check at https://cdn.snowshock35.com/mods/jei-integration/update.json
+[14jun.2024 03:59:59.704] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jeiintegration] Found status: BETA Current: 10.0.0 Target: null
+[14jun.2024 03:59:59.705] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[14jun.2024 04:00:00.448] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.9.8 Target: 1.9.10
+[14jun.2024 04:00:00.449] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[14jun.2024 04:00:00.570] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.5.5 Target: 8.6.6
+[14jun.2024 04:00:00.570] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Starting version check at https://github.com/The-Aether-Team/Cumulus/raw/1.20.1-develop/update.json
+[14jun.2024 04:00:00.837] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Found status: UP_TO_DATE Current: 1.20.1-1.0.0-neoforge Target: null
+[14jun.2024 04:00:00.837] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
+[14jun.2024 04:00:00.956] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: UP_TO_DATE Current: 3.2.2 Target: null
+[14jun.2024 04:00:00.956] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[14jun.2024 04:00:02.249] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/LUCA/Desktop/server-minecraft-v/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23195!/assets/.mcassetsroot' uses unexpected schema
+[14jun.2024 04:00:02.249] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/LUCA/Desktop/server-minecraft-v/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23195!/data/.mcassetsroot' uses unexpected schema
+[14jun.2024 04:00:02.848] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA_OUTDATED Current: 0.6.27 Target: 0.7.6
+[14jun.2024 04:00:02.848] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [divinerpg] Starting version check at https://raw.githubusercontent.com/DivineRPG/DivineRPG-Assets/main/divinerpg_update.json
+[14jun.2024 04:00:02.871] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [divinerpg] Found status: UP_TO_DATE Current: 1.10.7.3 Target: null
+[14jun.2024 04:00:02.871] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aquamirae] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/aquamirae/versions.json
+[14jun.2024 04:00:02.991] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
@@ -134,12 +134,12 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[14jun2024 00:55:17.829] [main/INFO] [com.github.L_Ender.cataclysm.Cataclysm/]: Adding datapack listener altar_of_amethyst_recipes
-[14jun2024 00:55:17.879] [Worker-Main-10/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [minecraft:spruce_forest (from legendarymonsters-1.0.6.jar)] as it is missing following references: minecraft:spruce_forest (from legendarymonsters-1.0.6.jar)
-[14jun2024 00:55:17.927] [Worker-Main-6/WARN] [artifacts.Artifacts/]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-8.5.5-1.20.1.jar
-[14jun2024 00:55:17.932] [Worker-Main-4/ERROR] [net.minecraft.Util/]: Invalid path in pack: legendary_monsters:recipes/MoltenMetalIngot.json, ignoring
-[14jun2024 00:55:17.947] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: legendary_monsters:recipes/MoltenMetalIngot.json, ignoring
-[14jun2024 00:55:18.362] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:divinerpg:patchouli
+[14jun.2024 04:00:03.453] [main/INFO] [com.github.L_Ender.cataclysm.Cataclysm/]: Adding datapack listener altar_of_amethyst_recipes
+[14jun.2024 04:00:03.538] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [minecraft:spruce_forest (from legendarymonsters-1.0.6.jar)] as it is missing following references: minecraft:spruce_forest (from legendarymonsters-1.0.6.jar)
+[14jun.2024 04:00:03.542] [Worker-Main-3/WARN] [artifacts.Artifacts/]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-8.5.5-1.20.1.jar
+[14jun.2024 04:00:03.583] [Worker-Main-10/ERROR] [net.minecraft.Util/]: Invalid path in pack: legendary_monsters:recipes/MoltenMetalIngot.json, ignoring
+[14jun.2024 04:00:03.583] [Worker-Main-11/ERROR] [net.minecraft.Util/]: Invalid path in pack: legendary_monsters:recipes/MoltenMetalIngot.json, ignoring
+[14jun.2024 04:00:04.061] [Worker-Main-9/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:divinerpg:patchouli
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23195!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -182,17 +182,17 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.2.0-universal.jar%23200!/:?]
 	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23195!/:?]
 	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23195!/:?]
-	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
 	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23195!/:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[14jun2024 00:55:18.500] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
-[14jun2024 00:55:18.506] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe divinerpg:shapeless/guide_book
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[14jun.2024 04:00:04.255] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[14jun.2024 04:00:04.261] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe divinerpg:shapeless/guide_book
 com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.2.0-universal.jar%23200!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.2.0-universal.jar%23200!/:?]
@@ -210,8 +210,10 @@ com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
 	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23195!/:?]
 	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23195!/:?]
 	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23195!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
 	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
 	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
 	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
@@ -223,10 +225,10 @@ com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[14jun2024 00:55:18.565] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
-[14jun2024 00:55:18.576] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
-[14jun2024 00:55:18.603] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
-[14jun2024 00:55:18.633] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:ancient_dripstone_brick_stairs_left
+[14jun.2024 04:00:04.327] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[14jun.2024 04:00:04.338] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[14jun.2024 04:00:04.374] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[14jun.2024 04:00:04.408] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:ancient_dripstone_brick_stairs_left
 com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:ancient_dripstone_brick'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23195!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -249,8 +251,10 @@ com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:ancient_dr
 	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23195!/:?]
 	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23195!/:?]
 	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23195!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
 	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
 	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
 	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
@@ -262,7 +266,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:ancient_dr
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[14jun2024 00:55:18.650] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:dinosaur_bone_meal
+[14jun.2024 04:00:04.426] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:dinosaur_bone_meal
 com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:dinosaur_bone_meal'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.2.0-universal.jar%23200!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.2.0-universal.jar%23200!/:?]
@@ -280,8 +284,10 @@ com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:dinosaur_b
 	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23195!/:?]
 	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23195!/:?]
 	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23195!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
 	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
 	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
 	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
@@ -293,75 +299,95 @@ com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:dinosaur_b
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[14jun2024 00:55:18.681] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
-[14jun2024 00:55:18.686] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
-[14jun2024 00:55:18.690] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
-[14jun2024 00:55:18.706] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
-[14jun2024 00:55:18.712] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 29 recipes
-[14jun2024 00:55:18.851] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4713 advancements
-[14jun2024 00:55:18.858] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
-[14jun2024 00:55:18.866] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 19 curio slots
-[14jun2024 00:55:18.872] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 9 curio entities
-[14jun2024 00:55:21.692] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[14jun2024 00:55:21.693] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[14jun2024 00:55:21.693] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[14jun2024 00:55:21.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[14jun2024 00:55:21.744] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[14jun2024 00:55:21.764] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[14jun2024 00:55:21.928] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14jun2024 00:55:21.928] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[14jun2024 00:55:21.930] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14jun2024 00:55:21.930] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[14jun2024 00:55:21.956] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[14jun2024 00:55:21.957] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[14jun2024 00:55:21.959] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[14jun2024 00:55:22.064] [Server thread/INFO] [Framework/]: Loading server configs...
-[14jun2024 00:55:22.080] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[14jun2024 00:55:25.124] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.custom.obsidilith.ObsidilithEntity from class com.cerbon.bosses_of_mass_destruction.entity.custom.obsidilith.ObsidilithUtils
-[14jun2024 00:55:25.128] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.custom.gauntlet.GauntletEntity from class com.cerbon.bosses_of_mass_destruction.projectile.PetalBladeProjectile
-[14jun2024 00:55:25.133] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.util.BaseEntity from class com.cerbon.bosses_of_mass_destruction.entity.custom.void_blossom.hitbox.NetworkedHitboxManager
-[14jun2024 00:55:25.189] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.Mob from class divinerpg.entities.boss.EntityAyeraco
-[14jun2024 00:55:25.215] [Server thread/INFO] [divinerpg.DivineRPG/]: protection type: 0. protection timer: 0
-[14jun2024 00:55:25.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[14jun2024 00:55:25.591] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14jun2024 00:55:26.552] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[14jun2024 00:55:26.576] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[14jun2024 00:55:27.076] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
-[14jun2024 00:55:27.332] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1757 ms
-[14jun2024 00:55:27.332] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (5.381s)! For help, type "help"
-[14jun2024 00:55:27.347] [LanServerPinger #1/WARN] [net.minecraft.client.server.LanServerPinger/]: LanServerPinger: Network is unreachable: no further information
-[14jun2024 00:55:27.373] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[14jun2024 00:55:27.463] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[14jun2024 00:55:27.476] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 25565
-[14jun2024 01:01:48.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[14jun2024 01:01:48.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[14jun2024 01:01:48.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[14jun2024 01:01:48.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[14jun2024 01:01:48.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:vethea
-[14jun2024 01:01:48.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:iceika
-[14jun2024 01:01:48.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:mortum
-[14jun2024 01:01:48.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:skythern
-[14jun2024 01:01:48.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/aether:the_aether
-[14jun2024 01:01:48.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:wildwood
-[14jun2024 01:01:48.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:eden
-[14jun2024 01:01:48.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:apalachia
-[14jun2024 01:01:48.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
-[14jun2024 01:01:48.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[14jun2024 01:01:48.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[14jun2024 01:01:48.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:arcana
-[14jun2024 01:01:48.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14jun2024 01:01:48.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (vethea): All chunks are saved
-[14jun2024 01:01:48.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (iceika): All chunks are saved
-[14jun2024 01:01:48.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mortum): All chunks are saved
-[14jun2024 01:01:48.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (skythern): All chunks are saved
-[14jun2024 01:01:48.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_aether): All chunks are saved
-[14jun2024 01:01:48.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (wildwood): All chunks are saved
-[14jun2024 01:01:48.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (eden): All chunks are saved
-[14jun2024 01:01:48.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (apalachia): All chunks are saved
-[14jun2024 01:01:48.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
-[14jun2024 01:01:48.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14jun2024 01:01:48.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14jun2024 01:01:48.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (arcana): All chunks are saved
-[14jun2024 01:01:48.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[14jun2024 01:01:48.916] [Server thread/INFO] [Framework/]: Unloading server configs...
-[14jun2024 01:01:48.918] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[14jun.2024 04:00:04.451] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[14jun.2024 04:00:04.454] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[14jun.2024 04:00:04.458] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[14jun.2024 04:00:04.473] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[14jun.2024 04:00:04.478] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 29 recipes
+[14jun.2024 04:00:04.633] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4713 advancements
+[14jun.2024 04:00:04.640] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[14jun.2024 04:00:04.665] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 19 curio slots
+[14jun.2024 04:00:04.672] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 9 curio entities
+[14jun.2024 04:00:08.056] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[14jun.2024 04:00:08.056] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[14jun.2024 04:00:08.056] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[14jun.2024 04:00:08.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[14jun.2024 04:00:08.234] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[14jun.2024 04:00:08.256] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[14jun.2024 04:00:08.474] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14jun.2024 04:00:08.474] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[14jun.2024 04:00:08.474] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14jun.2024 04:00:08.474] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[14jun.2024 04:00:08.502] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[14jun.2024 04:00:08.622] [Server thread/INFO] [Framework/]: Loading server configs...
+[14jun.2024 04:00:08.644] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[14jun.2024 04:00:12.159] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.custom.obsidilith.ObsidilithEntity from class com.cerbon.bosses_of_mass_destruction.entity.custom.obsidilith.ObsidilithUtils
+[14jun.2024 04:00:12.164] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.custom.gauntlet.GauntletEntity from class com.cerbon.bosses_of_mass_destruction.projectile.PetalBladeProjectile
+[14jun.2024 04:00:12.171] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.util.BaseEntity from class com.cerbon.bosses_of_mass_destruction.entity.custom.void_blossom.hitbox.NetworkedHitboxManager
+[14jun.2024 04:00:12.243] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.Mob from class divinerpg.entities.boss.EntityAyeraco
+[14jun.2024 04:00:12.273] [Server thread/INFO] [divinerpg.DivineRPG/]: protection type: 0. protection timer: 0
+[14jun.2024 04:00:12.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[14jun.2024 04:00:12.740] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14jun.2024 04:00:13.807] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[14jun.2024 04:00:13.810] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[14jun.2024 04:00:14.225] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[14jun.2024 04:00:14.691] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1967 ms
+[14jun.2024 04:00:14.691] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (6.193s)! For help, type "help"
+[14jun.2024 04:00:14.708] [LanServerPinger #1/WARN] [net.minecraft.client.server.LanServerPinger/]: LanServerPinger: Network is unreachable: no further information
+[14jun.2024 04:00:14.737] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[14jun.2024 04:00:14.845] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[14jun.2024 04:00:14.874] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 25565
+[14jun.2024 04:00:47.326] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[14jun.2024 04:00:47.431] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iLuca08[/192.168.0.8:61489] logged in with entity id 1017 at (-0.04416410243597165, 73.0, 1.66167316212717)
+[14jun.2024 04:00:47.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 joined the game
+[14jun.2024 04:00:47.766] [Server thread/INFO] [Jade/]: Syncing config to iLuca08 (160520bd-886d-37c3-95f8-b79dfc951f40)
+[14jun.2024 04:00:49.013] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of iLuca08 (17)
+[14jun.2024 04:00:49.017] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to iLuca08
+[14jun.2024 04:00:54.849] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 160520bd-886d-37c3-95f8-b79dfc951f40
+[14jun.2024 04:00:55.845] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 160520bd-886d-37c3-95f8-b79dfc951f40
+[14jun.2024 04:00:55.849] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player iLuca08 (160520bd-886d-37c3-95f8-b79dfc951f40) successfully connected to voice chat
+[14jun.2024 04:02:31.090] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iLuca08 moved too quickly! 13.199999988079071,31.0,-42.82152579941902
+[14jun.2024 04:02:31.113] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iLuca08 moved too quickly! 13.199999988079071,31.0,-42.82152579941902
+[14jun.2024 04:04:24.840] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iLuca08 moved too quickly! 0.12928034029187074,-32.0,-0.08996375140725377
+[14jun.2024 04:04:24.856] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iLuca08 moved too quickly! 0.12928034029187074,-32.0,-0.08996375140725377
+[14jun.2024 04:04:24.864] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iLuca08 moved too quickly! 0.12928034029187074,-32.0,-0.08996375140725377
+[14jun.2024 04:04:41.063] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iLuca08 moved too quickly! 13.199999988079071,31.0,-43.19999998807907
+[14jun.2024 04:05:27.188] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iLuca08 moved too quickly! 0.15844594894690545,32.0,0.19999998807907104
+[14jun.2024 04:05:27.204] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iLuca08 moved too quickly! 0.15844594894690545,32.0,0.19999998807907104
+[14jun.2024 04:09:34.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iLuca08: Set own game mode to Creative Mode]
+[14jun.2024 04:09:49.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iLuca08: Set own game mode to Survival Mode]
+[14jun.2024 04:10:23.383] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iLuca08 lost connection: Disconnected
+[14jun.2024 04:10:23.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLuca08 left the game
+[14jun.2024 04:10:23.388] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client iLuca08
+[14jun.2024 04:10:39.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[14jun.2024 04:10:39.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[14jun.2024 04:10:39.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[14jun.2024 04:10:39.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14jun.2024 04:10:39.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:mortum
+[14jun.2024 04:10:39.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:wildwood
+[14jun.2024 04:10:39.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[14jun.2024 04:10:39.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:apalachia
+[14jun.2024 04:10:39.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
+[14jun.2024 04:10:39.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[14jun.2024 04:10:39.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:vethea
+[14jun.2024 04:10:39.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/aether:the_aether
+[14jun.2024 04:10:39.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:eden
+[14jun.2024 04:10:39.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:iceika
+[14jun.2024 04:10:39.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:skythern
+[14jun.2024 04:10:39.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:arcana
+[14jun.2024 04:10:39.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14jun.2024 04:10:39.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mortum): All chunks are saved
+[14jun.2024 04:10:39.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (wildwood): All chunks are saved
+[14jun.2024 04:10:39.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14jun.2024 04:10:39.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (apalachia): All chunks are saved
+[14jun.2024 04:10:39.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[14jun.2024 04:10:39.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14jun.2024 04:10:39.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (vethea): All chunks are saved
+[14jun.2024 04:10:39.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_aether): All chunks are saved
+[14jun.2024 04:10:39.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (eden): All chunks are saved
+[14jun.2024 04:10:39.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (iceika): All chunks are saved
+[14jun.2024 04:10:39.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (skythern): All chunks are saved
+[14jun.2024 04:10:39.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (arcana): All chunks are saved
+[14jun.2024 04:10:39.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14jun.2024 04:10:39.499] [Server thread/INFO] [Framework/]: Unloading server configs...
+[14jun.2024 04:10:39.500] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs

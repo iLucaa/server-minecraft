@@ -4703,9 +4703,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2024-06-13 14:54:35 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_gold_block": {
     "criteria": {
       "has_gold_block": "2024-06-13 14:54:49 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2024-06-13 14:55:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2024-06-13 14:55:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2024-06-13 14:57:00 -0500"
     },
     "done": true
   },
@@ -4718,36 +4742,6 @@
   "aether:recipes/combat/netherite_gloves_smithing": {
     "criteria": {
       "has_netherite_ingot": "2024-06-13 14:58:09 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/lapis_block": {
-    "criteria": {
-      "has_lapis_lazuli": "2024-06-13 15:05:20 -0500"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/chicken_soup": {
-    "criteria": {
-      "has_any_ingredient": "2024-06-13 15:04:53 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coal": {
-    "criteria": {
-      "has_coal_block": "2024-06-13 14:57:00 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/lapis_lazuli_bricks": {
-    "criteria": {
-      "has_lapis": "2024-06-13 15:05:20 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/lapis_lazuli_lamp": {
-    "criteria": {
-      "has_lapis_lazuli": "2024-06-13 15:05:20 -0500"
     },
     "done": true
   },
@@ -4769,33 +4763,9 @@
     },
     "done": true
   },
-  "divinerpg:recipes/shaped/serenade_of_health": {
-    "criteria": {
-      "has_totem": "2024-06-13 15:03:35 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/netherite_axe_smithing": {
     "criteria": {
       "has_netherite_ingot": "2024-06-13 14:58:09 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/netherite_ingot_from_netherite_block": {
-    "criteria": {
-      "has_netherite_block": "2024-06-13 14:58:12 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
-    "criteria": {
-      "has_iron_block": "2024-06-13 14:55:01 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/blue_dye": {
-    "criteria": {
-      "has_lapis_lazuli": "2024-06-13 15:05:20 -0500"
     },
     "done": true
   },
@@ -4805,33 +4775,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/diamond": {
-    "criteria": {
-      "has_diamond_block": "2024-06-13 14:54:35 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/netherite_leggings_smithing": {
     "criteria": {
       "has_netherite_ingot": "2024-06-13 14:58:09 -0500"
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/vegetable_noodles": {
-    "criteria": {
-      "has_any_ingredient": "2024-06-13 15:04:53 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/netherite_hoe_smithing": {
     "criteria": {
       "has_netherite_ingot": "2024-06-13 14:58:09 -0500"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/fried_rice": {
-    "criteria": {
-      "has_any_ingredient": "2024-06-13 15:04:53 -0500"
     },
     "done": true
   },
@@ -4853,6 +4805,78 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-06-13 14:58:09 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot_from_netherite_block": {
+    "criteria": {
+      "has_netherite_block": "2024-06-13 14:58:12 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/serenade_of_health": {
+    "criteria": {
+      "has_totem": "2024-06-13 15:03:35 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/chicken_soup": {
+    "criteria": {
+      "has_any_ingredient": "2024-06-13 15:04:53 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_noodles": {
+    "criteria": {
+      "has_any_ingredient": "2024-06-13 15:04:53 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/fried_rice": {
+    "criteria": {
+      "has_any_ingredient": "2024-06-13 15:04:53 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2024-06-13 15:04:53 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_soup": {
+    "criteria": {
+      "has_any_ingredient": "2024-06-13 15:04:53 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2024-06-13 15:05:20 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/lapis_lazuli_bricks": {
+    "criteria": {
+      "has_lapis": "2024-06-13 15:05:20 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/lapis_lazuli_lamp": {
+    "criteria": {
+      "has_lapis_lazuli": "2024-06-13 15:05:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2024-06-13 15:05:20 -0500"
+    },
+    "done": true
+  },
   "divinerpg:recipes/shaped/blue_stone": {
     "criteria": {
       "has_lapis": "2024-06-13 15:05:20 -0500"
@@ -4865,27 +4889,87 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/carrot_on_a_stick": {
+  "aether:recipes/combat/shield_repairing": {
     "criteria": {
-      "has_carrot": "2024-06-13 15:04:53 -0500"
+      "has_shield": "2024-06-14 02:55:46 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+  "minecraft:recipes/building_blocks/dye_black_carpet": {
     "criteria": {
-      "has_netherite_ingot": "2024-06-13 14:58:09 -0500"
+      "has_needed_dye": "2024-06-14 03:44:39 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/anvil": {
+  "minecraft:recipes/building_blocks/dye_black_bed": {
     "criteria": {
-      "has_iron_block": "2024-06-13 14:55:01 -0500"
+      "has_needed_dye": "2024-06-14 03:44:39 -0500"
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/vegetable_soup": {
+  "minecraft:recipes/building_blocks/dye_black_sleeping_bag": {
     "criteria": {
-      "has_any_ingredient": "2024-06-13 15:04:53 -0500"
+      "has_needed_dye": "2024-06-14 03:44:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_black_dye": "2024-06-14 03:44:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_candle": {
+    "criteria": {
+      "has_black_dye": "2024-06-14 03:44:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-06-14 03:44:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_candle": {
+    "criteria": {
+      "has_pink_dye": "2024-06-14 04:09:44 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_pink_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-06-14 04:09:44 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
+    "criteria": {
+      "has_pink_dye": "2024-06-14 04:09:44 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_pink_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-06-14 04:09:44 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_pink_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-06-14 04:09:44 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_pink_dye": "2024-06-14 04:09:44 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_pink_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-06-14 04:09:44 -0500"
     },
     "done": true
   },
