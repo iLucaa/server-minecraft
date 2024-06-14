@@ -47,6 +47,7 @@
       "minecraft:frozen_ocean": "2024-06-04 01:14:20 -0500",
       "minecraft:desert": "2024-05-20 10:32:45 -0500",
       "minecraft:ocean": "2024-05-08 11:12:12 -0500",
+      "minecraft:jungle": "2024-06-14 10:22:46 -0500",
       "minecraft:old_growth_spruce_taiga": "2024-05-08 11:45:19 -0500",
       "minecraft:windswept_savanna": "2024-05-22 13:12:57 -0500",
       "minecraft:warm_ocean": "2024-05-20 14:24:26 -0500",
@@ -9910,6 +9911,36 @@
     },
     "done": true
   },
+  "divinerpg:iceika/root": {
+    "criteria": {
+      "divinerpg": "2024-06-10 11:47:25 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/obsidian_from_bucket_freezing": {
+    "criteria": {
+      "has_lava_bucket": "2024-06-10 11:47:50 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/lava_bricks": {
+    "criteria": {
+      "has_lava_bucket": "2024-06-10 11:47:50 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/draken_lamp": {
+    "criteria": {
+      "has_lava": "2024-06-10 11:47:50 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/lava_lamp": {
+    "criteria": {
+      "has_lava": "2024-06-10 11:47:50 -0500"
+    },
+    "done": true
+  },
   "divinerpg:recipes/shaped/eden_helmet": {
     "criteria": {
       "has_chunk": "2024-06-10 11:54:21 -0500"
@@ -9928,69 +9959,15 @@
     },
     "done": true
   },
-  "divinerpg:iceika/root": {
-    "criteria": {
-      "divinerpg": "2024-06-10 11:47:25 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/eden_chest": {
-    "criteria": {
-      "has_fragments": "2024-06-10 12:02:30 -0500"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/obsidian_from_bucket_freezing": {
-    "criteria": {
-      "has_lava_bucket": "2024-06-10 11:47:50 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/lava_bricks": {
-    "criteria": {
-      "has_lava_bucket": "2024-06-10 11:47:50 -0500"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/complete_catalogue": {
-    "criteria": {
-      "minecraft:black": "2024-06-10 12:45:25 -0500"
-    },
-    "done": false
-  },
-  "aether:mount_phyg": {
-    "criteria": {
-      "mount_phyg": "2024-06-10 12:37:41 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shapeless/eden_shickaxe": {
-    "criteria": {
-      "has_shovel": "2024-06-10 12:02:43 -0500"
-    },
-    "done": true
-  },
   "divinerpg:recipes/shaped/eden_axe": {
     "criteria": {
       "has_chunk": "2024-06-10 11:54:21 -0500"
     },
     "done": true
   },
-  "divinerpg:recipes/shaped/eden_lamp": {
-    "criteria": {
-      "has_fragments": "2024-06-10 12:02:30 -0500"
-    },
-    "done": true
-  },
   "divinerpg:recipes/shaped/eden_shield": {
     "criteria": {
       "has_chunk": "2024-06-10 11:54:21 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/eden_gem_from_fragments": {
-    "criteria": {
-      "has_fragments": "2024-06-10 12:02:30 -0500"
     },
     "done": true
   },
@@ -10024,33 +10001,9 @@
     },
     "done": true
   },
-  "divinerpg:recipes/shaped/eden_torch": {
-    "criteria": {
-      "has_eden_fragments": "2024-06-10 12:02:30 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/draken_lamp": {
-    "criteria": {
-      "has_lava": "2024-06-10 11:47:50 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/smelting/eden_sparkles": {
-    "criteria": {
-      "has_fragments": "2024-06-10 12:02:30 -0500"
-    },
-    "done": true
-  },
   "divinerpg:recipes/shaped/eden_pickaxe": {
     "criteria": {
       "has_chunk": "2024-06-10 11:54:21 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/eden_arrow": {
-    "criteria": {
-      "has_fragments": "2024-06-10 12:02:30 -0500"
     },
     "done": true
   },
@@ -10066,9 +10019,279 @@
     },
     "done": true
   },
-  "divinerpg:recipes/shaped/lava_lamp": {
+  "divinerpg:recipes/shaped/eden_chest": {
     "criteria": {
-      "has_lava": "2024-06-10 11:47:50 -0500"
+      "has_fragments": "2024-06-10 12:02:30 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_lamp": {
+    "criteria": {
+      "has_fragments": "2024-06-10 12:02:30 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_gem_from_fragments": {
+    "criteria": {
+      "has_fragments": "2024-06-10 12:02:30 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_torch": {
+    "criteria": {
+      "has_eden_fragments": "2024-06-10 12:02:30 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/smelting/eden_sparkles": {
+    "criteria": {
+      "has_fragments": "2024-06-10 12:02:30 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/eden_arrow": {
+    "criteria": {
+      "has_fragments": "2024-06-10 12:02:30 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/eden_shickaxe": {
+    "criteria": {
+      "has_shovel": "2024-06-10 12:02:43 -0500"
+    },
+    "done": true
+  },
+  "aether:mount_phyg": {
+    "criteria": {
+      "mount_phyg": "2024-06-10 12:37:41 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/complete_catalogue": {
+    "criteria": {
+      "minecraft:black": "2024-06-10 12:45:25 -0500"
+    },
+    "done": false
+  },
+  "divinerpg:recipes/shaped/green_steel": {
+    "criteria": {
+      "has_ingot": "2024-06-14 10:17:05 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/iron_pendant": {
+    "criteria": {
+      "has_iron_ingot": "2024-06-14 10:17:05 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/red_steel": {
+    "criteria": {
+      "has_ingot": "2024-06-14 10:17:05 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/red_diamond_chunk": {
+    "criteria": {
+      "has_diamond": "2024-06-14 10:17:01 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/orange_steel": {
+    "criteria": {
+      "has_ingot": "2024-06-14 10:17:05 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/shuriken": {
+    "criteria": {
+      "has_ingot": "2024-06-14 10:17:05 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/blue_steel": {
+    "criteria": {
+      "has_ingot": "2024-06-14 10:17:05 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/snow_globe": {
+    "criteria": {
+      "has_diamond": "2024-06-14 10:17:01 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/gray_diamond_chunk": {
+    "criteria": {
+      "has_diamond": "2024-06-14 10:17:01 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/iron_gloves": {
+    "criteria": {
+      "has_iron": "2024-06-14 10:17:05 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/iron_axe_repairing": {
+    "criteria": {
+      "has_iron_axe": "2024-06-14 10:13:42 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/yellow_steel": {
+    "criteria": {
+      "has_ingot": "2024-06-14 10:17:05 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/black_steel": {
+    "criteria": {
+      "has_ingot": "2024-06-14 10:17:05 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_chestplate_repairing": {
+    "criteria": {
+      "has_diamond_chestplate": "2024-06-14 10:16:07 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/teal_steel": {
+    "criteria": {
+      "has_ingot": "2024-06-14 10:17:05 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_gloves": {
+    "criteria": {
+      "has_diamond": "2024-06-14 10:17:01 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_sword_repairing": {
+    "criteria": {
+      "has_diamond_sword": "2024-06-14 10:20:02 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/green_diamond_chunk": {
+    "criteria": {
+      "has_diamond": "2024-06-14 10:17:01 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/white_steel": {
+    "criteria": {
+      "has_ingot": "2024-06-14 10:17:05 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/diamond_lamp": {
+    "criteria": {
+      "has_diamond": "2024-06-14 10:17:01 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/diamond_pickaxe_repairing": {
+    "criteria": {
+      "has_diamond_pickaxe": "2024-06-14 10:13:45 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/spike_block": {
+    "criteria": {
+      "has_ingot": "2024-06-14 10:17:05 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_helmet_repairing": {
+    "criteria": {
+      "has_diamond_helmet": "2024-06-14 10:16:29 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_leggings_repairing": {
+    "criteria": {
+      "has_diamond_leggings": "2024-06-14 10:16:38 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_jukebox": {
+    "criteria": {
+      "has_diamond": "2024-06-14 10:17:01 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/purple_steel": {
+    "criteria": {
+      "has_ingot": "2024-06-14 10:17:05 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/diamond_bricks": {
+    "criteria": {
+      "has_diamond": "2024-06-14 10:17:01 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/magenta_steel": {
+    "criteria": {
+      "has_ingot": "2024-06-14 10:17:05 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/serenade_striker": {
+    "criteria": {
+      "has_diamond": "2024-06-14 10:17:01 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_smithing_table": {
+    "criteria": {
+      "has_iron_ingot": "2024-06-14 10:17:05 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/skyroot_iron_vanilla_shield": {
+    "criteria": {
+      "has_iron_ingot": "2024-06-14 10:17:05 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_boots_repairing": {
+    "criteria": {
+      "has_diamond_boots": "2024-06-14 10:16:23 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/iron_bricks": {
+    "criteria": {
+      "has_ingot": "2024-06-14 10:17:05 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/slime_sword": {
+    "criteria": {
+      "has_sword": "2024-06-14 10:20:02 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/iron_ring": {
+    "criteria": {
+      "has_iron_ingot": "2024-06-14 10:17:05 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/blue_diamond_chunk": {
+    "criteria": {
+      "has_diamond": "2024-06-14 10:17:01 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/diamond_axe_repairing": {
+    "criteria": {
+      "has_diamond_axe": "2024-06-14 10:20:09 -0500"
     },
     "done": true
   },

@@ -9581,5 +9581,95 @@
     },
     "done": true
   },
+  "divinerpg:recipes/shaped/kraken_scale": {
+    "criteria": {
+      "has_ink_sac": "2024-06-14 10:13:13 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-06-14 10:13:15 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-06-14 10:13:15 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/black_steel": {
+    "criteria": {
+      "has_dye": "2024-06-14 10:13:15 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-06-14 10:13:15 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_chestplate_repairing": {
+    "criteria": {
+      "has_diamond_chestplate": "2024-06-14 10:11:42 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_sword_repairing": {
+    "criteria": {
+      "has_diamond_sword": "2024-06-14 10:11:55 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_black_dye": "2024-06-14 10:13:15 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/diamond_pickaxe_repairing": {
+    "criteria": {
+      "has_diamond_pickaxe": "2024-06-14 10:14:59 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_helmet_repairing": {
+    "criteria": {
+      "has_diamond_helmet": "2024-06-14 10:14:50 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_leggings_repairing": {
+    "criteria": {
+      "has_diamond_leggings": "2024-06-14 10:14:46 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_boots_repairing": {
+    "criteria": {
+      "has_diamond_boots": "2024-06-14 10:11:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
+    "criteria": {
+      "has_black_dye": "2024-06-14 10:13:15 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_candle": {
+    "criteria": {
+      "has_black_dye": "2024-06-14 10:13:15 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-06-14 10:13:15 -0500"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
