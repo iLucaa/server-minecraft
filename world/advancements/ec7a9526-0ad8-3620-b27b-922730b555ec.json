@@ -3345,7 +3345,8 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
-      "minecraft:cow": "2024-05-08 14:04:36 -0500"
+      "minecraft:cow": "2024-05-08 14:04:36 -0500",
+      "minecraft:chicken": "2024-06-24 14:15:51 -0500"
     },
     "done": false
   },
@@ -9833,6 +9834,42 @@
   "aether:recipes/tools/diamond_axe_repairing": {
     "criteria": {
       "has_diamond_axe": "2024-06-14 10:12:15 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/incubation/white_moa_incubation": {
+    "criteria": {
+      "has_white_moa_egg": "2024-06-24 13:37:14 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/furnace/boiled_egg": {
+    "criteria": {
+      "has_egg": "2024-06-24 14:14:43 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/campfire/boiled_egg": {
+    "criteria": {
+      "has_egg": "2024-06-24 14:14:43 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/netherite_shovel_repairing": {
+    "criteria": {
+      "has_netherite_shovel": "2024-06-24 13:53:24 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/food/skyroot_milk_bucket_cake": {
+    "criteria": {
+      "has_egg": "2024-06-24 14:14:43 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/smoker/boiled_egg": {
+    "criteria": {
+      "has_egg": "2024-06-24 14:14:43 -0500"
     },
     "done": true
   },

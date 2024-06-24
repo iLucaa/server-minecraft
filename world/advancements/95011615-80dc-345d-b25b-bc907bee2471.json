@@ -264,6 +264,7 @@
   "croptopia:gather_all": {
     "criteria": {
       "sweetpotato_seed": "2024-05-07 00:41:09 -0500",
+      "turnip_seed": "2024-06-24 13:41:37 -0500",
       "bellpepper_seed": "2024-05-07 00:43:36 -0500",
       "cantaloupe_seed": "2024-05-07 00:44:24 -0500",
       "vanilla_seeds": "2024-06-03 13:14:19 -0500",
@@ -3349,6 +3350,7 @@
       "sweet_berries": "2024-05-11 01:08:24 -0500",
       "rice": "2024-05-10 14:55:55 -0500",
       "beetroot": "2024-05-11 01:50:40 -0500",
+      "cocoa": "2024-06-24 13:43:31 -0500",
       "sugar_cane": "2024-05-10 23:52:36 -0500",
       "potato": "2024-05-08 11:56:10 -0500",
       "nether_wart": "2024-05-15 09:18:43 -0500",
@@ -4526,6 +4528,7 @@
       "coffee_seed": "2024-05-16 13:16:02 -0500",
       "basil_seed": "2024-05-10 13:15:00 -0500",
       "greenonion_seed": "2024-05-09 02:05:56 -0500",
+      "turnip_seed": "2024-06-24 13:41:37 -0500",
       "rhubarb_seed": "2024-05-10 13:15:08 -0500",
       "vanilla_seeds": "2024-06-03 13:14:19 -0500",
       "pineapple_seed": "2024-05-22 14:13:43 -0500",
@@ -10073,6 +10076,102 @@
     },
     "done": false
   },
+  "aether:recipes/tools/iron_axe_repairing": {
+    "criteria": {
+      "has_iron_axe": "2024-06-14 10:13:42 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/diamond_pickaxe_repairing": {
+    "criteria": {
+      "has_diamond_pickaxe": "2024-06-14 10:13:45 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_chestplate_repairing": {
+    "criteria": {
+      "has_diamond_chestplate": "2024-06-14 10:16:07 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_boots_repairing": {
+    "criteria": {
+      "has_diamond_boots": "2024-06-14 10:16:23 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_helmet_repairing": {
+    "criteria": {
+      "has_diamond_helmet": "2024-06-14 10:16:29 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_leggings_repairing": {
+    "criteria": {
+      "has_diamond_leggings": "2024-06-14 10:16:38 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/red_diamond_chunk": {
+    "criteria": {
+      "has_diamond": "2024-06-14 10:17:01 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/snow_globe": {
+    "criteria": {
+      "has_diamond": "2024-06-14 10:17:01 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/gray_diamond_chunk": {
+    "criteria": {
+      "has_diamond": "2024-06-14 10:17:01 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_gloves": {
+    "criteria": {
+      "has_diamond": "2024-06-14 10:17:01 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/green_diamond_chunk": {
+    "criteria": {
+      "has_diamond": "2024-06-14 10:17:01 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/diamond_lamp": {
+    "criteria": {
+      "has_diamond": "2024-06-14 10:17:01 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_jukebox": {
+    "criteria": {
+      "has_diamond": "2024-06-14 10:17:01 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/diamond_bricks": {
+    "criteria": {
+      "has_diamond": "2024-06-14 10:17:01 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/serenade_striker": {
+    "criteria": {
+      "has_diamond": "2024-06-14 10:17:01 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/blue_diamond_chunk": {
+    "criteria": {
+      "has_diamond": "2024-06-14 10:17:01 -0500"
+    },
+    "done": true
+  },
   "divinerpg:recipes/shaped/green_steel": {
     "criteria": {
       "has_ingot": "2024-06-14 10:17:05 -0500"
@@ -10088,12 +10187,6 @@
   "divinerpg:recipes/shaped/red_steel": {
     "criteria": {
       "has_ingot": "2024-06-14 10:17:05 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shapeless/red_diamond_chunk": {
-    "criteria": {
-      "has_diamond": "2024-06-14 10:17:01 -0500"
     },
     "done": true
   },
@@ -10115,27 +10208,9 @@
     },
     "done": true
   },
-  "divinerpg:recipes/shaped/snow_globe": {
-    "criteria": {
-      "has_diamond": "2024-06-14 10:17:01 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shapeless/gray_diamond_chunk": {
-    "criteria": {
-      "has_diamond": "2024-06-14 10:17:01 -0500"
-    },
-    "done": true
-  },
   "aether:recipes/combat/iron_gloves": {
     "criteria": {
       "has_iron": "2024-06-14 10:17:05 -0500"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/iron_axe_repairing": {
-    "criteria": {
-      "has_iron_axe": "2024-06-14 10:13:42 -0500"
     },
     "done": true
   },
@@ -10151,33 +10226,9 @@
     },
     "done": true
   },
-  "aether:recipes/combat/diamond_chestplate_repairing": {
-    "criteria": {
-      "has_diamond_chestplate": "2024-06-14 10:16:07 -0500"
-    },
-    "done": true
-  },
   "divinerpg:recipes/shaped/teal_steel": {
     "criteria": {
       "has_ingot": "2024-06-14 10:17:05 -0500"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/diamond_gloves": {
-    "criteria": {
-      "has_diamond": "2024-06-14 10:17:01 -0500"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/diamond_sword_repairing": {
-    "criteria": {
-      "has_diamond_sword": "2024-06-14 10:20:02 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shapeless/green_diamond_chunk": {
-    "criteria": {
-      "has_diamond": "2024-06-14 10:17:01 -0500"
     },
     "done": true
   },
@@ -10187,39 +10238,9 @@
     },
     "done": true
   },
-  "divinerpg:recipes/shaped/diamond_lamp": {
-    "criteria": {
-      "has_diamond": "2024-06-14 10:17:01 -0500"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/diamond_pickaxe_repairing": {
-    "criteria": {
-      "has_diamond_pickaxe": "2024-06-14 10:13:45 -0500"
-    },
-    "done": true
-  },
   "divinerpg:recipes/shaped/spike_block": {
     "criteria": {
       "has_ingot": "2024-06-14 10:17:05 -0500"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/diamond_helmet_repairing": {
-    "criteria": {
-      "has_diamond_helmet": "2024-06-14 10:16:29 -0500"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/diamond_leggings_repairing": {
-    "criteria": {
-      "has_diamond_leggings": "2024-06-14 10:16:38 -0500"
-    },
-    "done": true
-  },
-  "aether:recipes/decorations/skyroot_jukebox": {
-    "criteria": {
-      "has_diamond": "2024-06-14 10:17:01 -0500"
     },
     "done": true
   },
@@ -10229,21 +10250,9 @@
     },
     "done": true
   },
-  "divinerpg:recipes/shaped/diamond_bricks": {
-    "criteria": {
-      "has_diamond": "2024-06-14 10:17:01 -0500"
-    },
-    "done": true
-  },
   "divinerpg:recipes/shaped/magenta_steel": {
     "criteria": {
       "has_ingot": "2024-06-14 10:17:05 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/serenade_striker": {
-    "criteria": {
-      "has_diamond": "2024-06-14 10:17:01 -0500"
     },
     "done": true
   },
@@ -10259,21 +10268,9 @@
     },
     "done": true
   },
-  "aether:recipes/combat/diamond_boots_repairing": {
-    "criteria": {
-      "has_diamond_boots": "2024-06-14 10:16:23 -0500"
-    },
-    "done": true
-  },
   "divinerpg:recipes/shaped/iron_bricks": {
     "criteria": {
       "has_ingot": "2024-06-14 10:17:05 -0500"
-    },
-    "done": true
-  },
-  "divinerpg:recipes/shaped/slime_sword": {
-    "criteria": {
-      "has_sword": "2024-06-14 10:20:02 -0500"
     },
     "done": true
   },
@@ -10283,15 +10280,189 @@
     },
     "done": true
   },
-  "divinerpg:recipes/shapeless/blue_diamond_chunk": {
+  "aether:recipes/combat/diamond_sword_repairing": {
     "criteria": {
-      "has_diamond": "2024-06-14 10:17:01 -0500"
+      "has_diamond_sword": "2024-06-14 10:20:02 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/slime_sword": {
+    "criteria": {
+      "has_sword": "2024-06-14 10:20:02 -0500"
     },
     "done": true
   },
   "aether:recipes/tools/diamond_axe_repairing": {
     "criteria": {
       "has_diamond_axe": "2024-06-14 10:20:09 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_rich_soil": {
+    "criteria": {
+      "get_rich_soil": "2024-06-24 14:03:28 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/kumquat_sapling": {
+    "criteria": {
+      "has_kumquat": "2024-06-24 13:48:10 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/jungle_spider_pumpkin": {
+    "criteria": {
+      "has_shards": "2024-06-24 13:45:16 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2024-06-24 14:02:19 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/lapis_lazuli_bricks": {
+    "criteria": {
+      "has_lapis": "2024-06-24 13:50:38 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:overworld/jungle_stegosaurus_slayer": {
+    "criteria": {
+      "kill_jungle_dramcryx": "2024-06-24 13:45:06 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/lapis_lazuli_lamp": {
+    "criteria": {
+      "has_lapis_lazuli": "2024-06-24 13:50:38 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/jungle_stone": {
+    "criteria": {
+      "has_shards": "2024-06-24 13:45:16 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/iron_chestplate_repairing": {
+    "criteria": {
+      "has_iron_chestplate": "2024-06-24 13:54:34 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_roasted_turnips": {
+    "criteria": {
+      "has_turnip": "2024-06-24 13:41:37 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/turnip_seed": {
+    "criteria": {
+      "has_turnip": "2024-06-24 13:41:37 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/iron_helmet_repairing": {
+    "criteria": {
+      "has_iron_helmet": "2024-06-24 13:55:01 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/checker": {
+    "criteria": {
+      "has_wool": "2024-06-24 14:00:26 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/candied_kumquats": {
+    "criteria": {
+      "has_kumquat": "2024-06-24 13:48:10 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/white_cape": {
+    "criteria": {
+      "has_white_wool": "2024-06-24 14:00:26 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_cartography_table": {
+    "criteria": {
+      "has_paper": "2024-06-24 14:02:14 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/book_of_lore": {
+    "criteria": {
+      "has_book": "2024-06-24 13:50:39 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shapeless/guide_book": {
+    "criteria": {
+      "has_book": "2024-06-24 13:50:39 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/aether_tune_enchanting": {
+    "criteria": {
+      "has_disc": "2024-06-24 13:52:06 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/redstone/skyroot_lectern": {
+    "criteria": {
+      "has_book": "2024-06-24 13:50:39 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/golden_axe_repairing": {
+    "criteria": {
+      "has_golden_axe": "2024-06-24 13:58:38 -0500"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/vile_storm": {
+    "criteria": {
+      "has_shards": "2024-06-24 13:45:16 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/chainmail_boots_repairing": {
+    "criteria": {
+      "has_chainmail_boots": "2024-06-24 13:50:51 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/iron_gloves_repairing": {
+    "criteria": {
+      "has_iron_gloves": "2024-06-24 13:52:00 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/skyroot_bookshelf": {
+    "criteria": {
+      "has_book": "2024-06-24 13:50:39 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/golden_hoe_repairing": {
+    "criteria": {
+      "has_golden_hoe": "2024-06-24 13:58:42 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/chainmail_leggings_repairing": {
+    "criteria": {
+      "has_chainmail_leggings": "2024-06-24 13:57:29 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/iron_boots_repairing": {
+    "criteria": {
+      "has_iron_boots": "2024-06-24 13:54:19 -0500"
     },
     "done": true
   },
